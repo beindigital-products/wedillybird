@@ -1,0 +1,200 @@
+{
+  "id": "D12-B",
+  "day": 12,
+  "slot": "B",
+  "series": "INSIDE",
+  "episode": 4,
+  "fiction": false,
+  "pillar": "Planner operations",
+  "look": "L7",
+  "hook_id": "NEW (H26/H27 pattern: calm, specific, honest)",
+  "working_title": "Inside Wedillybird 4: planners, one calm status per couple",
+  "search_intent": "wedding planner software to track guest lists",
+  "hook": {
+    "spoken": "Planners, your guest tracker belongs on a dashboard, not a group chat.",
+    "on_screen": "Guest tracker, not group chat",
+    "visual": "NORAH L7-S5 stopping inside a glass orangery with long bare tables; overlay = hook"
+  },
+  "voiceover": "Planners, your guest tracker belongs on a dashboard, not a group chat. One calm status per couple, from one screen. Stay for the three-line status you can send every couple. Every wedding you run gets its own group chat. Every chat asks the same question: who's coming, and who isn't? So you become the dashboard, updating counts by hand. And your leads sit in notes and direct messages. Then a couple asks where things stand, and you open three apps. This is the planner cockpit in Wedillybird, built for several weddings at once. It lists your upcoming weddings, each with its RSVP progress. And an activity feed shows what changed lately. Open it before a client call, and each wedding's status is right there. Here's the part people skip: your leads. That's the CRM, a kanban board for new inquiries. Lead, Contacted, Quote, Booked, In progress, Delivered. Move a lead across as the conversation moves. Add notes to a card, so the context travels with it. When a lead books, turn it into a wedding. If you're a planner, follow. Tomorrow evening: entry nine of Norah's Notebook. One thing to know: Wedillybird's CRM isn't on every plan. The kanban board comes with the higher plans, not the entry one. Here's the three-line status I promised. Replies in. Still waiting on. Next decision. Send the same three lines every time. The first two lines are your RSVP progress, in words. Short on purpose, so it's easy to send and easy to read. One cockpit, one board, one calm status per couple. See a sample invitation: link in bio. I'm Norah, Wedillybird's AI host. So, planners: where does your guest tracker live today?",
+  "word_count": 281,
+  "beats": [
+    {
+      "n": 1,
+      "vo": "Planners, your guest tracker belongs on a dashboard, not a group chat.",
+      "overlay": "Guest tracker, not group chat",
+      "visual": {"kind": "NORAH", "asset": "L7-S5", "crop": "wide", "focus": "center", "note": "She stops inside a glass orangery with long bare tables, pale winter light through the roof, seen from behind."}
+    },
+    {
+      "n": 2,
+      "vo": "One calm status per couple, from one screen.",
+      "overlay": "Demo data",
+      "visual": {"kind": "SCREEN", "asset": "S11", "note": "Planner cockpit, dark back-office theme: first view of the upcoming weddings. Crop or blur any plan name, quota gauge number or price."}
+    },
+    {
+      "n": 3,
+      "vo": "Stay for the three-line status you can send every couple.",
+      "visual": {"kind": "CARD", "card": {"type": "title", "text": "Bonus: a three-line status", "sub": "Copy it today"}}
+    },
+    {
+      "n": 4,
+      "vo": "Every wedding you run gets its own group chat.",
+      "overlay": "Inside Wedillybird · 4",
+      "visual": {"kind": "DECOR", "asset": "D12-B-d1", "prompt": "Photorealistic editorial still life, vertical, a smartphone lying with its dark screen down on a long bare wooden banquet table beside a notebook and a pencil, glass orangery, pale winter light through the roof, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no legible screens, nobody in frame.", "motion": "pull-out"}
+    },
+    {
+      "n": 5,
+      "vo": "Every chat asks the same question: who's coming, and who isn't?",
+      "visual": {"kind": "NORAH", "asset": "L7-S6", "crop": "medium", "focus": "center", "note": "Seated from behind at the end of a long table, writing in a notebook, tote beside her."}
+    },
+    {
+      "n": 6,
+      "vo": "So you become the dashboard, updating counts by hand.",
+      "visual": {"kind": "CARD", "card": {"type": "title", "text": "You are the dashboard.", "sub": "Counts updated by hand"}}
+    },
+    {
+      "n": 7,
+      "vo": "And your leads sit in notes and direct messages.",
+      "visual": {"kind": "DECOR", "asset": "D12-B-d2", "prompt": "Photorealistic editorial still life, vertical, a scatter of blank cream index cards and a few blank sticky notes on a long wooden table, glass orangery, pale winter light, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no legible screens, nobody in frame.", "motion": "push-in"}
+    },
+    {
+      "n": 8,
+      "vo": "Then a couple asks where things stand, and you open three apps.",
+      "visual": {"kind": "CARD", "card": {"type": "number", "n": 3, "text": "apps open to answer one question", "sub": "Where do we stand?"}}
+    },
+    {
+      "n": 9,
+      "vo": "This is the planner cockpit in Wedillybird, built for several weddings at once.",
+      "visual": {"kind": "SCREEN", "asset": "S11", "note": "Cockpit, dark theme: overall view. Fallback card: 'The planner cockpit'."}
+    },
+    {
+      "n": 10,
+      "vo": "It lists your upcoming weddings, each with its RSVP progress.",
+      "visual": [
+        {"kind": "NORAH", "asset": "L7-S1", "crop": "wide", "focus": "center", "note": "She walks between the long bare tables of the orangery, camera drifting back."},
+        {"kind": "SCREEN", "asset": "S11", "note": "The upcoming-weddings list with an RSVP progress bar per wedding. Demo data."}
+      ]
+    },
+    {
+      "n": 11,
+      "vo": "And an activity feed shows what changed lately.",
+      "visual": {"kind": "SCREEN", "asset": "S11", "note": "Scroll to the activity feed."}
+    },
+    {
+      "n": 12,
+      "vo": "Open it before a client call, and each wedding's status is right there.",
+      "visual": {"kind": "SCREEN", "asset": "S11", "note": "Back to the weddings list, one wedding highlighted. Fallback card: 'Each wedding's status, in one place'."}
+    },
+    {
+      "n": 13,
+      "vo": "Here's the part people skip: your leads.",
+      "overlay": "The part people skip",
+      "visual": {"kind": "NORAH", "asset": "L7-S4", "crop": "medium", "focus": "center", "note": "Profile in silhouette against the glass roof light, face turned away."}
+    },
+    {
+      "n": 14,
+      "vo": "That's the CRM, a kanban board for new inquiries.",
+      "visual": {"kind": "SCREEN", "asset": "S12", "note": "CRM kanban board, dark theme. Demo data, names blurred."}
+    },
+    {
+      "n": 15,
+      "vo": "Lead, Contacted, Quote, Booked, In progress, Delivered.",
+      "visual": {"kind": "SCREEN", "asset": "S12", "note": "Pan across the six column headers."}
+    },
+    {
+      "n": 16,
+      "vo": "Move a lead across as the conversation moves.",
+      "visual": [
+        {"kind": "CARD", "card": {"type": "title", "text": "Move a lead across", "sub": "As the conversation moves"}},
+        {"kind": "SCREEN", "asset": "S12", "note": "A card is dragged from Contacted to Quote."}
+      ]
+    },
+    {
+      "n": 17,
+      "vo": "Add notes to a card, so the context travels with it.",
+      "visual": {"kind": "SCREEN", "asset": "S12", "note": "A card is opened and a note is added."}
+    },
+    {
+      "n": 18,
+      "vo": "When a lead books, turn it into a wedding.",
+      "visual": {"kind": "SCREEN", "asset": "S12", "note": "A booked lead is converted into a wedding. Fallback card: 'Booked lead, then wedding'."}
+    },
+    {
+      "n": 19,
+      "vo": "If you're a planner, follow. Tomorrow evening: entry nine of Norah's Notebook.",
+      "visual": {"kind": "NORAH", "asset": "L7-S8", "crop": "wide", "focus": "center", "note": "She walks toward the orangery door; pale light opens beyond it."}
+    },
+    {
+      "n": 20,
+      "vo": "One thing to know: Wedillybird's CRM isn't on every plan.",
+      "visual": [
+        {"kind": "CARD", "card": {"type": "title", "text": "Not on every plan", "sub": "The CRM comes with the higher plans"}},
+        {"kind": "SCREEN", "asset": "S12", "note": "The kanban board, held in view."}
+      ]
+    },
+    {
+      "n": 21,
+      "vo": "The kanban board comes with the higher plans, not the entry one.",
+      "visual": {"kind": "SCREEN", "asset": "S12", "note": "Board in view. Fallback card: 'Higher plans only'. No plan name or price on screen."}
+    },
+    {
+      "n": 22,
+      "vo": "Here's the three-line status I promised.",
+      "visual": {"kind": "NORAH", "asset": "L7-S7", "crop": "detail", "focus": "center", "note": "Close detail of blush wool coat fabric moving as she turns."}
+    },
+    {
+      "n": 23,
+      "vo": "Replies in. Still waiting on. Next decision. Send the same three lines every time.",
+      "visual": {"kind": "CARD", "card": {"type": "checklist", "text": "One calm status per couple", "items": ["Replies in", "Still waiting on", "Next decision"]}}
+    },
+    {
+      "n": 24,
+      "vo": "The first two lines are your RSVP progress, in words.",
+      "visual": {"kind": "NORAH", "asset": "L7-S2", "crop": "medium", "focus": "hands", "note": "Over her shoulder: a pencil resting on a notebook page, three short lines already written."}
+    },
+    {
+      "n": 25,
+      "vo": "Short on purpose, so it's easy to send and easy to read.",
+      "visual": {"kind": "NORAH", "asset": "L7-S3", "crop": "detail", "focus": "hands", "note": "Close on her hands writing the third line in the notebook."}
+    },
+    {
+      "n": 26,
+      "vo": "One cockpit, one board, one calm status per couple.",
+      "visual": {"kind": "SCREEN", "asset": "S11", "note": "Cockpit in full view, held for the recap."}
+    },
+    {
+      "n": 27,
+      "vo": "See a sample invitation: link in bio.",
+      "visual": {"kind": "CARD", "card": {"type": "title", "text": "See a sample invitation", "sub": "Link in bio"}}
+    },
+    {
+      "n": 28,
+      "vo": "I'm Norah, Wedillybird's AI host.",
+      "visual": {"kind": "NORAH", "asset": "L7-S5", "crop": "medium", "focus": "right", "note": "She pauses at the far end of the orangery, seen from behind."}
+    },
+    {
+      "n": 29,
+      "vo": "So, planners: where does your guest tracker live today?",
+      "visual": {"kind": "NORAH", "asset": "L7-S6", "crop": "tight", "focus": "hands", "note": "She closes the notebook and sets the pencil down; loop back to the opening shot."}
+    }
+  ],
+  "cta": "See a sample invitation: link in bio.",
+  "next_teaser": "Tomorrow evening: Norah's Notebook, entry nine.",
+  "caption": "Wedding planner software: a guest tracker that isn't a group chat.\nA look at the planner cockpit and the CRM kanban board, plus a three-line status you can send every couple. The CRM comes with the higher plans.\nHosted by Norah, an AI character created by the Wedillybird team.",
+  "hashtags": ["#weddingplanning", "#weddingplannertips", "#weddingplannerlife", "#weddingtrends", "#weddingguestlisttips"],
+  "keywords": ["guest tracker", "planner cockpit", "kanban board"],
+  "pinned_comment": "The three-line status to send every couple: 1) Replies in. 2) Still waiting on. 3) Next decision. Same three lines, every time. The planner cockpit lists your weddings with their RSVP progress; the CRM kanban board (Lead, Contacted, Quote, Booked, In progress, Delivered) comes with the higher plans. Norah is AI-generated. Screens shown are real Wedillybird screens (demo data).",
+  "comment_bait": "Planners: where does your guest tracker live today?",
+  "r2_items": [],
+  "sources": [],
+  "claims_review": {
+    "numbers_used": [],
+    "needs_proof": [
+      "S11 capture: the cockpit lists upcoming weddings with RSVP progress and an activity feed (r3 B4, convex/pro.ts, components/pro/cockpit.tsx). Crop or blur quota gauges, plan names and prices so nothing on screen contradicts 'no plan names, quotas or prices'.",
+      "S12 capture: six columns Lead, Contacted, Quote, Booked, In progress, Delivered; notes; lead-to-wedding conversion (r3 B4, convex/clients.ts). Confirm the 'turn it into a wedding' control is visible in the capture, otherwise the card fallback carries it.",
+      "Tier statement: the CRM kanban is Business and up (lib/payments/entitlements.ts:108-117) and is voiced only as 'the higher plans', with no plan name.",
+      "Do not open the agency wedding-hub tabs (messaging, check-in, gallery are simulated); only the cockpit and the CRM are shown."
+    ],
+    "notes": "No r2 facts and no figures: the three-line status is Norah's suggestion, not a sourced practice, and 'three apps' is illustrative. No plan names, quotas or prices. 'Higher plans' is the honest limit. Wedillybird is named three times (beats 9, 20, 28). The hook is written in the H26/H27 style (the calendar lists H26)."
+  },
+  "ai_disclosure": true
+}

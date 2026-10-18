@@ -1,0 +1,342 @@
+{
+  "id": "D05-A",
+  "day": 5,
+  "slot": "A",
+  "series": "QUIET_LIST",
+  "episode": 3,
+  "fiction": false,
+  "pillar": "Planning timeline",
+  "look": "L3",
+  "hook_id": "H10",
+  "working_title": "Count back from your wedding date: every deadline, in ranges",
+  "search_intent": "when to send save the dates, invitations and RSVP deadline",
+  "hook": {
+    "spoken": "Count back from your wedding date. Here's every deadline.",
+    "on_screen": "Count back from your wedding date",
+    "visual": "Norah walking away between flower-market stalls in a stone trench and blush scarf, hook overlay at the top"
+  },
+  "voiceover": "Count back from your wedding date. Here's every deadline. The Quiet List: four deadlines, counted backwards. Start with the one date that can't move: your wedding. Guides disagree on the numbers, so these are ranges. At the end, a full example date you can screenshot. Deadline one: your caterer's final headcount. Venues and caterers typically need it one to two weeks out. Confirm the exact date with them. Deadline two is your RSVP deadline. Count back at least ten days from the caterer's date. That leaves you time to chase. Here's the part people skip: it's counted from the caterer, not the wedding. Say your wedding is October sixteenth, and the caterer wants numbers by October fourth. Ten days back is September twenty-fourth: your RSVP deadline, or earlier. That's about three weeks out. Guides say anywhere from two to four. Deadline three: invitations in the mail. For a local wedding, guides say six to eight weeks out. For October sixteenth, that's August twenty-first to September fourth. Travelers need more: two to four months. Follow for tomorrow: where your budget leaks. Invitations need ordering first, around four months out. Deadline four: save-the-dates, six to ten months out. Destinations and holiday weekends need nine to twelve months. Quiet rule for these: send them only to people you'll definitely invite. And email is fine, says Emily Post. And here's the whole rail for an October sixteenth wedding. After the deadline, chase the missing replies. Then lock your seating. Bonus: send vendors your day-of timeline at least two weeks before. Save this for the day you pick your date. I'm Norah, Wedillybird's AI host. Count back from your wedding date, and every deadline has its place.",
+  "word_count": 282,
+  "beats": [
+    {
+      "n": 1,
+      "vo": "Count back from your wedding date. Here's every deadline.",
+      "overlay": "Count back from your wedding date",
+      "visual": {"kind": "NORAH", "asset": "L3-S1", "crop": "wide", "focus": "center", "note": "Norah walks away between flower-market stalls on wet cobblestones, stone trench coat and blush wool scarf, buckets of dahlias on both sides"}
+    },
+    {
+      "n": 2,
+      "vo": "The Quiet List: four deadlines, counted backwards.",
+      "visual": {"kind": "CARD", "card": {"type": "title", "text": "The Quiet List", "sub": "Four deadlines, counted backwards"}}
+    },
+    {
+      "n": 3,
+      "vo": "Start with the one date that can't move: your wedding.",
+      "visual": {"kind": "DECOR", "asset": "D05-A-d1", "prompt": "Photorealistic editorial still life, vertical, galvanized buckets of dahlias and copper chrysanthemums on wet cobblestones after rain, outdoor flower market, soft morning light, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no hands, nothing human in frame.", "motion": "push-in"}
+    },
+    {
+      "n": 4,
+      "vo": "Guides disagree on the numbers, so these are ranges.",
+      "visual": {"kind": "NORAH", "asset": "L3-S2", "crop": "medium", "focus": "hands", "note": "Over the shoulder: hands holding a small notebook open beside a flower stall, a pen resting on the page"}
+    },
+    {
+      "n": 5,
+      "vo": "At the end, a full example date you can screenshot.",
+      "visual": {"kind": "DECOR", "asset": "D05-A-d2", "prompt": "Photorealistic editorial still life, vertical, a long wooden market table with five identical glass vases lined up in a row, each holding a single stem, soft diffused morning light, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no hands, nothing human in frame.", "motion": "pan-right"}
+    },
+    {
+      "n": 6,
+      "vo": "Deadline one: your caterer's final headcount.",
+      "visual": {"kind": "CARD", "card": {"type": "number", "n": 1, "text": "Your caterer's final headcount", "sub": "Closest to the wedding"}}
+    },
+    {
+      "n": 7,
+      "vo": "Venues and caterers typically need it one to two weeks out.",
+      "overlay": "Joy, 2025: one to two weeks before",
+      "visual": {"kind": "DECOR", "asset": "D05-A-d3", "prompt": "Photorealistic editorial still life, vertical, a small brass market scale on a weathered wooden stall beside bundles of eucalyptus, soft morning light, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no hands, nothing human in frame.", "motion": "push-in"}
+    },
+    {
+      "n": 8,
+      "vo": "Confirm the exact date with them.",
+      "visual": {"kind": "NORAH", "asset": "L3-S3", "crop": "detail", "focus": "hands", "note": "Close-up of hands writing a date in a small notebook beside a bucket of stems, shallow depth of field"}
+    },
+    {
+      "n": 9,
+      "vo": "Deadline two is your RSVP deadline.",
+      "visual": {"kind": "CARD", "card": {"type": "number", "n": 2, "text": "Your RSVP deadline", "sub": "Counted back from deadline one"}}
+    },
+    {
+      "n": 10,
+      "vo": "Count back at least ten days from the caterer's date.",
+      "overlay": "Joy, 2025: at least ten days",
+      "visual": {"kind": "DECOR", "asset": "D05-A-d4", "prompt": "Photorealistic editorial still life, vertical, a spool of natural twine and a pair of garden scissors on a kraft paper sheet beside a bucket of stems, damp market morning, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no hands, nothing human in frame.", "motion": "pan-left"}
+    },
+    {
+      "n": 11,
+      "vo": "That leaves you time to chase.",
+      "visual": {"kind": "NORAH", "asset": "L3-S5", "crop": "medium", "focus": "center", "note": "Norah stops between stalls and looks along the row of flower buckets, seen from behind, slow push-in"}
+    },
+    {
+      "n": 12,
+      "vo": "Here's the part people skip: it's counted from the caterer, not the wedding.",
+      "visual": {"kind": "DECOR", "asset": "D05-A-d5", "prompt": "Photorealistic editorial still life, vertical, a wooden crate of blush dahlias beside a stack of folded kraft paper, outdoor market stall, wet cobblestones, soft morning light, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no hands, nothing human in frame.", "motion": "pull-out"}
+    },
+    {
+      "n": 13,
+      "vo": "Say your wedding is October sixteenth, and the caterer wants numbers by October fourth.",
+      "visual": {"kind": "CARD", "card": {"type": "title", "text": "Wedding: Oct 16", "sub": "Caterer's count due: Oct 4 | example"}}
+    },
+    {
+      "n": 14,
+      "vo": "Ten days back is September twenty-fourth: your RSVP deadline, or earlier.",
+      "visual": {"kind": "CARD", "card": {"type": "title", "text": "RSVP deadline: Sep 24", "sub": "Ten days before the caterer's date | about three weeks out"}}
+    },
+    {
+      "n": 15,
+      "vo": "That's about three weeks out. Guides say anywhere from two to four.",
+      "overlay": "Guides range from two to four weeks",
+      "visual": {"kind": "NORAH", "asset": "L3-S7", "crop": "detail", "focus": "center", "note": "Blush wool scarf and stone trench collar moving in the wind, tight fabric detail, damp market air"}
+    },
+    {
+      "n": 16,
+      "vo": "Deadline three: invitations in the mail.",
+      "visual": {"kind": "CARD", "card": {"type": "number", "n": 3, "text": "Invitations in the mail", "sub": "Joy, 2025 | Zola, 2026 | guides differ"}}
+    },
+    {
+      "n": 17,
+      "vo": "For a local wedding, guides say six to eight weeks out.",
+      "overlay": "Joy, 2025 | Zola, 2026",
+      "visual": {"kind": "DECOR", "asset": "D05-A-d6", "prompt": "Photorealistic editorial still life, vertical, a rolled sheet of kraft paper tied with twine and a stick of blush sealing wax on a market stall table, soft morning light, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no hands, nothing human in frame.", "motion": "push-in"}
+    },
+    {
+      "n": 18,
+      "vo": "For October sixteenth, that's August twenty-first to September fourth.",
+      "overlay": "Computed example",
+      "visual": {"kind": "DECOR", "asset": "D05-A-d7", "prompt": "Photorealistic editorial still life, vertical, a bundle of eucalyptus tied with twine resting on a wet stone ledge, morning mist, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no hands, nothing human in frame.", "motion": "pan-right"}
+    },
+    {
+      "n": 19,
+      "vo": "Travelers need more: two to four months.",
+      "overlay": "Joy, 2025 | The Knot: guides differ",
+      "visual": {"kind": "NORAH", "asset": "L3-S8", "crop": "wide", "focus": "center", "note": "Norah walks toward the market entrance arch where morning light floods in, followed from behind"}
+    },
+    {
+      "n": 20,
+      "vo": "Follow for tomorrow: where your budget leaks.",
+      "overlay": "Tomorrow: where your budget leaks",
+      "visual": {"kind": "DECOR", "asset": "D05-A-d3", "prompt": "Photorealistic editorial still life, vertical, a small brass market scale on a weathered wooden stall beside bundles of eucalyptus, soft morning light, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no hands, nothing human in frame.", "motion": "pull-out"}
+    },
+    {
+      "n": 21,
+      "vo": "Invitations need ordering first, around four months out.",
+      "overlay": "Zola checklist, 2026: month four",
+      "visual": {"kind": "DECOR", "asset": "D05-A-d8", "prompt": "Photorealistic editorial still life, vertical, a brass wax-seal stamp beside a cream envelope on a kraft-paper-covered stall table, soft morning light, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no hands, nothing human in frame.", "motion": "push-in"}
+    },
+    {
+      "n": 22,
+      "vo": "Deadline four: save-the-dates, six to ten months out.",
+      "visual": {"kind": "CARD", "card": {"type": "number", "n": 4, "text": "Save-the-dates", "sub": "Six to ten months out | guides differ"}}
+    },
+    {
+      "n": 23,
+      "vo": "Destinations and holiday weekends need nine to twelve months.",
+      "overlay": "Zola, 2025 | The Knot",
+      "visual": {"kind": "DECOR", "asset": "D05-A-d9", "prompt": "Photorealistic editorial still life, vertical, a bundle of cream paper tags tied with twine and a sprig of dried lavender on a weathered stall counter, soft morning light, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no hands, nothing human in frame.", "motion": "pan-left"}
+    },
+    {
+      "n": 24,
+      "vo": "Quiet rule for these: send them only to people you'll definitely invite.",
+      "overlay": "Common guidance for save-the-dates",
+      "visual": {"kind": "NORAH", "asset": "L3-S6", "crop": "medium", "focus": "center", "note": "Norah seated on a low wooden crate between flower stalls, seen from behind, a notebook open on her knee, slow lateral dolly"}
+    },
+    {
+      "n": 25,
+      "vo": "And email is fine, says Emily Post.",
+      "overlay": "Emily Post: email save-the-dates",
+      "visual": {"kind": "DECOR", "asset": "D05-A-d2", "prompt": "Photorealistic editorial still life, vertical, a long wooden market table with five identical glass vases lined up in a row, each holding a single stem, soft diffused morning light, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no hands, nothing human in frame.", "motion": "push-in"}
+    },
+    {
+      "n": 26,
+      "vo": "And here's the whole rail for an October sixteenth wedding.",
+      "visual": {"kind": "CARD", "card": {"type": "checklist", "text": "Oct 16 wedding", "items": ["Save-the-dates: Dec 16 to Apr 16", "Invitations out: Aug 21 to Sep 4", "RSVP deadline: Sep 24", "Caterer's count: Oct 4"]}}
+    },
+    {
+      "n": 27,
+      "vo": "After the deadline, chase the missing replies. Then lock your seating.",
+      "overlay": "Zola checklist, 2026",
+      "visual": {"kind": "NORAH", "asset": "L3-S4", "crop": "medium", "focus": "right", "note": "Backlit profile silhouette among the flower stalls, face turned away, morning mist in the light"}
+    },
+    {
+      "n": 28,
+      "vo": "Bonus: send vendors your day-of timeline at least two weeks before.",
+      "overlay": "Joy, 2026: at least two weeks before",
+      "visual": {"kind": "DECOR", "asset": "D05-A-d1", "prompt": "Photorealistic editorial still life, vertical, galvanized buckets of dahlias and copper chrysanthemums on wet cobblestones after rain, outdoor flower market, soft morning light, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no hands, nothing human in frame.", "motion": "pull-out"}
+    },
+    {
+      "n": 29,
+      "vo": "Save this for the day you pick your date.",
+      "visual": {"kind": "DECOR", "asset": "D05-A-d5", "prompt": "Photorealistic editorial still life, vertical, a wooden crate of blush dahlias beside a stack of folded kraft paper, outdoor market stall, wet cobblestones, soft morning light, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no hands, nothing human in frame.", "motion": "push-in"}
+    },
+    {
+      "n": 30,
+      "vo": "I'm Norah, Wedillybird's AI host.",
+      "visual": {"kind": "NORAH", "asset": "L3-S3", "crop": "tight", "focus": "hands", "note": "Hands choosing a stem of eucalyptus from a bucket, shallow depth of field, damp morning light"}
+    },
+    {
+      "n": 31,
+      "vo": "Count back from your wedding date, and every deadline has its place.",
+      "visual": {"kind": "NORAH", "asset": "L3-S8", "crop": "tight", "focus": "center", "note": "Norah walks through the market arch into bright morning light, rear tracking, face never shown"}
+    }
+  ],
+  "cta": "Soft follow at about one minute with tomorrow's teaser (where your budget leaks). Final ask: save this for the day you pick your date.",
+  "next_teaser": "Tomorrow: where your budget leaks",
+  "caption": "Wedding RSVP deadline\nCount back from your wedding date: caterer's headcount, RSVP deadline, invitations and save-the-dates, in ranges, with a worked example date.\nHosted by Norah, an AI character created by the Wedillybird team.",
+  "hashtags": ["#weddingplanning", "#weddingtimeline", "#savethedates", "#fallweddinginspo", "#weddingtimelinetips"],
+  "keywords": ["wedding date", "RSVP deadline", "save-the-dates", "caterer's final headcount"],
+  "pinned_comment": "The Quiet List: count back from your wedding date (ranges, because guides disagree).\n1) Caterer's final headcount: usually one to two weeks before the wedding (Joy)\n2) RSVP deadline: at least ten days before that date, around three weeks out (guides say two to four)\n3) Invitations in the mail: six to eight weeks for a local wedding, two to four months for travelers; order them about four months out\n4) Save-the-dates: six to ten months out, nine to twelve for destinations and holiday weekends\nExample for Saturday Oct 16: save-the-dates Dec 16 to Apr 16, invitations Aug 21 to Sep 4, RSVP deadline Sep 24, caterer's count Oct 4 (computed from the ranges above).\nNorah is AI-generated.",
+  "comment_bait": "What month is your wedding, and which deadline lands first?",
+  "r2_items": ["T07", "T09", "T10", "T28", "T29", "T30"],
+  "sources": [
+    {
+      "fact": "Venues and caterers typically need final headcounts one to two weeks before the wedding; set the RSVP deadline at least ten days before that headcount date so there is time to chase",
+      "publisher": "Joy (Joy Editors)",
+      "title": "How to Set Perfect Wedding RSVP Deadlines",
+      "url": "https://withjoy.com/blog/how-to-set-perfect-wedding-rsvp-deadlines-a-stress-free-guide-for-couples/",
+      "date": "published 2025-05-29, updated 2025-06-18",
+      "r2_id": "T30"
+    },
+    {
+      "fact": "RSVPs at least four weeks and no later than two weeks before the wedding (subtract four weeks from your wedding date)",
+      "publisher": "The Knot",
+      "title": "When Should Wedding RSVPs Be Due?",
+      "url": "https://www.theknot.com/content/rsvp-time-guest-follow-up",
+      "date": "undated (read via search extract)",
+      "r2_id": "T30"
+    },
+    {
+      "fact": "Reply-by date usually two to three weeks before the wedding, so hosts can follow up and give vendors accurate counts",
+      "publisher": "Emily Post Institute",
+      "title": "How to Word a Wedding Response Card",
+      "url": "https://emilypost.com/advice/how-to-word-a-wedding-response-card",
+      "date": "undated",
+      "r2_id": "T30"
+    },
+    {
+      "fact": "RSVPs about one month before the wedding; follow up on RSVPs, then finalize seating",
+      "publisher": "Zola (Francine Crociata)",
+      "title": "Your Ultimate Wedding Planning Checklist",
+      "url": "https://www.zola.com/expert-advice/your-ultimate-wedding-planning-checklist",
+      "date": "updated 2026-05-14",
+      "r2_id": "T30"
+    },
+    {
+      "fact": "Local weddings: invitations about six to eight weeks out; destination about two to three months; guests booking international travel usually need at least three months",
+      "publisher": "Joy (Joy Editors)",
+      "title": "How to Set Perfect Wedding RSVP Deadlines",
+      "url": "https://withjoy.com/blog/how-to-set-perfect-wedding-rsvp-deadlines-a-stress-free-guide-for-couples/",
+      "date": "published 2025-05-29, updated 2025-06-18",
+      "r2_id": "T29"
+    },
+    {
+      "fact": "Mail invitations about six to eight weeks ahead, with the reply-by date at least three weeks before the wedding",
+      "publisher": "Zola (Emily Forrest)",
+      "title": "Wedding Invitation Wording: A Complete How-To Guide",
+      "url": "https://www.zola.com/expert-advice/how-to-word-wedding-invitations",
+      "date": "updated 2026-08-06",
+      "r2_id": "T29"
+    },
+    {
+      "fact": "Destination invitation guides range from eight weeks to four to six months depending on the expert quoted",
+      "publisher": "The Knot",
+      "title": "Your Etiquette Guide to Destination Wedding Invitations",
+      "url": "https://www.theknot.com/content/destination-wedding-invitation-etiquette",
+      "date": "undated (read via search extract)",
+      "r2_id": "T29"
+    },
+    {
+      "fact": "Month 4: order invitations (one per household); month 2: mail invitations no later than six weeks out; month 1: chase RSVPs one to two weeks after the deadline, then finalize seating",
+      "publisher": "Zola (Francine Crociata)",
+      "title": "Your Ultimate Wedding Planning Checklist",
+      "url": "https://www.zola.com/expert-advice/your-ultimate-wedding-planning-checklist",
+      "date": "updated 2026-05-14",
+      "r2_id": "T09"
+    },
+    {
+      "fact": "Save-the-dates 7 to 10 months before; holiday weekend or far-off destination 10 to 12 months",
+      "publisher": "Zola (Emily Forrest)",
+      "title": "When to Send Out Wedding Invitations",
+      "url": "https://zola.com/expert-advice/when-should-you-send-out-your-wedding-invitations",
+      "date": "updated 2025-09-24",
+      "r2_id": "T28"
+    },
+    {
+      "fact": "Zola's checklist puts save-the-dates at 6 to 8 months out (month 8), earlier for destination",
+      "publisher": "Zola (Francine Crociata)",
+      "title": "Your Ultimate Wedding Planning Checklist",
+      "url": "https://www.zola.com/expert-advice/your-ultimate-wedding-planning-checklist",
+      "date": "updated 2026-05-14",
+      "r2_id": "T28"
+    },
+    {
+      "fact": "Destination save-the-dates 9 to 11 months before, as soon as the wedding website is live",
+      "publisher": "Zola (Monica Mercuri)",
+      "title": "The Ultimate Destination Wedding Checklist",
+      "url": "https://www.zola.com/expert-advice/destination-wedding-checklist",
+      "date": "updated 2026-02-05",
+      "r2_id": "T28"
+    },
+    {
+      "fact": "Save-the-dates 6 to 8 months for most weddings, destination 8 to 12 months; send only to people you definitely plan to invite",
+      "publisher": "The Knot",
+      "title": "Save-the-Date Etiquette",
+      "url": "https://www.theknot.com/content/save-the-dates-etiquette",
+      "date": "undated (read via search extract)",
+      "r2_id": "T28"
+    },
+    {
+      "fact": "Email is a great way to send an informal note to friends and relatives to put the date aside",
+      "publisher": "Emily Post Institute",
+      "title": "Wedding Email Dos and Don'ts",
+      "url": "https://emilypost.com/advice/wedding-email-dos-and-donts",
+      "date": "undated",
+      "r2_id": "T28"
+    },
+    {
+      "fact": "Share the day-of timeline with vendors at least two weeks before",
+      "publisher": "Joy (Joy Editors)",
+      "title": "Wedding Day Timeline: Hour-by-Hour Schedule for Every Ceremony Time",
+      "url": "https://withjoy.com/blog/wedding-day-timeline/",
+      "date": "2026-07-16",
+      "r2_id": "T10"
+    },
+    {
+      "fact": "Month 7 to 1 sequence from the checklist used to place the order-and-mail steps",
+      "publisher": "Zola (Francine Crociata)",
+      "title": "Your Ultimate Wedding Planning Checklist",
+      "url": "https://www.zola.com/expert-advice/your-ultimate-wedding-planning-checklist",
+      "date": "updated 2026-05-14",
+      "r2_id": "T07"
+    }
+  ],
+  "claims_review": {
+    "numbers_used": [
+      {"figure": "caterer's final headcount: one to two weeks before the wedding", "source": "Joy, RSVP deadlines guide, 2025-06-18", "r2_id": "T30"},
+      {"figure": "RSVP deadline at least ten days before the caterer's date", "source": "Joy, RSVP deadlines guide, 2025-06-18", "r2_id": "T30"},
+      {"figure": "RSVP deadline lands about three weeks out; guides say two to four weeks", "source": "Joy 2025; The Knot (undated); Emily Post (undated); Zola checklist 2026-05-14", "r2_id": "T30"},
+      {"figure": "invitations in the mail six to eight weeks out for a local wedding", "source": "Joy 2025-06-18; Zola wording guide 2026-08-06", "r2_id": "T29"},
+      {"figure": "two to four months for travelling or destination guests", "source": "Joy 2025-06-18 (two to three months); The Knot (undated)", "r2_id": "T29"},
+      {"figure": "order invitations around four months out", "source": "Zola checklist, 2026-05-14", "r2_id": "T09"},
+      {"figure": "save-the-dates six to ten months out", "source": "Zola invitations article 2025-09-24; Zola checklist 2026-05-14; The Knot (undated)", "r2_id": "T28"},
+      {"figure": "destinations and holiday weekends nine to twelve months", "source": "Zola 2025-09-24; Zola destination checklist 2026-02-05; The Knot (undated)", "r2_id": "T28"},
+      {"figure": "share the day-of timeline with vendors at least two weeks before", "source": "Joy, Wedding Day Timeline, 2026-07-16", "r2_id": "T10"},
+      {"figure": "COMPUTED example for Saturday October 16, 2027: caterer count Oct 4 (12 days before, the same gap the fact bank uses), RSVP deadline Sep 24 (ten days earlier, 22 days before the wedding), invitations Aug 21 to Sep 4 (eight to six weeks), save-the-dates Dec 16, 2026 to Apr 16, 2027 (ten to six months)", "source": "Arithmetic on the sourced ranges above; labelled 'example' and 'computed' on screen", "r2_id": "T30"}
+    ],
+    "needs_proof": [
+      "T28 and T29 are medium confidence and sources-disagree (Zola's own pages differ); the video says guides disagree and gives only ranges.",
+      "The Knot figures were read through search extracts and are undated; Emily Post pages are undated.",
+      "Worked example is arithmetic on the ranges; the twelve-day caterer gap is an assumption borrowed from the fact bank's own example. Recheck the dates before posting."
+    ],
+    "notes": "Deadlines are numbered by closeness to the wedding (deadline one is the caterer's count), which the first number card states. No product is shown or pitched; the only brand mention is the AI-host disclosure. Order-invitations and envelope facts overlap lightly with D03-A (one short beat)."
+  },
+  "ai_disclosure": true
+}

@@ -1,0 +1,235 @@
+{
+  "id": "D01-A",
+  "day": 1,
+  "slot": "A",
+  "series": "COPY_PASTE_SEND",
+  "episode": 1,
+  "fiction": false,
+  "pillar": "RSVP clarity",
+  "look": "L1",
+  "hook_id": "H13",
+  "working_title": "Guests who haven't replied: the exact text, in three versions",
+  "search_intent": "how to follow up with wedding guests who haven't RSVPed",
+  "hook": {
+    "spoken": "Wedding guests who haven't replied? Here's the exact text.",
+    "on_screen": "Guests who haven't replied? The exact text.",
+    "visual": "Norah walking away down a Paris street in a camel coat, hook overlay at the top"
+  },
+  "voiceover": "Wedding guests who haven't replied? Here's the exact text. Copy, Paste, Send. Today's awkward message: the guest who's gone quiet. The invitations are out. Some RSVPs are still missing. Here are three versions of the RSVP reminder, from soft to firm. Send them in order. The third one is the hard one. First, one rule. Silence is not a no. Emily Post, Joy and The Knot agree: follow up. Don't assume. You may have heard that twenty percent of guests decline. That's a rule of thumb. Your caterer needs real answers. Here's the part people skip: one message per person. Never the group chat. Version one. Soft. Send it about a week before the RSVP deadline. Hi! Gentle nudge: we'd love to know if you can come. Replies are due Friday. Short, friendly, with the date: that's Emily Post and Joy. Version two. Clear. Send it about a week after the deadline. Hi! The caterer needs our final numbers by Friday. Can you tell us if you're coming? Joy suggests giving the reason: the vendors' deadline. Follow, and tomorrow I'll show you: Five things to settle before you send a single invitation. Now the hard one. Version three: firm, but kind. A phone call. Just checking you got our invitation. Can you tell me today if you can make it? Hate calling? Family or your wedding party can call for you. So: a week before, a week after, then a call. Chasing is easier when you can see who's still pending. At Wedillybird, that's one list: confirmed, pending, maybe, declined. Full texts are in the pinned comment. Save this for later. I'm Norah, Wedillybird's AI host. And next time a guest goes quiet, you'll already have the exact text.",
+  "word_count": 289,
+  "beats": [
+    {
+      "n": 1,
+      "vo": "Wedding guests who haven't replied? Here's the exact text.",
+      "overlay": "Guests who haven't replied? The exact text.",
+      "visual": {"kind": "NORAH", "asset": "L1-S1", "crop": "wide", "focus": "center", "note": "Norah walks away down a Haussmann street in a camel coat and cream scarf, leaves falling, low gold sun"}
+    },
+    {
+      "n": 2,
+      "vo": "Copy, Paste, Send. Today's awkward message: the guest who's gone quiet.",
+      "visual": {"kind": "CARD", "card": {"type": "title", "text": "Copy, Paste, Send", "sub": "Today: the guest who's gone quiet"}}
+    },
+    {
+      "n": 3,
+      "vo": "The invitations are out. Some RSVPs are still missing.",
+      "visual": {"kind": "DECOR", "asset": "D01-A-d1", "prompt": "Photorealistic editorial still life, vertical, a cream envelope with a champagne wax seal on a marble cafe table beside a small espresso cup and one fallen maple leaf, Parisian cafe terrace, low golden morning sun, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no hands, nothing human in frame.", "motion": "push-in"}
+    },
+    {
+      "n": 4,
+      "vo": "Here are three versions of the RSVP reminder, from soft to firm.",
+      "visual": {"kind": "NORAH", "asset": "L1-S3", "crop": "detail", "focus": "hands", "note": "Close-up of hands turning a cream envelope over on a cafe table, shallow depth of field"}
+    },
+    {
+      "n": 5,
+      "vo": "Send them in order. The third one is the hard one.",
+      "visual": {"kind": "DECOR", "asset": "D01-A-d8", "prompt": "Photorealistic editorial still life, vertical, a brass wax-seal stamp and a stick of blush sealing wax lying on a sheet of ivory paper, oak desk by a window, soft side light, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no hands, nothing human in frame.", "motion": "pan-left"}
+    },
+    {
+      "n": 6,
+      "vo": "First, one rule. Silence is not a no.",
+      "visual": {"kind": "CARD", "card": {"type": "title", "text": "Silence is not a no", "sub": "Follow up. Don't assume."}}
+    },
+    {
+      "n": 7,
+      "vo": "Emily Post, Joy and The Knot agree: follow up. Don't assume.",
+      "overlay": "Sources: Emily Post, Joy (2025), The Knot",
+      "visual": {"kind": "DECOR", "asset": "D01-A-d2", "prompt": "Photorealistic editorial still life, vertical, a smartphone turned over with its screen hidden on a folded linen napkin beside a ceramic coffee cup, marble cafe table, soft morning side light, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no hands, nothing human in frame.", "motion": "pull-out"}
+    },
+    {
+      "n": 8,
+      "vo": "You may have heard that twenty percent of guests decline.",
+      "overlay": "Source: The Knot, rule of thumb, no sample",
+      "visual": {"kind": "NORAH", "asset": "L1-S6", "crop": "medium", "focus": "center", "note": "Norah seated at a cafe terrace table seen from behind, thoughtful, slow lateral dolly"}
+    },
+    {
+      "n": 9,
+      "vo": "That's a rule of thumb. Your caterer needs real answers.",
+      "visual": {"kind": "DECOR", "asset": "D01-A-d3", "prompt": "Photorealistic editorial still life, vertical, a brass ruler and a sharpened pencil lying on a sheet of ivory paper, oak desk, soft window light, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no hands, nothing human in frame.", "motion": "pan-right"}
+    },
+    {
+      "n": 10,
+      "vo": "Here's the part people skip: one message per person.",
+      "visual": {"kind": "NORAH", "asset": "L1-S5", "crop": "medium", "focus": "center", "note": "Norah stops on the pavement and looks toward a cafe, seen from behind, slow push-in"}
+    },
+    {
+      "n": 11,
+      "vo": "Never the group chat.",
+      "overlay": "The Knot: avoid group chats",
+      "visual": {"kind": "DECOR", "asset": "D01-A-d5", "prompt": "Photorealistic editorial still life, vertical, five empty bentwood cafe chairs around a round marble table on a terrace strewn with golden leaves, low gold sun, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no hands, nothing human in frame.", "motion": "push-in"}
+    },
+    {
+      "n": 12,
+      "vo": "Version one. Soft. Send it about a week before the RSVP deadline.",
+      "overlay": "A week before: The Knot, Joy (2025)",
+      "visual": {"kind": "NORAH", "asset": "L1-S2", "crop": "medium", "focus": "hands", "note": "Over the shoulder: hands holding a phone with a dark screen above a notebook on a cafe table"}
+    },
+    {
+      "n": 13,
+      "vo": "Hi! Gentle nudge: we'd love to know if you can come. Replies are due Friday.",
+      "visual": {"kind": "CARD", "card": {"type": "quote", "text": "Hi! Gentle nudge: we'd love to know if you can come. Replies are due Friday.", "sub": "Version one | soft | a week before the deadline"}}
+    },
+    {
+      "n": 14,
+      "vo": "Short, friendly, with the date: that's Emily Post and Joy.",
+      "overlay": "Emily Post and Joy: short, with the deadline",
+      "visual": {"kind": "NORAH", "asset": "L1-S3", "crop": "medium", "focus": "left", "note": "Hands writing a short line in a notebook beside a coffee cup, golden light"}
+    },
+    {
+      "n": 15,
+      "vo": "Version two. Clear. Send it about a week after the deadline.",
+      "overlay": "A week after: The Knot, Joy (2025)",
+      "visual": {"kind": "DECOR", "asset": "D01-A-d4", "prompt": "Photorealistic editorial still life, vertical, a small stack of cream envelopes tied with a blush silk ribbon on a bistro table, Parisian cafe terrace, warm low sun, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no hands, nothing human in frame.", "motion": "pan-left"}
+    },
+    {
+      "n": 16,
+      "vo": "Hi! The caterer needs our final numbers by Friday. Can you tell us if you're coming?",
+      "visual": {"kind": "CARD", "card": {"type": "quote", "text": "Hi! The caterer needs our final numbers by Friday. Can you tell us if you're coming?", "sub": "Version two | clear | a week after the deadline"}}
+    },
+    {
+      "n": 17,
+      "vo": "Joy suggests giving the reason: the vendors' deadline.",
+      "overlay": "Source: Joy, RSVP deadlines guide, 2025",
+      "visual": {"kind": "DECOR", "asset": "D01-A-d9", "prompt": "Photorealistic editorial still life, vertical, a small ceramic dish holding a folded cream card and a slim gold pen on a cafe table, warm morning light, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no hands, nothing human in frame.", "motion": "push-in"}
+    },
+    {
+      "n": 18,
+      "vo": "Follow, and tomorrow I'll show you:",
+      "visual": {"kind": "NORAH", "asset": "L1-S8", "crop": "wide", "focus": "center", "note": "Norah walks toward an open doorway onto bright light, followed from behind"}
+    },
+    {
+      "n": 19,
+      "vo": "Five things to settle before you send a single invitation.",
+      "visual": {"kind": "CARD", "card": {"type": "title", "text": "Tomorrow", "sub": "Five things to settle before you send a single invitation"}}
+    },
+    {
+      "n": 20,
+      "vo": "Now the hard one. Version three: firm, but kind. A phone call.",
+      "overlay": "Version three: the call",
+      "visual": {"kind": "NORAH", "asset": "L1-S6", "crop": "tight", "focus": "right", "note": "Norah seated, seen from behind, a hand lifting a phone to her ear, slow dolly"}
+    },
+    {
+      "n": 21,
+      "vo": "Just checking you got our invitation. Can you tell me today if you can make it?",
+      "visual": {"kind": "CARD", "card": {"type": "quote", "text": "Just checking you got our invitation. Can you tell me today if you can make it?", "sub": "Version three | firm, but kind | the call"}}
+    },
+    {
+      "n": 22,
+      "vo": "Hate calling? Family or your wedding party can call for you.",
+      "overlay": "Emily Post and Joy: others can help",
+      "visual": {"kind": "DECOR", "asset": "D01-A-d6", "prompt": "Photorealistic editorial still life, vertical, an ivory rotary telephone on a marble cafe counter beside a vase holding a single blush dahlia, warm amber light, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no hands, nothing human in frame.", "motion": "pull-out"}
+    },
+    {
+      "n": 23,
+      "vo": "So: a week before, a week after, then a call.",
+      "visual": {"kind": "CARD", "card": {"type": "checklist", "text": "The order", "items": ["A week before: the soft text", "A week after: the clear text", "Still silent: a short call"]}}
+    },
+    {
+      "n": 24,
+      "vo": "Chasing is easier when you can see who's still pending.",
+      "visual": {"kind": "DECOR", "asset": "D01-A-d1", "prompt": "Photorealistic editorial still life, vertical, a cream envelope with a champagne wax seal on a marble cafe table beside a small espresso cup and one fallen maple leaf, Parisian cafe terrace, low golden morning sun, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no hands, nothing human in frame.", "motion": "pull-out"}
+    },
+    {
+      "n": 25,
+      "vo": "At Wedillybird, that's one list: confirmed, pending, maybe, declined.",
+      "visual": {"kind": "CARD", "card": {"type": "title", "text": "Confirmed. Pending. Maybe. Declined.", "sub": "One list, so you know who to nudge"}}
+    },
+    {
+      "n": 26,
+      "vo": "Full texts are in the pinned comment. Save this for later.",
+      "visual": {"kind": "DECOR", "asset": "D01-A-d7", "prompt": "Photorealistic editorial still life, vertical, a leather bookmark ribbon lying across an open ruled notebook with blank pages, wooden table, soft window light, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no hands, nothing human in frame.", "motion": "push-in"}
+    },
+    {
+      "n": 27,
+      "vo": "I'm Norah, Wedillybird's AI host.",
+      "visual": {"kind": "NORAH", "asset": "L1-S7", "crop": "detail", "focus": "center", "note": "Camel coat and cream scarf moving in the breeze, tight fabric detail, leaves falling"}
+    },
+    {
+      "n": 28,
+      "vo": "And next time a guest goes quiet, you'll already have the exact text.",
+      "visual": {"kind": "NORAH", "asset": "L1-S4", "crop": "medium", "focus": "right", "note": "Norah in backlit profile silhouette on the terrace, face turned away, soft dust in the light"}
+    }
+  ],
+  "cta": "Soft follow at about one minute, with tomorrow's teaser (five things to settle before you send a single invitation). Final ask: save this and copy the three texts from the pinned comment.",
+  "next_teaser": "Tomorrow: five things to settle before you send a single invitation",
+  "caption": "Guests not RSVPing wedding\nThree copy-and-paste messages for guests who haven't replied, from a soft nudge to a short call, plus the order to send them in.\nHosted by Norah, an AI character created by the Wedillybird team.",
+  "hashtags": ["#weddingplanning", "#rsvp", "#weddingguestlist", "#winterwedding", "#weddingguestlisttips"],
+  "keywords": ["guests who haven't replied", "RSVP reminder", "RSVP deadline"],
+  "pinned_comment": "Copy, paste, send. One message per person, never the group chat.\n\n1) About a week before the RSVP deadline: “Hi [Name]! Gentle nudge: we'd love to know if you can come. Replies are due [date]. [link]”\n\n2) About a week after the deadline: “Hi [Name]! The caterer needs our final numbers by [date]. Can you tell us if you're coming? [link]”\n\n3) Still silent? Call: “Hi [Name], it's [your name]. Just checking you got our invitation. Can you tell me today if you can make it?”\n\nNorah is AI-generated.",
+  "comment_bait": "Which version would you send first: soft, clear or firm?",
+  "r2_items": ["T31", "T30", "T25"],
+  "sources": [
+    {
+      "fact": "Send a please-RSVP nudge about a week before the deadline and a second note about a week after; message each person individually, avoid group chats and public tags; phone guests who stay silent",
+      "publisher": "The Knot",
+      "title": "When Should You Send a Wedding RSVP Reminder? Wording to Know",
+      "url": "https://www.theknot.com/content/reminding-wedding-guests-to-rsvp",
+      "date": "undated (read via search extract)",
+      "r2_id": "T31"
+    },
+    {
+      "fact": "Wait about a week after the deadline, keep reminders friendly, tell guests the date vendors need final numbers, ask close family or the wedding party to help",
+      "publisher": "Joy (Joy Editors)",
+      "title": "How to Set Perfect Wedding RSVP Deadlines",
+      "url": "https://withjoy.com/blog/how-to-set-perfect-wedding-rsvp-deadlines-a-stress-free-guide-for-couples/",
+      "date": "published 2025-05-29, updated 2025-06-18",
+      "r2_id": "T31"
+    },
+    {
+      "fact": "Check in as the cut-off approaches, keep the message short and state the deadline; a fiance(e), parents or attendants can make the calls",
+      "publisher": "Emily Post Institute (Anna Post)",
+      "title": "Inside Weddings: Handling Your Guests With Grace",
+      "url": "https://emilypost.com/advice/inside-weddings-handling-your-guests-with-grace",
+      "date": "2008 column (page undated)",
+      "r2_id": "T31"
+    },
+    {
+      "fact": "Venues and caterers typically need final headcounts one to two weeks before the wedding, so replies need to be real answers",
+      "publisher": "Joy (Joy Editors)",
+      "title": "How to Set Perfect Wedding RSVP Deadlines",
+      "url": "https://withjoy.com/blog/how-to-set-perfect-wedding-rsvp-deadlines-a-stress-free-guide-for-couples/",
+      "date": "published 2025-05-29, updated 2025-06-18",
+      "r2_id": "T30"
+    },
+    {
+      "fact": "Many wedding professionals use about twenty percent declines as a starting estimate, adjusted for season and travel distance; it is a rule of thumb with no published sample",
+      "publisher": "The Knot",
+      "title": "Plan for This Percentage of Guests to RSVP 'Yes'",
+      "url": "https://www.theknot.com/content/how-many-people-rsvp-no",
+      "date": "undated (read via search extract)",
+      "r2_id": "T25"
+    }
+  ],
+  "claims_review": {
+    "numbers_used": [
+      {"figure": "about one week before the RSVP deadline (first nudge)", "source": "The Knot, RSVP reminder guide (undated); Joy, RSVP deadlines guide, 2025", "r2_id": "T31"},
+      {"figure": "about one week after the deadline (second note)", "source": "The Knot, RSVP reminder guide (undated); Joy, RSVP deadlines guide, 2025", "r2_id": "T31"},
+      {"figure": "twenty percent of guests decline (rule of thumb)", "source": "The Knot, 'Plan for This Percentage of Guests to RSVP Yes' (undated): starting estimate, no published sample", "r2_id": "T25"}
+    ],
+    "needs_proof": [
+      "T25 is medium confidence and was read only through a search extract: re-read theknot.com/content/how-many-people-rsvp-no before posting. It is framed as a rule of thumb, never as a rate.",
+      "The Knot's one-week-before and one-week-after cadence was read through a search extract; Joy and Emily Post corroborate the follow-up logic."
+    ],
+    "notes": "The three messages are suggested wording, not quotes from any source; 'Friday' is a placeholder (the pinned comment uses [date]). The product line only describes the dashboard statuses and makes no claim about reminders to non-responders (r3 section 0 item 4). The Knot and Emily Post pages are undated, so the on-screen sources show no date for them."
+  },
+  "ai_disclosure": true
+}

@@ -1,0 +1,229 @@
+{
+  "id": "D04-B",
+  "day": 4,
+  "slot": "B",
+  "series": "NOTEBOOK",
+  "episode": 3,
+  "fiction": true,
+  "pillar": "RSVP clarity",
+  "look": "L2",
+  "hook_id": "NB03",
+  "working_title": "Norah's Notebook 03: The Maybe",
+  "search_intent": "how to handle maybe rsvp wedding",
+  "hook": {
+    "spoken": "Entry three. A maybe arrived with a heart emoji.",
+    "on_screen": "Entry 03. A maybe arrived with a heart emoji.",
+    "visual": "entry card"
+  },
+  "voiceover": "Entry three. A maybe arrived with a heart emoji. Norah's Notebook, entry three. The story is fiction. The fix is real. Last time: Mara moved every reply into one list. Dear notebook: eight weeks out, and Eli's old roommate replied. One word and a red heart. Maybe. A heart is not a headcount. A maybe isn't a yes. It isn't a no. It's a question. The deadline gives it a date. Mara worried that chasing a maybe RSVP would be rude. Here's the part people skip. Following up is expected. The guides broadly agree on the order. A week before the deadline, a short nudge. A week after, one personal message. Still silent? Call. Message each person on their own. Never in the group chat. Family or the wedding party can make the calls. Here's what I'd text a maybe. Maybe is fine! The caterer needs numbers soon. Could you let us know by the deadline? Following Mara and Eli's winter wedding? Follow the notebook. This is the step people skip. Plan with a rule of thumb, not hope. Many wedding pros start by guessing one in five guests will say no. It's a starting estimate. No sample, and guides disagree. The caterer needs real replies. Here's one way to see them. Wedillybird gives each guest one personal link, nothing to install. They tap I'll be there, Maybe, or I can't make it. The dashboard counts confirmed, pending, maybe and declined. Mara sent it. Eli's roommate wrote back. Yes, and sorry about the heart. I'm Norah, an AI character, and this is Wedillybird. The pen crosses out the maybe, and writes the next problem. A reply for six. The invitation said four.",
+  "word_count": 282,
+  "beats": [
+    {
+      "n": 1,
+      "vo": "Entry three. A maybe arrived with a heart emoji.",
+      "overlay": "A maybe arrived with a heart emoji.",
+      "visual": {"kind": "CARD", "card": {"type": "entry", "n": 3, "text": "The Maybe", "sub": "Eight weeks to go"}}
+    },
+    {
+      "n": 2,
+      "vo": "Norah's Notebook, entry three. The story is fiction. The fix is real.",
+      "visual": {"kind": "NORAH", "asset": "L2-S6", "crop": "wide", "focus": "center", "note": "Norah seated at the oak desk from behind, sage cardigan, notebook open, desk lamp on, early evening light"}
+    },
+    {
+      "n": 3,
+      "vo": "Last time: Mara moved every reply into one list.",
+      "visual": {"kind": "DECOR", "asset": "D04-B-d1", "prompt": "Photorealistic editorial still life, vertical, a small ceramic vase with dried eucalyptus beside a closed sage-green notebook on an oak desk by a tall window, low autumn afternoon light, bright Parisian apartment, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no human figures.", "motion": "push-in"}
+    },
+    {
+      "n": 4,
+      "vo": "Dear notebook: eight weeks out, and Eli's old roommate replied.",
+      "visual": {"kind": "DECOR", "asset": "D04-B-d3", "prompt": "Photorealistic editorial still life, vertical, a paper desk calendar page seen from above, softly out of focus, with one square circled in pencil, lying on an oak desk beside a sharpened pencil, soft window light, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no human figures.", "motion": "pan-right"}
+    },
+    {
+      "n": 5,
+      "vo": "One word and a red heart. Maybe.",
+      "visual": {"kind": "NORAH", "asset": "L2-S2", "crop": "medium", "focus": "hands", "note": "over her shoulder: hands holding a dark phone above the open notebook, screen not legible, tea steaming beside it"}
+    },
+    {
+      "n": 6,
+      "vo": "A heart is not a headcount.",
+      "visual": {"kind": "CARD", "card": {"type": "title", "text": "A heart is not a headcount."}}
+    },
+    {
+      "n": 7,
+      "vo": "A maybe isn't a yes. It isn't a no.",
+      "visual": {"kind": "DECOR", "asset": "D04-B-d2", "prompt": "Photorealistic editorial still life, vertical, a small blush paper heart cut-out leaning against a white porcelain teacup on an oak desk, steam rising, soft window light, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no human figures.", "motion": "push-in"}
+    },
+    {
+      "n": 8,
+      "vo": "It's a question. The deadline gives it a date.",
+      "visual": {"kind": "DECOR", "asset": "D04-B-d3", "prompt": "Photorealistic editorial still life, vertical, a paper desk calendar page seen from above, softly out of focus, with one square circled in pencil, lying on an oak desk beside a sharpened pencil, soft window light, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no human figures.", "motion": "pull-out"}
+    },
+    {
+      "n": 9,
+      "vo": "Mara worried that chasing a maybe RSVP would be rude.",
+      "visual": {"kind": "NORAH", "asset": "L2-S4", "crop": "wide", "focus": "right", "note": "profile in silhouette at the window, steam rising from the tea, face turned away"}
+    },
+    {
+      "n": 10,
+      "vo": "Here's the part people skip. Following up is expected.",
+      "visual": {"kind": "CARD", "card": {"type": "title", "text": "Following up is expected.", "sub": "Here's the part people skip."}}
+    },
+    {
+      "n": 11,
+      "vo": "The guides broadly agree on the order.",
+      "overlay": "The Knot, Joy 2025, Emily Post 2008",
+      "visual": {"kind": "DECOR", "asset": "D04-B-d4", "prompt": "Photorealistic editorial still life, vertical, three cream correspondence cards fanned on an oak desk beside a black fountain pen, soft window light, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no human figures.", "motion": "push-in"}
+    },
+    {
+      "n": 12,
+      "vo": "A week before the deadline, a short nudge. A week after, one personal message. Still silent? Call.",
+      "visual": {"kind": "CARD", "card": {"type": "checklist", "text": "The polite ladder", "items": ["A week before the deadline: a short nudge", "A week after: one personal message", "Still silent? Call"]}}
+    },
+    {
+      "n": 13,
+      "vo": "Message each person on their own. Never in the group chat.",
+      "overlay": "Source: The Knot guide",
+      "visual": {"kind": "NORAH", "asset": "L2-S3", "crop": "tight", "focus": "hands", "note": "macro: pen writing a short line in the notebook, one name at a time"}
+    },
+    {
+      "n": 14,
+      "vo": "Family or the wedding party can make the calls.",
+      "overlay": "Source: Emily Post, 2008",
+      "visual": {"kind": "DECOR", "asset": "D04-B-d5", "prompt": "Photorealistic editorial still life, vertical, a cream rotary desk telephone on an oak desk, warm late-afternoon light, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no human figures.", "motion": "pull-out"}
+    },
+    {
+      "n": 15,
+      "vo": "Here's what I'd text a maybe.",
+      "visual": {"kind": "NORAH", "asset": "L2-S7", "crop": "tight", "focus": "left", "note": "sage knit cardigan sleeve moving as she turns the page of the notebook"}
+    },
+    {
+      "n": 16,
+      "vo": "Maybe is fine! The caterer needs numbers soon. Could you let us know by the deadline?",
+      "visual": {"kind": "CARD", "card": {"type": "quote", "text": "Maybe is fine! The caterer needs numbers soon. Could you let us know by the deadline?", "sub": "Suggested wording"}}
+    },
+    {
+      "n": 17,
+      "vo": "Following Mara and Eli's winter wedding? Follow the notebook.",
+      "visual": {"kind": "DECOR", "asset": "D04-B-d1", "prompt": "Photorealistic editorial still life, vertical, a small ceramic vase with dried eucalyptus beside a closed sage-green notebook on an oak desk by a tall window, low autumn afternoon light, bright Parisian apartment, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no human figures.", "motion": "pull-out"}
+    },
+    {
+      "n": 18,
+      "vo": "This is the step people skip. Plan with a rule of thumb, not hope.",
+      "visual": {"kind": "NORAH", "asset": "L2-S5", "crop": "medium", "focus": "center", "note": "she stops and looks out of the window, seen from behind, mug in one hand"}
+    },
+    {
+      "n": 19,
+      "vo": "Many wedding pros start by guessing one in five guests will say no.",
+      "visual": {"kind": "CARD", "card": {"type": "number", "n": 20, "text": "percent say no? A rule of thumb, not a fact.", "sub": "No sample size. Guides disagree. Source: The Knot guide"}}
+    },
+    {
+      "n": 20,
+      "vo": "It's a starting estimate. No sample, and guides disagree.",
+      "visual": {"kind": "DECOR", "asset": "D04-B-d6", "prompt": "Photorealistic editorial still life, vertical, a wooden ruler and a sharpened pencil lying across a blank sheet of cream paper, seen from above, soft window light, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no human figures.", "motion": "pan-left"}
+    },
+    {
+      "n": 21,
+      "vo": "The caterer needs real replies. Here's one way to see them.",
+      "visual": {"kind": "NORAH", "asset": "L2-S6", "crop": "tight", "focus": "left", "note": "seated at the desk from behind, one hand resting on the notebook, lamp glow on the page"}
+    },
+    {
+      "n": 22,
+      "vo": "Wedillybird gives each guest one personal link, nothing to install. They tap I'll be there, Maybe, or I can't make it.",
+      "visual": {"kind": "SCREEN", "asset": "S04", "note": "the guest reply screen (demo data): I'll be there / Maybe / I can't make it, then the details and Send"}
+    },
+    {
+      "n": 23,
+      "vo": "The dashboard counts confirmed, pending, maybe and declined.",
+      "visual": {"kind": "SCREEN", "asset": "S06", "note": "the event dashboard (demo data): separate counters for confirmed, pending, maybe and declined"}
+    },
+    {
+      "n": 24,
+      "vo": "Mara sent it. Eli's roommate wrote back.",
+      "visual": {"kind": "NORAH", "asset": "L2-S1", "crop": "wide", "focus": "center", "note": "she walks across the apartment toward the desk, mug in hand, evening light"}
+    },
+    {
+      "n": 25,
+      "vo": "Yes, and sorry about the heart.",
+      "visual": {"kind": "DECOR", "asset": "D04-B-d2", "prompt": "Photorealistic editorial still life, vertical, a small blush paper heart cut-out leaning against a white porcelain teacup on an oak desk, steam rising, soft window light, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no human figures.", "motion": "pull-out"}
+    },
+    {
+      "n": 26,
+      "vo": "I'm Norah, an AI character, and this is Wedillybird.",
+      "visual": {"kind": "NORAH", "asset": "L2-S8", "crop": "wide", "focus": "center", "note": "she walks toward the apartment door; it opens onto soft evening light"}
+    },
+    {
+      "n": 27,
+      "vo": "The pen crosses out the maybe, and writes the next problem.",
+      "visual": {"kind": "NORAH", "asset": "L2-S3", "crop": "detail", "focus": "hands", "note": "the pen draws a line through the title The Maybe on the notebook page, then starts a new line in blush ink"}
+    },
+    {
+      "n": 28,
+      "vo": "A reply for six. The invitation said four.",
+      "visual": {"kind": "CARD", "card": {"type": "entry", "n": 4, "text": "A reply for six. The invitation said four.", "sub": "Entry four is tomorrow"}}
+    }
+  ],
+  "cta": "Follow Norah's Notebook: entry four is tomorrow.",
+  "next_teaser": "Entry 04 tomorrow",
+  "caption": "How to handle a maybe RSVP for your wedding: give it a date, then follow up kindly.\nEntry 03 of Norah's Notebook: a polite follow-up ladder, a message to copy, and why twenty percent is a rule of thumb, not a fact.\nFiction: Norah and the couple are invented. The tips are real.\nHosted by Norah, an AI character created by the Wedillybird team.",
+  "hashtags": ["#bridetobe", "#rsvp", "#weddinginvites", "#winterweddinginspo", "#weddingguestlisttips"],
+  "keywords": ["maybe RSVP", "winter wedding", "rule of thumb", "wedding party"],
+  "pinned_comment": "Copy, paste, send for a maybe: \"Maybe is fine! The caterer needs numbers soon. Could you let us know by the deadline?\" The polite ladder: a short nudge a week before the deadline, one personal message a week after, then a call (The Knot guide; Joy, 2025; Emily Post, 2008). Message each person on their own, not in the group chat. The twenty percent decline figure is a rule of thumb with no published sample, and guides disagree (The Knot; Zola, 2026). Fiction: Mara, Eli and Norah are invented; the tips are real. Norah is AI-generated. Screens shown are real Wedillybird screens (demo data).",
+  "comment_bait": "When a guest says maybe, do you count it as a yes or a no?",
+  "r2_items": ["T31", "T30", "T25"],
+  "sources": [
+    {
+      "fact": "Send a nudge about one week before the deadline and a second note a week after; avoid group chats, mass emails and public posts that tag non-responders; phone silent guests after the deadline",
+      "publisher": "The Knot (search extract)",
+      "title": "When Should You Send a Wedding RSVP Reminder? Wording to Know",
+      "url": "https://www.theknot.com/content/reminding-wedding-guests-to-rsvp",
+      "date": "undated (search extract)",
+      "r2_id": "T31"
+    },
+    {
+      "fact": "Wait about a week after the deadline; keep reminders friendly; tell guests the date vendors need final numbers; ask close family or the wedding party to help",
+      "publisher": "Joy (Joy Editors)",
+      "title": "How to Set Perfect Wedding RSVP Deadlines",
+      "url": "https://withjoy.com/blog/how-to-set-perfect-wedding-rsvp-deadlines-a-stress-free-guide-for-couples/",
+      "date": "2025-05-29 (updated 2025-06-18)",
+      "r2_id": "T31"
+    },
+    {
+      "fact": "Check in as the cut-off approaches with a short message that states the deadline; a fiance(e), parents or attendants can make the calls; accommodate late replies where possible",
+      "publisher": "Emily Post Institute (Anna Post)",
+      "title": "Inside Weddings: Handling Your Guests With Grace",
+      "url": "https://emilypost.com/advice/inside-weddings-handling-your-guests-with-grace",
+      "date": "2008 column (Summer 2008)",
+      "r2_id": "T31"
+    },
+    {
+      "fact": "Venues and caterers need real final headcounts; the RSVP deadline sits before the vendor's headcount date so there is time to chase",
+      "publisher": "Joy (Joy Editors)",
+      "title": "How to Set Perfect Wedding RSVP Deadlines",
+      "url": "https://withjoy.com/blog/how-to-set-perfect-wedding-rsvp-deadlines-a-stress-free-guide-for-couples/",
+      "date": "2025-05-29 (updated 2025-06-18)",
+      "r2_id": "T30"
+    },
+    {
+      "fact": "Many wedding professionals use about 20% declines as a starting estimate, adjusted for time of year and travel distance; no source gives a universal rate (another Knot guide says 10-20%; Zola expects about 50% attendance for destination weddings)",
+      "publisher": "The Knot (search extract); Zola (Monica Mercuri)",
+      "title": "Plan for This Percentage of Guests to RSVP 'Yes'; The Ultimate Destination Wedding Checklist",
+      "url": "https://www.theknot.com/content/how-many-people-rsvp-no",
+      "date": "Knot: undated (search extract); Zola destination checklist: 2026-02-05",
+      "r2_id": "T25"
+    }
+  ],
+  "claims_review": {
+    "numbers_used": [
+      {"figure": "a short nudge about one week before the deadline", "source": "The Knot, 'When Should You Send a Wedding RSVP Reminder? Wording to Know' (search extract, undated)", "r2_id": "T31"},
+      {"figure": "one personal message about one week after the deadline", "source": "Joy, 'How to Set Perfect Wedding RSVP Deadlines', updated 2025-06-18; The Knot (search extract, undated)", "r2_id": "T31"},
+      {"figure": "about one in five guests decline, i.e. twenty percent (rule of thumb, no sample size, sources disagree)", "source": "The Knot, 'Plan for This Percentage of Guests to RSVP Yes' (search extract, undated); Zola destination checklist, 2026-02-05, for the higher destination decline rate", "r2_id": "T25"}
+    ],
+    "needs_proof": [
+      "T25 is rated medium in r2 (single publisher read through a search extract, no sample size, sources disagree). It is shown only as a rule of thumb; the founder may prefer to drop the twenty percent card.",
+      "T31 and T25: The Knot pages were read through search extracts and carry no date, so the on-screen source names The Knot without a year."
+    ],
+    "notes": "Story details (eight weeks to go, the roommate, the heart emoji) are invented. The product appears only as S04 then S06, roughly eleven seconds, in the brand's voice, with no review and no claim about reminders or chasing: the dashboard simply has a separate maybe counter. The text-message wording is Norah's adaptation of the r2 suggested wording, labelled as suggested wording."
+  },
+  "ai_disclosure": true
+}

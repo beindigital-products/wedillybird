@@ -1,0 +1,230 @@
+{
+  "id": "D07-A",
+  "day": 7,
+  "slot": "A",
+  "series": "COPY_PASTE_SEND",
+  "episode": 3,
+  "fiction": false,
+  "pillar": "RSVP clarity",
+  "look": "L7",
+  "hook_id": "H32",
+  "working_title": "A late RSVP, or extra people on the reply: the scripts",
+  "search_intent": "what to do when a wedding guest RSVPs late or brings extra people",
+  "hook": {
+    "spoken": "Someone RSVPs late, or with extra people? Here's the script.",
+    "on_screen": "RSVP late, or extra people? The script.",
+    "visual": "Norah walking away down a long bare table in a glass-roofed orangery, blush wool coat, hook overlay at the top"
+  },
+  "voiceover": "Someone RSVPs late, or with extra people? Here's the script. Copy, Paste, Send. Today's awkward message: the reply that arrives wrong. The deadline passed. Or the reply names too many people. Three situations, three scripts. The last one happens at the door. Anna Post of the Emily Post Institute: invitations are not negotiations. One. The late yes, after your deadline. First question: is it actually too late? Your real cut-off is the caterer's date, usually one to two weeks before the wedding. Room in the count? Anna Post says make room. Here's the part people skip: the gap between your deadline and theirs is your cushion. Thank you for telling us! We've added you, and we're so glad you can come. Past the caterer's date? Be kind, and be clear. We wish we could, but our numbers are final. We'll miss you. Two. The reply with extra people: call to correct it. Anna Post says exceptions are insulting to guests who respected your decision. Tomorrow, seven questions to ask a venue. Follow to catch them. Now the line that feels hardest to send: Thanks for replying! Our invitation is for the two of you only. We can't wait to see you. Three. The surprise at the door. If extra guests turn up anyway, welcome them. Ask the caterer or planner to add seats and plates. Anna Post's advice: accept them, don't lecture them. So glad you're here. Let's find you a seat. Skip guessing who'll decline. Plan from real replies. Late: your call. Extra: a kind no. At the door: welcome. All four texts are in the pinned comment. Save this for later. I'm Norah, Wedillybird's AI host. So when a reply arrives wrong, you already have the script.",
+  "word_count": 289,
+  "beats": [
+    {
+      "n": 1,
+      "vo": "Someone RSVPs late, or with extra people? Here's the script.",
+      "overlay": "RSVP late, or extra people? The script.",
+      "visual": {"kind": "NORAH", "asset": "L7-S1", "crop": "wide", "focus": "center", "note": "Norah walks away down the length of a long bare table in a glass-roofed orangery, blush wool coat, cream knit, tote bag with a notebook"}
+    },
+    {
+      "n": 2,
+      "vo": "Copy, Paste, Send. Today's awkward message: the reply that arrives wrong.",
+      "visual": {"kind": "CARD", "card": {"type": "title", "text": "Copy, Paste, Send", "sub": "Today: the reply that arrives wrong"}}
+    },
+    {
+      "n": 3,
+      "vo": "The deadline passed. Or the reply names too many people.",
+      "visual": {"kind": "DECOR", "asset": "D07-A-d1", "prompt": "Photorealistic editorial still life, vertical, a long bare oak table in a glass-roofed orangery with a single sprig of eucalyptus at its center, pale winter light, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no hands, nothing human in frame.", "motion": "push-in"}
+    },
+    {
+      "n": 4,
+      "vo": "Three situations, three scripts. The last one happens at the door.",
+      "visual": {"kind": "NORAH", "asset": "L7-S5", "crop": "medium", "focus": "center", "note": "Norah stops and looks across the long tables of the orangery, seen from behind, slow push-in"}
+    },
+    {
+      "n": 5,
+      "vo": "Anna Post of the Emily Post Institute: invitations are not negotiations.",
+      "visual": {"kind": "CARD", "card": {"type": "quote", "text": "Wedding invitations are not negotiations; the inner envelope is the final word on who exactly is being invited.", "sub": "Anna Post, Emily Post Institute (2008 column)"}}
+    },
+    {
+      "n": 6,
+      "vo": "One. The late yes, after your deadline.",
+      "overlay": "1 | The late yes",
+      "visual": {"kind": "NORAH", "asset": "L7-S2", "crop": "medium", "focus": "hands", "note": "Over the shoulder: hands holding a notebook open above a bare table, pale winter light from the glass roof"}
+    },
+    {
+      "n": 7,
+      "vo": "First question: is it actually too late?",
+      "visual": {"kind": "DECOR", "asset": "D07-A-d2", "prompt": "Photorealistic editorial still life, vertical, an empty bentwood chair pulled slightly out at the end of a long bare oak table, pale winter light through glass, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no hands, nothing human in frame.", "motion": "pan-left"}
+    },
+    {
+      "n": 8,
+      "vo": "Your real cut-off is the caterer's date,",
+      "visual": {"kind": "NORAH", "asset": "L7-S6", "crop": "medium", "focus": "center", "note": "Norah seated at a long bare table, seen from behind, tote at her feet, slow lateral dolly"}
+    },
+    {
+      "n": 9,
+      "vo": "usually one to two weeks before the wedding.",
+      "overlay": "Joy, 2025: one to two weeks before",
+      "visual": {"kind": "DECOR", "asset": "D07-A-d3", "prompt": "Photorealistic editorial still life, vertical, a stack of white plates and folded linen napkins at the end of a long oak table, pale winter light, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no hands, nothing human in frame.", "motion": "push-in"}
+    },
+    {
+      "n": 10,
+      "vo": "Room in the count? Anna Post says make room.",
+      "overlay": "Anna Post: make room when you can",
+      "visual": {"kind": "NORAH", "asset": "L7-S3", "crop": "detail", "focus": "hands", "note": "Close-up of hands setting a blank cream place card on a bare table, shallow depth of field"}
+    },
+    {
+      "n": 11,
+      "vo": "Here's the part people skip: the gap between your deadline and theirs is your cushion.",
+      "visual": {"kind": "DECOR", "asset": "D07-A-d4", "prompt": "Photorealistic editorial still life, vertical, a row of blank cream place cards in small brass holders along a long oak table, one holder left empty, pale winter light, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no hands, nothing human in frame.", "motion": "pan-right"}
+    },
+    {
+      "n": 12,
+      "vo": "Thank you for telling us! We've added you, and we're so glad you can come.",
+      "visual": {"kind": "CARD", "card": {"type": "quote", "text": "Thank you for telling us! We've added you, and we're so glad you can come.", "sub": "1 | Late, and there's room"}}
+    },
+    {
+      "n": 13,
+      "vo": "Past the caterer's date? Be kind, and be clear.",
+      "visual": {"kind": "DECOR", "asset": "D07-A-d2", "prompt": "Photorealistic editorial still life, vertical, an empty bentwood chair pulled slightly out at the end of a long bare oak table, pale winter light through glass, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no hands, nothing human in frame.", "motion": "pull-out"}
+    },
+    {
+      "n": 14,
+      "vo": "We wish we could, but our numbers are final. We'll miss you.",
+      "visual": {"kind": "CARD", "card": {"type": "quote", "text": "We wish we could, but our numbers are final. We'll miss you.", "sub": "1 | Late, after the caterer's date"}}
+    },
+    {
+      "n": 15,
+      "vo": "Two. The reply with extra people: call to correct it.",
+      "overlay": "2 | Extra people on the reply",
+      "visual": {"kind": "DECOR", "asset": "D07-A-d5", "prompt": "Photorealistic editorial still life, vertical, a smartphone turned over with its screen hidden beside a notebook on a bare oak table, pale winter light, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no hands, nothing human in frame.", "motion": "push-in"}
+    },
+    {
+      "n": 16,
+      "vo": "Anna Post says exceptions are insulting to guests who respected your decision.",
+      "overlay": "Emily Post Institute (Anna Post), 2008",
+      "visual": {"kind": "NORAH", "asset": "L7-S4", "crop": "medium", "focus": "right", "note": "Backlit profile silhouette against the tall glass of the orangery, face turned away, dust in the light"}
+    },
+    {
+      "n": 17,
+      "vo": "Tomorrow, seven questions to ask a venue. Follow to catch them.",
+      "overlay": "Tomorrow: seven questions to ask a venue",
+      "visual": {"kind": "DECOR", "asset": "D07-A-d6", "prompt": "Photorealistic editorial still life, vertical, tall glass windows of a stone orangery with soft winter light and bare branches outside, empty hall interior, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no hands, nothing human in frame.", "motion": "pan-left"}
+    },
+    {
+      "n": 18,
+      "vo": "Now the line that feels hardest to send:",
+      "visual": {"kind": "NORAH", "asset": "L7-S8", "crop": "wide", "focus": "center", "note": "Norah walks toward the orangery's double doors, which open onto bright light, followed from behind"}
+    },
+    {
+      "n": 19,
+      "vo": "Thanks for replying! Our invitation is for the two of you only. We can't wait to see you.",
+      "visual": {"kind": "CARD", "card": {"type": "quote", "text": "Thanks for replying! Our invitation is for the two of you only. We can't wait to see you.", "sub": "2 | Extra people | or cite the venue size or your budget"}}
+    },
+    {
+      "n": 20,
+      "vo": "Three. The surprise at the door.",
+      "overlay": "3 | The surprise at the door",
+      "visual": {"kind": "DECOR", "asset": "D07-A-d7", "prompt": "Photorealistic editorial still life, vertical, the double glass doors of an orangery slightly ajar, winter light spilling across a stone floor, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no hands, nothing human in frame.", "motion": "push-in"}
+    },
+    {
+      "n": 21,
+      "vo": "If extra guests turn up anyway, welcome them.",
+      "visual": {"kind": "NORAH", "asset": "L7-S5", "crop": "tight", "focus": "left", "note": "Norah stops at the entrance and looks into the hall, seen from behind"}
+    },
+    {
+      "n": 22,
+      "vo": "Ask the caterer or planner to add seats and plates.",
+      "visual": {"kind": "DECOR", "asset": "D07-A-d8", "prompt": "Photorealistic editorial still life, vertical, one extra white plate and a folded napkin set apart at the end of a long table of place settings, pale winter light, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no hands, nothing human in frame.", "motion": "pull-out"}
+    },
+    {
+      "n": 23,
+      "vo": "Anna Post's advice: accept them, don't lecture them.",
+      "overlay": "Emily Post Institute (Anna Post), 2008",
+      "visual": {"kind": "DECOR", "asset": "D07-A-d9", "prompt": "Photorealistic editorial still life, vertical, a small bouquet of white ranunculus in a glass vase on a long bare oak table, pale winter light, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no hands, nothing human in frame.", "motion": "push-in"}
+    },
+    {
+      "n": 24,
+      "vo": "So glad you're here. Let's find you a seat.",
+      "visual": {"kind": "CARD", "card": {"type": "quote", "text": "So glad you're here. Let's find you a seat.", "sub": "3 | At the door"}}
+    },
+    {
+      "n": 25,
+      "vo": "Skip guessing who'll decline. Plan from real replies.",
+      "overlay": "The Knot: a starting estimate, not a rate",
+      "visual": {"kind": "DECOR", "asset": "D07-A-d6", "prompt": "Photorealistic editorial still life, vertical, tall glass windows of a stone orangery with soft winter light and bare branches outside, empty hall interior, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no hands, nothing human in frame.", "motion": "pull-out"}
+    },
+    {
+      "n": 26,
+      "vo": "Late: your call. Extra: a kind no. At the door: welcome.",
+      "visual": {"kind": "CARD", "card": {"type": "checklist", "text": "Three replies", "items": ["Late: make room when you can", "Extra on the reply: a kind no", "At the door: welcome them"]}}
+    },
+    {
+      "n": 27,
+      "vo": "All four texts are in the pinned comment. Save this for later.",
+      "visual": {"kind": "DECOR", "asset": "D07-A-d1", "prompt": "Photorealistic editorial still life, vertical, a long bare oak table in a glass-roofed orangery with a single sprig of eucalyptus at its center, pale winter light, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no hands, nothing human in frame.", "motion": "pull-out"}
+    },
+    {
+      "n": 28,
+      "vo": "I'm Norah, Wedillybird's AI host.",
+      "visual": {"kind": "NORAH", "asset": "L7-S6", "crop": "tight", "focus": "left", "note": "Seated at the long table from behind, closing the notebook, slow lateral dolly"}
+    },
+    {
+      "n": 29,
+      "vo": "So when a reply arrives wrong, you already have the script.",
+      "visual": {"kind": "NORAH", "asset": "L7-S1", "crop": "tight", "focus": "center", "note": "Norah walks away down the long table toward the glass wall, rear tracking, face never shown"}
+    }
+  ],
+  "cta": "Soft follow at about one minute with tomorrow's teaser (seven questions to ask a venue). Final ask: save this and copy the texts from the pinned comment.",
+  "next_teaser": "Tomorrow: seven questions to ask a venue",
+  "caption": "Late RSVP wedding etiquette\nWhat to say when a reply comes in late, when it names extra people, and when they turn up at the door anyway, with the exact texts to copy.\nHosted by Norah, an AI character created by the Wedillybird team.",
+  "hashtags": ["#engaged", "#rsvp", "#weddinginvites", "#fallwedding", "#weddingguestlisttips"],
+  "keywords": ["RSVPs late", "extra people", "the caterer's date", "invitations are not negotiations"],
+  "pinned_comment": "Copy, paste, send:\n1) Late, and there is room: “Thank you for telling us! We've added you, and we're so glad you can come.”\n2) Late, after the caterer's date: “We wish we could, but our numbers are final. We'll miss you.”\n3) Extra people on the reply (call to correct it): “Thanks for replying! Our invitation is for the two of you only. We can't wait to see you.” You can also cite venue size or budget.\n4) Extra guests at the door: “So glad you're here. Let's find you a seat.” Then ask the caterer or planner to add seats and plates.\nNorah is AI-generated.",
+  "comment_bait": "Late yes or extra people: which would be harder for you to answer?",
+  "r2_items": ["T77", "T30", "T31", "T25"],
+  "sources": [
+    {
+      "fact": "Wedding invitations are not negotiations; the inner envelope is the final word on who exactly is being invited. If a guest RSVPs with uninvited guests, call to correct it; couples can cite venue size or budget; if unlisted guests turn up, ask the caterer or planner to add seats and plates and welcome them rather than lecturing; late replies are up to the couple, but accommodate them when possible",
+      "publisher": "Emily Post Institute (Anna Post)",
+      "title": "Inside Weddings: Handling Your Guests With Grace",
+      "url": "https://emilypost.com/advice/inside-weddings-handling-your-guests-with-grace",
+      "date": "2008 column (page undated)",
+      "r2_id": "T77"
+    },
+    {
+      "fact": "Venues and caterers typically need final headcounts one to two weeks before the wedding; the RSVP deadline sits at least ten days before that date so there is time to chase",
+      "publisher": "Joy (Joy Editors)",
+      "title": "How to Set Perfect Wedding RSVP Deadlines",
+      "url": "https://withjoy.com/blog/how-to-set-perfect-wedding-rsvp-deadlines-a-stress-free-guide-for-couples/",
+      "date": "published 2025-05-29, updated 2025-06-18",
+      "r2_id": "T30"
+    },
+    {
+      "fact": "Accommodate late replies where possible",
+      "publisher": "Emily Post Institute (Anna Post)",
+      "title": "Inside Weddings: Handling Your Guests With Grace",
+      "url": "https://emilypost.com/advice/inside-weddings-handling-your-guests-with-grace",
+      "date": "2008 column (page undated)",
+      "r2_id": "T31"
+    },
+    {
+      "fact": "The twenty percent decline estimate is a starting estimate adjusted for season and travel, with no published sample; vendors need real RSVP counts, not forecasts",
+      "publisher": "The Knot",
+      "title": "Plan for This Percentage of Guests to RSVP 'Yes'",
+      "url": "https://www.theknot.com/content/how-many-people-rsvp-no",
+      "date": "undated (read via search extract)",
+      "r2_id": "T25"
+    }
+  ],
+  "claims_review": {
+    "numbers_used": [
+      {"figure": "caterer's final headcount usually one to two weeks before the wedding", "source": "Joy, RSVP deadlines guide, 2025-06-18", "r2_id": "T30"}
+    ],
+    "needs_proof": [
+      "T77 rests on a 2008 Anna Post column and the page is undated; check the current Emily Post wording before posting.",
+      "T25 is medium confidence (The Knot, read through a search extract). It is used only as a qualitative line (a rule of thumb is a starting estimate); the twenty percent figure is deliberately not repeated here (see D01-A)."
+    ],
+    "notes": "Scripts 1, 2 and 4 and the door line are suggested wording written for this video; the fact bank gives only one script (T77: invitation is for the two of you only), which is adapted in script 3. The quote card on beat 5 is Anna Post's own sentence from T77. No product is shown or pitched; the only brand mention is the AI-host disclosure."
+  },
+  "ai_disclosure": true
+}

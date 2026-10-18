@@ -1,0 +1,218 @@
+{
+  "id": "D07-B",
+  "day": 7,
+  "slot": "B",
+  "series": "NOTEBOOK",
+  "episode": 5,
+  "fiction": true,
+  "pillar": "Guest list hygiene",
+  "look": "L4",
+  "hook_id": "NB05",
+  "working_title": "Norah's Notebook 05: The Stranger on the List",
+  "search_intent": "how to cut your wedding guest list",
+  "hook": {
+    "spoken": "Entry five. The guest list has a stranger on it.",
+    "on_screen": "Entry 05. The guest list has a stranger on it.",
+    "visual": "entry card"
+  },
+  "voiceover": "Entry five. The guest list has a stranger on it. Norah's Notebook, entry five. The story is fiction. The fix is real. Last time: a reply for six, settled with one kind call. Dear notebook: five weeks out. And a name nobody invited. Mara and I took the printed list for a walk. Halfway down the path, Mara stopped. Who is Rosalind Vance? Not Mara's friend. Not Eli's. Not anyone's, it seemed. Then she found Priya, listed twice, with two spellings. Here's the part people skip. A list doesn't stay clean by itself. Pass one: sort by last name. Duplicates land side by side. Pass two: read every name aloud, as it will be on the envelope. Typos and nicknames jump out when you hear them. Pass three: beside any name you can't place, note who asked for it. Rosalind Vance came from his mother's tab. The note said: we went to her wedding. Do you owe someone an invitation because you went to theirs? No. Zola says you aren't obligated. If your winter wedding list has strangers too, follow along. Entry six is tomorrow. Relatives get a number of names, not a veto. This is the step people skip. Run unsure names through the two questions from entry one. Eli's mother chose her ten. Rosalind made the ranked B list. Wedillybird shows the whole guest list, with each guest's status. Export it to CSV, then sort it any way you like. Sorted. Read aloud. Every name owned. By sunset: one hundred and eight names, every one chosen. I'm Norah, an AI character, and this is Wedillybird. The pen crosses out the stranger, and writes the next problem. The caterer needs the final number by Friday.",
+  "word_count": 286,
+  "beats": [
+    {
+      "n": 1,
+      "vo": "Entry five. The guest list has a stranger on it.",
+      "overlay": "The guest list has a stranger on it.",
+      "visual": {"kind": "CARD", "card": {"type": "entry", "n": 5, "text": "The Stranger on the List", "sub": "Five weeks to go"}}
+    },
+    {
+      "n": 2,
+      "vo": "Norah's Notebook, entry five. The story is fiction. The fix is real.",
+      "visual": {"kind": "NORAH", "asset": "L4-S6", "crop": "wide", "focus": "center", "note": "Norah seated on a stone bench from behind, cream cable-knit sweater, long anthracite coat, grey scarf, notebook on her knee, light mist"}
+    },
+    {
+      "n": 3,
+      "vo": "Last time: a reply for six, settled with one kind call.",
+      "visual": {"kind": "DECOR", "asset": "D07-B-d1", "prompt": "Photorealistic editorial still life, vertical, a gravel path winding through a misty autumn chateau garden between copper beech trees, low pale sun, 35 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents of camel and stone. No text, no logos, no screens with legible content, no human figures.", "motion": "push-in"}
+    },
+    {
+      "n": 4,
+      "vo": "Dear notebook: five weeks out. And a name nobody invited.",
+      "visual": {"kind": "DECOR", "asset": "D07-B-d2", "prompt": "Photorealistic editorial still life, vertical, an old stone bench in a misty chateau garden with a single wet copper leaf on its seat, soft grey morning light, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents of camel and stone. No text, no logos, no screens with legible content, no human figures.", "motion": "pan-right"}
+    },
+    {
+      "n": 5,
+      "vo": "Mara and I took the printed list for a walk.",
+      "visual": {"kind": "NORAH", "asset": "L4-S1", "crop": "wide", "focus": "center", "note": "she walks away along the gravel path between copper trees, printed pages in one gloved hand, mist"}
+    },
+    {
+      "n": 6,
+      "vo": "Halfway down the path, Mara stopped. Who is Rosalind Vance?",
+      "visual": {"kind": "CARD", "card": {"type": "title", "text": "Rosalind Vance?", "sub": "Nobody could place her."}}
+    },
+    {
+      "n": 7,
+      "vo": "Not Mara's friend. Not Eli's. Not anyone's, it seemed.",
+      "visual": {"kind": "NORAH", "asset": "L4-S5", "crop": "medium", "focus": "center", "note": "she stops and looks across the misty garden, seen from behind, scarf lifting slightly"}
+    },
+    {
+      "n": 8,
+      "vo": "Then she found Priya, listed twice, with two spellings.",
+      "visual": {"kind": "CARD", "card": {"type": "title", "text": "Priya Nair. Priya Nayar.", "sub": "One person, two spellings."}}
+    },
+    {
+      "n": 9,
+      "vo": "Here's the part people skip. A list doesn't stay clean by itself.",
+      "visual": {"kind": "DECOR", "asset": "D07-B-d4", "prompt": "Photorealistic editorial still life, vertical, a wooden clipboard holding a sheet of cream paper covered in faint pencil lines, resting on a stone balustrade with a pencil beside it, misty garden behind, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents of camel and stone. No text, no logos, no screens with legible content, no human figures.", "motion": "push-in"}
+    },
+    {
+      "n": 10,
+      "vo": "Pass one: sort by last name. Duplicates land side by side.",
+      "visual": {"kind": "NORAH", "asset": "L4-S2", "crop": "medium", "focus": "hands", "note": "over her shoulder: hands holding the printed pages and a pencil, a finger running down the margin"}
+    },
+    {
+      "n": 11,
+      "vo": "Pass two: read every name aloud, as it will be on the envelope.",
+      "visual": {"kind": "DECOR", "asset": "D07-B-d5", "prompt": "Photorealistic editorial still life, vertical, two nearly identical copper leaves lying side by side on a wet gravel path, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents of camel and stone. No text, no logos, no screens with legible content, no human figures.", "motion": "pull-out"}
+    },
+    {
+      "n": 12,
+      "vo": "Typos and nicknames jump out when you hear them.",
+      "visual": {"kind": "NORAH", "asset": "L4-S3", "crop": "tight", "focus": "hands", "note": "macro: the pencil circles one line on the printed page, mist behind"}
+    },
+    {
+      "n": 13,
+      "vo": "Pass three: beside any name you can't place, note who asked for it.",
+      "visual": {"kind": "DECOR", "asset": "D07-B-d4", "prompt": "Photorealistic editorial still life, vertical, a wooden clipboard holding a sheet of cream paper covered in faint pencil lines, resting on a stone balustrade with a pencil beside it, misty garden behind, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents of camel and stone. No text, no logos, no screens with legible content, no human figures.", "motion": "pan-left"}
+    },
+    {
+      "n": 14,
+      "vo": "Rosalind Vance came from his mother's tab.",
+      "visual": {"kind": "NORAH", "asset": "L4-S4", "crop": "wide", "focus": "right", "note": "profile in silhouette against the pale sky, scarf lifting, face turned away"}
+    },
+    {
+      "n": 15,
+      "vo": "The note said: we went to her wedding.",
+      "visual": {"kind": "DECOR", "asset": "D07-B-d6", "prompt": "Photorealistic editorial still life, vertical, a single blank cream place card standing alone on a long empty garden table under copper trees, soft mist, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents of camel and stone. No text, no logos, no screens with legible content, no human figures.", "motion": "push-in"}
+    },
+    {
+      "n": 16,
+      "vo": "Do you owe someone an invitation because you went to theirs?",
+      "visual": {"kind": "DECOR", "asset": "D07-B-d3", "prompt": "Photorealistic editorial still life, vertical, a wrought-iron garden gate standing half open onto a misty gravel alley, copper leaves on the ground, 35 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents of camel and stone. No text, no logos, no screens with legible content, no human figures.", "motion": "pull-out"}
+    },
+    {
+      "n": 17,
+      "vo": "No. Zola says you aren't obligated.",
+      "overlay": "Source: Zola, 2025",
+      "visual": {"kind": "NORAH", "asset": "L4-S7", "crop": "tight", "focus": "left", "note": "grey scarf and the edge of the anthracite coat moving in the wind, copper leaves in soft focus"}
+    },
+    {
+      "n": 18,
+      "vo": "If your winter wedding list has strangers too, follow along. Entry six is tomorrow.",
+      "visual": {"kind": "DECOR", "asset": "D07-B-d1", "prompt": "Photorealistic editorial still life, vertical, a gravel path winding through a misty autumn chateau garden between copper beech trees, low pale sun, 35 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents of camel and stone. No text, no logos, no screens with legible content, no human figures.", "motion": "pull-out"}
+    },
+    {
+      "n": 19,
+      "vo": "Relatives get a number of names, not a veto.",
+      "visual": {"kind": "CARD", "card": {"type": "title", "text": "A number, not a veto.", "sub": "Relatives get a number of names. Source: Zola, 2025"}}
+    },
+    {
+      "n": 20,
+      "vo": "This is the step people skip. Run unsure names through the two questions from entry one.",
+      "overlay": "Source: Zola, 2025",
+      "visual": {"kind": "NORAH", "asset": "L4-S6", "crop": "tight", "focus": "left", "note": "seated on the stone bench from behind, pencil moving down the page, grey scarf at her neck"}
+    },
+    {
+      "n": 21,
+      "vo": "Eli's mother chose her ten. Rosalind made the ranked B list.",
+      "overlay": "Source: Philadelphia Magazine, 2015",
+      "visual": {"kind": "DECOR", "asset": "D07-B-d6", "prompt": "Photorealistic editorial still life, vertical, a single blank cream place card standing alone on a long empty garden table under copper trees, soft mist, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents of camel and stone. No text, no logos, no screens with legible content, no human figures.", "motion": "pan-right"}
+    },
+    {
+      "n": 22,
+      "vo": "Wedillybird shows the whole guest list, with each guest's status.",
+      "visual": {"kind": "SCREEN", "asset": "S07", "note": "the guest list (demo data): one row per guest with a status badge, the add form above"}
+    },
+    {
+      "n": 23,
+      "vo": "Export it to CSV, then sort it any way you like.",
+      "visual": {"kind": "SCREEN", "asset": "S07", "note": "the Export to CSV action on the guest list (demo data)"}
+    },
+    {
+      "n": 24,
+      "vo": "Sorted. Read aloud. Every name owned.",
+      "visual": {"kind": "CARD", "card": {"type": "checklist", "text": "Three passes", "items": ["Sorted by last name", "Read aloud", "Every name has an owner"]}}
+    },
+    {
+      "n": 25,
+      "vo": "By sunset: one hundred and eight names, every one chosen.",
+      "visual": {"kind": "DECOR", "asset": "D07-B-d7", "prompt": "Photorealistic editorial still life, vertical, golden low sun breaking through mist over a gravel path in a chateau garden, long soft shadows, copper leaves, 35 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents of camel and stone. No text, no logos, no screens with legible content, no human figures.", "motion": "push-in"}
+    },
+    {
+      "n": 26,
+      "vo": "I'm Norah, an AI character, and this is Wedillybird.",
+      "visual": {"kind": "NORAH", "asset": "L4-S8", "crop": "wide", "focus": "center", "note": "she walks toward the wrought-iron garden gate; it opens onto bright pale light"}
+    },
+    {
+      "n": 27,
+      "vo": "The pen crosses out the stranger, and writes the next problem.",
+      "visual": {"kind": "NORAH", "asset": "L4-S3", "crop": "detail", "focus": "hands", "note": "the pen draws a line through the title The Stranger on the List on the notebook page, then starts a new line in blush ink"}
+    },
+    {
+      "n": 28,
+      "vo": "The caterer needs the final number by Friday.",
+      "visual": {"kind": "CARD", "card": {"type": "entry", "n": 6, "text": "The caterer needs the final number by Friday.", "sub": "Entry six is tomorrow"}}
+    }
+  ],
+  "cta": "Follow Norah's Notebook: entry six is tomorrow.",
+  "next_teaser": "Entry 06 tomorrow",
+  "caption": "How to cut your wedding guest list: audit it first, then decide every name you can't place.\nEntry 05 of Norah's Notebook: three audit passes, the you-went-to-their-wedding myth, and a number (not a veto) for relatives.\nFiction: Norah and the couple are invented. The tips are real.\nHosted by Norah, an AI character created by the Wedillybird team.",
+  "hashtags": ["#weddingplanning", "#weddingguestlist", "#weddingchecklist", "#winterweddinginspo", "#weddingguestlisttips"],
+  "keywords": ["guest list", "B list", "winter wedding"],
+  "pinned_comment": "The three audit passes: 1) Sort by last name so duplicates land side by side. 2) Read every name aloud, as it will be written on the envelope. 3) Beside any name you can't place, note who asked for it. Then: you aren't obligated to invite someone just because you went to their wedding, and relatives get a number of names, not a veto (Zola, 2025). Rank your B list so you know who is next (Philadelphia Magazine, 2015). Fiction: Mara, Eli, Rosalind and Norah are invented; the tips are real. Norah is AI-generated. Screens shown are real Wedillybird screens (demo data).",
+  "comment_bait": "What's the oddest thing you've found on your guest list?",
+  "r2_items": ["T22", "T27", "T26"],
+  "sources": [
+    {
+      "fact": "Do not invite someone just because you attended their wedding; you aren't obligated",
+      "publisher": "Zola (McCall Minnor)",
+      "title": "How to Stick to a Small Wedding Guest List",
+      "url": "https://www.zola.com/expert-advice/small-wedding-guest-list",
+      "date": "2025-10-13 (updated)",
+      "r2_id": "T27"
+    },
+    {
+      "fact": "Two-question test for a borderline name: would not inviting them hurt the friendship, and do you care? If yes, B-list; if no, leave them off (callback to entry 01)",
+      "publisher": "Zola (McCall Minnor)",
+      "title": "How to Stick to a Small Wedding Guest List",
+      "url": "https://www.zola.com/expert-advice/small-wedding-guest-list",
+      "date": "2025-10-13 (updated)",
+      "r2_id": "T27"
+    },
+    {
+      "fact": "Give relatives a fixed number of slots (or a cap per side); contributors earn input, not control, and the couple keeps the final say",
+      "publisher": "Zola (Elizabeth Blasi)",
+      "title": "Who Has a Say in the Wedding Guest List?",
+      "url": "https://www.zola.com/expert-advice/who-has-a-say-in-the-wedding-guest-list",
+      "date": "2025-10-13 (updated)",
+      "r2_id": "T26"
+    },
+    {
+      "fact": "Rank the B-list so you know who is next",
+      "publisher": "Philadelphia Magazine (Alexandra Leshner)",
+      "title": "Here's Everything You Need to Know About (Tactfully) Inviting Your B-List Guests",
+      "url": "https://www.phillymag.com/news/2015/05/05/inviting-b-list-wedding-guests/",
+      "date": "2015-05-05",
+      "r2_id": "T22"
+    }
+  ],
+  "claims_review": {
+    "numbers_used": [
+      {"figure": "two questions (small guest list test, callback to entry 01)", "source": "Zola, 'How to Stick to a Small Wedding Guest List', updated 2025-10-13", "r2_id": "T27"}
+    ],
+    "needs_proof": [
+      "S07 is marked 'to capture' in the catalog: confirm the capture shows the status column and the Export to CSV action; beats 22-23 can be swapped for a CARD without changing the voice-over."
+    ],
+    "notes": "The audit passes (sort, read aloud, note who asked) are Norah's practical suggestions, not statistics. Story numbers (five weeks, one hundred and eight names, ten names for a relative) and the names Rosalind Vance and Priya are invented. The product is shown only as S07 (list with statuses, then CSV export), about seven seconds, in the brand's voice, with no claim that it detects duplicates or typos. The two-question test and the B-list ranking are callbacks to entry 01, kept to one beat each so the entry does not duplicate the later Copy, Paste, Send episode on parents."
+  },
+  "ai_disclosure": true
+}

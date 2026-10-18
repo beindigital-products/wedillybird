@@ -1,0 +1,204 @@
+{
+  "id": "D03-B",
+  "day": 3,
+  "slot": "B",
+  "series": "INSIDE",
+  "episode": 1,
+  "fiction": false,
+  "pillar": "Invitation experience (guest POV)",
+  "look": "L3",
+  "hook_id": "H49",
+  "working_title": "Inside Wedillybird 1: what your guests see when they tap your invitation link",
+  "search_intent": "what do guests see on a digital wedding invitation",
+  "hook": {
+    "spoken": "POV: your aunt opens your wedding invitation on her phone.",
+    "on_screen": "POV: your aunt opens your invitation",
+    "visual": "NORAH L3-S2 over-the-shoulder, phone in hand at the flower market; overlay = hook (H50 follows as beat 2)"
+  },
+  "voiceover": "POV: your aunt opens your wedding invitation on her phone. Here's what your guests see when they tap your invitation link. I'll also tell you who this doesn't work for. You build a digital wedding invitation on a laptop. So you never see what your guests see. With Wedillybird, guests install no app and make no account. A demo for Léa and Adam, a fictional couple. The envelope fills the screen. The seal carries their initials. It opens, and the invitation appears. This opening is called The Seal. There's a skip button, too. Then the page: the couple's names, and a countdown to the big day. Scroll down, and the date and the venue are right there. Here's the part people skip: the wedding RSVP. Three answers: I'll be there, Maybe, or I can't make it. Say yes, and more fields open: plus-ones, up to the number you allow. Dietary needs go in a plain text box, with room for a note. If this is useful, follow. Entry three of Norah's Notebook lands tomorrow evening. Plans change, and a guest can change their answer later. Then Send, and confetti: Thank you, your reply is saved. Here's who it doesn't work for. Seventy-eight percent of American adults sixty-five and older own a smartphone. That's most of them, not all of them. And owning a phone isn't the same as being at ease with links. A personal link needs a phone, and Wedillybird can't change that. So keep a paper card ready, with a phone number to call. Envelope, page, reply. That's the trip we just watched. See a sample invitation: link in bio. I'm Norah, Wedillybird's AI host. Now you know what your aunt sees.",
+  "word_count": 285,
+  "beats": [
+    {
+      "n": 1,
+      "vo": "POV: your aunt opens your wedding invitation on her phone.",
+      "overlay": "POV: your aunt opens your invitation",
+      "visual": {"kind": "NORAH", "asset": "L3-S2", "crop": "medium", "focus": "hands", "note": "Over her shoulder: a phone with a dark screen in her hands, wet flower-market stalls blurred behind."}
+    },
+    {
+      "n": 2,
+      "vo": "Here's what your guests see when they tap your invitation link.",
+      "overlay": "Inside Wedillybird · 1",
+      "visual": {"kind": "DECOR", "asset": "D03-B-d1", "prompt": "Photorealistic editorial still life, vertical, a cream envelope with a blush wax seal resting on a damp zinc market table beside dahlias and eucalyptus, outdoor flower market, soft diffused morning light after rain, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no legible screens, nobody in frame.", "motion": "push-in"}
+    },
+    {
+      "n": 3,
+      "vo": "I'll also tell you who this doesn't work for.",
+      "visual": {"kind": "NORAH", "asset": "L3-S5", "crop": "wide", "focus": "center", "note": "She stops in the aisle and looks down a row of dahlias, seen from behind."}
+    },
+    {
+      "n": 4,
+      "vo": "You build a digital wedding invitation on a laptop.",
+      "visual": {"kind": "DECOR", "asset": "D03-B-d2", "prompt": "Photorealistic editorial still life, vertical, a closed laptop beside a ceramic cup of tea and a small bunch of chrysanthemums on a linen cloth, flower market stall, cool damp morning light, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no legible screens, nobody in frame.", "motion": "pan-right"}
+    },
+    {
+      "n": 5,
+      "vo": "So you never see what your guests see.",
+      "visual": {"kind": "NORAH", "asset": "L3-S6", "crop": "medium", "focus": "center", "note": "Seated from behind at a café table at the edge of the market, tea steaming, looking out over the stalls."}
+    },
+    {
+      "n": 6,
+      "vo": "With Wedillybird, guests install no app and make no account.",
+      "visual": {"kind": "CARD", "card": {"type": "title", "text": "No app. No account.", "sub": "For guests: one personal link each"}}
+    },
+    {
+      "n": 7,
+      "vo": "A demo for Léa and Adam, a fictional couple. The envelope fills the screen.",
+      "overlay": "Demo invitation · fictional couple",
+      "visual": {"kind": "SCREEN", "asset": "S01", "note": "Public demo, phone frame: the sealed envelope with the L&A seal fills the screen; the 'Demo invitation · fictional couple' banner is visible. Fallback card: 'Léa & Adam, a fictional couple'."}
+    },
+    {
+      "n": 8,
+      "vo": "The seal carries their initials. It opens, and the invitation appears.",
+      "visual": {"kind": "SCREEN", "asset": "S01", "note": "The seal breaks, the envelope opens and the invitation is revealed (The Seal opening)."}
+    },
+    {
+      "n": 9,
+      "vo": "This opening is called The Seal. There's a skip button, too.",
+      "visual": [
+        {"kind": "CARD", "card": {"type": "title", "text": "The Seal", "sub": "The opening, with a skip button"}},
+        {"kind": "SCREEN", "asset": "S01", "note": "Replay of the opening; hold on the skip button if it is visible in the capture."}
+      ]
+    },
+    {
+      "n": 10,
+      "vo": "Then the page: the couple's names, and a countdown to the big day.",
+      "visual": {"kind": "SCREEN", "asset": "S03", "note": "Invitation page: the couple's names at the top, then the countdown (it appears once the page has loaded). Demo data."}
+    },
+    {
+      "n": 11,
+      "vo": "Scroll down, and the date and the venue are right there.",
+      "visual": {"kind": "SCREEN", "asset": "S03", "note": "Slow scroll down to the date and venue block."}
+    },
+    {
+      "n": 12,
+      "vo": "Here's the part people skip: the wedding RSVP.",
+      "overlay": "The part people skip",
+      "visual": {"kind": "NORAH", "asset": "L3-S1", "crop": "wide", "focus": "center", "note": "She walks away between flower stalls, stone trench and blush scarf, camera drifting back."}
+    },
+    {
+      "n": 13,
+      "vo": "Three answers: I'll be there, Maybe, or I can't make it.",
+      "visual": {"kind": "SCREEN", "asset": "S04", "note": "The three answer choices; I'll be there is selected. Fallback card: the three answers as a checklist."}
+    },
+    {
+      "n": 14,
+      "vo": "Say yes, and more fields open: plus-ones, up to the number you allow.",
+      "visual": {"kind": "SCREEN", "asset": "S04", "note": "After I'll be there, the plus-one name field opens (this demo guest has one plus-one allowed)."}
+    },
+    {
+      "n": 15,
+      "vo": "Dietary needs go in a plain text box, with room for a note.",
+      "visual": {"kind": "CARD", "card": {"type": "checklist", "text": "A yes opens three fields", "items": ["Plus-ones, up to your limit", "Dietary needs, plain text", "A note for the couple"]}}
+    },
+    {
+      "n": 16,
+      "vo": "If this is useful, follow. Entry three of Norah's Notebook lands tomorrow evening.",
+      "visual": {"kind": "NORAH", "asset": "L3-S8", "crop": "wide", "focus": "center", "note": "She walks toward an iron arch at the edge of the market; pale light opens beyond it."}
+    },
+    {
+      "n": 17,
+      "vo": "Plans change, and a guest can change their answer later.",
+      "visual": {"kind": "SCREEN", "asset": "S04", "note": "The filled-in reply form. Fallback card: 'A guest can change their answer later'."}
+    },
+    {
+      "n": 18,
+      "vo": "Then Send, and confetti: Thank you, your reply is saved.",
+      "visual": {"kind": "SCREEN", "asset": "S04", "note": "Send is pressed: confetti and the message 'Thank you, your reply is saved'."}
+    },
+    {
+      "n": 19,
+      "vo": "Here's who it doesn't work for.",
+      "overlay": "Who it doesn't work for",
+      "visual": {"kind": "NORAH", "asset": "L3-S4", "crop": "medium", "focus": "center", "note": "Profile in silhouette against pale morning light, face turned away."}
+    },
+    {
+      "n": 20,
+      "vo": "Seventy-eight percent of American adults sixty-five and older own a smartphone.",
+      "overlay": "Source: Pew Research Center, 2025",
+      "visual": {"kind": "CARD", "card": {"type": "number", "n": 78, "text": "percent of US adults 65+ own a smartphone", "sub": "Source: Pew Research Center, Mobile Fact Sheet, published November 2025"}}
+    },
+    {
+      "n": 21,
+      "vo": "That's most of them, not all of them.",
+      "visual": {"kind": "NORAH", "asset": "L3-S7", "crop": "detail", "focus": "center", "note": "Blush wool scarf lifting in the wind, close detail."}
+    },
+    {
+      "n": 22,
+      "vo": "And owning a phone isn't the same as being at ease with links.",
+      "visual": [
+        {"kind": "DECOR", "asset": "D03-B-d3", "prompt": "Photorealistic editorial still life, vertical, a smartphone lying with its dark screen down on a folded cream linen napkin beside a sprig of eucalyptus and a blank cream reply card, small café table at the edge of a flower market, pale morning light, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no legible screens, nobody in frame.", "motion": "pull-out"},
+        {"kind": "SCREEN", "asset": "S03", "note": "The invitation page scrolling on a phone."}
+      ]
+    },
+    {
+      "n": 23,
+      "vo": "A personal link needs a phone, and Wedillybird can't change that.",
+      "visual": {"kind": "CARD", "card": {"type": "title", "text": "A link needs a phone.", "sub": "Wedillybird can't change that."}}
+    },
+    {
+      "n": 24,
+      "vo": "So keep a paper card ready, with a phone number to call.",
+      "visual": {"kind": "NORAH", "asset": "L3-S3", "crop": "detail", "focus": "hands", "note": "Hands slide a blank cream card and a pen into a tote; eucalyptus blurred behind."}
+    },
+    {
+      "n": 25,
+      "vo": "Envelope, page, reply. That's the trip we just watched.",
+      "visual": [
+        {"kind": "SCREEN", "asset": "S01", "note": "Quick cut: the sealed envelope."},
+        {"kind": "SCREEN", "asset": "S04", "note": "...to the saved reply with confetti."}
+      ]
+    },
+    {
+      "n": 26,
+      "vo": "See a sample invitation: link in bio.",
+      "overlay": "See a sample invitation · link in bio",
+      "visual": {"kind": "SCREEN", "asset": "S01", "note": "Back to the sealed envelope on the demo invitation, held for the call to action."}
+    },
+    {
+      "n": 27,
+      "vo": "I'm Norah, Wedillybird's AI host.",
+      "visual": {"kind": "NORAH", "asset": "L3-S5", "crop": "medium", "focus": "left", "note": "She pauses beside a stall of dahlias, seen from behind."}
+    },
+    {
+      "n": 28,
+      "vo": "Now you know what your aunt sees.",
+      "visual": {"kind": "NORAH", "asset": "L3-S2", "crop": "tight", "focus": "hands", "note": "She slips the phone into her coat pocket; loop back to the opening shot."}
+    }
+  ],
+  "cta": "See a sample invitation: link in bio.",
+  "next_teaser": "Tomorrow evening: Norah's Notebook, entry three.",
+  "caption": "Digital wedding invitation: what your guests actually see.\nA guest's-eye walk through a demo invitation, from the envelope to the saved reply, plus the one kind of guest who still needs paper. Léa and Adam are a fictional couple.\nHosted by Norah, an AI character created by the Wedillybird team.",
+  "hashtags": ["#bridetobe", "#weddinginvitations", "#rsvp", "#winterwedding", "#2027bride"],
+  "keywords": ["digital wedding invitation", "invitation link", "wedding RSVP"],
+  "pinned_comment": "A guest's trip: an envelope opens (The Seal), the page shows the couple's names, a countdown, the date and the venue, then the guest answers: I'll be there, Maybe, or I can't make it. A yes opens plus-ones, dietary needs and a note. Keep a paper card and a phone number ready for guests without a smartphone. Norah is AI-generated. Screens shown are real Wedillybird screens (demo data).",
+  "comment_bait": "Who on your guest list would need the paper card?",
+  "r2_items": ["T38", "T35"],
+  "sources": [
+    {"fact": "78% of US adults aged 65+ own a smartphone (90% at ages 50-64)", "publisher": "Pew Research Center", "title": "Mobile Fact Sheet", "url": "https://www.pewresearch.org/internet/fact-sheet/mobile/", "date": "2025-11-20", "r2_id": "T38"},
+    {"fact": "Offer a fallback that is not app-based (paper, phone); the barrier is channel and app familiarity rather than phone ownership", "publisher": "Pew Research Center", "title": "Mobile Fact Sheet (smartphone ownership by age); fallback advice per r2 T38 myth-vs-truth", "url": "https://www.pewresearch.org/internet/fact-sheet/mobile/", "date": "2025-11-20", "r2_id": "T38"},
+    {"fact": "If guests may reply another way, print that option (phone or email) on the response card", "publisher": "Emily Post Institute", "title": "Wedding Email Dos and Don'ts", "url": "https://emilypost.com/advice/wedding-email-dos-and-donts", "date": "undated", "r2_id": "T35"}
+  ],
+  "claims_review": {
+    "numbers_used": [
+      {"figure": "seventy-eight percent", "source": "Pew Research Center, Mobile Fact Sheet, published 2025-11-20 (survey of 5,022 US adults, 5 Feb-18 Jun 2025)", "r2_id": "T38"}
+    ],
+    "needs_proof": [
+      "S01 capture should show the L&A seal, the opening and, ideally, the skip button (skip button per r3 B1); if it is not visible, the card text carries it.",
+      "S03 capture should show names, countdown, date and venue; the countdown only appears after hydration.",
+      "S04 capture should show the three answers, the plus-one / dietary / note fields and the 'Thank you, your reply is saved' confetti.",
+      "'A guest can change their answer later' comes from rsvp-form-v4 / convex/rsvps.ts (r3 B1); it is not visible in the demo capture."
+    ],
+    "notes": "Fictional couple Léa and Adam named and labelled as fictional in the voice-over. No delivery channel, QR code, number of openings, or choice of opening/music/photo is mentioned. The only figure is Pew 78% (T38), spelled out, with the source on a card. Line 22 (owning a phone is not the same as being at ease with links) is Norah's reasoning from T38's myth-vs-truth, not a sourced statistic. The paper card with a phone number is a suggestion built on T35/T38. Wedillybird is named three times (beats 6, 23, 27)."
+  },
+  "ai_disclosure": true
+}

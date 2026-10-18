@@ -1,0 +1,176 @@
+{
+ "url": "https://wedillybird.com/en/demo",
+ "cookies": [
+  {
+   "name": "wbb_locale_suggestion_dismissed",
+   "value": "1",
+   "url": "https://wedillybird.com"
+  },
+  {
+   "name": "wbb_ccy",
+   "value": "USD",
+   "url": "https://wedillybird.com"
+  }
+ ],
+ "localStorage": {
+  "wedillybird-cookie-consent": "declined"
+ },
+ "tail": 0.8,
+ "early": true,
+ "css": "footer{display:none!important}",
+ "steps": [
+  {
+   "mark": "seal"
+  },
+  {
+   "wait": 3800
+  },
+  {
+   "mark": "opening"
+  },
+  {
+   "wait": 4200
+  },
+  {
+   "mark": "names"
+  },
+  {
+   "wait": 2600
+  },
+  {
+   "smoothScroll": [
+    380,
+    1600
+   ]
+  },
+  {
+   "mark": "countdown"
+  },
+  {
+   "wait": 1700
+  },
+  {
+   "smoothScroll": [
+    780,
+    1500
+   ]
+  },
+  {
+   "mark": "details"
+  },
+  {
+   "wait": 2300
+  },
+  {
+   "scrollTo": [
+    "legend",
+    1500
+   ]
+  },
+  {
+   "mark": "rsvp"
+  },
+  {
+   "wait": 1500
+  },
+  {
+   "mark": "maybe"
+  },
+  {
+   "text": "Maybe"
+  },
+  {
+   "wait": 1500
+  },
+  {
+   "mark": "decline"
+  },
+  {
+   "text": "I can't make it"
+  },
+  {
+   "wait": 1400
+  },
+  {
+   "mark": "yes"
+  },
+  {
+   "text": "I'll be there"
+  },
+  {
+   "wait": 1700
+  },
+  {
+   "smoothScroll": [
+    1180,
+    900
+   ]
+  },
+  {
+   "wait": 500
+  },
+  {
+   "mark": "plusone"
+  },
+  {
+   "type": [
+    "input[placeholder^='Plus-one']",
+    "Mia",
+    90
+   ]
+  },
+  {
+   "wait": 700
+  },
+  {
+   "mark": "dietary"
+  },
+  {
+   "type": [
+    "input[placeholder^='Vegetarian']",
+    "Vegetarian",
+    70
+   ]
+  },
+  {
+   "wait": 700
+  },
+  {
+   "mark": "note"
+  },
+  {
+   "type": [
+    "#notes",
+    "Can't wait to celebrate with you both!",
+    50
+   ]
+  },
+  {
+   "wait": 900
+  },
+  {
+   "shot": "out/guest/g1_form.png"
+  },
+  {
+   "mark": "send"
+  },
+  {
+   "text": "Send my reply"
+  },
+  {
+   "wait": 3600
+  },
+  {
+   "shot": "out/guest/g2_thanks.png"
+  },
+  {
+   "mark": "thanks"
+  },
+  {
+   "wait": 1200
+  },
+  {
+   "mark": "end"
+  }
+ ]
+}

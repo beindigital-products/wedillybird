@@ -1,0 +1,470 @@
+{
+  "id": "D13-B",
+  "day": 13,
+  "slot": "B",
+  "series": "NOTEBOOK",
+  "episode": 9,
+  "fiction": true,
+  "pillar": "Winter light and the family photo list",
+  "look": "L9",
+  "hook_id": "r1b-6.1-entry-09",
+  "working_title": "Norah's Notebook 09: Golden Hour",
+  "search_intent": "what time should a winter wedding ceremony start for photos",
+  "hook": {
+    "spoken": "Entry nine. Golden hour, and the timeline is slipping.",
+    "on_screen": "Golden hour, and the timeline is slipping.",
+    "visual": "entry card"
+  },
+  "voiceover": "Entry nine. Golden hour, and the timeline is slipping. Norah's Notebook, entry nine. The story is fiction. The fix is real. Last time: the signal came back, and the guests arrived early. Dear notebook: wedding day. The first line on the page was one number. Sunset in New York, on a mid-January Saturday: four fifty-four in the afternoon. Look up your own city and date. The Naval Observatory publishes them. Winter wedding ceremony time depends on that number. Ceremonies run twenty to sixty minutes. Start at four, and you finish around sunset. Here's the part people skip: where do the portraits go? No first look? One photographer says start three to four hours before sunset. In New York, that's roughly one to two in the afternoon. Mara and Eli did a first look instead. Portraits at two, in daylight. Now it's golden hour. The ceremony ran long, and the family wants photos. Planning a January wedding? Follow along. Entry ten is tomorrow evening. Another thing people skip: the family photo list. A photographer's rule: nine to twelve groups, about three minutes each. That's about half an hour, if the list is written down. Biggest groups first. One person who knows the families does the gathering. Eli's cousin Dana has a clipboard and a loud voice. Nine groups, done before the sun touches the glass. Then the sun goes, and the room has to take over. Candles, string lights, and a photographer who shoots well in low light. The page had a buffer too. One guide says pad every transition. I'm Norah, an AI character, and this is Wedillybird. The pen crosses out the timeline, and writes the next problem. Everyone is taking photos. Where do they go?",
+  "word_count": 287,
+  "beats": [
+    {
+      "n": 1,
+      "vo": "Entry nine. Golden hour, and the timeline is slipping.",
+      "overlay": "Golden hour, and the timeline is slipping.",
+      "visual": {
+        "kind": "CARD",
+        "card": {
+          "type": "entry",
+          "n": 9,
+          "text": "Golden Hour",
+          "sub": "Wedding day"
+        }
+      }
+    },
+    {
+      "n": 2,
+      "vo": "Norah's Notebook, entry nine. The story is fiction. The fix is real.",
+      "overlay": "The story is fiction. The fix is real.",
+      "visual": {
+        "kind": "NORAH",
+        "asset": "L9-S1",
+        "crop": "wide",
+        "focus": "center",
+        "note": "Norah walks away along a misty vineyard path in late autumn: sage quilted jacket, mustard scarf, boots, morning mist over the vines"
+      }
+    },
+    {
+      "n": 3,
+      "vo": "Last time: the signal came back, and the guests arrived early.",
+      "visual": {
+        "kind": "DECOR",
+        "asset": "D13-B-d1",
+        "motion": "push-in",
+        "prompt": "Photorealistic editorial still life, vertical, a country orangerie of glass and pale stone at the end of a gravel drive in morning mist, bare vines on either side, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no human figures."
+      }
+    },
+    {
+      "n": 4,
+      "vo": "Dear notebook: wedding day.",
+      "visual": {
+        "kind": "NORAH",
+        "asset": "L9-S5",
+        "crop": "wide",
+        "focus": "center",
+        "note": "She stops at the end of the gravel drive and looks at the orangerie in the mist, seen from behind, slow push-in"
+      }
+    },
+    {
+      "n": 5,
+      "vo": "The first line on the page was one number.",
+      "visual": {
+        "kind": "NORAH",
+        "asset": "L9-S3",
+        "crop": "tight",
+        "focus": "hands",
+        "note": "Close on her hands writing one number at the top of a notebook page on a stone wall, breath visible in the cold air, text illegible"
+      }
+    },
+    {
+      "n": 6,
+      "vo": "Sunset in New York, on a mid-January Saturday: four fifty-four in the afternoon.",
+      "overlay": "Source: U.S. Naval Observatory",
+      "visual": {
+        "kind": "CARD",
+        "card": {
+          "type": "number",
+          "n": "4:54",
+          "text": "pm, sunset in New York",
+          "sub": "Saturday, 16 January 2027. Source: U.S. Naval Observatory"
+        }
+      }
+    },
+    {
+      "n": 7,
+      "vo": "Look up your own city and date. The Naval Observatory publishes them.",
+      "overlay": "Check your own city and date",
+      "visual": {
+        "kind": "DECOR",
+        "asset": "D13-B-d1",
+        "motion": "pan-left",
+        "prompt": "Photorealistic editorial still life, vertical, a country orangerie of glass and pale stone at the end of a gravel drive in morning mist, bare vines on either side, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no human figures."
+      }
+    },
+    {
+      "n": 8,
+      "vo": "Winter wedding ceremony time depends on that number.",
+      "visual": {
+        "kind": "DECOR",
+        "asset": "D13-B-d2",
+        "motion": "pan-right",
+        "prompt": "Photorealistic editorial still life, vertical, low winter sun slanting through the glass roof of an orangerie onto a stone floor and long bare tables, golden dust in the air, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no human figures."
+      }
+    },
+    {
+      "n": 9,
+      "vo": "Ceremonies run twenty to sixty minutes.",
+      "overlay": "Source: Joy, Wedding Day Timeline, 2026",
+      "visual": {
+        "kind": "CARD",
+        "card": {
+          "type": "title",
+          "text": "Ceremonies run 20 to 60 minutes",
+          "sub": "Source: Joy, Wedding Day Timeline, July 2026"
+        }
+      }
+    },
+    {
+      "n": 10,
+      "vo": "Start at four, and you finish around sunset.",
+      "visual": {
+        "kind": "DECOR",
+        "asset": "D13-B-d3",
+        "motion": "push-in",
+        "prompt": "Photorealistic editorial still life, vertical, a ceremony arch of bare branches and dried grasses at the end of a stone aisle under a glass roof, low golden light along the floor, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no human figures."
+      }
+    },
+    {
+      "n": 11,
+      "vo": "Here's the part people skip: where do the portraits go?",
+      "visual": {
+        "kind": "NORAH",
+        "asset": "L9-S6",
+        "crop": "wide",
+        "focus": "center",
+        "note": "Seated on a stone wall at the edge of the vineyard, seen from behind, notebook on her knee, mist thinning"
+      }
+    },
+    {
+      "n": 12,
+      "vo": "No first look? One photographer says start three to four hours before sunset.",
+      "overlay": "Source: Mango Studios, winter timeline, 2023",
+      "visual": {
+        "kind": "DECOR",
+        "asset": "D13-B-d4",
+        "motion": "pull-out",
+        "prompt": "Photorealistic editorial still life, vertical, a low sun over bare winter vines at the edge of a country estate, long shadows across the frosted ground, golden light, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no human figures."
+      }
+    },
+    {
+      "n": 13,
+      "vo": "In New York, that's roughly one to two in the afternoon.",
+      "overlay": "Computed from the sunset time",
+      "visual": {
+        "kind": "CARD",
+        "card": {
+          "type": "title",
+          "text": "Roughly 1 to 2 pm in New York",
+          "sub": "Three to four hours before the 4:54 pm sunset. Computed."
+        }
+      }
+    },
+    {
+      "n": 14,
+      "vo": "Mara and Eli did a first look instead. Portraits at two, in daylight.",
+      "visual": {
+        "kind": "NORAH",
+        "asset": "L9-S8",
+        "crop": "wide",
+        "focus": "center",
+        "note": "She walks toward an arched stone gate that opens onto bright daylight, seen from behind"
+      }
+    },
+    {
+      "n": 15,
+      "vo": "Now it's golden hour. The ceremony ran long, and the family wants photos.",
+      "visual": {
+        "kind": "DECOR",
+        "asset": "D13-B-d5",
+        "motion": "push-in",
+        "prompt": "Photorealistic editorial still life, vertical, golden light flooding an orangerie interior, long shadows across the stone floor, string lights not yet lit, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no human figures."
+      }
+    },
+    {
+      "n": 16,
+      "vo": "Planning a January wedding? Follow along. Entry ten is tomorrow evening.",
+      "visual": {
+        "kind": "NORAH",
+        "asset": "L9-S7",
+        "crop": "detail",
+        "focus": "bottom",
+        "note": "Mustard scarf lifting in the wind, boots moving through fallen leaves"
+      }
+    },
+    {
+      "n": 17,
+      "vo": "Another thing people skip: the family photo list.",
+      "visual": {
+        "kind": "DECOR",
+        "asset": "D13-B-d6",
+        "motion": "push-in",
+        "prompt": "Photorealistic editorial still life, vertical, a wooden clipboard with blank paper and a pencil on a stone window ledge, golden light, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no human figures."
+      }
+    },
+    {
+      "n": 18,
+      "vo": "A photographer's rule: nine to twelve groups, about three minutes each.",
+      "overlay": "Source: Genevieve Nisly Photography (undated)",
+      "visual": {
+        "kind": "CARD",
+        "card": {
+          "type": "title",
+          "text": "9 to 12 groups, about 3 minutes each",
+          "sub": "Source: Genevieve Nisly Photography (undated)"
+        }
+      }
+    },
+    {
+      "n": 19,
+      "vo": "That's about half an hour, if the list is written down.",
+      "overlay": "Source: James Davidson Photography (undated)",
+      "visual": {
+        "kind": "NORAH",
+        "asset": "L9-S3",
+        "crop": "detail",
+        "focus": "hands",
+        "note": "Hands ticking names on a written list on a clipboard, text illegible, golden light"
+      }
+    },
+    {
+      "n": 20,
+      "vo": "Biggest groups first. One person who knows the families does the gathering.",
+      "visual": {
+        "kind": "DECOR",
+        "asset": "D13-B-d9",
+        "motion": "pan-left",
+        "prompt": "Photorealistic editorial still life, vertical, wooden stools arranged in a loose semicircle on a stone terrace at golden hour, bare vines beyond, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no human figures."
+      }
+    },
+    {
+      "n": 21,
+      "vo": "Eli's cousin Dana has a clipboard and a loud voice.",
+      "visual": {
+        "kind": "DECOR",
+        "asset": "D13-B-d6",
+        "motion": "pan-right",
+        "prompt": "Photorealistic editorial still life, vertical, a wooden clipboard with blank paper and a pencil on a stone window ledge, golden light, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no human figures."
+      }
+    },
+    {
+      "n": 22,
+      "vo": "Nine groups, done before the sun touches the glass.",
+      "visual": {
+        "kind": "NORAH",
+        "asset": "L9-S1",
+        "crop": "medium",
+        "focus": "center",
+        "note": "Golden light on the vineyard path as she walks toward the orangerie, seen from behind"
+      }
+    },
+    {
+      "n": 23,
+      "vo": "Then the sun goes, and the room has to take over.",
+      "visual": {
+        "kind": "DECOR",
+        "asset": "D13-B-d7",
+        "motion": "push-in",
+        "prompt": "Photorealistic editorial still life, vertical, string lights glowing along the beams of an orangerie at dusk, deep blue sky through the glass roof, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no human figures."
+      }
+    },
+    {
+      "n": 24,
+      "vo": "Candles, string lights, and a photographer who shoots well in low light.",
+      "overlay": "Source: Mindy Weiss, winter wedding guide",
+      "visual": {
+        "kind": "DECOR",
+        "asset": "D13-B-d8",
+        "motion": "pull-out",
+        "prompt": "Photorealistic editorial still life, vertical, candles burning along a long table in a glass orangerie at dusk, warm reflections on the windows, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no human figures."
+      }
+    },
+    {
+      "n": 25,
+      "vo": "The page had a buffer too. One guide says pad every transition.",
+      "overlay": "Source: Joy, Wedding Day Timeline, 2026",
+      "visual": {
+        "kind": "NORAH",
+        "asset": "L9-S4",
+        "crop": "medium",
+        "focus": "center",
+        "note": "Profile in silhouette against the last golden light through the glass, face turned away"
+      }
+    },
+    {
+      "n": 26,
+      "vo": "I'm Norah, an AI character, and this is Wedillybird.",
+      "overlay": "Norah is an AI character",
+      "visual": {
+        "kind": "DECOR",
+        "asset": "D13-B-d7",
+        "motion": "pull-out",
+        "prompt": "Photorealistic editorial still life, vertical, string lights glowing along the beams of an orangerie at dusk, deep blue sky through the glass roof, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no human figures."
+      }
+    },
+    {
+      "n": 27,
+      "vo": "The pen crosses out the timeline, and writes the next problem.",
+      "visual": {
+        "kind": "NORAH",
+        "asset": "L9-S3",
+        "crop": "tight",
+        "focus": "hands",
+        "note": "Close on the pen drawing a line through a line in the notebook, then starting a new line in blush ink, text illegible"
+      }
+    },
+    {
+      "n": 28,
+      "vo": "Everyone is taking photos. Where do they go?",
+      "visual": {
+        "kind": "CARD",
+        "card": {
+          "type": "quote",
+          "text": "Everyone is taking photos. Where do they go?",
+          "sub": "Entry 10 tomorrow evening"
+        }
+      }
+    }
+  ],
+  "cta": "Planning a January wedding? Follow along. Entry ten is tomorrow evening.",
+  "next_teaser": "Entry 10 tomorrow",
+  "caption": "winter wedding ceremony time\nCheck your sunset time first: in New York on 16 January 2027 it is 4:54 pm (U.S. Naval Observatory). Then plan portraits, a written family photo list and warm lighting around it.\nFiction: Norah and the couple are invented. The tips are real.\nHosted by Norah, an AI character created by the Wedillybird team.",
+  "hashtags": [
+    "#weddingtok",
+    "#weddingtimeline",
+    "#weddingtip",
+    "#winterweddinginspiration",
+    "#weddingtimelinetips"
+  ],
+  "keywords": [
+    "winter wedding ceremony time",
+    "sunset",
+    "first look",
+    "family photo list"
+  ],
+  "pinned_comment": "Entry 09 recap (the story is fiction, the tips are real):\n1. Look up sunset for your date and city. New York, Saturday 16 January 2027: 4:54 pm (U.S. Naval Observatory).\n2. Ceremonies run 20 to 60 minutes (Joy), so a 4:00 pm start ends around sunset in that example.\n3. No first look? One photographer suggests starting three to four hours before sunset (Mango Studios, 2023): roughly 1 to 2 pm in this example (computed). Or do a first look and take portraits earlier.\n4. Family photos: write the list in advance, 9 to 12 groups at about 3 minutes each, biggest groups first, and one person who knows the families gathering them.\n5. After dark: candles, string lights and a photographer who shoots well in low light (Mindy Weiss).\nFiction: Norah and the couple are invented. Norah is AI-generated.",
+  "comment_bait": "What time does the sun set on your wedding date? Drop your city below.",
+  "r2_items": [
+    "T50",
+    "T51",
+    "T59",
+    "T52",
+    "T49"
+  ],
+  "sources": [
+    {
+      "fact": "Sunset in New York on Saturday 16 January 2027 is 4:54 pm (local standard time; r2 T50 table, queried 2026-10-18; same service and URL pattern, query date 2027-01-16)",
+      "publisher": "U.S. Naval Observatory",
+      "title": "Astronomical Applications API, rise/set one-day service (queried 2026-10-18)",
+      "url": "https://aa.usno.navy.mil/api/rstt/oneday?date=2026-12-21&coords=40.7128,-74.0060&tz=-5&dst=false",
+      "date": "2026-10-18 (queried)",
+      "r2_id": "T50"
+    },
+    {
+      "fact": "Ceremony lengths run 20-60 minutes (civil about 20, religious 45-75)",
+      "publisher": "Joy",
+      "title": "Wedding Day Timeline: Hour-by-Hour Schedule for Every Ceremony Time",
+      "url": "https://withjoy.com/blog/wedding-day-timeline/",
+      "date": "2026-07-16",
+      "r2_id": "T50"
+    },
+    {
+      "fact": "With no first look, schedule the ceremony three to four hours before sunset; a first look is always a great idea for late-afternoon winter ceremonies",
+      "publisher": "Mango Studios (Toronto)",
+      "title": "Winter Wedding Photography Timeline",
+      "url": "https://mangostudios.com/winter-wedding-photography-timeline/",
+      "date": "2023-11-15",
+      "r2_id": "T51"
+    },
+    {
+      "fact": "Computed: 4:54 pm minus three to four hours is about 12:54 to 1:54 pm, shown as roughly 1 to 2 pm",
+      "publisher": "Computed from U.S. Naval Observatory data and Mango Studios (r2 T51, tag computed)",
+      "title": "Computed value",
+      "url": "https://mangostudios.com/winter-wedding-photography-timeline/",
+      "date": "2026-10-18",
+      "r2_id": "T51"
+    },
+    {
+      "fact": "A standard family list is nine to twelve groups; plan on about three minutes per group; write the list in advance, biggest groups first, and give one person who knows the families the job of gathering them",
+      "publisher": "Genevieve Nisly Photography",
+      "title": "How to Plan Family Photos for Your Wedding Day",
+      "url": "https://www.genevievenisly.com/wedding-planning-resources/how-to-plan-family-photos-for-your-wedding-day/",
+      "date": "undated (footer 2026)",
+      "r2_id": "T52"
+    },
+    {
+      "fact": "10-12 group shots take about 20-30 minutes; assign an usher, best man or family member who knows the people",
+      "publisher": "James Davidson Photography (Suffolk, UK)",
+      "title": "Organising family / formal group photos",
+      "url": "https://www.jamesdavidson.co.uk/organsing-the-group-shots-for-the-day/",
+      "date": "undated",
+      "r2_id": "T52"
+    },
+    {
+      "fact": "Make sure the venue has good lighting; use candles, string lights and other warm ambient lighting; confirm your photographer has experience shooting in low light",
+      "publisher": "Mindy Weiss",
+      "title": "Before You Book: Things to Consider When Planning a Winter Wedding",
+      "url": "https://mindyweiss.com/before-you-book-things-to-consider-when-planning-a-winter-wedding/",
+      "date": "undated",
+      "r2_id": "T59"
+    },
+    {
+      "fact": "Pad every transition with a buffer; the schedule will not run to the minute",
+      "publisher": "Joy",
+      "title": "Wedding Day Timeline: Hour-by-Hour Schedule for Every Ceremony Time",
+      "url": "https://withjoy.com/blog/wedding-day-timeline/",
+      "date": "2026-07-16",
+      "r2_id": "T49"
+    }
+  ],
+  "claims_review": {
+    "numbers_used": [
+      {
+        "figure": "four fifty-four in the afternoon (sunset, New York, Saturday 16 January 2027)",
+        "source": "U.S. Naval Observatory, Astronomical Applications API, queried 2026-10-18 (r2 T50 table)",
+        "r2_id": "T50"
+      },
+      {
+        "figure": "twenty to sixty minutes (ceremony length)",
+        "source": "Joy, Wedding Day Timeline, 2026-07-16",
+        "r2_id": "T50"
+      },
+      {
+        "figure": "three to four hours before sunset (no first look)",
+        "source": "Mango Studios (Toronto), Winter Wedding Photography Timeline, 2023-11-15",
+        "r2_id": "T51"
+      },
+      {
+        "figure": "roughly one to two in the afternoon (New York)",
+        "source": "Computed: 4:54 pm minus three to four hours (r2 T51, tag computed)",
+        "r2_id": "T51"
+      },
+      {
+        "figure": "nine to twelve groups, about three minutes each",
+        "source": "Genevieve Nisly Photography, undated (footer 2026)",
+        "r2_id": "T52"
+      },
+      {
+        "figure": "about half an hour (nine to twelve groups at about three minutes each is 27 to 36 minutes)",
+        "source": "James Davidson Photography, undated; consistent with r2 T52 core insight",
+        "r2_id": "T52"
+      }
+    ],
+    "needs_proof": [
+      "Re-run the U.S. Naval Observatory query for New York on 2027-01-16 before filming the number card: r2 T50 lists 4:54 pm in its table (queried 2026-10-18, local standard time). Keep the city and the date on the card.",
+      "The '1 to 2 pm' card is computed (4:54 pm minus three to four hours = 12:54 to 1:54 pm) from one photographer's rule (medium-high). The voice-over says 'one photographer says' and the card says 'Computed'.",
+      "r2 T51 first-look share (56 percent, The Knot 2023) is deliberately not used. T49 is added beyond the calendar row (T50 T51 T59 T52) only for the buffer line, which the entry 09 lesson asks for."
+    ],
+    "notes": "Fiction: the wedding day, 'portraits at two', the ceremony at four, nine groups and Eli's cousin are story elements; only the sunset times, durations and photographer rules are facts. New York is the example city on screen with its date; the voice-over tells viewers to look up their own city and date. No product appears in this entry. Competitor and practitioner names appear only as on-screen sources, never in the voice-over. Sunset facts follow r2 T50 exactly (New York 16 January 2027 = 4:54 pm); the 21 December table values are not used. Closing ritual follows entries 01-02: AI line, pen line, cliffhanger card last; the follow CTA with the teaser sits mid-video."
+  },
+  "ai_disclosure": true
+}

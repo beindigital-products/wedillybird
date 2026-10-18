@@ -1,0 +1,11 @@
+{
+  "url": "https://wedillybird.com/en/demo?cinematic=floral&replay=1",
+  "early": true,
+  "cookies": [
+    {"name": "wbb_locale_suggestion_dismissed", "value": "1", "url": "https://wedillybird.com"},
+    {"name": "wbb_ccy", "value": "USD", "url": "https://wedillybird.com"}
+  ],
+  "localStorage": {"wedillybird-cookie-consent": "declined"},
+  "tail": 0.8,
+  "steps": [ {"wait": 13500}, {"smoothScroll": [420, 1700]}, {"wait": 500} ]
+}

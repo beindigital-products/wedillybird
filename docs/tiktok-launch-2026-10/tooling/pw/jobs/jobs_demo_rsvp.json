@@ -1,0 +1,18 @@
+{
+  "url": "https://wedillybird.com/en/demo",
+  "cookies": [
+    {"name": "wbb_locale_suggestion_dismissed", "value": "1", "url": "https://wedillybird.com"},
+    {"name": "wbb_ccy", "value": "USD", "url": "https://wedillybird.com"}
+  ],
+  "localStorage": {"wedillybird-cookie-consent": "declined"},
+  "tail": 1.6,
+  "steps": [
+    {"wait": 8200},
+    {"smoothScroll": [380, 1800]}, {"wait": 700},
+    {"smoothScroll": [900, 1700]}, {"wait": 600},
+    {"scrollTo": ["legend", 1500]}, {"wait": 700},
+    {"text": "I'll be there"}, {"wait": 1100},
+    {"type": ["#notes", "Can't wait to celebrate with you both!", 55]}, {"wait": 700},
+    {"text": "Send my reply"}, {"wait": 3600}
+  ]
+}

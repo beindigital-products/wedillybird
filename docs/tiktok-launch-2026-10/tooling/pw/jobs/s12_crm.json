@@ -1,0 +1,63 @@
+{
+ "storageState": "pw/state_pro.json",
+ "cookies": [
+  {
+   "name": "wbb_locale_suggestion_dismissed",
+   "value": "1",
+   "url": "http://localhost:3000"
+  },
+  {
+   "name": "wbb_ccy",
+   "value": "USD",
+   "url": "http://localhost:3000"
+  }
+ ],
+ "localStorage": {
+  "wedillybird-cookie-consent": "declined"
+ },
+ "sanitize": {
+  "names": {
+   "Camille Faye": "Jordan Lee"
+  },
+  "regex": [],
+  "hideText": [],
+  "hideFloating": true
+ },
+ "tail": 1.0,
+ "url": "http://localhost:3000/en/pro/clients",
+ "steps": [
+  {
+   "wait": 1500
+  },
+  {
+   "smoothScroll": [
+    200,
+    1200
+   ]
+  },
+  {
+   "wait": 900
+  },
+  {
+   "smoothScroll": [
+    0,
+    900
+   ]
+  },
+  {
+   "wait": 500
+  },
+  {
+   "click": "button:has-text('Pipeline'):visible"
+  },
+  {
+   "wait": 1800
+  },
+  {
+   "eval": "(async () => { const cols=[...document.querySelectorAll('*')].filter(e=>{const cs=getComputedStyle(e);return (cs.overflowX==='auto'||cs.overflowX==='scroll')&&e.scrollWidth>e.clientWidth+40&&/Lead|Contacted|Quote/.test(e.textContent||'')}); const c=cols[cols.length-1]; if(!c) return; const start=c.scrollLeft,end=c.scrollWidth-c.clientWidth,dur=4200,t0=performance.now(); await new Promise(res=>{const step=(n)=>{const p=Math.min((n-t0)/dur,1); c.scrollLeft=start+(end-start)*(p<.5?2*p*p:1-Math.pow(-2*p+2,2)/2); p<1?requestAnimationFrame(step):res();}; requestAnimationFrame(step);}); })()"
+  },
+  {
+   "wait": 1500
+  }
+ ]
+}
