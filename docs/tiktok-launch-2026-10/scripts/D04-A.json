@@ -1,0 +1,418 @@
+{
+  "id": "D04-A",
+  "day": 4,
+  "slot": "A",
+  "series": "COPY_PASTE_SEND",
+  "episode": 2,
+  "fiction": false,
+  "pillar": "Invitation wording",
+  "look": "L5",
+  "hook_id": "H31",
+  "working_title": "Adults only and plus-ones: the exact wording, copy and paste",
+  "search_intent": "adults only wedding invitation wording",
+  "hook": {
+    "spoken": "Adults only wedding? Here's how to say it politely.",
+    "on_screen": "Adults only? How to say it politely.",
+    "visual": "Norah walking away through a candle-lit cafe at dusk in a bordeaux knit, hook overlay at the top"
+  },
+  "voiceover": "Adults only wedding? Here's how to say it politely. Copy, Paste, Send. Today's awkward message: adults only. Sooner or later, a guest asks if they can bring the kids. Here are three ways to say it, and two lines for plus-ones. Way one: the envelope. Address it to exactly who's invited. Mr. and Mrs. Hayward means the children aren't. The Hayward Family means they are, says Emily Post. Careful with the phrase and family. It covers everyone under the roof. Way two: print it. But here, the etiquette sources disagree. Emily Post says leave it off the invitation. Zola's wedding invitation wording guide offers: Adults only, please. Pick one approach, and stick to it. Here's the part people skip: no exceptions. If it's adults only, it's adults only for every family. Way three: a heads-up before the invitations arrive. We're keeping the day adults-only. We wanted you to know early, so you can arrange a sitter. Emily Post also suggests offering help with babysitting. Follow for tomorrow: count back from your wedding date. Now plus-ones. Don't leave them vague. Say the number for them. We have reserved two seats for you. On the reply form, pre-fill the maximum number of seats. And a line for the guest who asks anyway. We'd love to have you there. Our guest list is limited to the people named on the invitation. Add one reason: if one guest gets a plus-one, every guest would. All five lines are in the pinned comment. Save this for later. I'm Norah, Wedillybird's AI host. So when someone asks about the kids, you'll already know how to say it politely.",
+  "word_count": 272,
+  "beats": [
+    {
+      "n": 1,
+      "vo": "Adults only wedding? Here's how to say it politely.",
+      "overlay": "Adults only? How to say it politely.",
+      "visual": {
+        "kind": "NORAH",
+        "asset": "L5-S1",
+        "crop": "wide",
+        "focus": "center",
+        "note": "Norah walks away through a warm candle-lit cafe toward the door at dusk, bordeaux turtleneck, black coat over her arm"
+      }
+    },
+    {
+      "n": 2,
+      "vo": "Copy, Paste, Send. Today's awkward message: adults only.",
+      "visual": {
+        "kind": "CARD",
+        "card": {
+          "type": "title",
+          "text": "Copy, Paste, Send",
+          "sub": "Today: adults only"
+        }
+      }
+    },
+    {
+      "n": 3,
+      "vo": "Sooner or later, a guest asks if they can bring the kids.",
+      "visual": {
+        "kind": "DECOR",
+        "asset": "D04-A-d3",
+        "prompt": "Photorealistic editorial still life, vertical, a small knitted toy rabbit sitting on a bentwood cafe chair, warm lamp light, soft bokeh of string lights behind, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no hands, nothing human in frame.",
+        "motion": "push-in"
+      }
+    },
+    {
+      "n": 4,
+      "vo": "Here are three ways to say it, and two lines for plus-ones.",
+      "visual": {
+        "kind": "NORAH",
+        "asset": "L5-S2",
+        "crop": "medium",
+        "focus": "hands",
+        "note": "Over the shoulder: hands holding a phone with a dark screen above an open notebook, candle flame blurred beside it"
+      }
+    },
+    {
+      "n": 5,
+      "vo": "Way one: the envelope. Address it to exactly who's invited.",
+      "visual": {
+        "kind": "DECOR",
+        "asset": "D04-A-d2",
+        "prompt": "Photorealistic editorial still life, vertical, two cream envelopes side by side on a dark wooden table, one slim and one slightly thicker, warm amber lamp light, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no hands, nothing human in frame.",
+        "motion": "pan-left"
+      }
+    },
+    {
+      "n": 6,
+      "vo": "Mr. and Mrs. Hayward means the children aren't.",
+      "visual": {
+        "kind": "CARD",
+        "card": {
+          "type": "title",
+          "text": "Mr. and Mrs. Hayward",
+          "sub": "Children not included"
+        }
+      }
+    },
+    {
+      "n": 7,
+      "vo": "The Hayward Family means they are, says Emily Post.",
+      "visual": {
+        "kind": "CARD",
+        "card": {
+          "type": "title",
+          "text": "The Hayward Family",
+          "sub": "Everyone named is invited | Emily Post"
+        }
+      }
+    },
+    {
+      "n": 8,
+      "vo": "Careful with the phrase and family. It covers everyone under the roof.",
+      "visual": {
+        "kind": "DECOR",
+        "asset": "D04-A-d2",
+        "prompt": "Photorealistic editorial still life, vertical, two cream envelopes side by side on a dark wooden table, one slim and one slightly thicker, warm amber lamp light, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no hands, nothing human in frame.",
+        "motion": "push-in"
+      }
+    },
+    {
+      "n": 9,
+      "vo": "Way two: print it. But here, the etiquette sources disagree.",
+      "visual": {
+        "kind": "NORAH",
+        "asset": "L5-S6",
+        "crop": "medium",
+        "focus": "center",
+        "note": "Norah seated at a cafe table seen from behind, candle and notebook in front of her, slow lateral dolly"
+      }
+    },
+    {
+      "n": 10,
+      "vo": "Emily Post says leave it off the invitation.",
+      "overlay": "Emily Post: leave it off the invitation",
+      "visual": {
+        "kind": "DECOR",
+        "asset": "D04-A-d1",
+        "prompt": "Photorealistic editorial still life, vertical, a lit candle in a small glass holder beside a closed notebook on a dark wooden cafe table, amber lamp glow, blurred bistro behind, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no hands, nothing human in frame.",
+        "motion": "pull-out"
+      }
+    },
+    {
+      "n": 11,
+      "vo": "Zola's wedding invitation wording guide offers: Adults only, please.",
+      "visual": {
+        "kind": "CARD",
+        "card": {
+          "type": "quote",
+          "text": "Adults only, please.",
+          "sub": "Zola's wording guide, 2026 | Emily Post prefers the envelope"
+        }
+      }
+    },
+    {
+      "n": 12,
+      "vo": "Pick one approach, and stick to it.",
+      "visual": {
+        "kind": "CARD",
+        "card": {
+          "type": "title",
+          "text": "Pick one approach",
+          "sub": "Then stick to it"
+        }
+      }
+    },
+    {
+      "n": 13,
+      "vo": "Here's the part people skip: no exceptions.",
+      "visual": {
+        "kind": "NORAH",
+        "asset": "L5-S5",
+        "crop": "medium",
+        "focus": "center",
+        "note": "Norah stops and looks across the amber-lit cafe, seen from behind, slow push-in"
+      }
+    },
+    {
+      "n": 14,
+      "vo": "If it's adults only, it's adults only for every family.",
+      "overlay": "Zola small-list guide, 2025",
+      "visual": {
+        "kind": "DECOR",
+        "asset": "D04-A-d3",
+        "prompt": "Photorealistic editorial still life, vertical, a small knitted toy rabbit sitting on a bentwood cafe chair, warm lamp light, soft bokeh of string lights behind, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no hands, nothing human in frame.",
+        "motion": "pan-right"
+      }
+    },
+    {
+      "n": 15,
+      "vo": "Way three: a heads-up before the invitations arrive.",
+      "overlay": "Anna Post: tell them before the invitations",
+      "visual": {
+        "kind": "NORAH",
+        "asset": "L5-S3",
+        "crop": "detail",
+        "focus": "hands",
+        "note": "Close-up of hands writing a short note in a notebook beside a candle, shallow depth of field"
+      }
+    },
+    {
+      "n": 16,
+      "vo": "We're keeping the day adults-only. We wanted you to know early, so you can arrange a sitter.",
+      "visual": {
+        "kind": "CARD",
+        "card": {
+          "type": "quote",
+          "text": "We're keeping the day adults-only. We wanted you to know early, so you can arrange a sitter.",
+          "sub": "Way three | the heads-up"
+        }
+      }
+    },
+    {
+      "n": 17,
+      "vo": "Emily Post also suggests offering help with babysitting.",
+      "overlay": "Emily Post: offer help with babysitting",
+      "visual": {
+        "kind": "DECOR",
+        "asset": "D04-A-d6",
+        "prompt": "Photorealistic editorial still life, vertical, a smartphone turned over with its screen hidden beside a steaming cup of tea on a dark wooden table, amber lamp light, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no hands, nothing human in frame.",
+        "motion": "push-in"
+      }
+    },
+    {
+      "n": 18,
+      "vo": "Follow for tomorrow: count back from your wedding date.",
+      "overlay": "Tomorrow: count back from your wedding date",
+      "visual": {
+        "kind": "NORAH",
+        "asset": "L5-S8",
+        "crop": "wide",
+        "focus": "center",
+        "note": "Norah walks toward the cafe door, which opens onto the blue dusk outside, followed from behind"
+      }
+    },
+    {
+      "n": 19,
+      "vo": "Now plus-ones. Don't leave them vague.",
+      "visual": {
+        "kind": "NORAH",
+        "asset": "L5-S4",
+        "crop": "medium",
+        "focus": "right",
+        "note": "Backlit profile silhouette by the cafe window, face turned away, candle glow in the glass"
+      }
+    },
+    {
+      "n": 20,
+      "vo": "Say the number for them.",
+      "visual": {
+        "kind": "DECOR",
+        "asset": "D04-A-d4",
+        "prompt": "Photorealistic editorial still life, vertical, a blank cream place card standing in a small brass holder on a white tablecloth, candlelight, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no hands, nothing human in frame.",
+        "motion": "push-in"
+      }
+    },
+    {
+      "n": 21,
+      "vo": "We have reserved two seats for you.",
+      "visual": {
+        "kind": "CARD",
+        "card": {
+          "type": "quote",
+          "text": "We have reserved two seats for you.",
+          "sub": "Plus-ones | say the number"
+        }
+      }
+    },
+    {
+      "n": 22,
+      "vo": "On the reply form, pre-fill the maximum number of seats.",
+      "overlay": "Joy, 2026: pre-fill the maximum",
+      "visual": {
+        "kind": "DECOR",
+        "asset": "D04-A-d5",
+        "prompt": "Photorealistic editorial still life, vertical, two empty bentwood chairs facing each other across a small round marble table with a lit candle between them, amber glow, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no hands, nothing human in frame.",
+        "motion": "pull-out"
+      }
+    },
+    {
+      "n": 23,
+      "vo": "And a line for the guest who asks anyway.",
+      "visual": {
+        "kind": "NORAH",
+        "asset": "L5-S2",
+        "crop": "tight",
+        "focus": "hands",
+        "note": "Hands holding a phone with a dark screen, thumb poised over it, candle blurred behind"
+      }
+    },
+    {
+      "n": 24,
+      "vo": "We'd love to have you there. Our guest list is limited to the people named on the invitation.",
+      "visual": {
+        "kind": "CARD",
+        "card": {
+          "type": "quote",
+          "text": "We'd love to have you there. Our guest list is limited to the people named on the invitation.",
+          "sub": "The polite no"
+        }
+      }
+    },
+    {
+      "n": 25,
+      "vo": "Add one reason: if one guest gets a plus-one, every guest would.",
+      "overlay": "Zola, 2025: the fairness reason",
+      "visual": {
+        "kind": "DECOR",
+        "asset": "D04-A-d7",
+        "prompt": "Photorealistic editorial still life, vertical, a row of identical blank cream place cards on a dark wooden table, candlelight, shallow focus, 50 mm, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no hands, nothing human in frame.",
+        "motion": "pan-left"
+      }
+    },
+    {
+      "n": 26,
+      "vo": "All five lines are in the pinned comment. Save this for later.",
+      "visual": {
+        "kind": "DECOR",
+        "asset": "D04-A-d1",
+        "prompt": "Photorealistic editorial still life, vertical, a lit candle in a small glass holder beside a closed notebook on a dark wooden cafe table, amber lamp glow, blurred bistro behind, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no hands, nothing human in frame.",
+        "motion": "push-in"
+      }
+    },
+    {
+      "n": 27,
+      "vo": "I'm Norah, Wedillybird's AI host.",
+      "visual": {
+        "kind": "NORAH",
+        "asset": "L5-S6",
+        "crop": "tight",
+        "focus": "left",
+        "note": "Seated at the cafe table from behind, closing the notebook, slow lateral dolly"
+      }
+    },
+    {
+      "n": 28,
+      "vo": "So when someone asks about the kids, you'll already know how to say it politely.",
+      "visual": {
+        "kind": "NORAH",
+        "asset": "L5-S1",
+        "crop": "tight",
+        "focus": "center",
+        "note": "Norah walks away toward the cafe door, rear tracking, warm light ahead"
+      }
+    }
+  ],
+  "cta": "Soft follow at about one minute with tomorrow's teaser (count back from your wedding date). Final ask: save this and copy the texts from the pinned comment.",
+  "next_teaser": "Tomorrow: count back from your wedding date",
+  "caption": "Adults only wedding invitation wording\nThree ways to say adults only and two lines for plus-ones, with the exact texts to copy and a note on where etiquette sources disagree.\nHosted by Norah, an AI character created by the Wedillybird team.",
+  "hashtags": [
+    "#weddingtok",
+    "#weddinginvites",
+    "#weddingguestlist",
+    "#winterweddings",
+    "#2027bride"
+  ],
+  "keywords": [
+    "adults only wedding",
+    "wedding invitation wording",
+    "plus-ones",
+    "no exceptions"
+  ],
+  "pinned_comment": "Copy, paste, send:\n1) The envelope: address it to exactly who is invited. “Mr. and Mrs. Hayward” means the children are not included; “The Hayward Family” means everyone named is.\n2) The printed line (Zola's wording guide): “Adults only, please.” Emily Post prefers to let the envelope do it. Pick one approach and make no exceptions.\n3) The heads-up to parents: “We're keeping the day adults-only. We wanted you to know early, so you can arrange a sitter.”\n4) Plus-ones, on the reply: “We have reserved 2 seats for you.” (reply form pattern: ___ of 2 guests will attend)\n5) The polite no: “We'd love to have you there. Our guest list is limited to the people named on the invitation.”\nNorah is AI-generated.",
+  "comment_bait": "Would you print adults only on the invitation, or let the envelope do the talking?",
+  "r2_items": [
+    "T24",
+    "T34",
+    "T23"
+  ],
+  "sources": [
+    {
+      "fact": "Do not print no children or adults only on the invitation; an envelope to Mr. and Mrs. Hayward means the children are not included, The Hayward Family or naming each child means all named are invited; make no exceptions; consider offering help with babysitting or a children's room",
+      "publisher": "Emily Post Institute",
+      "title": "How to Signal 'No Children' at Your Wedding",
+      "url": "https://emilypost.com/advice/how-to-signal-no-children-at-your-wedding",
+      "date": "undated",
+      "r2_id": "T24"
+    },
+    {
+      "fact": "If guests may struggle with childcare, call before the invitations arrive so they can book a sitter; and family or and children covers household members under the same roof",
+      "publisher": "Emily Post Institute (Anna Post)",
+      "title": "Inside Weddings: Handling Your Guests With Grace",
+      "url": "https://emilypost.com/advice/inside-weddings-handling-your-guests-with-grace",
+      "date": "2008 column (page undated)",
+      "r2_id": "T24"
+    },
+    {
+      "fact": "Zola's wording guide offers Adults only, please at the bottom of the invitation; to signal no plus-one write only the invited guest's name on the envelope",
+      "publisher": "Zola (Emily Forrest)",
+      "title": "Wedding Invitation Wording: A Complete How-To Guide",
+      "url": "https://www.zola.com/expert-advice/how-to-word-wedding-invitations",
+      "date": "updated 2026-08-06",
+      "r2_id": "T24"
+    },
+    {
+      "fact": "If you go kid-free, you have to go totally kid-free",
+      "publisher": "Zola (McCall Minnor)",
+      "title": "How to Stick to a Small Wedding Guest List",
+      "url": "https://www.zola.com/expert-advice/small-wedding-guest-list",
+      "date": "updated 2025-10-13",
+      "r2_id": "T24"
+    },
+    {
+      "fact": "RSVP form pattern: ___ of ___ guest(s) will attend, with the maximum pre-filled",
+      "publisher": "Joy (Joy Editors)",
+      "title": "25 Must-Ask Wedding RSVP Questions",
+      "url": "https://withjoy.com/blog/25-must-ask-wedding-rsvp-questions-for-a-perfect-guest-list-in-2026/",
+      "date": "published 2025-05-29, updated 2026-01-30",
+      "r2_id": "T34"
+    },
+    {
+      "fact": "To explain a no on plus-ones: if you gave a plus-one to them you would have to give every single guest one; limit plus-ones to married or long-term couples and apply the rule fairly",
+      "publisher": "Zola (Elizabeth Blasi)",
+      "title": "Who Has a Say in the Wedding Guest List?",
+      "url": "https://www.zola.com/expert-advice/who-has-a-say-in-the-wedding-guest-list",
+      "date": "updated 2025-10-13",
+      "r2_id": "T23"
+    }
+  ],
+  "claims_review": {
+    "numbers_used": [],
+    "needs_proof": [
+      "T24 sources-disagree (Emily Post: do not print adults only; Zola's 2026 wording guide offers Adults only, please). The video says so on screen and in the voice-over and asks viewers to pick one approach.",
+      "Emily Post's no-children page is undated and the Anna Post column is from 2008; current Emily Post wording may differ."
+    ],
+    "notes": "No statistics are used. 'Two seats' is the example number from the reply-form pattern. The four quoted messages are suggested wording from the fact bank (T23, T24, T34), lightly shortened to fit a quote card; they are not quotes from any source. Hayward is Emily Post's own fictional example name. No product is shown or pitched; the only brand mention is the AI-host disclosure."
+  },
+  "ai_disclosure": true
+}

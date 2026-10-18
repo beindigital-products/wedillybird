@@ -19,6 +19,8 @@ const eslintConfig = defineConfig([
     'convex/_generated/**',
     // Espace de travail local (gitignored) : prototypes design, scripts jetables.
     '.context/**',
+    // Documents et outillage hors build (plans de lancement, scripts de capture).
+    'docs/**',
   ]),
   // Verrouille l'invariant « 0 any » sur le code de production (métier
   // intégralement typé). Les tests conservent `any` pour les doublures de type.

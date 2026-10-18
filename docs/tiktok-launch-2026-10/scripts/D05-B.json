@@ -1,0 +1,236 @@
+{
+  "id": "D05-B",
+  "day": 5,
+  "slot": "B",
+  "series": "NOTEBOOK",
+  "episode": 4,
+  "fiction": true,
+  "pillar": "Guest list rules",
+  "look": "L5",
+  "hook_id": "H30",
+  "working_title": "Norah's Notebook 04: The Plus-One",
+  "search_intent": "plus one etiquette wedding",
+  "hook": {
+    "spoken": "Entry four. Someone replied for six people. We invited four.",
+    "on_screen": "Entry 04. Someone replied for six people. We invited four.",
+    "visual": "entry card"
+  },
+  "voiceover": "Entry four. Someone replied for six people. We invited four. Norah's Notebook, entry four. The story is fiction. The fix is real. Last time: the maybe said yes. Then a reply for six arrived. Dear notebook: six weeks to go, and Eli's cousin Dana has replied. The envelope named four. Her reply listed six. Two extra chairs: her mother, and her mother's friend. Mara wanted to say yes, to keep the peace. Eli wanted to say no, to keep the budget. Here's the part people skip. Invitations are not negotiations. Anna Post says the envelope is the final word. Before the envelope: decide your plus-one policy. Spouses, engaged partners and live-in partners are in. A casual date is optional. No ring, no bring is outdated. A planner says your wedding party gets one too, unless money is very tight. Then pick your rule, and apply it fairly. On the envelope: name every seat you mean. Add the words, and family, only when you really mean it. Planning a winter wedding? Follow along. Tomorrow: replies in five places, versus one link. This is the step people skip. After the envelope: when an extra name arrives, call. Blame the venue or the budget, never the guest. We'd love to have you, but our invitation is for the four of you. Wedillybird lets the couple set how many each guest can bring. The reply form asks for plus-one names up to that number. Mara called Dana. Dana laughed. Her mother had assumed she was invited. Four seats. One kind phone call. No feud. I'm Norah, an AI character, and this is Wedillybird. The pen crosses out the plus-one, and writes the next problem. A name nobody invited.",
+  "word_count": 284,
+  "beats": [
+    {
+      "n": 1,
+      "vo": "Entry four. Someone replied for six people. We invited four.",
+      "overlay": "Someone replied for six people. We invited four.",
+      "visual": {"kind": "CARD", "card": {"type": "entry", "n": 4, "text": "The Plus-One", "sub": "Six weeks to go"}}
+    },
+    {
+      "n": 2,
+      "vo": "Norah's Notebook, entry four. The story is fiction. The fix is real.",
+      "visual": {"kind": "NORAH", "asset": "L5-S6", "crop": "wide", "focus": "center", "note": "Norah seated at a café table from behind, bordeaux knit turtleneck, black coat over the chair, notebook open, candle lit, amber lamps"}
+    },
+    {
+      "n": 3,
+      "vo": "Last time: the maybe said yes. Then a reply for six arrived.",
+      "visual": {"kind": "DECOR", "asset": "D05-B-d1", "prompt": "Photorealistic editorial still life, vertical, a small round cafe table with a lit candle in a glass, two steaming cups and a closed sage notebook, amber pendant lamps glowing softly behind, warm cafe at dusk, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents of bordeaux. No text, no logos, no screens with legible content, no human figures.", "motion": "push-in"}
+    },
+    {
+      "n": 4,
+      "vo": "Dear notebook: six weeks to go, and Eli's cousin Dana has replied.",
+      "visual": {"kind": "DECOR", "asset": "D05-B-d2", "prompt": "Photorealistic editorial still life, vertical, a cafe window at dusk with warm amber reflections on the glass and a bentwood chair pulled slightly out from a small table, 35 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents of bordeaux. No text, no logos, no screens with legible content, no human figures.", "motion": "pan-right"}
+    },
+    {
+      "n": 5,
+      "vo": "The envelope named four. Her reply listed six.",
+      "visual": {"kind": "NORAH", "asset": "L5-S2", "crop": "medium", "focus": "hands", "note": "over her shoulder: hands holding a dark phone beside the open notebook, screen not legible, candle flame in soft focus"}
+    },
+    {
+      "n": 6,
+      "vo": "Two extra chairs: her mother, and her mother's friend.",
+      "visual": {"kind": "DECOR", "asset": "D05-B-d3", "prompt": "Photorealistic editorial still life, vertical, a small round cafe table set for four with blank cream place cards and two extra bentwood chairs pulled up beside it, candlelight, warm amber lamps, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents of bordeaux. No text, no logos, no screens with legible content, no human figures.", "motion": "pull-out"}
+    },
+    {
+      "n": 7,
+      "vo": "Mara wanted to say yes, to keep the peace.",
+      "visual": {"kind": "NORAH", "asset": "L5-S5", "crop": "medium", "focus": "center", "note": "she stops in the café doorway and looks at the warm room, seen from behind, black coat over her arm"}
+    },
+    {
+      "n": 8,
+      "vo": "Eli wanted to say no, to keep the budget.",
+      "visual": {"kind": "DECOR", "asset": "D05-B-d4", "prompt": "Photorealistic editorial still life, vertical, a cafe bill folded in a small brass tray beside an empty espresso cup, warm lamp light, marble table, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents of bordeaux. No text, no logos, no screens with legible content, no human figures.", "motion": "push-in"}
+    },
+    {
+      "n": 9,
+      "vo": "Here's the part people skip. Invitations are not negotiations.",
+      "visual": {"kind": "CARD", "card": {"type": "title", "text": "Invitations are not negotiations.", "sub": "Anna Post, Emily Post Institute, 2008"}}
+    },
+    {
+      "n": 10,
+      "vo": "Anna Post says the envelope is the final word.",
+      "overlay": "Emily Post Institute, 2008",
+      "visual": {"kind": "DECOR", "asset": "D05-B-d5", "prompt": "Photorealistic editorial still life, vertical, a cream envelope sealed with blush wax resting on a marble cafe table beside a candle, warm amber light, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents of bordeaux. No text, no logos, no screens with legible content, no human figures.", "motion": "push-in"}
+    },
+    {
+      "n": 11,
+      "vo": "Before the envelope: decide your plus-one policy.",
+      "overlay": "Source: Emily Post, 2008",
+      "visual": {"kind": "NORAH", "asset": "L5-S3", "crop": "tight", "focus": "hands", "note": "macro: pen underlining a line in the notebook, steam from a cup in the background"}
+    },
+    {
+      "n": 12,
+      "vo": "Spouses, engaged partners and live-in partners are in. A casual date is optional.",
+      "visual": {"kind": "CARD", "card": {"type": "checklist", "text": "Plus-one policy", "items": ["Spouses: invite", "Engaged partners: invite", "Live-in partners: invite", "A casual date: optional"]}}
+    },
+    {
+      "n": 13,
+      "vo": "No ring, no bring is outdated.",
+      "overlay": "Source: WeddingWire, 2020",
+      "visual": {"kind": "DECOR", "asset": "D05-B-d6", "prompt": "Photorealistic editorial still life, vertical, a thin gold ring resting on a white saucer beside a coffee cup, warm candlelight, marble cafe table, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents of bordeaux. No text, no logos, no screens with legible content, no human figures.", "motion": "pull-out"}
+    },
+    {
+      "n": 14,
+      "vo": "A planner says your wedding party gets one too, unless money is very tight.",
+      "overlay": "Source: WeddingWire, 2020",
+      "visual": {"kind": "NORAH", "asset": "L5-S7", "crop": "tight", "focus": "left", "note": "bordeaux knit sleeve and the black coat edge moving as she lifts her cup"}
+    },
+    {
+      "n": 15,
+      "vo": "Then pick your rule, and apply it fairly.",
+      "overlay": "Source: Zola, 2025",
+      "visual": {"kind": "DECOR", "asset": "D05-B-d3", "prompt": "Photorealistic editorial still life, vertical, a small round cafe table set for four with blank cream place cards and two extra bentwood chairs pulled up beside it, candlelight, warm amber lamps, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents of bordeaux. No text, no logos, no screens with legible content, no human figures.", "motion": "pan-left"}
+    },
+    {
+      "n": 16,
+      "vo": "On the envelope: name every seat you mean.",
+      "visual": {"kind": "NORAH", "asset": "L5-S4", "crop": "wide", "focus": "right", "note": "profile in silhouette against the amber café window, face turned away, candle glow"}
+    },
+    {
+      "n": 17,
+      "vo": "Add the words, and family, only when you really mean it.",
+      "visual": {"kind": "CARD", "card": {"type": "title", "text": "\"And family\" only when you mean it.", "sub": "Source: Zola, 2026"}}
+    },
+    {
+      "n": 18,
+      "vo": "Planning a winter wedding? Follow along. Tomorrow: replies in five places, versus one link.",
+      "visual": {"kind": "DECOR", "asset": "D05-B-d1", "prompt": "Photorealistic editorial still life, vertical, a small round cafe table with a lit candle in a glass, two steaming cups and a closed sage notebook, amber pendant lamps glowing softly behind, warm cafe at dusk, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents of bordeaux. No text, no logos, no screens with legible content, no human figures.", "motion": "pull-out"}
+    },
+    {
+      "n": 19,
+      "vo": "This is the step people skip. After the envelope: when an extra name arrives, call.",
+      "visual": {"kind": "NORAH", "asset": "L5-S1", "crop": "wide", "focus": "center", "note": "she walks away between the café tables toward the back of the room, coat over her arm"}
+    },
+    {
+      "n": 20,
+      "vo": "Blame the venue or the budget, never the guest.",
+      "overlay": "Source: Emily Post, 2008",
+      "visual": {"kind": "DECOR", "asset": "D05-B-d7", "prompt": "Photorealistic editorial still life, vertical, a long empty reception table with neatly set chairs inside a stone orangery at dusk, warm string lights, 35 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents of bordeaux. No text, no logos, no screens with legible content, no human figures.", "motion": "push-in"}
+    },
+    {
+      "n": 21,
+      "vo": "We'd love to have you, but our invitation is for the four of you.",
+      "visual": {"kind": "CARD", "card": {"type": "quote", "text": "We'd love to have you, but our invitation is for the four of you.", "sub": "Suggested wording"}}
+    },
+    {
+      "n": 22,
+      "vo": "Wedillybird lets the couple set how many each guest can bring.",
+      "visual": {"kind": "SCREEN", "asset": "S04", "note": "the guest reply screen (demo data): I'll be there selected, the plus-one name fields appear up to the number the couple set for that guest"}
+    },
+    {
+      "n": 23,
+      "vo": "The reply form asks for plus-one names up to that number.",
+      "visual": {"kind": "SCREEN", "asset": "S04", "note": "plus-one names, dietary needs and a note, then Send (demo data)"}
+    },
+    {
+      "n": 24,
+      "vo": "Mara called Dana. Dana laughed. Her mother had assumed she was invited.",
+      "visual": {"kind": "NORAH", "asset": "L5-S2", "crop": "detail", "focus": "hands", "note": "a dark phone face-down beside the cup and notebook, a hand resting near it, screen not legible"}
+    },
+    {
+      "n": 25,
+      "vo": "Four seats. One kind phone call. No feud.",
+      "visual": {"kind": "CARD", "card": {"type": "title", "text": "Four seats. One kind phone call. No feud."}}
+    },
+    {
+      "n": 26,
+      "vo": "I'm Norah, an AI character, and this is Wedillybird.",
+      "visual": {"kind": "NORAH", "asset": "L5-S8", "crop": "wide", "focus": "center", "note": "she walks toward the café door; it opens onto the blue evening street and warm light"}
+    },
+    {
+      "n": 27,
+      "vo": "The pen crosses out the plus-one, and writes the next problem.",
+      "visual": {"kind": "NORAH", "asset": "L5-S3", "crop": "detail", "focus": "hands", "note": "the pen draws a line through the title The Plus-One on the notebook page, then starts a new line in blush ink"}
+    },
+    {
+      "n": 28,
+      "vo": "A name nobody invited.",
+      "visual": {"kind": "CARD", "card": {"type": "entry", "n": 5, "text": "A name nobody invited.", "sub": "Entry five is coming"}}
+    }
+  ],
+  "cta": "Follow Norah's Notebook: tomorrow, replies in five places versus one link.",
+  "next_teaser": "Tomorrow: replies in five places vs one link",
+  "caption": "Plus one etiquette for your wedding: what to say when a guest replies for more people than you invited.\nEntry 04 of Norah's Notebook: a plus-one policy, envelope wording, and a kind script for the phone call.\nFiction: Norah and the couple are invented. The tips are real.\nHosted by Norah, an AI character created by the Wedillybird team.",
+  "hashtags": ["#engaged", "#weddinginvitations", "#weddingplanningtips", "#winterwedding", "#2027bride"],
+  "keywords": ["plus-one policy", "winter wedding", "no ring, no bring"],
+  "pinned_comment": "Plus-one rules in short. Before the envelope: decide your policy. Spouses, engaged partners and live-in partners are invited; a casual date is optional (Emily Post, 2008). \"No ring, no bring\" is outdated, and one planner says the wedding party gets a plus-one unless money is very tight (WeddingWire, 2020). Apply your rule fairly (Zola, 2025). On the envelope: name every seat you mean, and write \"and family\" only when you mean it (Emily Post, 2008; Zola, 2026). After the envelope: if an extra name arrives, call, and blame the venue or the budget, never the guest (Emily Post, 2008). Copy, paste, say: \"We'd love to have you, but our invitation is for the four of you.\" Fiction: Mara, Eli, Dana and Norah are invented; the tips are real. Norah is AI-generated. Screens shown are real Wedillybird screens (demo data).",
+  "comment_bait": "What's your plus-one rule: partners only, or everyone?",
+  "r2_items": ["T23", "T34", "T77"],
+  "sources": [
+    {
+      "fact": "Spouses, fiance(e)s and live-in partners must be invited, including to the rehearsal dinner; dating partners who do not live together need not be",
+      "publisher": "Emily Post Institute (Anna Post)",
+      "title": "Inside Weddings: Handling Your Guests With Grace",
+      "url": "https://emilypost.com/advice/inside-weddings-handling-your-guests-with-grace",
+      "date": "column from Summer 2008",
+      "r2_id": "T23"
+    },
+    {
+      "fact": "'No ring, no bring' is outdated; decide plus-ones case by case; planner Mindy Weiss says wedding-party members should get a plus-one unless money is very tight",
+      "publisher": "WeddingWire (Janell M. Hickman-Kirby)",
+      "title": "5 Plus-One Wedding Etiquette Rules Couples MUST Follow",
+      "url": "https://www.weddingwire.com/wedding-ideas/plus-one-wedding-etiquette",
+      "date": "2020-10-17",
+      "r2_id": "T23"
+    },
+    {
+      "fact": "Limit plus-ones to married or long-term couples and apply the rule fairly",
+      "publisher": "Zola (Elizabeth Blasi)",
+      "title": "Who Has a Say in the Wedding Guest List?",
+      "url": "https://www.zola.com/expert-advice/who-has-a-say-in-the-wedding-guest-list",
+      "date": "2025-10-13 (updated)",
+      "r2_id": "T23"
+    },
+    {
+      "fact": "Wedding invitations are not negotiations; the inner envelope is the final word on who exactly is being invited; 'and family' covers household members under the same roof",
+      "publisher": "Emily Post Institute (Anna Post)",
+      "title": "Inside Weddings: Handling Your Guests With Grace",
+      "url": "https://emilypost.com/advice/inside-weddings-handling-your-guests-with-grace",
+      "date": "column from Summer 2008",
+      "r2_id": "T34"
+    },
+    {
+      "fact": "To signal no plus-one, write only the invited guest's name on the envelope; for families, 'X and X and Family'",
+      "publisher": "Zola (Emily Forrest)",
+      "title": "Wedding Invitation Wording: A Complete How-To Guide",
+      "url": "https://www.zola.com/expert-advice/how-to-word-wedding-invitations",
+      "date": "2026-08-06 (updated)",
+      "r2_id": "T34"
+    },
+    {
+      "fact": "Call to correct an extra reply and stick to your guns; couples can decline extra guests by citing venue size or budget",
+      "publisher": "Emily Post Institute (Anna Post)",
+      "title": "Inside Weddings: Handling Your Guests With Grace",
+      "url": "https://emilypost.com/advice/inside-weddings-handling-your-guests-with-grace",
+      "date": "column from Summer 2008",
+      "r2_id": "T77"
+    }
+  ],
+  "claims_review": {
+    "numbers_used": [],
+    "needs_proof": [
+      "T77 and T23 rest on a 2008 Emily Post column (r2 notes that current wording may differ); the year is shown on screen.",
+      "The wedding-party line comes from one planner quoted by WeddingWire (2020); it is attributed as 'a planner says', not stated as a rule."
+    ],
+    "notes": "No statistics are used. Story numbers (six weeks, a reply for six, an invitation for four) are invented and never presented as results. The call-to-correct advice in T77 is written for uninvited children; here it is applied to extra adult names, which is the same principle (the envelope is the final word). The door-day advice from T77 (welcome extra guests, ask the caterer for plates) is deliberately left to the Copy, Paste, Send episode on late replies and extra people. The product appears only as two S04 beats, roughly eight seconds, in the brand's voice: the couple sets a plus-one allowance per guest and the reply form asks for plus-one names up to that number (r3 B1). No claim that it prevents surprise replies. The quoted line is Norah's suggested wording adapted from the r2 suggested wording."
+  },
+  "ai_disclosure": true
+}

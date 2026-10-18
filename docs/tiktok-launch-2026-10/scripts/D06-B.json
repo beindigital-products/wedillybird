@@ -1,0 +1,214 @@
+{
+  "id": "D06-B",
+  "day": 6,
+  "slot": "B",
+  "series": "INSIDE",
+  "episode": 2,
+  "fiction": false,
+  "pillar": "RSVP clarity",
+  "look": "L1",
+  "hook_id": "H19",
+  "working_title": "Inside Wedillybird 2: replies in five places, or one link",
+  "search_intent": "how to track wedding RSVPs",
+  "hook": {
+    "spoken": "Not this: replies in five places. Do this: one link.",
+    "on_screen": "Not this: replies in five places",
+    "visual": "NORAH L1-S2 over-the-shoulder, phone on a Paris café terrace; overlay = hook"
+  },
+  "voiceover": "Not this: replies in five places. Do this: one link. Watch one number closely. I'll tell you which. One reply arrives by text. Another by email. A voicemail. A direct message. A comment at brunch. To know who's coming, you'd have to check all five. And you'd still wonder who you missed. Do this instead: one personal link for each guest. With Wedillybird, wedding RSVPs through the link land on one dashboard. The dashboard shows four counters: confirmed, pending, maybe and declined. Confirmed is who's coming. Declined is who isn't. Maybe means unsure. Pending means you haven't heard yet. Here's the part people skip: the date everything hangs on. Ask your caterer for the day they need final numbers. Count back from it, and leave room to follow up. Your reply-by date goes well before that day. After it, pending is your follow-up list. Next, the guest list, with a status beside every name. Follow if you want entry five of Norah's Notebook tomorrow evening. Add a guest with the form: a name, contact details, a category. And the plus-ones you allow. Each guest gets a personal link. Then export the list as a CSV file, ready for your caterer. Each row has status, plus-ones, dietary needs and notes. Now back to pending. Pending isn't a no. It's someone you haven't heard from yet. Here's the honest part: Wedillybird won't chase them for you. It shows who's pending. The nudge is still yours to send. Send it one person at a time, never in a group chat. One link per guest. One dashboard for the replies. See a sample invitation: link in bio. I'm Norah, Wedillybird's AI host. Five places, or one link. That's the whole choice.",
+  "word_count": 287,
+  "beats": [
+    {
+      "n": 1,
+      "vo": "Not this: replies in five places. Do this: one link.",
+      "overlay": "Not this: replies in five places",
+      "visual": {"kind": "NORAH", "asset": "L1-S2", "crop": "medium", "focus": "hands", "note": "Over her shoulder on a Paris café terrace: a phone with a dark screen in her hands, autumn leaves falling."}
+    },
+    {
+      "n": 2,
+      "vo": "Watch one number closely. I'll tell you which.",
+      "overlay": "Watch one number",
+      "visual": [
+        {"kind": "DECOR", "asset": "D06-B-d1", "prompt": "Photorealistic editorial still life, vertical, a smartphone, a few unopened cream envelopes and a crumpled paper napkin scattered on a marble café table, Parisian terrace, low golden morning sun, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no legible screens, nobody in frame.", "motion": "push-in"},
+        {"kind": "SCREEN", "asset": "S06", "note": "Teaser: the four counters of the event dashboard, tidy and calm. Demo data."}
+      ]
+    },
+    {
+      "n": 3,
+      "vo": "One reply arrives by text. Another by email.",
+      "overlay": "Inside Wedillybird · 2",
+      "visual": {"kind": "DECOR", "asset": "D06-B-d1", "motion": "pan-left", "prompt": "Photorealistic editorial still life, vertical, a smartphone, a few unopened cream envelopes and a crumpled paper napkin scattered on a marble café table, Parisian terrace, low golden morning sun, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no legible screens, nobody in frame."}
+    },
+    {
+      "n": 4,
+      "vo": "A voicemail. A direct message. A comment at brunch.",
+      "visual": {"kind": "NORAH", "asset": "L1-S6", "crop": "medium", "focus": "center", "note": "Seated from behind on the café terrace, thumb scrolling a phone with a dark screen."}
+    },
+    {
+      "n": 5,
+      "vo": "To know who's coming, you'd have to check all five.",
+      "visual": {"kind": "CARD", "card": {"type": "number", "n": 5, "text": "places to check", "sub": "Text · email · voicemail · message · brunch"}}
+    },
+    {
+      "n": 6,
+      "vo": "And you'd still wonder who you missed.",
+      "visual": {"kind": "NORAH", "asset": "L1-S5", "crop": "wide", "focus": "center", "note": "She stops on the pavement and looks across the boulevard, seen from behind."}
+    },
+    {
+      "n": 7,
+      "vo": "Do this instead: one personal link for each guest.",
+      "overlay": "Demo data",
+      "visual": {"kind": "SCREEN", "asset": "S06", "note": "Event dashboard, top of the page. Demo data. Fallback card: 'One personal link per guest'."}
+    },
+    {
+      "n": 8,
+      "vo": "With Wedillybird, wedding RSVPs through the link land on one dashboard.",
+      "overlay": "Do this: one link",
+      "visual": {"kind": "SCREEN", "asset": "S06", "note": "The dashboard in full view; counters visible."}
+    },
+    {
+      "n": 9,
+      "vo": "The dashboard shows four counters: confirmed, pending, maybe and declined.",
+      "visual": {"kind": "CARD", "card": {"type": "checklist", "text": "Four counters", "items": ["Confirmed", "Pending", "Maybe", "Declined"]}}
+    },
+    {
+      "n": 10,
+      "vo": "Confirmed is who's coming. Declined is who isn't.",
+      "visual": {"kind": "SCREEN", "asset": "S06", "note": "Highlight the confirmed counter, then the declined counter."}
+    },
+    {
+      "n": 11,
+      "vo": "Maybe means unsure. Pending means you haven't heard yet.",
+      "visual": {"kind": "SCREEN", "asset": "S06", "note": "Highlight the maybe counter, then the pending counter."}
+    },
+    {
+      "n": 12,
+      "vo": "Here's the part people skip: the date everything hangs on.",
+      "overlay": "The part people skip",
+      "visual": {"kind": "NORAH", "asset": "L1-S1", "crop": "wide", "focus": "center", "note": "She walks along a Haussmann-style street, low golden sun behind her, leaves underfoot."}
+    },
+    {
+      "n": 13,
+      "vo": "Ask your caterer for the day they need final numbers.",
+      "visual": {"kind": "CARD", "card": {"type": "title", "text": "Ask your caterer", "sub": "When do you need final numbers?"}}
+    },
+    {
+      "n": 14,
+      "vo": "Count back from it, and leave room to follow up.",
+      "visual": {"kind": "DECOR", "asset": "D06-B-d2", "prompt": "Photorealistic editorial still life, vertical, a sharpened pencil and a blank cream notepad beside a coffee cup on a zinc café table, fallen autumn leaves nearby, soft golden light, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no legible screens, nobody in frame.", "motion": "pan-left"}
+    },
+    {
+      "n": 15,
+      "vo": "Your reply-by date goes well before that day.",
+      "visual": {"kind": "CARD", "card": {"type": "title", "text": "Reply-by date goes before it", "sub": "Leave room to follow up"}}
+    },
+    {
+      "n": 16,
+      "vo": "After it, pending is your follow-up list.",
+      "visual": {"kind": "SCREEN", "asset": "S06", "note": "Pending counter highlighted. Fallback card: 'Pending = your follow-up list'."}
+    },
+    {
+      "n": 17,
+      "vo": "Next, the guest list, with a status beside every name.",
+      "visual": {"kind": "SCREEN", "asset": "S07", "note": "Guest list with a status badge beside each name. Demo names, phone numbers blurred."}
+    },
+    {
+      "n": 18,
+      "vo": "Follow if you want entry five of Norah's Notebook tomorrow evening.",
+      "visual": {"kind": "NORAH", "asset": "L1-S8", "crop": "wide", "focus": "center", "note": "She walks toward a tall carriage gate; the door opens onto warm light."}
+    },
+    {
+      "n": 19,
+      "vo": "Add a guest with the form: a name, contact details, a category.",
+      "visual": {"kind": "SCREEN", "asset": "S07", "note": "The add-guest form; the name field is filled in."}
+    },
+    {
+      "n": 20,
+      "vo": "And the plus-ones you allow. Each guest gets a personal link.",
+      "visual": [
+        {"kind": "CARD", "card": {"type": "checklist", "text": "The add form", "items": ["Name", "Contact details", "Category", "Plus-ones you allow"]}},
+        {"kind": "SCREEN", "asset": "S07", "note": "The add-guest form with the plus-ones field in view."}
+      ]
+    },
+    {
+      "n": 21,
+      "vo": "Then export the list as a CSV file, ready for your caterer.",
+      "visual": {"kind": "SCREEN", "asset": "S07", "note": "The export CSV link is pressed."}
+    },
+    {
+      "n": 22,
+      "vo": "Each row has status, plus-ones, dietary needs and notes.",
+      "visual": {"kind": "SCREEN", "asset": "S07", "note": "The exported rows, demo data. Fallback card: 'Status · plus-ones · dietary needs · notes'."}
+    },
+    {
+      "n": 23,
+      "vo": "Now back to pending. Pending isn't a no.",
+      "visual": {"kind": "NORAH", "asset": "L1-S4", "crop": "medium", "focus": "center", "note": "Profile in silhouette against low golden sun, face turned away."}
+    },
+    {
+      "n": 24,
+      "vo": "It's someone you haven't heard from yet.",
+      "visual": {"kind": "CARD", "card": {"type": "title", "text": "Pending isn't a no", "sub": "It's someone you haven't heard from yet"}}
+    },
+    {
+      "n": 25,
+      "vo": "Here's the honest part: Wedillybird won't chase them for you.",
+      "overlay": "The honest part",
+      "visual": {"kind": "NORAH", "asset": "L1-S3", "crop": "detail", "focus": "hands", "note": "Hands turn a coffee cup on its saucer, steam rising."}
+    },
+    {
+      "n": 26,
+      "vo": "It shows who's pending. The nudge is still yours to send.",
+      "visual": {"kind": "SCREEN", "asset": "S07", "note": "Guest list with the pending statuses in view. Fallback card: 'It shows who's pending. The nudge is yours.'"}
+    },
+    {
+      "n": 27,
+      "vo": "Send it one person at a time, never in a group chat.",
+      "visual": {"kind": "DECOR", "asset": "D06-B-d3", "prompt": "Photorealistic editorial still life, vertical, a single cream envelope leaning against a small white cup on a marble café table, golden morning light, a few fallen autumn leaves, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no legible screens, nobody in frame.", "motion": "push-in"}
+    },
+    {
+      "n": 28,
+      "vo": "One link per guest. One dashboard for the replies.",
+      "visual": {"kind": "SCREEN", "asset": "S06", "note": "Dashboard, full view, held for the recap."}
+    },
+    {
+      "n": 29,
+      "vo": "See a sample invitation: link in bio.",
+      "visual": {"kind": "CARD", "card": {"type": "title", "text": "See a sample invitation", "sub": "Link in bio"}}
+    },
+    {
+      "n": 30,
+      "vo": "I'm Norah, Wedillybird's AI host.",
+      "visual": {"kind": "NORAH", "asset": "L1-S5", "crop": "medium", "focus": "left", "note": "She pauses at the edge of the terrace, seen from behind, leaves drifting past."}
+    },
+    {
+      "n": 31,
+      "vo": "Five places, or one link. That's the whole choice.",
+      "visual": {"kind": "NORAH", "asset": "L1-S2", "crop": "tight", "focus": "hands", "note": "She slides the phone into her coat pocket; loop back to the opening shot."}
+    }
+  ],
+  "cta": "See a sample invitation: link in bio.",
+  "next_teaser": "Tomorrow evening: Norah's Notebook, entry five.",
+  "caption": "How to track wedding RSVPs without checking five places.\nOne personal link per guest, one dashboard for the answers, one CSV for the caterer, and the date to count back from. Demo data on screen.\nHosted by Norah, an AI character created by the Wedillybird team.",
+  "hashtags": ["#weddingplanning", "#rsvp", "#weddingguestlist", "#winterweddinginspo", "#weddingguestlisttips"],
+  "keywords": ["wedding RSVPs", "guest list", "reply-by date"],
+  "pinned_comment": "One personal link per guest, one dashboard: confirmed, pending, maybe, declined. Count back from your caterer's final-numbers date to set your reply-by date, then use the pending counter as your follow-up list. Message pending guests one person at a time, never in a group chat. The CSV export carries status, plus-ones, dietary needs and notes. Norah is AI-generated. Screens shown are real Wedillybird screens (demo data).",
+  "comment_bait": "How many places are your replies in right now?",
+  "r2_items": ["T30", "T31"],
+  "sources": [
+    {"fact": "Work back from the caterer's headcount date and set the RSVP deadline early enough to leave time to chase", "publisher": "Joy", "title": "How to Set Perfect Wedding RSVP Deadlines", "url": "https://withjoy.com/blog/how-to-set-perfect-wedding-rsvp-deadlines-a-stress-free-guide-for-couples/", "date": "2025-06-18", "r2_id": "T30"},
+    {"fact": "Reply-by date set so hosts can follow up and give vendors accurate counts", "publisher": "Emily Post Institute", "title": "How to Word a Wedding Response Card", "url": "https://emilypost.com/advice/how-to-word-a-wedding-response-card", "date": "undated", "r2_id": "T30"},
+    {"fact": "Silence does not mean no: follow up with each person individually, never a group chat or public tag", "publisher": "The Knot (search extract)", "title": "When Should You Send a Wedding RSVP Reminder? Wording to Know", "url": "https://www.theknot.com/content/reminding-wedding-guests-to-rsvp", "date": "undated", "r2_id": "T31"},
+    {"fact": "Check in as the cut-off approaches, keep follow-ups short, accommodate late replies where possible", "publisher": "Emily Post Institute (Anna Post)", "title": "Handling your guests with grace (2008 column)", "url": "https://emilypost.com/advice/inside-weddings-handling-your-guests-with-grace", "date": "2008", "r2_id": "T31"}
+  ],
+  "claims_review": {
+    "numbers_used": [],
+    "needs_proof": [
+      "S06 capture should show the four counters labelled confirmed / pending / maybe / declined; S07 capture should show statuses, the add-guest form (name, contact details, category, plus-ones) and the CSV export. Every SCREEN line still works on a card if a capture is replaced.",
+      "Founder: confirm the 'Wedillybird won't chase pending guests for you' limit is still true at publication (r3 section 0 row 4: reminders go only to guests who already replied yes; the non-responder audience is switched off).",
+      "CSV content (status, plus-ones, dietary needs, notes) per r3 B1; the export also contains a guest token, so blur or crop that column on screen."
+    ],
+    "notes": "No figures are stated: 'five places' is the illustrative hook (H19), not a statistic. T30 is used as a method only (count back from the caterer's final-numbers date, leave room to follow up); the 'ten days' rule is not stated because its only source is a competitor guide and no competitor is named on screen. T31 is used for 'pending is not a no' and 'one person at a time, not a group chat'. No delivery channel is claimed; 'by text' in the opening montage describes how guests reply in the messy version, not how Wedillybird works. Wedillybird is named three times (beats 8, 25, 30)."
+  },
+  "ai_disclosure": true
+}

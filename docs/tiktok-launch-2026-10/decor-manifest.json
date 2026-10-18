@@ -1,0 +1,293 @@
+{
+ "_doc": "Décors générés avec bytedance/seedream-5.0-pro en 9:16. L'URL est celle du stockage du studio ; fetch_decor.py télécharge, rogne le bandeau du générateur et écrit assets/decor/<ID>.jpg.",
+ "assets": {
+  "D01-A-d1": {
+   "url": "https://s6mookxlaekqlqom.public.blob.vercel-storage.com/mcp/20261018-193238-image-photorealistic-editorial-still-life-vert-KjCiTJ58ar2bgiOv2kefLiqB0P2FKN.jpg",
+   "prompt": "Photorealistic editorial still life, vertical, a cream envelope with a champagne wax seal on a marble cafe table beside a small espresso cup and one fallen maple leaf, Parisian cafe terrace, low golden morning sun, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no hands, nothing human in frame."
+  },
+  "D01-A-d2": {
+   "url": "https://s6mookxlaekqlqom.public.blob.vercel-storage.com/mcp/20261018-193358-image-photorealistic-editorial-still-life-vert-HQz8RuBc6Bxts6t3UzeA3leYncQ6zq.jpg",
+   "prompt": "Photorealistic editorial still life, vertical, a smartphone turned over with its screen hidden on a folded linen napkin beside a ceramic coffee cup, marble cafe table, soft morning side light, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no hands, nothing human in frame."
+  },
+  "D01-A-d3": {
+   "url": "https://s6mookxlaekqlqom.public.blob.vercel-storage.com/mcp/20261018-193756-image-photorealistic-editorial-still-life-vert-JTDMqkdptT1llOA1tL6Eea0inqU65Q.jpg",
+   "prompt": "Photorealistic editorial still life, vertical, a brass ruler and a sharpened pencil lying on a sheet of ivory paper, oak desk, soft window light, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no hands, nothing human in frame."
+  },
+  "D01-A-d4": {
+   "url": "https://s6mookxlaekqlqom.public.blob.vercel-storage.com/mcp/20261018-193739-image-photorealistic-editorial-still-life-vert-VfvorPQAXymiaIIwzLn1cH0F5Hh0QI.jpg",
+   "prompt": "Photorealistic editorial still life, vertical, a small stack of cream envelopes tied with a blush silk ribbon on a bistro table, Parisian cafe terrace, warm low sun, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no hands, nothing human in frame."
+  },
+  "D01-A-d5": {
+   "url": "https://s6mookxlaekqlqom.public.blob.vercel-storage.com/mcp/20261018-193454-image-photorealistic-editorial-still-life-vert-XaMDg6XmFlK0lVskt9oZfBxroLY1UJ.jpg",
+   "prompt": "Photorealistic editorial still life, vertical, five empty bentwood cafe chairs around a round marble table on a terrace strewn with golden leaves, low gold sun, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no hands, nothing human in frame."
+  },
+  "D01-A-d6": {
+   "url": "https://s6mookxlaekqlqom.public.blob.vercel-storage.com/mcp/20261018-193530-image-photorealistic-editorial-still-life-vert-ISEy0LH7CMoMb8Nu4ONG2ptUpJoobE.jpg",
+   "prompt": "Photorealistic editorial still life, vertical, an ivory rotary telephone on a marble cafe counter beside a vase holding a single blush dahlia, warm amber light, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no hands, nothing human in frame."
+  },
+  "D01-A-d7": {
+   "url": "https://s6mookxlaekqlqom.public.blob.vercel-storage.com/mcp/20261018-193746-image-photorealistic-editorial-still-life-vert-zwhwd0LQ03BCf5o23zwURqz4fcPv9s.jpg",
+   "prompt": "Photorealistic editorial still life, vertical, a leather bookmark ribbon lying across an open ruled notebook with blank pages, wooden table, soft window light, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no hands, nothing human in frame."
+  },
+  "D01-A-d8": {
+   "url": "https://s6mookxlaekqlqom.public.blob.vercel-storage.com/mcp/20261018-193325-image-photorealistic-editorial-still-life-vert-26XOBMtn9ssYRpkpqLZRz47e3FODYf.jpg",
+   "prompt": "Photorealistic editorial still life, vertical, a brass wax-seal stamp and a stick of blush sealing wax lying on a sheet of ivory paper, oak desk by a window, soft side light, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no hands, nothing human in frame."
+  },
+  "D01-A-d9": {
+   "url": "https://s6mookxlaekqlqom.public.blob.vercel-storage.com/mcp/20261018-193751-image-photorealistic-editorial-still-life-vert-8FemgNydjkGZXgi02pYiusz4zDvkqe.jpg",
+   "prompt": "Photorealistic editorial still life, vertical, a small ceramic dish holding a folded cream card and a slim gold pen on a cafe table, warm morning light, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no hands, nothing human in frame."
+  },
+  "D01-B-d1": {
+   "url": "https://s6mookxlaekqlqom.public.blob.vercel-storage.com/mcp/20261018-193953-image-photorealistic-editorial-still-life-vert-p8RuYvZFvYOEN1hf4Xyw4LweSihvM6.jpg",
+   "prompt": "Photorealistic editorial still life, vertical, a brass desk lamp glowing beside an open sage-green linen notebook and a steaming cup of tea on an oak desk, bright Parisian apartment, soft side light from a window, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no human figures."
+  },
+  "D01-B-d2": {
+   "url": "https://s6mookxlaekqlqom.public.blob.vercel-storage.com/mcp/20261018-193822-image-photorealistic-editorial-still-life-vert-BMY4l6ko2dg6Y9SaSrLGadvTOph5z3.jpg",
+   "prompt": "Photorealistic editorial still life, vertical, the inside of a countryside glass orangery with long bare wooden tables and tall arched windows, bare branches outside, pale low winter sun with warm dust floating in the light, 35 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no human figures."
+  },
+  "D01-B-d3": {
+   "url": "https://s6mookxlaekqlqom.public.blob.vercel-storage.com/mcp/20261018-193847-image-photorealistic-editorial-still-life-vert-YBsCI81w4XV9J6fmBI86QUNMceZ6yd.jpg",
+   "prompt": "Photorealistic editorial still life, vertical, three cream paper folders fanned across an oak desk, each held with a different coloured paper clip, soft window light, Parisian apartment, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no human figures."
+  },
+  "D01-B-d4": {
+   "url": "https://s6mookxlaekqlqom.public.blob.vercel-storage.com/mcp/20261018-193845-image-photorealistic-editorial-still-life-vert-egOFWgkv15nDlxCCJTLihWdNa8YhOY.jpg",
+   "prompt": "Photorealistic editorial still life, vertical, a stack of printed pages with faint pencil marks and a single pencil lying across them, seen from above on an oak desk, soft window light, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no human figures."
+  },
+  "D01-B-d5": {
+   "url": "https://s6mookxlaekqlqom.public.blob.vercel-storage.com/mcp/20261018-194046-image-photorealistic-editorial-still-life-vert-V9KrKpE58cU6xPb23xvuX3U0I4Deis.jpg",
+   "prompt": "Photorealistic editorial still life, vertical, a single closed sage-green notebook centred on a clean oak desk beside a small glass of water, tidy and quiet, soft morning window light, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no human figures."
+  },
+  "D01-B-d6": {
+   "url": "https://s6mookxlaekqlqom.public.blob.vercel-storage.com/mcp/20261018-193932-image-photorealistic-editorial-still-life-vert-5bvHyoQyLfnsGaCSPKMU7pQzZfx8EA.jpg",
+   "prompt": "Photorealistic editorial still life, vertical, a smartphone lying screen-down beside a cream envelope on an oak desk, a ceramic cup softly out of focus behind, soft window light, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no human figures."
+  },
+  "D01-B-d7": {
+   "url": "https://s6mookxlaekqlqom.public.blob.vercel-storage.com/mcp/20261018-193907-image-photorealistic-editorial-still-life-vert-gx7Y2PecIbDN080C0H9zKmeIyz14i8.jpg",
+   "prompt": "Photorealistic editorial still life, vertical, two matching ceramic teacups side by side on a small wooden tray, steam rising, warm lamp light, oak desk, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no human figures."
+  },
+  "D01-B-d8": {
+   "url": "https://s6mookxlaekqlqom.public.blob.vercel-storage.com/mcp/20261018-193945-image-photorealistic-editorial-still-life-vert-64bCcs6LbMZLdfSkY6RvLJHoAlaRPh.jpg",
+   "prompt": "Photorealistic editorial still life, vertical, blank cream envelopes fanned on a linen cloth beside a black fountain pen, soft window light, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no human figures."
+  },
+  "D02-A-d1": {
+   "url": "https://s6mookxlaekqlqom.public.blob.vercel-storage.com/mcp/20261018-194137-image-photorealistic-editorial-still-life-vert-bHC76SSSRGk27Ljf122cVMoyZHc9gl.jpg",
+   "prompt": "Photorealistic editorial still life, vertical, a closed laptop, a sage-green cloth notebook and a white ceramic mug on an oak desk beside a tall Paris apartment window, soft side light, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no hands, nothing human in frame."
+  },
+  "D02-A-d2": {
+   "url": "https://s6mookxlaekqlqom.public.blob.vercel-storage.com/mcp/20261018-194102-image-photorealistic-editorial-still-life-vert-qNIhsNW2tYqDn1LeTz2mroOuz12nlF.jpg",
+   "prompt": "Photorealistic editorial still life, vertical, two small stacks of cream envelopes, one tied with blush ribbon and one with sage ribbon, on an oak desk, soft window light, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no hands, nothing human in frame."
+  },
+  "D02-A-d3": {
+   "url": "https://s6mookxlaekqlqom.public.blob.vercel-storage.com/mcp/20261018-194017-image-photorealistic-editorial-still-life-vert-eKiIBeuB0gsMvsEyxJ3YxjrT7RVxmg.jpg",
+   "prompt": "Photorealistic editorial still life, vertical, a single blank cream envelope with a thin gold liner showing at the open flap, resting on a linen cloth, soft window light, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no hands, nothing human in frame."
+  },
+  "D02-A-d4": {
+   "url": "https://s6mookxlaekqlqom.public.blob.vercel-storage.com/mcp/20261018-194022-image-photorealistic-editorial-still-life-vert-2i4TvLgFS4frV7ZA8zXKetbpOJ9c8X.jpg",
+   "prompt": "Photorealistic editorial still life, vertical, two stemmed glasses on a folded linen cloth beside a sprig of eucalyptus, oak table, soft side light, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no hands, nothing human in frame."
+  },
+  "D02-A-d5": {
+   "url": "https://s6mookxlaekqlqom.public.blob.vercel-storage.com/mcp/20261018-194222-image-photorealistic-editorial-still-life-vert-AlBQDk5gMxxUkO4RsaqNrFtUo0ZUh9.jpg",
+   "prompt": "Photorealistic editorial still life, vertical, a small brass postal scale holding a cream envelope, oak desk, warm side light, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no hands, nothing human in frame."
+  },
+  "D02-A-d6": {
+   "url": "https://s6mookxlaekqlqom.public.blob.vercel-storage.com/mcp/20261018-194223-image-photorealistic-editorial-still-life-vert-1eAJbrtimiTW40jS3ICBlCP0M5ysnP.jpg",
+   "prompt": "Photorealistic editorial still life, vertical, a stack of white dinner plates and folded linen napkins on a long oak table, pale window light, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no hands, nothing human in frame."
+  },
+  "D02-A-d7": {
+   "url": "https://s6mookxlaekqlqom.public.blob.vercel-storage.com/mcp/20261018-194211-image-photorealistic-editorial-still-life-vert-zWsMrlU1hH1fy3FvU5khQR53QwVPMs.jpg",
+   "prompt": "Photorealistic editorial still life, vertical, a small hourglass with champagne-colored sand on an oak desk beside a sage notebook, soft side light, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no hands, nothing human in frame."
+  },
+  "D02-A-d9": {
+   "url": "https://s6mookxlaekqlqom.public.blob.vercel-storage.com/mcp/20261018-194256-image-photorealistic-editorial-still-life-vert-lzZW5KJ2WowhLjH3fQY9EeEf6TjJme.jpg",
+   "prompt": "Photorealistic editorial still life, vertical, a small leather suitcase with a blank cream luggage tag standing beside a wooden bench, soft side light from a window, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no hands, nothing human in frame."
+  },
+  "D02-B-d1": {
+   "url": "https://s6mookxlaekqlqom.public.blob.vercel-storage.com/mcp/20261018-194356-image-photorealistic-editorial-still-life-vert-7qv3sl6qDorOgJKF5393IlcFcc2pTG.jpg",
+   "prompt": "Photorealistic editorial still life, vertical, a rain-streaked window at dusk with a warm lamp glowing indoors, a steaming mug on the windowsill and a folded ivory wool blanket on a sofa arm, living room, soft amber light, 35 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no human figures."
+  },
+  "D02-B-d2": {
+   "url": "https://s6mookxlaekqlqom.public.blob.vercel-storage.com/mcp/20261018-194413-image-photorealistic-editorial-still-life-vert-KsMJBILvnLvXdHpjxoWvqRi0RAzEP4.jpg",
+   "prompt": "Photorealistic editorial still life, vertical, four objects in a row on a low wooden coffee table: a smartphone lying screen-down, a cream envelope, an old cream landline telephone handset and a small blank notepad, warm lamp light, rain-blurred window behind, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no human figures."
+  },
+  "D02-B-d3": {
+   "url": "https://s6mookxlaekqlqom.public.blob.vercel-storage.com/mcp/20261018-194533-image-photorealistic-editorial-still-life-vert-13ybPZC4MNvcHRyzInYnrzhmCpB9FU.jpg",
+   "prompt": "Photorealistic editorial still life, vertical, a brass letterbox flap on a painted sage-green front door with a cream envelope half pushed through, warm hallway light, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no human figures."
+  },
+  "D02-B-d5": {
+   "url": "https://s6mookxlaekqlqom.public.blob.vercel-storage.com/mcp/20261018-194637-image-photorealistic-editorial-still-life-vert-iIB0suYAMjqDSxrNYUjnF40uGeCEDp.jpg",
+   "prompt": "Photorealistic editorial still life, vertical, a vintage brass alarm clock beside a mug on a wooden coffee table, lamp glow, rain-blurred window behind, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no human figures."
+  },
+  "D02-B-d7": {
+   "url": "https://s6mookxlaekqlqom.public.blob.vercel-storage.com/mcp/20261018-194506-image-photorealistic-editorial-still-life-vert-RTtCKomswsqPCQeEbft56oxAUrwR0L.jpg",
+   "prompt": "Photorealistic editorial still life, vertical, a single candle burning in a glass jar on a low wooden coffee table, rain-blurred window behind, calm and quiet, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no human figures."
+  },
+  "D03-A-d1": {
+   "url": "https://s6mookxlaekqlqom.public.blob.vercel-storage.com/mcp/20261018-194616-image-photorealistic-editorial-still-life-vert-CIINLDenXFRWthqKC2YgMSFpX6f2py.jpg",
+   "prompt": "Photorealistic editorial still life, vertical, an empty gravel allee lined with copper-leaved trees in light morning mist leading toward the pale stone wing of a chateau, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no hands, nothing human in frame."
+  },
+  "D03-A-d3": {
+   "url": "https://s6mookxlaekqlqom.public.blob.vercel-storage.com/mcp/20261018-194724-image-photorealistic-editorial-still-life-vert-p9vL6DXoxT7Qp1dYo3BeGe7bEU4oPX.jpg",
+   "prompt": "Photorealistic editorial still life, vertical, a wrought-iron garden gate standing slightly ajar in an old stone wall, copper leaves on the ground, misty morning light, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no hands, nothing human in frame."
+  },
+  "D03-A-d4": {
+   "url": "https://s6mookxlaekqlqom.public.blob.vercel-storage.com/mcp/20261018-194658-image-photorealistic-editorial-still-life-vert-4BPeyLfUiIWCpepgeUSmLRx1e5OPnJ.jpg",
+   "prompt": "Photorealistic editorial still life, vertical, the tall glass windows of a stone orangery at the edge of an autumn garden, misty light, copper leaves on the path, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no hands, nothing human in frame."
+  },
+  "D03-A-d5": {
+   "url": "https://s6mookxlaekqlqom.public.blob.vercel-storage.com/mcp/20261018-194816-image-photorealistic-editorial-still-life-vert-yYNbfCnO7NyNQNyXlfVGN0ZvlA7rtN.jpg",
+   "prompt": "Photorealistic editorial still life, vertical, a heavy brass key lying on a weathered stone ledge beside a copper-colored leaf, misty autumn garden behind, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no hands, nothing human in frame."
+  },
+  "D03-A-d6": {
+   "url": "https://s6mookxlaekqlqom.public.blob.vercel-storage.com/mcp/20261018-194901-image-photorealistic-editorial-still-life-vert-GCQfpgcE6bGbYbahGGFylyqUpoQ8W8.jpg",
+   "prompt": "Photorealistic editorial still life, vertical, a row of five folded sage-colored linen napkins on a stone table in a garden, soft diffused autumn light, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no hands, nothing human in frame."
+  },
+  "D03-A-d9": {
+   "url": "https://s6mookxlaekqlqom.public.blob.vercel-storage.com/mcp/20261018-194810-image-photorealistic-editorial-still-life-vert-xBQNt6GyP7LTshd90UCQPk8poKSYa7.jpg",
+   "prompt": "Photorealistic editorial still life, vertical, a small stack of cream cards tied with natural twine and a sprig of dried eucalyptus on a weathered stone ledge, misty autumn light, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no hands, nothing human in frame."
+  },
+  "D03-B-d2": {
+   "url": "https://s6mookxlaekqlqom.public.blob.vercel-storage.com/mcp/20261018-195012-image-photorealistic-editorial-still-life-vert-dvHauMCEyOItA8NZeOo8JkBfQROMX5.jpg",
+   "prompt": "Photorealistic editorial still life, vertical, a closed laptop beside a ceramic cup of tea and a small bunch of chrysanthemums on a linen cloth, flower market stall, cool damp morning light, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no legible screens, nobody in frame."
+  },
+  "D04-A-d1": {
+   "url": "https://s6mookxlaekqlqom.public.blob.vercel-storage.com/mcp/20261018-195052-image-photorealistic-editorial-still-life-vert-mkj9AiN1zBTlgMN7bPS1ozWFhTjsBm.jpg",
+   "prompt": "Photorealistic editorial still life, vertical, a lit candle in a small glass holder beside a closed notebook on a dark wooden cafe table, amber lamp glow, blurred bistro behind, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no hands, nothing human in frame."
+  },
+  "D04-A-d3": {
+   "url": "https://s6mookxlaekqlqom.public.blob.vercel-storage.com/mcp/20261018-195214-image-photorealistic-editorial-still-life-vert-hszcLHoKtO82FVaMFwOrwDiiUUDjvc.jpg",
+   "prompt": "Photorealistic editorial still life, vertical, a small knitted toy rabbit sitting on a bentwood cafe chair, warm lamp light, soft bokeh of string lights behind, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no hands, nothing human in frame."
+  },
+  "D04-A-d4": {
+   "url": "https://s6mookxlaekqlqom.public.blob.vercel-storage.com/mcp/20261018-195317-image-photorealistic-editorial-still-life-vert-H3qPO82aSWHlkLxzjej2GITadTTSXo.jpg",
+   "prompt": "Photorealistic editorial still life, vertical, a blank cream place card standing in a small brass holder on a white tablecloth, candlelight, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no hands, nothing human in frame."
+  },
+  "D04-A-d5": {
+   "url": "https://s6mookxlaekqlqom.public.blob.vercel-storage.com/mcp/20261018-195603-image-photorealistic-editorial-still-life-vert-EhPygXlNnKtpekdRFadsV7yaw6TOf2.jpg",
+   "prompt": "Photorealistic editorial still life, vertical, two empty bentwood chairs facing each other across a small round marble table with a lit candle between them, amber glow, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no hands, nothing human in frame."
+  },
+  "D04-A-d6": {
+   "url": "https://s6mookxlaekqlqom.public.blob.vercel-storage.com/mcp/20261018-195150-image-photorealistic-editorial-still-life-vert-xcydoCGV7K1J6NYo3NCz2zsCzl8e4i.jpg",
+   "prompt": "Photorealistic editorial still life, vertical, a smartphone turned over with its screen hidden beside a steaming cup of tea on a dark wooden table, amber lamp light, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no hands, nothing human in frame."
+  },
+  "D04-A-d7": {
+   "url": "https://s6mookxlaekqlqom.public.blob.vercel-storage.com/mcp/20261018-195145-image-photorealistic-editorial-still-life-vert-qyWDJw0CNpoZcpdGFP4jNUkGpfqOGB.jpg",
+   "prompt": "Photorealistic editorial still life, vertical, a row of identical blank cream place cards on a dark wooden table, candlelight, shallow focus, 50 mm, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no hands, nothing human in frame."
+  },
+  "D05-A-d1": {
+   "url": "https://s6mookxlaekqlqom.public.blob.vercel-storage.com/mcp/20261018-195341-image-photorealistic-editorial-still-life-vert-Dvhj7tSgxc40Coboe83vOgrbDefpwQ.jpg",
+   "prompt": "Photorealistic editorial still life, vertical, galvanized buckets of dahlias and copper chrysanthemums on wet cobblestones after rain, outdoor flower market, soft morning light, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no hands, nothing human in frame."
+  },
+  "D05-A-d2": {
+   "url": "https://s6mookxlaekqlqom.public.blob.vercel-storage.com/mcp/20261018-195406-image-photorealistic-editorial-still-life-vert-3Fx0ZCxBX6FiruJxbwhCcKwkFpUx6q.jpg",
+   "prompt": "Photorealistic editorial still life, vertical, a long wooden market table with five identical glass vases lined up in a row, each holding a single stem, soft diffused morning light, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no hands, nothing human in frame."
+  },
+  "D05-A-d3": {
+   "url": "https://s6mookxlaekqlqom.public.blob.vercel-storage.com/mcp/20261018-195647-image-photorealistic-editorial-still-life-vert-oRVCJYa3CL4I34gwz5HPVRu1DqimIS.jpg",
+   "prompt": "Photorealistic editorial still life, vertical, a small brass market scale on a weathered wooden stall beside bundles of eucalyptus, soft morning light, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no hands, nothing human in frame."
+  },
+  "D05-A-d4": {
+   "url": "https://s6mookxlaekqlqom.public.blob.vercel-storage.com/mcp/20261018-195245-image-photorealistic-editorial-still-life-vert-bWzJxkkfVy9Su9TqUxkaJdTPuMtnyd.jpg",
+   "prompt": "Photorealistic editorial still life, vertical, a spool of natural twine and a pair of garden scissors on a kraft paper sheet beside a bucket of stems, damp market morning, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no hands, nothing human in frame."
+  },
+  "D05-A-d5": {
+   "url": "https://s6mookxlaekqlqom.public.blob.vercel-storage.com/mcp/20261018-195425-image-photorealistic-editorial-still-life-vert-XhAAnusnGcKZ1kNNayWm7He7SKmGpA.jpg",
+   "prompt": "Photorealistic editorial still life, vertical, a wooden crate of blush dahlias beside a stack of folded kraft paper, outdoor market stall, wet cobblestones, soft morning light, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no hands, nothing human in frame."
+  },
+  "D05-A-d6": {
+   "url": "https://s6mookxlaekqlqom.public.blob.vercel-storage.com/mcp/20261018-195447-image-photorealistic-editorial-still-life-vert-GlEC8YELURXL2EK60TLCpS1i7Cp2EJ.jpg",
+   "prompt": "Photorealistic editorial still life, vertical, a rolled sheet of kraft paper tied with twine and a stick of blush sealing wax on a market stall table, soft morning light, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no hands, nothing human in frame."
+  },
+  "D05-A-d7": {
+   "url": "https://s6mookxlaekqlqom.public.blob.vercel-storage.com/mcp/20261018-195732-image-photorealistic-editorial-still-life-vert-FBmSDOPwFWEsVTEkfW5QTe0QnOB1xR.jpg",
+   "prompt": "Photorealistic editorial still life, vertical, a bundle of eucalyptus tied with twine resting on a wet stone ledge, morning mist, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no hands, nothing human in frame."
+  },
+  "D05-A-d8": {
+   "url": "https://s6mookxlaekqlqom.public.blob.vercel-storage.com/mcp/20261018-195329-image-photorealistic-editorial-still-life-vert-ND2uHNIFK2hGMkFwGMu1jizc7qWilW.jpg",
+   "prompt": "Photorealistic editorial still life, vertical, a brass wax-seal stamp beside a cream envelope on a kraft-paper-covered stall table, soft morning light, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no hands, nothing human in frame."
+  },
+  "D05-A-d9": {
+   "url": "https://s6mookxlaekqlqom.public.blob.vercel-storage.com/mcp/20261018-195530-image-photorealistic-editorial-still-life-vert-RN1ROJXY3lZBGqqKkuqJX2A3pgb0ak.jpg",
+   "prompt": "Photorealistic editorial still life, vertical, a bundle of cream paper tags tied with twine and a sprig of dried lavender on a weathered stall counter, soft morning light, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no hands, nothing human in frame."
+  },
+  "D06-B-d1": {
+   "url": "https://s6mookxlaekqlqom.public.blob.vercel-storage.com/mcp/20261018-195548-image-photorealistic-editorial-still-life-vert-gn7a5qiuXJI6BcpBuUVXcCNFDP72YH.jpg",
+   "prompt": "Photorealistic editorial still life, vertical, a smartphone, a few unopened cream envelopes and a crumpled paper napkin scattered on a marble café table, Parisian terrace, low golden morning sun, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no legible screens, nobody in frame."
+  },
+  "D06-B-d2": {
+   "url": "https://s6mookxlaekqlqom.public.blob.vercel-storage.com/mcp/20261018-195819-image-photorealistic-editorial-still-life-vert-dHxVuz7HUMcEpiduC0WLxJh6d9VxmP.jpg",
+   "prompt": "Photorealistic editorial still life, vertical, a sharpened pencil and a blank cream notepad beside a coffee cup on a zinc café table, fallen autumn leaves nearby, soft golden light, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no legible screens, nobody in frame."
+  },
+  "D06-B-d3": {
+   "url": "https://s6mookxlaekqlqom.public.blob.vercel-storage.com/mcp/20261018-195411-image-photorealistic-editorial-still-life-vert-WWn7hBzQH6SwmeGAV6lNyBMVek0DhC.jpg",
+   "prompt": "Photorealistic editorial still life, vertical, a single cream envelope leaning against a small white cup on a marble café table, golden morning light, a few fallen autumn leaves, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no legible screens, nobody in frame."
+  },
+  "D08-B-d1": {
+   "url": "https://s6mookxlaekqlqom.public.blob.vercel-storage.com/mcp/20261018-195611-image-photorealistic-editorial-still-life-vert-WNOi2yPO8JJ11s8JtN6HNR7TvLSdYg.jpg",
+   "prompt": "Photorealistic editorial still life, vertical, a cafe window at dusk with soft condensation on the glass, a brass lamp glowing amber on the sill and a small candle in a glass holder, blurred street lights outside, the edge of a dark wood table in the foreground, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no human figures."
+  },
+  "D08-B-d2": {
+   "url": "https://s6mookxlaekqlqom.public.blob.vercel-storage.com/mcp/20261018-195634-image-photorealistic-editorial-still-life-vert-oGOH22zv4zw5ayXYafm8xOCuB4jslQ.jpg",
+   "prompt": "Photorealistic editorial still life, vertical, a half-finished cup of cold coffee on a saucer, a sharpened pencil and a folded paper napkin with faint abstract pencil marks on a marble cafe table, amber lamp glow, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no human figures."
+  },
+  "D08-B-d4": {
+   "url": "https://s6mookxlaekqlqom.public.blob.vercel-storage.com/mcp/20261018-195505-image-photorealistic-editorial-still-life-vert-XEEhr1fQ7i5L6nZDUDUaeyoRPkqhRC.jpg",
+   "prompt": "Photorealistic editorial still life, vertical, a sage-green clothbound notebook lying open to a blank ruled page with a fountain pen resting across it, a blush ribbon bookmark, a cup of tea steaming beside it, warm desk lamp light, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no human figures."
+  },
+  "D08-B-d6": {
+   "url": "https://s6mookxlaekqlqom.public.blob.vercel-storage.com/mcp/20261018-195710-image-photorealistic-editorial-still-life-vert-6mkoeuqnAkLhmtLS0wlIHt82rB35IF.jpg",
+   "prompt": "Photorealistic editorial still life, vertical, a blank cream menu card standing in a small silver holder beside a folded linen napkin and a fork on a candlelit table, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no human figures."
+  },
+  "D08-B-d8": {
+   "url": "https://s6mookxlaekqlqom.public.blob.vercel-storage.com/mcp/20261018-195607-image-photorealistic-editorial-still-life-vert-jSX4KbSQz5cFbLlD6gZiqINpUYcLeK.jpg",
+   "prompt": "Photorealistic editorial still life, vertical, a closed silver laptop on a dark wood cafe table beside a cup of coffee and a leather notebook, amber lamp light, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no human figures."
+  },
+  "D09-A-d1": {
+   "url": "https://s6mookxlaekqlqom.public.blob.vercel-storage.com/mcp/20261018-195909-image-photorealistic-editorial-still-life-vert-0Y5OLY2f3pmdYaXvOuxJp8T42kJfvF.jpg",
+   "prompt": "Photorealistic editorial still life, vertical, cream reply cards and matching envelopes fanned on raw linen beside a fountain pen, café table by a tall window, low golden morning light, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no human figures."
+  },
+  "D09-A-d2": {
+   "url": "https://s6mookxlaekqlqom.public.blob.vercel-storage.com/mcp/20261018-195801-image-photorealistic-editorial-still-life-vert-NReziFo7fNFo0Ep6C8CPq8HkyIjKCX.jpg",
+   "prompt": "Photorealistic editorial still life, vertical, a bundle of cream envelopes tied with twine, a tan leather glove and a small black coffee on a zinc café terrace table, scattered russet plane-tree leaves, soft low sun, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no human figures."
+  },
+  "D09-A-d4": {
+   "url": "https://s6mookxlaekqlqom.public.blob.vercel-storage.com/mcp/20261018-195649-image-photorealistic-editorial-still-life-vert-mjk5gwg6a2maHQ7dFVY9ImyZ9UHpvF.jpg",
+   "prompt": "Photorealistic editorial still life, vertical, several small blank cream notes and a postcard scattered across a marble café table beside a half-drunk coffee, soft window light, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no human figures."
+  },
+  "D09-A-d5": {
+   "url": "https://s6mookxlaekqlqom.public.blob.vercel-storage.com/mcp/20261018-200007-image-photorealistic-editorial-still-life-vert-V42NTgQVzVjPKgaqdqRJXENgR4m6Ub.jpg",
+   "prompt": "Photorealistic editorial still life, vertical, a single ivory envelope sealed with blush wax resting on the sleeve of a camel wool coat folded over a chair, café terrace, soft low sun, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no human figures."
+  },
+  "D09-A-d7": {
+   "url": "https://s6mookxlaekqlqom.public.blob.vercel-storage.com/mcp/20261018-195840-image-photorealistic-editorial-still-life-vert-aa2PAPKODFcG2Pn5djsfotqBGk3xja.jpg",
+   "prompt": null
+  },
+  "D10-A-d1": {
+   "url": "https://s6mookxlaekqlqom.public.blob.vercel-storage.com/mcp/20261018-195735-image-photorealistic-editorial-still-life-vert-ij7PVoGC76ulKkgx7Sjj9BZN76BDB0.jpg",
+   "prompt": "Photorealistic editorial still life, vertical, a rain-streaked window at dusk with warm lamp glow reflected in the glass, a trailing green plant on the sill and a folded ivory plaid, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no human figures."
+  },
+  "D10-A-d3": {
+   "url": "https://s6mookxlaekqlqom.public.blob.vercel-storage.com/mcp/20261018-195922-image-photorealistic-editorial-still-life-vert-V3rmJYq22xgmAIYQxRK7zAOOcsCKmK.jpg",
+   "prompt": "Photorealistic editorial still life, vertical, a blank cream notebook and a pen resting on the arm of a sofa beside a lit candle, soft lamp light, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no human figures."
+  },
+  "D10-A-d5": {
+   "url": "https://s6mookxlaekqlqom.public.blob.vercel-storage.com/mcp/20261018-195828-image-photorealistic-editorial-still-life-vert-8BoELzwfvU3nqmSZGHv5hxBLZeFUJz.jpg",
+   "prompt": "Photorealistic editorial still life, vertical, two small bundles of cream envelopes tied with different ribbons, one blush and one sage, side by side on a wooden tray, soft evening light, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no human figures."
+  },
+  "D10-B-d1": {
+   "url": "https://s6mookxlaekqlqom.public.blob.vercel-storage.com/mcp/20261018-200004-image-photorealistic-editorial-still-life-vert-gSZmHpTZXT3gQKNEtHfVgSgQFtKqIH.jpg",
+   "prompt": "Photorealistic editorial still life, vertical, round banquet tables set for dinner inside a glass-roofed orangerie, one table drawn slightly apart from the others, folded linen napkins and glassware, pale winter evening light, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no human figures."
+  },
+  "D10-B-d3": {
+   "url": "https://s6mookxlaekqlqom.public.blob.vercel-storage.com/mcp/20261018-195911-image-photorealistic-editorial-still-life-vert-ocHGzry9eeOlyUwqxEaEkhj5NGvnRr.jpg",
+   "prompt": "Photorealistic editorial still life, vertical, a small wooden table beside tall glazed doors with a clipboard holding blank paper and a pen, a lantern glowing, blue hour light, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no human figures."
+  },
+  "D10-B-d5": {
+   "url": "https://s6mookxlaekqlqom.public.blob.vercel-storage.com/mcp/20261018-200055-image-photorealistic-editorial-still-life-vert-aPEprcX0aD7OMZPuECdE0KenGmSuAE.jpg",
+   "prompt": "Photorealistic editorial still life, vertical, frost-edged glass of a tall orangerie door with warm interior light behind it and a lantern on the stone step, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no human figures."
+  },
+  "D10-B-d9": {
+   "url": "https://s6mookxlaekqlqom.public.blob.vercel-storage.com/mcp/20261018-200100-image-photorealistic-editorial-still-life-vert-ixjGlnKYI7X4HXZgAzdqSwkiKnXIIT.jpg",
+   "prompt": "Photorealistic editorial still life, vertical, a small brass hourglass on a stone ledge beside a lantern, blue hour light, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no human figures."
+  }
+ }
+}

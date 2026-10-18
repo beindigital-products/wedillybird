@@ -1,0 +1,226 @@
+{
+  "id": "D02-B",
+  "day": 2,
+  "slot": "B",
+  "series": "NOTEBOOK",
+  "episode": 2,
+  "fiction": true,
+  "pillar": "RSVP clarity",
+  "look": "L8",
+  "hook_id": "NB02",
+  "working_title": "Norah's Notebook 02: The Group Chat",
+  "search_intent": "how to track wedding RSVPs",
+  "hook": {
+    "spoken": "Entry two. Replies are arriving in four different places.",
+    "on_screen": "Entry 02. Replies are arriving in four different places.",
+    "visual": "entry card"
+  },
+  "voiceover": "Entry two. Replies are arriving in four different places. Norah's Notebook, entry two. The story is fiction. The fix is real. Last time: Mara merged four tabs, and overnight the count changed. Dear notebook: nine weeks to go. The count moved because replies arrived. The family group chat. A voicemail. A direct message. A card in the mail. Nobody did anything wrong. They replied the easy way. Then Eli's cousin said yes in the chat, and no by voicemail. Two answers, two places. Which one counted? Here's the part people skip. Guests reply wherever the invitation found them. Rule one: print exactly where replies go. One address, one number. Emily Post says an email reply is fine, as long as it's an option. Rule two: one RSVP deadline. Count back from the caterer. Caterers usually need final headcounts one to two weeks before the wedding. Leave at least ten days between your RSVP deadline and that date. Mara's caterer says two weeks. Her deadline lands just over three weeks out. Then confirm the date with your caterer. If it's your winter wedding too, follow along. Tomorrow, I'll show you what a guest sees. This is the step people skip. Rule three: one channel for everyone. Text one invitation, text them all. That's etiquette specialist Anne Chertoff's advice. For a reply in the wrong place, I'd say this. Thank you! So we don't lose your reply, could you send it the way the invitation says? Tonight Mara moved every stray reply into one list. One path. One date. One channel. I'm Norah, an AI character, and this is Wedillybird. The pen crosses out the group chat, and writes the next problem. A maybe arrives with a heart emoji.",
+  "word_count": 287,
+  "beats": [
+    {
+      "n": 1,
+      "vo": "Entry two. Replies are arriving in four different places.",
+      "overlay": "Replies are arriving in four different places.",
+      "visual": {"kind": "CARD", "card": {"type": "entry", "n": 2, "text": "The Group Chat", "sub": "Nine weeks to go"}}
+    },
+    {
+      "n": 2,
+      "vo": "Norah's Notebook, entry two. The story is fiction. The fix is real.",
+      "visual": {"kind": "NORAH", "asset": "L8-S6", "crop": "wide", "focus": "center", "note": "Norah on the sofa seen from behind, plaid over her knees, sage notebook on her lap, rain on the window, candle lit"}
+    },
+    {
+      "n": 3,
+      "vo": "Last time: Mara merged four tabs, and overnight the count changed.",
+      "visual": {"kind": "DECOR", "asset": "D02-B-d1", "prompt": "Photorealistic editorial still life, vertical, a rain-streaked window at dusk with a warm lamp glowing indoors, a steaming mug on the windowsill and a folded ivory wool blanket on a sofa arm, living room, soft amber light, 35 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no human figures.", "motion": "push-in"}
+    },
+    {
+      "n": 4,
+      "vo": "Dear notebook: nine weeks to go. The count moved because replies arrived.",
+      "visual": {"kind": "DECOR", "asset": "D02-B-d4", "prompt": "Photorealistic editorial still life, vertical, a smartphone lying screen-down on a woven ivory plaid blanket beside a steaming mug, sofa, soft lamp light, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no human figures.", "motion": "pan-left"}
+    },
+    {
+      "n": 5,
+      "vo": "The family group chat. A voicemail. A direct message. A card in the mail.",
+      "visual": {"kind": "CARD", "card": {"type": "checklist", "text": "Four places", "items": ["The family group chat", "A voicemail", "A direct message", "A card in the mail"]}}
+    },
+    {
+      "n": 6,
+      "vo": "Nobody did anything wrong. They replied the easy way.",
+      "visual": {"kind": "DECOR", "asset": "D02-B-d2", "prompt": "Photorealistic editorial still life, vertical, four objects in a row on a low wooden coffee table: a smartphone lying screen-down, a cream envelope, an old cream landline telephone handset and a small blank notepad, warm lamp light, rain-blurred window behind, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no human figures.", "motion": "pull-out"}
+    },
+    {
+      "n": 7,
+      "vo": "Then Eli's cousin said yes in the chat, and no by voicemail.",
+      "visual": {"kind": "NORAH", "asset": "L8-S2", "crop": "medium", "focus": "hands", "note": "over her shoulder: hands holding the sage notebook and a dark phone, screen not legible, steaming tea on the arm of the sofa"}
+    },
+    {
+      "n": 8,
+      "vo": "Two answers, two places. Which one counted?",
+      "visual": {"kind": "DECOR", "asset": "D02-B-d3", "prompt": "Photorealistic editorial still life, vertical, a brass letterbox flap on a painted sage-green front door with a cream envelope half pushed through, warm hallway light, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no human figures.", "motion": "push-in"}
+    },
+    {
+      "n": 9,
+      "vo": "Here's the part people skip.",
+      "visual": {"kind": "CARD", "card": {"type": "title", "text": "The part people skip."}}
+    },
+    {
+      "n": 10,
+      "vo": "Guests reply wherever the invitation found them.",
+      "visual": {"kind": "NORAH", "asset": "L8-S4", "crop": "wide", "focus": "right", "note": "profile in silhouette against the rain-streaked window, steam rising from the mug, face turned away"}
+    },
+    {
+      "n": 11,
+      "vo": "Rule one: print exactly where replies go. One address, one number.",
+      "visual": {"kind": "DECOR", "asset": "D02-B-d6", "prompt": "Photorealistic editorial still life, vertical, blank cream reply cards fanned on a low wooden coffee table beside a black pen, a candle glowing softly, rain-blurred window behind, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no human figures.", "motion": "push-in"}
+    },
+    {
+      "n": 12,
+      "vo": "Emily Post says an email reply is fine, as long as it's an option.",
+      "overlay": "Source: Emily Post Institute",
+      "visual": {"kind": "DECOR", "asset": "D02-B-d6", "prompt": "Photorealistic editorial still life, vertical, blank cream reply cards fanned on a low wooden coffee table beside a black pen, a candle glowing softly, rain-blurred window behind, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no human figures.", "motion": "pan-right"}
+    },
+    {
+      "n": 13,
+      "vo": "Rule two: one RSVP deadline. Count back from the caterer.",
+      "visual": {"kind": "NORAH", "asset": "L8-S3", "crop": "tight", "focus": "hands", "note": "macro: the pen draws a line backwards across a blank notebook page, from one dot to another, candle glow"}
+    },
+    {
+      "n": 14,
+      "vo": "Caterers usually need final headcounts one to two weeks before the wedding.",
+      "overlay": "Source: Joy, 2025",
+      "visual": {"kind": "DECOR", "asset": "D02-B-d5", "prompt": "Photorealistic editorial still life, vertical, a vintage brass alarm clock beside a mug on a wooden coffee table, lamp glow, rain-blurred window behind, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no human figures.", "motion": "push-in"}
+    },
+    {
+      "n": 15,
+      "vo": "Leave at least ten days between your RSVP deadline and that date.",
+      "visual": {"kind": "CARD", "card": {"type": "number", "n": 10, "text": "days, at least, between your deadline and the caterer's date", "sub": "Source: Joy, 2025"}}
+    },
+    {
+      "n": 16,
+      "vo": "Mara's caterer says two weeks. Her deadline lands just over three weeks out.",
+      "visual": {"kind": "DECOR", "asset": "D02-B-d5", "prompt": "Photorealistic editorial still life, vertical, a vintage brass alarm clock beside a mug on a wooden coffee table, lamp glow, rain-blurred window behind, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no human figures.", "motion": "pull-out"}
+    },
+    {
+      "n": 17,
+      "vo": "Then confirm the date with your caterer.",
+      "visual": {"kind": "NORAH", "asset": "L8-S6", "crop": "tight", "focus": "left", "note": "seated on the sofa from behind, pen ticking a short line in the notebook, plaid over her shoulder"}
+    },
+    {
+      "n": 18,
+      "vo": "If it's your winter wedding too, follow along.",
+      "visual": {"kind": "DECOR", "asset": "D02-B-d1", "prompt": "Photorealistic editorial still life, vertical, a rain-streaked window at dusk with a warm lamp glowing indoors, a steaming mug on the windowsill and a folded ivory wool blanket on a sofa arm, living room, soft amber light, 35 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no human figures.", "motion": "pull-out"}
+    },
+    {
+      "n": 19,
+      "vo": "Tomorrow, I'll show you what a guest sees.",
+      "visual": {"kind": "NORAH", "asset": "L8-S7", "crop": "tight", "focus": "left", "note": "chunky ivory knit sweater sleeve and plaid fringe moving as she turns a page"}
+    },
+    {
+      "n": 20,
+      "vo": "This is the step people skip. Rule three: one channel for everyone.",
+      "visual": {"kind": "DECOR", "asset": "D02-B-d4", "prompt": "Photorealistic editorial still life, vertical, a smartphone lying screen-down on a woven ivory plaid blanket beside a steaming mug, sofa, soft lamp light, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no human figures.", "motion": "push-in"}
+    },
+    {
+      "n": 21,
+      "vo": "Text one invitation, text them all.",
+      "visual": {"kind": "NORAH", "asset": "L8-S1", "crop": "wide", "focus": "center", "note": "she walks away through the living room toward the lamp-lit window, plaid trailing from one hand"}
+    },
+    {
+      "n": 22,
+      "vo": "That's etiquette specialist Anne Chertoff's advice.",
+      "overlay": "Anne Chertoff, Business Insider, 2021",
+      "visual": {"kind": "DECOR", "asset": "D02-B-d3", "prompt": "Photorealistic editorial still life, vertical, a brass letterbox flap on a painted sage-green front door with a cream envelope half pushed through, warm hallway light, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no human figures.", "motion": "pull-out"}
+    },
+    {
+      "n": 23,
+      "vo": "For a reply in the wrong place, I'd say this.",
+      "visual": {"kind": "NORAH", "asset": "L8-S2", "crop": "detail", "focus": "hands", "note": "hands holding a dark phone over the notebook, thumb ready to type, screen not legible"}
+    },
+    {
+      "n": 24,
+      "vo": "Thank you! So we don't lose your reply, could you send it the way the invitation says?",
+      "visual": {"kind": "CARD", "card": {"type": "quote", "text": "Thank you! So we don't lose your reply, could you send it the way the invitation says?", "sub": "Suggested wording"}}
+    },
+    {
+      "n": 25,
+      "vo": "Tonight Mara moved every stray reply into one list.",
+      "visual": {"kind": "DECOR", "asset": "D02-B-d7", "prompt": "Photorealistic editorial still life, vertical, a single candle burning in a glass jar on a low wooden coffee table, rain-blurred window behind, calm and quiet, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no human figures.", "motion": "push-in"}
+    },
+    {
+      "n": 26,
+      "vo": "One path. One date. One channel.",
+      "visual": {"kind": "CARD", "card": {"type": "title", "text": "One path. One date. One channel."}}
+    },
+    {
+      "n": 27,
+      "vo": "I'm Norah, an AI character, and this is Wedillybird.",
+      "visual": {"kind": "NORAH", "asset": "L8-S8", "crop": "wide", "focus": "center", "note": "she walks toward the hallway door; it opens onto soft evening light"}
+    },
+    {
+      "n": 28,
+      "vo": "The pen crosses out the group chat, and writes the next problem.",
+      "visual": {"kind": "NORAH", "asset": "L8-S3", "crop": "detail", "focus": "hands", "note": "the pen draws a line through the title The Group Chat on the notebook page, then starts a new line in blush ink"}
+    },
+    {
+      "n": 29,
+      "vo": "A maybe arrives with a heart emoji.",
+      "visual": {"kind": "CARD", "card": {"type": "entry", "n": 3, "text": "A maybe arrives with a heart emoji.", "sub": "Entry three is coming"}}
+    }
+  ],
+  "cta": "Follow Norah's Notebook: tomorrow I show you what a guest sees, and entry three is coming.",
+  "next_teaser": "Tomorrow I show you what a guest sees",
+  "caption": "How to track wedding RSVPs: one reply path and an RSVP deadline counted back from the caterer.\nEntry 02 of Norah's Notebook: replies in four places, three rules, and a word-for-word message for stray replies.\nFiction: Norah and the couple are invented. The tips are real.\nHosted by Norah, an AI character created by the Wedillybird team.",
+  "hashtags": ["#bridetok", "#rsvp", "#weddinginvitations", "#winterwedding", "#weddingtimelinetips"],
+  "keywords": ["RSVP deadline", "final headcount", "winter wedding"],
+  "pinned_comment": "Three rules: 1) Print exactly where replies go: one address or one number (Emily Post says an email reply is fine as an option). 2) One RSVP deadline: count back from your caterer's final headcount date and leave at least ten days (Joy, 2025), then confirm the date with your caterer. 3) One channel for everyone: if you text one invitation, text them all (Anne Chertoff, Business Insider, 2021). Message for a stray reply, copy and paste: \"Thank you! So we don't lose your reply, could you send it the way the invitation says?\" Fiction: Mara, Eli and Norah are invented; the tips are real. Norah is AI-generated.",
+  "comment_bait": "Where do most of your replies land: chat, text, email or mail?",
+  "r2_items": ["T30", "T35", "T36"],
+  "sources": [
+    {
+      "fact": "Venues and caterers typically need final headcounts one to two weeks before the wedding; set the RSVP deadline at least ten days before that headcount date so you have time to chase",
+      "publisher": "Joy (Joy Editors)",
+      "title": "How to Set Perfect Wedding RSVP Deadlines",
+      "url": "https://withjoy.com/blog/how-to-set-perfect-wedding-rsvp-deadlines-a-stress-free-guide-for-couples/",
+      "date": "2025-05-29 (updated 2025-06-18)",
+      "r2_id": "T30"
+    },
+    {
+      "fact": "Confirm the headcount date with your caterer (the same Joy article is internally inconsistent, 3-4 weeks vs 2-3 weeks before the wedding)",
+      "publisher": "Joy (Joy Editors)",
+      "title": "How to Set Perfect Wedding RSVP Deadlines",
+      "url": "https://withjoy.com/blog/how-to-set-perfect-wedding-rsvp-deadlines-a-stress-free-guide-for-couples/",
+      "date": "2025-05-29 (updated 2025-06-18)",
+      "r2_id": "T30"
+    },
+    {
+      "fact": "It is acceptable to give guests the option of replying by email, as long as it is an option (print the address on the response card)",
+      "publisher": "Emily Post Institute",
+      "title": "Wedding Email Dos and Don'ts",
+      "url": "https://emilypost.com/advice/wedding-email-dos-and-donts",
+      "date": "undated",
+      "r2_id": "T35"
+    },
+    {
+      "fact": "Etiquette specialist Anne Chertoff would never recommend texting someone a wedding invitation unless everyone is getting a text (exception: a spontaneous celebration after a city-hall wedding)",
+      "publisher": "Business Insider (Anna Medaris Miller) via Yahoo",
+      "title": "Article on texted wedding invitations and B-list etiquette (exact title not listed in r2; URL slug broke-etiquette-text-invited-b)",
+      "url": "https://www.yahoo.com/news/broke-etiquette-text-invited-b-132350557.html",
+      "date": "2021-10-15 (updated)",
+      "r2_id": "T36"
+    }
+  ],
+  "claims_review": {
+    "numbers_used": [
+      {"figure": "one to two weeks before the wedding (caterer's final headcount date)", "source": "Joy, 'How to Set Perfect Wedding RSVP Deadlines', updated 2025-06-18", "r2_id": "T30"},
+      {"figure": "at least ten days before the headcount date (RSVP deadline)", "source": "Joy, 'How to Set Perfect Wedding RSVP Deadlines', updated 2025-06-18", "r2_id": "T30"},
+      {"figure": "just over three weeks before the wedding (computed: the story's invented two-week caterer date plus ten days)", "source": "computed from Joy, updated 2025-06-18; the two-week input is fictional", "r2_id": "T30"}
+    ],
+    "needs_proof": [
+      "T35: the Emily Post page is undated in r2, so the on-screen source carries no year.",
+      "T36: single-expert source (r2 confidence medium); no etiquette authority covers WhatsApp, so the line says text only."
+    ],
+    "notes": "Story numbers (nine weeks, four places, a two-week caterer date) are invented and never presented as results. The stray-reply message is Norah's suggested wording, not a quote. No product is mentioned; the brand name appears once, in the AI-disclosure sentence. The teaser 'what a guest sees' announces the next video (INSIDE 1) without describing any feature."
+  },
+  "ai_disclosure": true
+}

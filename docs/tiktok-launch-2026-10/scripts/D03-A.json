@@ -1,0 +1,500 @@
+{
+  "id": "D03-A",
+  "day": 3,
+  "slot": "A",
+  "series": "QUIET_LIST",
+  "episode": 2,
+  "fiction": false,
+  "pillar": "Planning timeline",
+  "look": "L4",
+  "hook_id": "H54",
+  "working_title": "Your wedding isn't behind schedule: three things now, five after the holidays",
+  "search_intent": "just got engaged what to do first",
+  "hook": {
+    "spoken": "Your wedding isn't behind schedule. Here's what matters now.",
+    "on_screen": "Not behind schedule. Here's what matters now.",
+    "visual": "Norah walking away along a misty gravel allee in an ecru knit and anthracite coat, hook overlay at the top"
+  },
+  "voiceover": "Your wedding isn't behind schedule. Here's what matters now. The Quiet List: what matters now, and what can wait. Zola's own planning guide says there is no required timeline. If you just got engaged this season, you're in good company. The Knot's data put December at the top for engagements. For a wedding a year or more away, three things matter now. Five can wait until after the holidays. And the one that feels urgent is on the wait list. One. Celebrate, and tell your closest people yourself before you post. Two. Pick a few date windows, and check holidays and conflicts. Three. Draft a rough budget and a rough guest list. Next in line is the venue. Every booking after it depends on it. Here's the part people skip: ask if you can bring your own vendors. Some venues restrict them, or charge an outside-vendor fee. Follow if you'd like tomorrow's: how to say adults only politely. Now the wait list. Zola's planning timeline counts months before the wedding. Your wedding party: month eleven, alongside the venue. Wait until budget, venue and style are settled. Attire: appointments start around month ten. Rushed buying can mean regret. Here's the one that feels urgent: save-the-dates. Six to eight months out, and earlier for destination weddings. Marriage license rules: month six on the checklist. Check your state and county: deadlines, fees and waiting periods. Invitations: order them in month four. One per household, plus ten to fifteen percent extra envelopes. Three now, five later. You're not behind. Save this for the next time a post makes you feel behind. I'm Norah, Wedillybird's AI host. Your wedding isn't behind schedule. Now you know what matters.",
+  "word_count": 282,
+  "beats": [
+    {
+      "n": 1,
+      "vo": "Your wedding isn't behind schedule. Here's what matters now.",
+      "overlay": "Not behind schedule. Here's what matters now.",
+      "visual": {
+        "kind": "NORAH",
+        "asset": "L4-S1",
+        "crop": "wide",
+        "focus": "center",
+        "note": "Norah walks away along a misty gravel allee in a chunky ecru knit, long anthracite wool coat and grey scarf, copper trees on both sides"
+      }
+    },
+    {
+      "n": 2,
+      "vo": "The Quiet List: what matters now, and what can wait.",
+      "visual": {
+        "kind": "CARD",
+        "card": {
+          "type": "title",
+          "text": "The Quiet List",
+          "sub": "What matters now, and what can wait"
+        }
+      }
+    },
+    {
+      "n": 3,
+      "vo": "Zola's own planning guide says there is no required timeline.",
+      "overlay": "Zola, 2025: no required timeline",
+      "visual": {
+        "kind": "DECOR",
+        "asset": "D03-A-d1",
+        "prompt": "Photorealistic editorial still life, vertical, an empty gravel allee lined with copper-leaved trees in light morning mist leading toward the pale stone wing of a chateau, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no hands, nothing human in frame.",
+        "motion": "push-in"
+      }
+    },
+    {
+      "n": 4,
+      "vo": "If you just got engaged this season, you're in good company.",
+      "visual": {
+        "kind": "NORAH",
+        "asset": "L4-S5",
+        "crop": "medium",
+        "focus": "center",
+        "note": "Norah stops and looks toward the pale stone chateau through the mist, seen from behind, slow push-in"
+      }
+    },
+    {
+      "n": 5,
+      "vo": "The Knot's data put December at the top for engagements.",
+      "overlay": "Source: The Knot, engagement data",
+      "visual": {
+        "kind": "DECOR",
+        "asset": "D03-A-d2",
+        "prompt": "Photorealistic editorial still life, vertical, a sage-green cloth notebook and a steaming cup of tea on a weathered stone ledge, autumn garden softly blurred behind, diffused misty light, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no hands, nothing human in frame.",
+        "motion": "pan-left"
+      }
+    },
+    {
+      "n": 6,
+      "vo": "For a wedding a year or more away, three things matter now.",
+      "overlay": "Zola checklist, 2026: twelve months or more",
+      "visual": {
+        "kind": "DECOR",
+        "asset": "D03-A-d1",
+        "prompt": "Photorealistic editorial still life, vertical, an empty gravel allee lined with copper-leaved trees in light morning mist leading toward the pale stone wing of a chateau, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no hands, nothing human in frame.",
+        "motion": "pull-out"
+      }
+    },
+    {
+      "n": 7,
+      "vo": "Five can wait until after the holidays.",
+      "visual": {
+        "kind": "CARD",
+        "card": {
+          "type": "title",
+          "text": "Three now. Five later.",
+          "sub": "Until after the holidays"
+        }
+      }
+    },
+    {
+      "n": 8,
+      "vo": "And the one that feels urgent is on the wait list.",
+      "visual": {
+        "kind": "DECOR",
+        "asset": "D03-A-d3",
+        "prompt": "Photorealistic editorial still life, vertical, a wrought-iron garden gate standing slightly ajar in an old stone wall, copper leaves on the ground, misty morning light, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no hands, nothing human in frame.",
+        "motion": "push-in"
+      }
+    },
+    {
+      "n": 9,
+      "vo": "One. Celebrate, and tell your closest people yourself before you post.",
+      "overlay": "1 | Celebrate, tell your people first",
+      "visual": {
+        "kind": "NORAH",
+        "asset": "L4-S3",
+        "crop": "detail",
+        "focus": "hands",
+        "note": "Close-up of hands lifting a small champagne coupe toward soft garden light, shallow depth of field"
+      }
+    },
+    {
+      "n": 10,
+      "vo": "Two. Pick a few date windows, and check holidays and conflicts.",
+      "overlay": "2 | A few date windows",
+      "visual": {
+        "kind": "DECOR",
+        "asset": "D03-A-d2",
+        "prompt": "Photorealistic editorial still life, vertical, a sage-green cloth notebook and a steaming cup of tea on a weathered stone ledge, autumn garden softly blurred behind, diffused misty light, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no hands, nothing human in frame.",
+        "motion": "push-in"
+      }
+    },
+    {
+      "n": 11,
+      "vo": "Three. Draft a rough budget and a rough guest list.",
+      "overlay": "3 | Rough budget, rough guest list",
+      "visual": {
+        "kind": "NORAH",
+        "asset": "L4-S2",
+        "crop": "medium",
+        "focus": "hands",
+        "note": "Over the shoulder: hands holding an open sage notebook, a pen resting on the page, misty garden beyond"
+      }
+    },
+    {
+      "n": 12,
+      "vo": "Next in line is the venue. Every booking after it depends on it.",
+      "visual": {
+        "kind": "DECOR",
+        "asset": "D03-A-d4",
+        "prompt": "Photorealistic editorial still life, vertical, the tall glass windows of a stone orangery at the edge of an autumn garden, misty light, copper leaves on the path, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no hands, nothing human in frame.",
+        "motion": "pan-right"
+      }
+    },
+    {
+      "n": 13,
+      "vo": "Here's the part people skip: ask if you can bring your own vendors.",
+      "visual": {
+        "kind": "NORAH",
+        "asset": "L4-S6",
+        "crop": "medium",
+        "focus": "center",
+        "note": "Norah seated on a stone bench seen from behind, notebook on her knee, slow lateral dolly"
+      }
+    },
+    {
+      "n": 14,
+      "vo": "Some venues restrict them, or charge an outside-vendor fee.",
+      "overlay": "WeddingWire, 2021 | Here Comes The Guide, 2026",
+      "visual": {
+        "kind": "DECOR",
+        "asset": "D03-A-d5",
+        "prompt": "Photorealistic editorial still life, vertical, a heavy brass key lying on a weathered stone ledge beside a copper-colored leaf, misty autumn garden behind, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no hands, nothing human in frame.",
+        "motion": "pull-out"
+      }
+    },
+    {
+      "n": 15,
+      "vo": "Follow if you'd like tomorrow's: how to say adults only politely.",
+      "overlay": "Tomorrow: how to say adults only politely",
+      "visual": {
+        "kind": "NORAH",
+        "asset": "L4-S1",
+        "crop": "tight",
+        "focus": "right",
+        "note": "Norah walks away along the gravel toward a distant gate, shot from behind, slight rear tracking"
+      }
+    },
+    {
+      "n": 16,
+      "vo": "Now the wait list. Zola's planning timeline counts months before the wedding.",
+      "visual": {
+        "kind": "CARD",
+        "card": {
+          "type": "title",
+          "text": "The wait list",
+          "sub": "Months before the wedding | Zola checklist, 2026"
+        }
+      }
+    },
+    {
+      "n": 17,
+      "vo": "Your wedding party: month eleven, alongside the venue.",
+      "visual": {
+        "kind": "CARD",
+        "card": {
+          "type": "number",
+          "n": "11",
+          "text": "Wedding party",
+          "sub": "Month 11 | Zola checklist, 2026"
+        }
+      }
+    },
+    {
+      "n": 18,
+      "vo": "Wait until budget, venue and style are settled.",
+      "overlay": "Zola, 2025: settle budget, venue, style first",
+      "visual": {
+        "kind": "DECOR",
+        "asset": "D03-A-d6",
+        "prompt": "Photorealistic editorial still life, vertical, a row of five folded sage-colored linen napkins on a stone table in a garden, soft diffused autumn light, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no hands, nothing human in frame.",
+        "motion": "pan-left"
+      }
+    },
+    {
+      "n": 19,
+      "vo": "Attire: appointments start around month ten.",
+      "visual": {
+        "kind": "CARD",
+        "card": {
+          "type": "number",
+          "n": "10",
+          "text": "Attire",
+          "sub": "Appointments from month 10 | Zola checklist, 2026"
+        }
+      }
+    },
+    {
+      "n": 20,
+      "vo": "Rushed buying can mean regret.",
+      "overlay": "Zola, 2025: rushed purchases, regret",
+      "visual": {
+        "kind": "NORAH",
+        "asset": "L4-S7",
+        "crop": "detail",
+        "focus": "center",
+        "note": "Grey scarf and anthracite coat collar moving in the wind, tight fabric detail, copper leaves drifting past"
+      }
+    },
+    {
+      "n": 21,
+      "vo": "Here's the one that feels urgent: save-the-dates.",
+      "visual": {
+        "kind": "DECOR",
+        "asset": "D03-A-d9",
+        "prompt": "Photorealistic editorial still life, vertical, a small stack of cream cards tied with natural twine and a sprig of dried eucalyptus on a weathered stone ledge, misty autumn light, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no hands, nothing human in frame.",
+        "motion": "push-in"
+      }
+    },
+    {
+      "n": 22,
+      "vo": "Six to eight months out, and earlier for destination weddings.",
+      "visual": {
+        "kind": "CARD",
+        "card": {
+          "type": "number",
+          "n": "6–8",
+          "text": "Save-the-dates",
+          "sub": "Months before the wedding | Zola checklist, 2026 | other guides vary"
+        }
+      }
+    },
+    {
+      "n": 23,
+      "vo": "Marriage license rules: month six on the checklist.",
+      "visual": {
+        "kind": "CARD",
+        "card": {
+          "type": "number",
+          "n": "6",
+          "text": "Marriage license rules",
+          "sub": "Month 6 | US: rules vary by state and county"
+        }
+      }
+    },
+    {
+      "n": 24,
+      "vo": "Check your state and county: deadlines, fees and waiting periods.",
+      "overlay": "Zola checklist, 2026",
+      "visual": {
+        "kind": "DECOR",
+        "asset": "D03-A-d7",
+        "prompt": "Photorealistic editorial still life, vertical, worn stone steps leading to a small wooden door with an iron ring handle, fallen leaves on the steps, soft mist, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no hands, nothing human in frame.",
+        "motion": "push-in"
+      }
+    },
+    {
+      "n": 25,
+      "vo": "Invitations: order them in month four.",
+      "visual": {
+        "kind": "CARD",
+        "card": {
+          "type": "number",
+          "n": "4",
+          "text": "Invitations",
+          "sub": "Order in month 4 | one per household | Zola, 2026"
+        }
+      }
+    },
+    {
+      "n": 26,
+      "vo": "One per household, plus ten to fifteen percent extra envelopes.",
+      "overlay": "Zola, 2026: 10 to 15 percent extra envelopes",
+      "visual": {
+        "kind": "DECOR",
+        "asset": "D03-A-d8",
+        "prompt": "Photorealistic editorial still life, vertical, a few cream envelopes with a champagne wax seal on a weathered stone ledge, a single copper leaf beside them, soft misty light, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no hands, nothing human in frame.",
+        "motion": "pan-right"
+      }
+    },
+    {
+      "n": 27,
+      "vo": "Three now, five later. You're not behind.",
+      "visual": {
+        "kind": "NORAH",
+        "asset": "L4-S6",
+        "crop": "tight",
+        "focus": "left",
+        "note": "Seated on the stone bench from behind, closing the notebook, slow lateral dolly"
+      }
+    },
+    {
+      "n": 28,
+      "vo": "Save this for the next time a post makes you feel behind.",
+      "visual": {
+        "kind": "DECOR",
+        "asset": "D03-A-d2",
+        "prompt": "Photorealistic editorial still life, vertical, a sage-green cloth notebook and a steaming cup of tea on a weathered stone ledge, autumn garden softly blurred behind, diffused misty light, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no hands, nothing human in frame.",
+        "motion": "pull-out"
+      }
+    },
+    {
+      "n": 29,
+      "vo": "I'm Norah, Wedillybird's AI host.",
+      "visual": {
+        "kind": "NORAH",
+        "asset": "L4-S4",
+        "crop": "medium",
+        "focus": "center",
+        "note": "Backlit profile silhouette in the mist, face turned away, soft particles in the light"
+      }
+    },
+    {
+      "n": 30,
+      "vo": "Your wedding isn't behind schedule. Now you know what matters.",
+      "visual": {
+        "kind": "NORAH",
+        "asset": "L4-S8",
+        "crop": "wide",
+        "focus": "center",
+        "note": "Norah walks toward an iron gate that swings open onto bright light, followed from behind"
+      }
+    }
+  ],
+  "cta": "Soft follow at about one minute with tomorrow's teaser (how to say adults only politely). Final ask: save this for the next time a post makes you feel behind.",
+  "next_teaser": "Tomorrow: how to say adults only politely",
+  "caption": "Just got engaged what to do first\nThree things that matter now and five that can wait until after the holidays, with the month each one comes up on a planning checklist.\nHosted by Norah, an AI character created by the Wedillybird team.",
+  "hashtags": [
+    "#engaged",
+    "#weddingtimeline",
+    "#weddingplanning101",
+    "#winterweddinginspo",
+    "#weddingtodolist"
+  ],
+  "keywords": [
+    "just got engaged",
+    "what matters now",
+    "planning timeline",
+    "save-the-dates"
+  ],
+  "pinned_comment": "The Quiet List: what matters now, and what can wait (for a wedding a year or more away).\nNow: 1) celebrate and tell your closest people yourself 2) a few date windows 3) a rough budget and guest list\nNext: the venue. Ask if you can bring your own vendors, and whether there is an outside-vendor fee.\nCan wait (Zola's checklist counts months before the wedding): wedding party, month 11 / attire appointments, month 10 / save-the-dates, 6 to 8 months out / marriage license rules, month 6 / invitations, month 4\nNorah is AI-generated.",
+  "comment_bait": "Which task on the wait list felt most urgent to you?",
+  "r2_items": [
+    "T01",
+    "T02",
+    "T06",
+    "T07",
+    "T08",
+    "T09"
+  ],
+  "sources": [
+    {
+      "fact": "No required timeline; celebrate first; tell your closest people in person or by phone before you post; shortlist date windows and check holidays and conflicts; draft a budget; location and date, then venue, then other vendors",
+      "publisher": "Zola (McCall Minnor)",
+      "title": "Just Engaged? Here's What To Do Next!",
+      "url": "https://www.zola.com/expert-advice/to-dos-after-you-get-engaged",
+      "date": "updated 2025-10-13",
+      "r2_id": "T01"
+    },
+    {
+      "fact": "Wait a few weeks before asking anyone to be in the wedding; settle budget, venue and style first; do not buy attire until you know your budget; rushed purchases can lead to regret",
+      "publisher": "Zola (McCall Minnor)",
+      "title": "Just Engaged? Here's What To Do Next!",
+      "url": "https://www.zola.com/expert-advice/to-dos-after-you-get-engaged",
+      "date": "updated 2025-10-13",
+      "r2_id": "T02"
+    },
+    {
+      "fact": "December is the most popular month to get engaged",
+      "publisher": "The Knot",
+      "title": "This Was the Most Popular Day to Get Engaged Last Year",
+      "url": "https://www.theknot.com/content/popular-day-to-get-engaged",
+      "date": "undated (read via search extract)",
+      "r2_id": "T06"
+    },
+    {
+      "fact": "Checklist by month before the wedding: 12+ months budget, rough guest list, venue research; month 11 venue and wedding party; month 10 attire appointments; month 8 save-the-dates (6 to 8 months out, earlier for destination); month 6 marriage-license rules; month 4 order invitations",
+      "publisher": "Zola (Francine Crociata)",
+      "title": "Your Ultimate Wedding Planning Checklist",
+      "url": "https://www.zola.com/expert-advice/your-ultimate-wedding-planning-checklist",
+      "date": "updated 2026-05-14",
+      "r2_id": "T07"
+    },
+    {
+      "fact": "Venue first: each booking narrows the next; some venues keep a preferred-vendor list or restrict florists, musicians and planners",
+      "publisher": "WeddingWire (Kim Forrest)",
+      "title": "The 24 Questions to Ask a Wedding Venue BEFORE Booking",
+      "url": "https://www.weddingwire.com/wedding-ideas/recently-engaged/12-questions-to-ask-a-wedding-venue",
+      "date": "2021-05-04",
+      "r2_id": "T08"
+    },
+    {
+      "fact": "Some venues charge a fee to bring in outside vendors or caterers",
+      "publisher": "Here Comes The Guide",
+      "title": "Hidden Wedding Costs",
+      "url": "https://www.herecomestheguide.com/wedding-ideas/hidden-wedding-costs",
+      "date": "updated 2026-08-08",
+      "r2_id": "T08"
+    },
+    {
+      "fact": "Months 6 to 4: marriage-license rules, weather plan B, order invitations (one per household, order 10 to 15 percent extra envelopes)",
+      "publisher": "Zola (Francine Crociata)",
+      "title": "Your Ultimate Wedding Planning Checklist",
+      "url": "https://www.zola.com/expert-advice/your-ultimate-wedding-planning-checklist",
+      "date": "updated 2026-05-14",
+      "r2_id": "T09"
+    }
+  ],
+  "claims_review": {
+    "numbers_used": [
+      {
+        "figure": "a year or more away (twelve months or more)",
+        "source": "Zola checklist, 2026-05-14",
+        "r2_id": "T07"
+      },
+      {
+        "figure": "wedding party: month eleven",
+        "source": "Zola checklist, 2026-05-14",
+        "r2_id": "T07"
+      },
+      {
+        "figure": "attire appointments: month ten",
+        "source": "Zola checklist, 2026-05-14",
+        "r2_id": "T07"
+      },
+      {
+        "figure": "save-the-dates: six to eight months out, earlier for destination",
+        "source": "Zola checklist, 2026-05-14 (other guides vary)",
+        "r2_id": "T07"
+      },
+      {
+        "figure": "marriage license rules: month six",
+        "source": "Zola checklist, 2026-05-14",
+        "r2_id": "T09"
+      },
+      {
+        "figure": "order invitations: month four",
+        "source": "Zola checklist, 2026-05-14",
+        "r2_id": "T09"
+      },
+      {
+        "figure": "ten to fifteen percent extra envelopes, one invitation per household",
+        "source": "Zola checklist, 2026-05-14",
+        "r2_id": "T09"
+      },
+      {
+        "figure": "December is the most popular engagement month (ranking, no figure)",
+        "source": "The Knot, engagement data (undated page, read via search extract)",
+        "r2_id": "T06"
+      }
+    ],
+    "needs_proof": [
+      "T06 is medium confidence and undated: The Knot page was read only through a search extract. Verify on theknot.com or cut beats 4 and 5.",
+      "Month numbers are one publisher's defaults (Zola) and are attributed as such on screen; other guides vary, especially for save-the-dates (T28)."
+    ],
+    "notes": "H53 ('ignore these five tasks until after the holidays') is used as the wait-list frame. Zola is named only as a source, twice in the voice-over. License rules are shown with a US jurisdiction note on the card. No product is shown or pitched in this video; the only brand mention is the AI-host disclosure."
+  },
+  "ai_disclosure": true
+}

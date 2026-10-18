@@ -1,0 +1,215 @@
+{
+  "id": "D15-B",
+  "day": 15,
+  "slot": "B",
+  "series": "INSIDE",
+  "episode": 5,
+  "fiction": false,
+  "pillar": "Invitation testing",
+  "look": "L1",
+  "hook_id": "H51",
+  "working_title": "Inside Wedillybird 5: check it on a guest's phone before you send",
+  "search_intent": "how to test a digital wedding invitation on a phone before sending",
+  "hook": {
+    "spoken": "Check your invitation on a guest's phone before you send.",
+    "on_screen": "Check it on a guest's phone first",
+    "visual": "NORAH L1-S2 over-the-shoulder, phone in hand on a Paris café terrace; overlay = hook"
+  },
+  "voiceover": "Check your invitation on a guest's phone before you send. Four checks. Number three is the one people skip. You know your wedding invitation too well to see it fresh. Your guests will see it on a phone. See it there first. I'll use a Wedillybird demo for Léa and Adam, a fictional couple. One: use a phone that isn't yours, and open the link. Does the envelope open, and does the invitation appear? Look for the skip button, too. Two: read the names, the date and the venue out loud. Every name spelled right. The date. The place. The countdown. Scroll like a guest. Can you find the venue without help? Here's the part people skip: the reply. Three: try every answer, not just yes. Tap each answer in turn: I'll be there, Maybe, I can't make it. See what opens. Each guest should see only the plus-ones you allowed. If this helps, follow. One check to go. On your own invitation, stop before Send, so no real answer gets saved. Now read the dietary box the way a guest would. One limit to know about that box. It's a plain text box, so guests can write anything. If you need guests to pick a meal, you'd add a custom question. Custom questions are a Premium option. Either way, give guests with severe allergies a number to call. Four: hand it to someone who doesn't know the plan. Say nothing, and watch where they hesitate. Wherever they pause, your wording needs work. A borrowed phone. The details. Every answer. A cold read. Follow Wedillybird, and see a sample invitation: link in bio. I'm Norah, Wedillybird's AI host. That wraps our first fifteen days. Check it first, then send.",
+  "word_count": 290,
+  "beats": [
+    {
+      "n": 1,
+      "vo": "Check your invitation on a guest's phone before you send.",
+      "overlay": "Check it on a guest's phone first",
+      "visual": {"kind": "NORAH", "asset": "L1-S2", "crop": "medium", "focus": "hands", "note": "Over her shoulder on a Paris café terrace: a phone with a dark screen in her hands, autumn leaves falling."}
+    },
+    {
+      "n": 2,
+      "vo": "Four checks. Number three is the one people skip.",
+      "overlay": "Inside Wedillybird · 5",
+      "visual": {"kind": "DECOR", "asset": "D15-B-d1", "prompt": "Photorealistic editorial still life, vertical, four small blank cream cards laid in a neat row beside a pencil on a marble café table, Parisian terrace, low golden morning sun, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no legible screens, nobody in frame.", "motion": "push-in"}
+    },
+    {
+      "n": 3,
+      "vo": "You know your wedding invitation too well to see it fresh.",
+      "visual": {"kind": "DECOR", "asset": "D15-B-d2", "prompt": "Photorealistic editorial still life, vertical, a sealed cream envelope and a fountain pen on a marble café table, Parisian terrace, low golden morning light, a few fallen autumn leaves, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no legible screens, nobody in frame.", "motion": "pan-left"}
+    },
+    {
+      "n": 4,
+      "vo": "Your guests will see it on a phone. See it there first.",
+      "visual": {"kind": "NORAH", "asset": "L1-S6", "crop": "medium", "focus": "center", "note": "Seated from behind on the café terrace, a phone held at arm's length, screen dark."}
+    },
+    {
+      "n": 5,
+      "vo": "I'll use a Wedillybird demo for Léa and Adam, a fictional couple.",
+      "overlay": "Demo data",
+      "visual": {"kind": "CARD", "card": {"type": "title", "text": "Léa & Adam", "sub": "Fictional couple · demo invitation"}}
+    },
+    {
+      "n": 6,
+      "vo": "One: use a phone that isn't yours, and open the link.",
+      "visual": [
+        {"kind": "CARD", "card": {"type": "number", "n": 1, "text": "A phone that isn't yours", "sub": "Open the link"}},
+        {"kind": "SCREEN", "asset": "S01", "note": "The demo link opens on a phone: the sealed envelope fills the screen."}
+      ]
+    },
+    {
+      "n": 7,
+      "vo": "Does the envelope open, and does the invitation appear?",
+      "visual": {"kind": "SCREEN", "asset": "S01", "note": "The envelope opens and the invitation is revealed. Hold on the result."}
+    },
+    {
+      "n": 8,
+      "vo": "Look for the skip button, too.",
+      "visual": {"kind": "SCREEN", "asset": "S01", "note": "Replay the opening and point at the skip button if visible in the capture. Fallback card: 'Is there a skip button?'"}
+    },
+    {
+      "n": 9,
+      "vo": "Two: read the names, the date and the venue out loud.",
+      "visual": [
+        {"kind": "CARD", "card": {"type": "number", "n": 2, "text": "Read it out loud", "sub": "Names · date · venue"}},
+        {"kind": "SCREEN", "asset": "S03", "note": "Invitation page: the couple's names at the top."}
+      ]
+    },
+    {
+      "n": 10,
+      "vo": "Every name spelled right. The date. The place. The countdown.",
+      "visual": {"kind": "SCREEN", "asset": "S03", "note": "Highlight in turn: the names, the date, the venue, the countdown. Demo data."}
+    },
+    {
+      "n": 11,
+      "vo": "Scroll like a guest. Can you find the venue without help?",
+      "visual": {"kind": "SCREEN", "asset": "S03", "note": "Scroll down to the venue block at a natural pace."}
+    },
+    {
+      "n": 12,
+      "vo": "Here's the part people skip: the reply.",
+      "overlay": "The part people skip",
+      "visual": {"kind": "NORAH", "asset": "L1-S4", "crop": "medium", "focus": "center", "note": "Profile in silhouette against low golden sun, face turned away."}
+    },
+    {
+      "n": 13,
+      "vo": "Three: try every answer, not just yes.",
+      "visual": [
+        {"kind": "CARD", "card": {"type": "number", "n": 3, "text": "Try every answer", "sub": "Not just yes"}},
+        {"kind": "SCREEN", "asset": "S04", "note": "The reply section with the three answer choices."}
+      ]
+    },
+    {
+      "n": 14,
+      "vo": "Tap each answer in turn: I'll be there, Maybe, I can't make it.",
+      "visual": {"kind": "SCREEN", "asset": "S04", "note": "Tap I'll be there, then Maybe, then I can't make it."}
+    },
+    {
+      "n": 15,
+      "vo": "See what opens. Each guest should see only the plus-ones you allowed.",
+      "visual": {"kind": "SCREEN", "asset": "S04", "note": "After I'll be there, the plus-one field opens (one plus-one allowed for this demo guest)."}
+    },
+    {
+      "n": 16,
+      "vo": "If this helps, follow. One check to go.",
+      "visual": {"kind": "NORAH", "asset": "L1-S8", "crop": "wide", "focus": "center", "note": "She walks toward a tall carriage gate; the door opens onto warm light."}
+    },
+    {
+      "n": 17,
+      "vo": "On your own invitation, stop before Send, so no real answer gets saved.",
+      "visual": {"kind": "SCREEN", "asset": "S04", "note": "Form filled in; the pointer hovers over Send without pressing it. Fallback card: 'On your own invitation, stop before Send'."}
+    },
+    {
+      "n": 18,
+      "vo": "Now read the dietary box the way a guest would.",
+      "visual": {"kind": "SCREEN", "asset": "S04", "note": "Cursor goes to the dietary needs box."}
+    },
+    {
+      "n": 19,
+      "vo": "One limit to know about that box.",
+      "overlay": "One limit to know",
+      "visual": {"kind": "NORAH", "asset": "L1-S3", "crop": "detail", "focus": "hands", "note": "Hands turn a coffee cup on its saucer, steam rising."}
+    },
+    {
+      "n": 20,
+      "vo": "It's a plain text box, so guests can write anything.",
+      "visual": [
+        {"kind": "CARD", "card": {"type": "title", "text": "A plain text box", "sub": "Guests can write anything"}},
+        {"kind": "SCREEN", "asset": "S04", "note": "Text typed into the dietary needs box."}
+      ]
+    },
+    {
+      "n": 21,
+      "vo": "If you need guests to pick a meal, you'd add a custom question.",
+      "visual": {"kind": "NORAH", "asset": "L1-S7", "crop": "detail", "focus": "center", "note": "Cream scarf stirring in the wind, a few leaves tumbling past, close detail."}
+    },
+    {
+      "n": 22,
+      "vo": "Custom questions are a Premium option.",
+      "visual": {"kind": "CARD", "card": {"type": "title", "text": "Custom questions", "sub": "A Premium option"}}
+    },
+    {
+      "n": 23,
+      "vo": "Either way, give guests with severe allergies a number to call.",
+      "visual": {"kind": "NORAH", "asset": "L1-S6", "crop": "tight", "focus": "hands", "note": "Close on her hands holding a phone with a dark screen at the café table."}
+    },
+    {
+      "n": 24,
+      "vo": "Four: hand it to someone who doesn't know the plan.",
+      "visual": {"kind": "CARD", "card": {"type": "number", "n": 4, "text": "Hand it to someone cold", "sub": "Someone who doesn't know the plan"}}
+    },
+    {
+      "n": 25,
+      "vo": "Say nothing, and watch where they hesitate.",
+      "visual": {"kind": "NORAH", "asset": "L1-S5", "crop": "wide", "focus": "center", "note": "She stops at the edge of the terrace and watches the street, seen from behind."}
+    },
+    {
+      "n": 26,
+      "vo": "Wherever they pause, your wording needs work.",
+      "visual": {"kind": "SCREEN", "asset": "S04", "note": "The reply flow replayed slowly, with a pause on the plus-one field."}
+    },
+    {
+      "n": 27,
+      "vo": "A borrowed phone. The details. Every answer. A cold read.",
+      "visual": {"kind": "CARD", "card": {"type": "checklist", "text": "Before you send", "items": ["A borrowed phone", "Names, date, venue", "Every answer", "A cold read"]}}
+    },
+    {
+      "n": 28,
+      "vo": "Follow Wedillybird, and see a sample invitation: link in bio.",
+      "overlay": "Link in bio: see a sample invitation",
+      "visual": {"kind": "SCREEN", "asset": "S01", "note": "Back to the sealed envelope on the demo invitation, held for the call to action."}
+    },
+    {
+      "n": 29,
+      "vo": "I'm Norah, Wedillybird's AI host.",
+      "visual": {"kind": "NORAH", "asset": "L1-S2", "crop": "tight", "focus": "hands", "note": "She slides the phone into her coat pocket."}
+    },
+    {
+      "n": 30,
+      "vo": "That wraps our first fifteen days. Check it first, then send.",
+      "visual": {"kind": "NORAH", "asset": "L1-S8", "crop": "medium", "focus": "center", "note": "She walks through the gate into the light; loop back to the opening shot."}
+    }
+  ],
+  "cta": "Follow Wedillybird, and see a sample invitation: link in bio.",
+  "next_teaser": "Season close: follow, and see a sample invitation: link in bio.",
+  "caption": "Digital wedding invitation: check it on a guest's phone before you send.\nFour checks on a demo invitation: a borrowed phone, the details, every answer and a cold read. Léa and Adam are a fictional couple.\nHosted by Norah, an AI character created by the Wedillybird team.",
+  "hashtags": ["#engaged", "#weddinginvitations", "#rsvp", "#fallwedding", "#2027bride"],
+  "keywords": ["wedding invitation", "guest's phone", "dietary box"],
+  "pinned_comment": "The pre-send check: 1) A phone that isn't yours: does the envelope open? 2) Read the names, date and venue out loud. 3) Try every answer (I'll be there, Maybe, I can't make it) and check the plus-ones; on your own invitation, stop before Send. 4) Hand it to someone who doesn't know the plan and say nothing. For meal choices, add a custom question (Premium). For severe allergies, give guests a number to call. Norah is AI-generated. Screens shown are real Wedillybird screens (demo data).",
+  "comment_bait": "What's the first thing you'd check on your invitation?",
+  "r2_items": ["T33", "T34"],
+  "sources": [
+    {"fact": "Ask about allergies with a specific line; offer a way to reach the hosts for anything severe; meal choice is a separate question", "publisher": "Joy", "title": "25 Must-Ask Wedding RSVP Questions", "url": "https://withjoy.com/blog/25-must-ask-wedding-rsvp-questions-for-a-perfect-guest-list-in-2026/", "date": "2026-01-30", "r2_id": "T33"},
+    {"fact": "Guests mark their entree choice on the response card; the reply card carries the hosts' contact line", "publisher": "Emily Post Institute", "title": "How to Word a Wedding Response Card", "url": "https://emilypost.com/advice/how-to-word-a-wedding-response-card", "date": "undated", "r2_id": "T33"},
+    {"fact": "The invitation defines who is invited: show only the plus-ones you mean ('Wedding invitations are not negotiations')", "publisher": "Emily Post Institute (Anna Post)", "title": "Handling your guests with grace (2008 column)", "url": "https://emilypost.com/advice/inside-weddings-handling-your-guests-with-grace", "date": "2008", "r2_id": "T34"},
+    {"fact": "Pre-filled guest counts and clear addressing make the list clear", "publisher": "Zola", "title": "How to Word Wedding Invitations", "url": "https://www.zola.com/expert-advice/how-to-word-wedding-invitations", "date": "2026-08-06", "r2_id": "T34"}
+  ],
+  "claims_review": {
+    "numbers_used": [],
+    "needs_proof": [
+      "Founder (H51 caveat in r1b): confirm a host can actually open a guest's link on a second phone (preview link or test send) before this is filmed or posted. The script only says 'open the link' and never says how the link reaches a phone.",
+      "'Stop before Send, so no real answer gets saved' assumes nothing is stored until Send is pressed (convex/rsvps.ts); the demo itself stores nothing (r3 D1).",
+      "'Look for the skip button' (r3 B1) and 'a plain text box' (dietary needs, free text, r3 B1) must match the S01 and S04 captures.",
+      "'Custom questions are a Premium option' per r3 B1 (custom RSVP questions: Premium/Pro, up to ten questions, including single choice such as meals)."
+    ],
+    "notes": "No figures: 'four checks' and 'fifteen days' are structure, not statistics. The only product limit is that the dietary field is free text; set meal choices need a Premium custom question. The allergy-contact and plus-one-clarity tips are Norah's suggestions drawing on T33 and T34 (vendor and etiquette guides), so no publisher is named on screen. No claim about how links are delivered. Wedillybird is named three times (beats 5, 28, 29)."
+  },
+  "ai_disclosure": true
+}

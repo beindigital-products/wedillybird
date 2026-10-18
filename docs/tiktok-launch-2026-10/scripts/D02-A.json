@@ -1,0 +1,299 @@
+{
+  "id": "D02-A",
+  "day": 2,
+  "slot": "A",
+  "series": "QUIET_LIST",
+  "episode": 1,
+  "fiction": false,
+  "pillar": "Invitations and guest list",
+  "look": "L2",
+  "hook_id": "H01",
+  "working_title": "Five things to settle before you send a single invitation",
+  "search_intent": "what to do before sending wedding invitations",
+  "hook": {
+    "spoken": "Five things to settle before you send a single invitation.",
+    "on_screen": "Five things to settle before you send",
+    "visual": "Norah seated at an oak desk by a window, seen from behind, hook overlay at the top"
+  },
+  "voiceover": "Five things to settle before you send a single invitation. The Quiet List: before the first invitation goes out. Skip these, and they return as guest questions. Five decisions, in order. Number four saves the most chasing. One. Your A-list and your B-list. Keep friend groups together. Split groups compare notes. A B-list only works if the second wave goes out early. Philadelphia Magazine says: first wave at least eight weeks out. B-list replies due by four weeks out. Two. Your plus-one rule. Decide it once. Spouses, fiancés and live-in partners must be invited. That's Emily Post. Casual dating partners are your call. Apply the rule to everyone. Here's the part people skip: the envelope is the rule. Write only the names you mean. Three. Your mailing date: when invitations go out. For a local wedding, guides say six to eight weeks out. Guests who travel far need more: two to three months. Guides differ, so pick a range and write it down. Follow for tomorrow: your wedding isn't behind schedule. Four. Your RSVP deadline, set by someone else's date. Ask your caterer when they need final numbers. Then count back at least ten days. That's your deadline. Those ten days are your time to follow up. That's why number four saves the most chasing. Five. What the reply asks your guests. Otherwise you'll collect allergies by text, one by one. So add a dietary line, and a phone number for anything severe. Here's the reply page on a Wedillybird invitation. Guests tap I'll be there, Maybe or I can't make it. Then plus-ones, dietary needs, a note. Save this for invitation week. I'm Norah, Wedillybird's AI host. Five things, in order. Settle them, then send a single invitation.",
+  "word_count": 290,
+  "beats": [
+    {
+      "n": 1,
+      "vo": "Five things to settle before you send a single invitation.",
+      "overlay": "Five things to settle before you send",
+      "visual": {"kind": "NORAH", "asset": "L2-S6", "crop": "wide", "focus": "center", "note": "Norah seated at an oak desk by a tall window, seen from behind, sage cardigan, laptop and notebook in front of her"}
+    },
+    {
+      "n": 2,
+      "vo": "The Quiet List: before the first invitation goes out.",
+      "visual": {"kind": "CARD", "card": {"type": "title", "text": "The Quiet List", "sub": "Before the first invitation goes out"}}
+    },
+    {
+      "n": 3,
+      "vo": "Skip these, and they return as guest questions.",
+      "visual": {"kind": "DECOR", "asset": "D02-A-d1", "prompt": "Photorealistic editorial still life, vertical, a closed laptop, a sage-green cloth notebook and a white ceramic mug on an oak desk beside a tall Paris apartment window, soft side light, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no hands, nothing human in frame.", "motion": "push-in"}
+    },
+    {
+      "n": 4,
+      "vo": "Five decisions, in order. Number four saves the most chasing.",
+      "visual": {"kind": "NORAH", "asset": "L2-S3", "crop": "detail", "focus": "hands", "note": "Close-up of hands writing a numbered list in a sage notebook, steam rising from a mug at the edge"}
+    },
+    {
+      "n": 5,
+      "vo": "One. Your A-list and your B-list.",
+      "visual": {"kind": "CARD", "card": {"type": "number", "n": 1, "text": "Your A-list and your B-list", "sub": "Philadelphia Magazine, 2015"}}
+    },
+    {
+      "n": 6,
+      "vo": "Keep friend groups together. Split groups compare notes.",
+      "visual": {"kind": "NORAH", "asset": "L2-S2", "crop": "medium", "focus": "hands", "note": "Over the shoulder: hands holding a notebook open above the oak desk, a phone with a dark screen at the edge"}
+    },
+    {
+      "n": 7,
+      "vo": "A B-list only works if the second wave goes out early.",
+      "visual": {"kind": "DECOR", "asset": "D02-A-d2", "prompt": "Photorealistic editorial still life, vertical, two small stacks of cream envelopes, one tied with blush ribbon and one with sage ribbon, on an oak desk, soft window light, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no hands, nothing human in frame.", "motion": "pan-right"}
+    },
+    {
+      "n": 8,
+      "vo": "Philadelphia Magazine says: first wave at least eight weeks out.",
+      "overlay": "Philadelphia Magazine, 2015",
+      "visual": {"kind": "DECOR", "asset": "D02-A-d1", "prompt": "Photorealistic editorial still life, vertical, a closed laptop, a sage-green cloth notebook and a white ceramic mug on an oak desk beside a tall Paris apartment window, soft side light, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no hands, nothing human in frame.", "motion": "pull-out"}
+    },
+    {
+      "n": 9,
+      "vo": "B-list replies due by four weeks out.",
+      "overlay": "Philadelphia Magazine, 2015",
+      "visual": {"kind": "NORAH", "asset": "L2-S5", "crop": "medium", "focus": "center", "note": "Norah pauses by the window and looks out at the street, seen from behind, slow push-in"}
+    },
+    {
+      "n": 10,
+      "vo": "Two. Your plus-one rule. Decide it once.",
+      "visual": {"kind": "CARD", "card": {"type": "number", "n": 2, "text": "Your plus-one rule", "sub": "Emily Post | Zola"}}
+    },
+    {
+      "n": 11,
+      "vo": "Spouses, fiancés and live-in partners must be invited. That's Emily Post.",
+      "overlay": "Emily Post (Anna Post)",
+      "visual": {"kind": "NORAH", "asset": "L2-S6", "crop": "medium", "focus": "left", "note": "Seated at the desk from behind, a hand lifting a white coffee mug, soft side light"}
+    },
+    {
+      "n": 12,
+      "vo": "Casual dating partners are your call. Apply the rule to everyone.",
+      "visual": {"kind": "DECOR", "asset": "D02-A-d4", "prompt": "Photorealistic editorial still life, vertical, two stemmed glasses on a folded linen cloth beside a sprig of eucalyptus, oak table, soft side light, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no hands, nothing human in frame.", "motion": "push-in"}
+    },
+    {
+      "n": 13,
+      "vo": "Here's the part people skip: the envelope is the rule.",
+      "visual": {"kind": "NORAH", "asset": "L2-S3", "crop": "medium", "focus": "left", "note": "Hands holding a blank cream envelope up against the window light"}
+    },
+    {
+      "n": 14,
+      "vo": "Write only the names you mean.",
+      "overlay": "Zola, 2026: only the names you mean",
+      "visual": {"kind": "DECOR", "asset": "D02-A-d3", "prompt": "Photorealistic editorial still life, vertical, a single blank cream envelope with a thin gold liner showing at the open flap, resting on a linen cloth, soft window light, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no hands, nothing human in frame.", "motion": "pull-out"}
+    },
+    {
+      "n": 15,
+      "vo": "Three. Your mailing date: when invitations go out.",
+      "visual": {"kind": "CARD", "card": {"type": "number", "n": 3, "text": "Your mailing date", "sub": "Joy, 2025 | Zola, 2026 | guides differ"}}
+    },
+    {
+      "n": 16,
+      "vo": "For a local wedding, guides say six to eight weeks out.",
+      "overlay": "Joy, 2025 | Zola, 2026",
+      "visual": {"kind": "DECOR", "asset": "D02-A-d5", "prompt": "Photorealistic editorial still life, vertical, a small brass postal scale holding a cream envelope, oak desk, warm side light, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no hands, nothing human in frame.", "motion": "pan-left"}
+    },
+    {
+      "n": 17,
+      "vo": "Guests who travel far need more: two to three months.",
+      "overlay": "Joy, 2025: travelling guests",
+      "visual": {"kind": "DECOR", "asset": "D02-A-d9", "prompt": "Photorealistic editorial still life, vertical, a small leather suitcase with a blank cream luggage tag standing beside a wooden bench, soft side light from a window, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no hands, nothing human in frame.", "motion": "push-in"}
+    },
+    {
+      "n": 18,
+      "vo": "Guides differ, so pick a range and write it down.",
+      "visual": {"kind": "CARD", "card": {"type": "title", "text": "Pick a range", "sub": "Guides differ: write yours down"}}
+    },
+    {
+      "n": 19,
+      "vo": "Follow for tomorrow: your wedding isn't behind schedule.",
+      "overlay": "Tomorrow: your wedding isn't behind schedule",
+      "visual": {"kind": "NORAH", "asset": "L2-S8", "crop": "wide", "focus": "center", "note": "Norah walks toward an open door onto a bright hallway, followed from behind"}
+    },
+    {
+      "n": 20,
+      "vo": "Four. Your RSVP deadline, set by someone else's date.",
+      "visual": {"kind": "CARD", "card": {"type": "number", "n": 4, "text": "Your RSVP deadline", "sub": "Joy, 2025"}}
+    },
+    {
+      "n": 21,
+      "vo": "Ask your caterer when they need final numbers.",
+      "visual": {"kind": "DECOR", "asset": "D02-A-d6", "prompt": "Photorealistic editorial still life, vertical, a stack of white dinner plates and folded linen napkins on a long oak table, pale window light, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no hands, nothing human in frame.", "motion": "pan-right"}
+    },
+    {
+      "n": 22,
+      "vo": "Then count back at least ten days. That's your deadline.",
+      "overlay": "Joy, 2025: at least ten days before",
+      "visual": {"kind": "NORAH", "asset": "L2-S6", "crop": "tight", "focus": "right", "note": "Seated at the desk from behind, a pen tapping a page in the notebook, soft side light"}
+    },
+    {
+      "n": 23,
+      "vo": "Those ten days are your time to follow up.",
+      "visual": {"kind": "DECOR", "asset": "D02-A-d7", "prompt": "Photorealistic editorial still life, vertical, a small hourglass with champagne-colored sand on an oak desk beside a sage notebook, soft side light, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no hands, nothing human in frame.", "motion": "push-in"}
+    },
+    {
+      "n": 24,
+      "vo": "That's why number four saves the most chasing.",
+      "visual": {"kind": "DECOR", "asset": "D02-A-d2", "prompt": "Photorealistic editorial still life, vertical, two small stacks of cream envelopes, one tied with blush ribbon and one with sage ribbon, on an oak desk, soft window light, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no hands, nothing human in frame.", "motion": "pull-out"}
+    },
+    {
+      "n": 25,
+      "vo": "Five. What the reply asks your guests.",
+      "visual": {"kind": "CARD", "card": {"type": "number", "n": 5, "text": "What the reply asks", "sub": "Joy, 2026"}}
+    },
+    {
+      "n": 26,
+      "vo": "Otherwise you'll collect allergies by text, one by one.",
+      "visual": {"kind": "DECOR", "asset": "D02-A-d8", "prompt": "Photorealistic editorial still life, vertical, a smartphone turned over with its screen hidden beside a notebook and a white mug on an oak desk, soft side light, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no hands, nothing human in frame.", "motion": "pan-left"}
+    },
+    {
+      "n": 27,
+      "vo": "So add a dietary line, and a phone number for anything severe.",
+      "overlay": "Joy, 2026: ask it on the reply",
+      "visual": {"kind": "DECOR", "asset": "D02-A-d6", "prompt": "Photorealistic editorial still life, vertical, a stack of white dinner plates and folded linen napkins on a long oak table, pale window light, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no hands, nothing human in frame.", "motion": "pull-out"}
+    },
+    {
+      "n": 28,
+      "vo": "Here's the reply page on a Wedillybird invitation.",
+      "overlay": "Real screen | demo data",
+      "visual": {"kind": "SCREEN", "asset": "S04", "note": "Real capture (demo data): the guest reply page opens with I'll be there / Maybe / I can't make it"}
+    },
+    {
+      "n": 29,
+      "vo": "Guests tap I'll be there, Maybe or I can't make it. Then plus-ones, dietary needs, a note.",
+      "visual": {"kind": "SCREEN", "asset": "S04", "note": "Real capture (demo data): plus-one names, dietary needs and a note, then Send and the confetti confirmation"}
+    },
+    {
+      "n": 30,
+      "vo": "Save this for invitation week.",
+      "visual": {"kind": "DECOR", "asset": "D02-A-d2", "prompt": "Photorealistic editorial still life, vertical, two small stacks of cream envelopes, one tied with blush ribbon and one with sage ribbon, on an oak desk, soft window light, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no hands, nothing human in frame.", "motion": "push-in"}
+    },
+    {
+      "n": 31,
+      "vo": "I'm Norah, Wedillybird's AI host.",
+      "visual": {"kind": "NORAH", "asset": "L2-S1", "crop": "wide", "focus": "center", "note": "Norah walks away through the bright apartment toward the window light, seen from behind"}
+    },
+    {
+      "n": 32,
+      "vo": "Five things, in order. Settle them, then send a single invitation.",
+      "visual": {"kind": "NORAH", "asset": "L2-S8", "crop": "tight", "focus": "center", "note": "A door opens onto bright light as Norah steps toward it, face never shown"}
+    }
+  ],
+  "cta": "Soft follow at about one minute with tomorrow's teaser (your wedding isn't behind schedule). Final ask: save this for invitation week.",
+  "next_teaser": "Tomorrow: your wedding isn't behind schedule",
+  "caption": "What to do before sending wedding invitations\nFive decisions to settle in order: A-list and B-list, plus-ones, mailing date, RSVP deadline and what the reply asks.\nHosted by Norah, an AI character created by the Wedillybird team.",
+  "hashtags": ["#bridetobe", "#weddinginvitations", "#weddingplanningtips", "#fallwedding", "#2027bride"],
+  "keywords": ["before you send a single invitation", "plus-one rule", "mailing date", "RSVP deadline"],
+  "pinned_comment": "The Quiet List: five things to settle before you send a single invitation.\n1) Your A-list and B-list (a B-list needs an early first wave)\n2) Your plus-one rule, and an envelope that matches it\n3) Your mailing date (guides say six to eight weeks for a local wedding, more for travelers)\n4) Your RSVP deadline: your caterer's headcount date, minus at least ten days\n5) What the reply asks: one line for dietary needs, a phone number for anything severe\nNorah is AI-generated. Screens shown are real Wedillybird screens (demo data).",
+  "comment_bait": "Which of the five did you almost forget?",
+  "r2_items": ["T22", "T23", "T29", "T30", "T33", "T34"],
+  "sources": [
+    {
+      "fact": "Send A-list invitations at least eight weeks out; B-list invitations as soon as RSVPs show room, with a reply deadline no later than four weeks before the wedding; keep friend and work groups together",
+      "publisher": "Philadelphia Magazine (Alexandra Leshner)",
+      "title": "Here's Everything You Need to Know About (Tactfully) Inviting Your B-List Guests",
+      "url": "https://www.phillymag.com/news/2015/05/05/inviting-b-list-wedding-guests/",
+      "date": "2015-05-05",
+      "r2_id": "T22"
+    },
+    {
+      "fact": "B-list invitations go out only after RSVPs show there is room; the aim is that every guest feels like an A-lister",
+      "publisher": "Business Insider (Anna Medaris Miller) via Yahoo",
+      "title": "Business Insider article via Yahoo (title not recorded in the fact bank)",
+      "url": "https://www.yahoo.com/news/broke-etiquette-text-invited-b-132350557.html",
+      "date": "updated 2021-10-15",
+      "r2_id": "T22"
+    },
+    {
+      "fact": "Spouses, fiance(e)s and live-in partners must be invited; casual dating partners who do not live together need not be",
+      "publisher": "Emily Post Institute (Anna Post)",
+      "title": "Inside Weddings: Handling Your Guests With Grace",
+      "url": "https://emilypost.com/advice/inside-weddings-handling-your-guests-with-grace",
+      "date": "2008 column (page undated)",
+      "r2_id": "T23"
+    },
+    {
+      "fact": "Limit plus-ones to married or long-term couples and apply the rule fairly",
+      "publisher": "Zola",
+      "title": "Who Has a Say in the Wedding Guest List?",
+      "url": "https://www.zola.com/expert-advice/who-has-a-say-in-the-wedding-guest-list",
+      "date": "updated 2025-10-13",
+      "r2_id": "T23"
+    },
+    {
+      "fact": "To signal no plus-one, write only the invited guest's name on the envelope; name every household member you mean",
+      "publisher": "Zola (Emily Forrest)",
+      "title": "Wedding Invitation Wording: A Complete How-To Guide",
+      "url": "https://www.zola.com/expert-advice/how-to-word-wedding-invitations",
+      "date": "updated 2026-08-06",
+      "r2_id": "T34"
+    },
+    {
+      "fact": "Local weddings: invitations about six to eight weeks out; destination about two to three months; guests booking international travel usually need at least three months",
+      "publisher": "Joy (Joy Editors)",
+      "title": "How to Set Perfect Wedding RSVP Deadlines",
+      "url": "https://withjoy.com/blog/how-to-set-perfect-wedding-rsvp-deadlines-a-stress-free-guide-for-couples/",
+      "date": "published 2025-05-29, updated 2025-06-18",
+      "r2_id": "T29"
+    },
+    {
+      "fact": "Mail invitations about six to eight weeks ahead, with the reply-by date at least three weeks before the wedding; Zola's own pages differ on timing",
+      "publisher": "Zola (Emily Forrest)",
+      "title": "Wedding Invitation Wording: A Complete How-To Guide",
+      "url": "https://www.zola.com/expert-advice/how-to-word-wedding-invitations",
+      "date": "updated 2026-08-06",
+      "r2_id": "T29"
+    },
+    {
+      "fact": "Venues and caterers typically need final headcounts one to two weeks before the wedding; set the RSVP deadline at least ten days before that headcount date so there is time to chase",
+      "publisher": "Joy (Joy Editors)",
+      "title": "How to Set Perfect Wedding RSVP Deadlines",
+      "url": "https://withjoy.com/blog/how-to-set-perfect-wedding-rsvp-deadlines-a-stress-free-guide-for-couples/",
+      "date": "published 2025-05-29, updated 2025-06-18",
+      "r2_id": "T30"
+    },
+    {
+      "fact": "Ask about allergies with a specific line (Please note any food allergies or dietary restrictions); give a direct contact for anything severe",
+      "publisher": "Joy (Joy Editors)",
+      "title": "25 Must-Ask Wedding RSVP Questions",
+      "url": "https://withjoy.com/blog/25-must-ask-wedding-rsvp-questions-for-a-perfect-guest-list-in-2026/",
+      "date": "published 2025-05-29, updated 2026-01-30",
+      "r2_id": "T33"
+    },
+    {
+      "fact": "Guest reply page: I'll be there / Maybe / I can't make it, then plus-one names, dietary needs (free text) and a note; confetti on success (product fact, demo capture S04)",
+      "publisher": "Wedillybird product (r3 fact sheet, B1 RSVP form)",
+      "title": "Guest reply page, demo data",
+      "url": "https://wedillybird.com/en/demo",
+      "date": "2026-10-18",
+      "r2_id": "n/a (product fact, r3 B1)"
+    }
+  ],
+  "claims_review": {
+    "numbers_used": [
+      {"figure": "first wave at least eight weeks out", "source": "Philadelphia Magazine, 2015-05-05", "r2_id": "T22"},
+      {"figure": "B-list replies due no later than four weeks before the wedding", "source": "Philadelphia Magazine, 2015-05-05", "r2_id": "T22"},
+      {"figure": "six to eight weeks out for a local wedding", "source": "Joy, 2025-06-18; Zola wording guide, 2026-08-06", "r2_id": "T29"},
+      {"figure": "two to three months for travelling guests", "source": "Joy, 2025-06-18", "r2_id": "T29"},
+      {"figure": "RSVP deadline at least ten days before the caterer's headcount date", "source": "Joy, 2025-06-18", "r2_id": "T30"}
+    ],
+    "needs_proof": [
+      "T22 timing windows come from a 2015 Philadelphia Magazine article (Business Insider 2021 and Zola 2025 point the same way); the year is shown on screen.",
+      "T29 is medium confidence and sources-disagree: framed as a range ('guides differ'), never as the rule.",
+      "S04 must be a real recording on the public demo with demo data only (no real guest names)."
+    ],
+    "notes": "Product passage is about nine seconds of S04, described neutrally (no speed, count or reminder claim). The plus-one allowance per guest is deliberately not mentioned. The phone-number-for-severe-allergies line is the fact bank's suggested wording, not a quote."
+  },
+  "ai_disclosure": true
+}

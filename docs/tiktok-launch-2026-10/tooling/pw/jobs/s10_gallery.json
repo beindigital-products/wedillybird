@@ -1,0 +1,114 @@
+{
+ "storageState": "pw/state_owner.json",
+ "cookies": [
+  {
+   "name": "wbb_locale_suggestion_dismissed",
+   "value": "1",
+   "url": "http://localhost:3000"
+  },
+  {
+   "name": "wbb_ccy",
+   "value": "USD",
+   "url": "http://localhost:3000"
+  }
+ ],
+ "localStorage": {
+  "wedillybird-cookie-consent": "declined"
+ },
+ "sanitize": {
+  "names": {
+   "Khadija Coulibaly": "Maya R.",
+   "Manon Lefebvre": "Owen L.",
+   "Issa Sow": "Isaac S.",
+   "Clara Marchand": "Clara M.",
+   "Adama Touré": "Adam T.",
+   "Nicolas Petit": "Nick P.",
+   "Yasmine Benali": "Yara B.",
+   "Pierre Garnier": "Peter G.",
+   "Awa Thiam": "Ava T.",
+   "Hugo Dubois": "Hugo D.",
+   "Marie Rousseau": "Marie R.",
+   "Kwame Kouassi": "Kofi K.",
+   "Sophie Laurent": "Sophie L.",
+   "Thomas Bernard": "Thomas B.",
+   "Fatou Ndiaye": "Fatima N.",
+   "Camille Moreau": "Camille M.",
+   "Mamadou Seck": "Max S.",
+   "Aïcha Diallo": "Aisha D.",
+   "Aicha Diallo": "Aisha D.",
+   "Akua Kouassi": "Ama K.",
+   "Bineta Thiam": "Bea T.",
+   "Ibrahima Diallo": "Ivan D.",
+   "Lucas Moreau": "Luke M.",
+   "Léa Bernard": "Lea B.",
+   "Moussa Thiam": "Moses T.",
+   "Élise Garnier": "Elise G.",
+   "Elise Garnier": "Elise G."
+  },
+  "regex": [
+   [
+    "\\+\\d[\\d\\s]{7,}",
+    "••• ••• ••••"
+   ],
+   [
+    "(\\d+) invitations of \\d+ allowed",
+    "$1 invitations"
+   ],
+   [
+    " · limit \\d+ invitations",
+    ""
+   ],
+   [
+    "(\\d+) / 5000",
+    "$1"
+   ]
+  ],
+  "hideText": [
+   "WHATSAPP BROADCAST",
+   "AFTER THE WEDDING",
+   "Keep your photos in high definition"
+  ],
+  "hideFloating": true,
+  "hideRegex": [
+   "^\\s*\\d+\\s*/\\s*5000\\s*$"
+  ]
+ },
+ "tail": 1.0,
+ "url": "http://localhost:3000/en/events/00000000000000000000010001events/gallery",
+ "steps": [
+  {
+   "wait": 2200
+  },
+  {
+   "smoothScroll": [
+    430,
+    1800
+   ]
+  },
+  {
+   "wait": 1200
+  },
+  {
+   "smoothScroll": [
+    900,
+    1800
+   ]
+  },
+  {
+   "wait": 1200
+  },
+  {
+   "smoothScroll": [
+    0,
+    1200
+   ]
+  },
+  {
+   "wait": 500
+  }
+ ],
+ "routeDir": {
+  "pattern": "media\\.wedillybird\\.com",
+  "dir": "assets/gallery"
+ }
+}

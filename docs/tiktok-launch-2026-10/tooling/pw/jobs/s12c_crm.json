@@ -1,0 +1,168 @@
+{
+ "storageState": "pw/state_pro.json",
+ "cookies": [
+  {
+   "name": "wbb_locale_suggestion_dismissed",
+   "value": "1",
+   "url": "http://localhost:3000"
+  },
+  {
+   "name": "wbb_ccy",
+   "value": "USD",
+   "url": "http://localhost:3000"
+  }
+ ],
+ "localStorage": {
+  "wedillybird-cookie-consent": "declined"
+ },
+ "tail": 0.6,
+ "url": "http://localhost:3000/en/pro/clients",
+ "sanitize": {
+  "names": {
+   "Camille Faye": "Jordan Lee",
+   "Envoyer les faire-part": "Send the invitations",
+   "R\u00e9server le photographe / vid\u00e9aste": "Book the photographer / videographer",
+   "Choisir les tenues des mari\u00e9s": "Choose the wedding outfits",
+   "R\u00e9server le DJ / groupe": "Book the DJ / band",
+   "Commander les fleurs et la d\u00e9coration": "Order the flowers and decor",
+   "Nouveau client": "New client",
+   "T\u00e2che termin\u00e9e": "Task completed",
+   "D\u00e9finir le budget global": "Set the overall budget",
+   "Choisir et r\u00e9server le lieu": "Choose and book the venue",
+   "\u00c9tablir la liste des invit\u00e9s": "Draw up the guest list",
+   "Villa Ephrussi": "Villa Marguerite",
+   "Lead entrant via Salon. Dossier suivi par Camille.": "Inbound lead from a trade show. Handled by Jordan.",
+   "Lead entrant via Salon": "Inbound lead from a trade show",
+   "Dossier suivi par Camille": "Handled by Jordan",
+   "Client cr\u00e9\u00e9 dans le CRM.": "Client created in the CRM."
+  },
+  "regex": [
+   [
+    "\\+\\d[\\d\\s]{7,}",
+    "\u2022\u2022\u2022 \u2022\u2022\u2022 \u2022\u2022\u2022\u2022"
+   ],
+   [
+    "[\\w.+-]+@[\\w.-]+\\.[a-z]{2,}",
+    "client@example.com"
+   ]
+  ],
+  "hideText": [],
+  "hideFloating": true
+ },
+ "steps": [
+  {
+   "wait": 1600
+  },
+  {
+   "mark": "table"
+  },
+  {
+   "wait": 1700
+  },
+  {
+   "mark": "new"
+  },
+  {
+   "click": "button:has-text('New client')"
+  },
+  {
+   "wait": 1500
+  },
+  {
+   "type": [
+    "input[placeholder=\"First partner's name\"]",
+    "Lena",
+    80
+   ]
+  },
+  {
+   "wait": 300
+  },
+  {
+   "type": [
+    "input[placeholder=\"Second partner's name\"]",
+    "Jonas",
+    80
+   ]
+  },
+  {
+   "wait": 900
+  },
+  {
+   "mark": "create"
+  },
+  {
+   "click": "button:has-text('Create client')"
+  },
+  {
+   "wait": 2600
+  },
+  {
+   "mark": "convert"
+  },
+  {
+   "wait": 1500
+  },
+  {
+   "eval": "document.querySelector('[role=dialog] textarea').scrollIntoView({behavior:'smooth',block:'center'})"
+  },
+  {
+   "wait": 1500
+  },
+  {
+   "mark": "notes"
+  },
+  {
+   "click": "[role=dialog] textarea"
+  },
+  {
+   "type": [
+    "[role=dialog] textarea",
+    "Wants a September date. Send the quote on Friday.",
+    55
+   ]
+  },
+  {
+   "wait": 700
+  },
+  {
+   "mark": "save"
+  },
+  {
+   "click": "[role=dialog] textarea + button"
+  },
+  {
+   "wait": 2400
+  },
+  {
+   "shot": "out/pro/c3_note.png"
+  },
+  {
+   "press": "Escape"
+  },
+  {
+   "wait": 1300
+  },
+  {
+   "mark": "pipeline"
+  },
+  {
+   "click": "button:has-text('Pipeline'):visible"
+  },
+  {
+   "wait": 2300
+  },
+  {
+   "mark": "columns"
+  },
+  {
+   "eval": "(async () => { const cols=[...document.querySelectorAll('*')].filter(e=>{const cs=getComputedStyle(e);return (cs.overflowX==='auto'||cs.overflowX==='scroll')&&e.scrollWidth>e.clientWidth+40&&/Lead|Contacted|Quote/.test(e.textContent||'')}); const c=cols[cols.length-1]; if(!c) return; const start=c.scrollLeft,end=c.scrollWidth-c.clientWidth,dur=4200,t0=performance.now(); await new Promise(res=>{const step=(n)=>{const p=Math.min((n-t0)/dur,1); c.scrollLeft=start+(end-start)*(p<.5?2*p*p:1-Math.pow(-2*p+2,2)/2); p<1?requestAnimationFrame(step):res();}; requestAnimationFrame(step);}); })()"
+  },
+  {
+   "wait": 800
+  },
+  {
+   "mark": "end"
+  }
+ ]
+}

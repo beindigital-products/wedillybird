@@ -1,0 +1,183 @@
+{
+ "storageState": "pw/state_owner.json",
+ "cookies": [
+  {
+   "name": "wbb_locale_suggestion_dismissed",
+   "value": "1",
+   "url": "http://localhost:3000"
+  },
+  {
+   "name": "wbb_ccy",
+   "value": "USD",
+   "url": "http://localhost:3000"
+  }
+ ],
+ "localStorage": {
+  "wedillybird-cookie-consent": "declined"
+ },
+ "sanitize": {
+  "names": {
+   "Khadija Coulibaly": "Maya R.",
+   "Manon Lefebvre": "Owen L.",
+   "Issa Sow": "Isaac S.",
+   "Clara Marchand": "Clara M.",
+   "Adama Tour\u00e9": "Adam T.",
+   "Nicolas Petit": "Nick P.",
+   "Yasmine Benali": "Yara B.",
+   "Pierre Garnier": "Peter G.",
+   "Awa Thiam": "Ava T.",
+   "Hugo Dubois": "Hugo D.",
+   "Marie Rousseau": "Marie R.",
+   "Kwame Kouassi": "Kofi K.",
+   "Sophie Laurent": "Sophie L.",
+   "Thomas Bernard": "Thomas B.",
+   "Fatou Ndiaye": "Fatima N.",
+   "Camille Moreau": "Camille M.",
+   "Mamadou Seck": "Max S.",
+   "A\u00efcha Diallo": "Aisha D.",
+   "Aicha Diallo": "Aisha D.",
+   "Akua Kouassi": "Ama K.",
+   "Bineta Thiam": "Bea T.",
+   "Ibrahima Diallo": "Ivan D.",
+   "Lucas Moreau": "Luke M.",
+   "L\u00e9a Bernard": "Lea B.",
+   "Moussa Thiam": "Moses T.",
+   "\u00c9lise Garnier": "Elise G.",
+   "Elise Garnier": "Elise G."
+  },
+  "regex": [
+   [
+    "\\+\\d[\\d\\s]{7,}",
+    "\u2022\u2022\u2022 \u2022\u2022\u2022 \u2022\u2022\u2022\u2022"
+   ],
+   [
+    "(\\d+) invitations of \\d+ allowed",
+    "$1 invitations"
+   ],
+   [
+    " \u00b7 limit \\d+ invitations",
+    ""
+   ],
+   [
+    "(\\d+) / 5000",
+    "$1"
+   ]
+  ],
+  "hideText": [
+   "WHATSAPP BROADCAST",
+   "AFTER THE WEDDING",
+   "Keep your photos in high definition"
+  ],
+  "hideFloating": true,
+  "hideRegex": [
+   "^\\s*\\d+\\s*/\\s*5000\\s*$"
+  ]
+ },
+ "tail": 0.6,
+ "url": "http://localhost:3000/en/events/00000000000000000000010001events/check-in",
+ "css": "[data-testid=qr-scanner]{display:none!important}",
+ "steps": [
+  {
+   "wait": 1600
+  },
+  {
+   "mark": "page"
+  },
+  {
+   "wait": 1400
+  },
+  {
+   "mark": "online_scan"
+  },
+  {
+   "type": [
+    "[data-testid=manual-token]",
+    "ace38b3d9bd24186b597",
+    70
+   ]
+  },
+  {
+   "wait": 400
+  },
+  {
+   "click": "[data-testid=manual-submit]"
+  },
+  {
+   "wait": 2300
+  },
+  {
+   "mark": "offline"
+  },
+  {
+   "offline": true
+  },
+  {
+   "wait": 1600
+  },
+  {
+   "mark": "queued"
+  },
+  {
+   "type": [
+    "[data-testid=manual-token]",
+    "7dc8d347300d4633915a",
+    70
+   ]
+  },
+  {
+   "wait": 400
+  },
+  {
+   "click": "[data-testid=manual-submit]"
+  },
+  {
+   "wait": 2300
+  },
+  {
+   "type": [
+    "[data-testid=manual-token]",
+    "520663b87e2346dd8a73",
+    70
+   ]
+  },
+  {
+   "wait": 400
+  },
+  {
+   "click": "[data-testid=manual-submit]"
+  },
+  {
+   "wait": 2400
+  },
+  {
+   "mark": "online"
+  },
+  {
+   "offline": false
+  },
+  {
+   "wait": 1800
+  },
+  {
+   "shot": "out/guests/j1_back_online.png"
+  },
+  {
+   "eval": "(()=>{const b=[...document.querySelectorAll('button')].find(b=>/sync now/i.test(b.textContent)); if(b) b.click();})()"
+  },
+  {
+   "wait": 3000
+  },
+  {
+   "shot": "out/guests/j2_synced.png"
+  },
+  {
+   "mark": "synced"
+  },
+  {
+   "wait": 1200
+  },
+  {
+   "mark": "end"
+  }
+ ]
+}

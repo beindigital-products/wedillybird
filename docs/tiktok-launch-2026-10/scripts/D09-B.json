@@ -1,0 +1,207 @@
+{
+  "id": "D09-B",
+  "day": 9,
+  "slot": "B",
+  "series": "INSIDE",
+  "episode": 3,
+  "fiction": false,
+  "pillar": "Seating plan",
+  "look": "L2",
+  "hook_id": "NEW (H26 pattern: calm opinion, no duration)",
+  "working_title": "Inside Wedillybird 3: the seating plan, drag, auto-seat, print",
+  "search_intent": "how to make a wedding seating chart",
+  "hook": {
+    "spoken": "Your seating chart shouldn't take over your weekend.",
+    "on_screen": "Your seating chart shouldn't take over your weekend",
+    "visual": "NORAH L2-S6 seated at the oak desk, cutting to the S08 seating plan; overlay = hook"
+  },
+  "voiceover": "Your seating chart shouldn't take over your weekend. The best time to start it is later than you think. Then I'll show you a seating plan you can drag, auto-seat and print. Move one guest, and a whole table shifts. Seat a maybe, and you may be redoing it later. So wait for the replies, and start with the guests who said yes. Draft first. Finalize after your follow-ups. Here's the part people skip: this seats confirmed guests only. This is the seating plan in Wedillybird, and it's part of Premium. Your confirmed guests are ready to drag onto tables. Drag a guest onto a table, and they're seated. Plus-ones get their own seats, so every person is placed. Tables can be round or rectangular, whatever your room needs. Round tables vary in size, so ask your venue first. If a table gets too full, you'll see a warning. Follow, and tomorrow evening you'll get entry seven of Norah's Notebook. Or press Auto-seat, and it places guests grouped by category. Treat that as a first draft, then adjust by dragging. Switch to the floor plan to see the whole room. Then print it last, for your venue and your caterer. Now, what Wedillybird can't do: enforce rules like never seat these two together. So write your rules down first. Here are three I'd start with. No singles table. Seat solo guests where they know someone. Older guests near the exits and restrooms, away from the speakers. Divorced parents get separate tables, each with their own supporters. Drag, auto-seat, print: those are the three moves. See a sample invitation: link in bio. I'm Norah, Wedillybird's AI host. Let the replies come in first, and your weekend stays yours.",
+  "word_count": 287,
+  "beats": [
+    {
+      "n": 1,
+      "vo": "Your seating chart shouldn't take over your weekend.",
+      "overlay": "Your seating chart shouldn't take over your weekend",
+      "visual": [
+        {"kind": "NORAH", "asset": "L2-S6", "crop": "medium", "focus": "center", "note": "Seated from behind at an oak desk by a tall window, notebook open, coffee steaming."},
+        {"kind": "SCREEN", "asset": "S08", "note": "Quick look at the seating plan with tables partly filled. Demo data."}
+      ]
+    },
+    {
+      "n": 2,
+      "vo": "The best time to start it is later than you think.",
+      "visual": {"kind": "DECOR", "asset": "D09-B-d1", "prompt": "Photorealistic editorial still life, vertical, an oak desk beside a tall window with a closed notebook, a sharpened pencil and a cup of coffee, a sage knit cardigan draped over the chair back, Parisian apartment, soft side light, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no legible screens, nobody in frame.", "motion": "push-in"}
+    },
+    {
+      "n": 3,
+      "vo": "Then I'll show you a seating plan you can drag, auto-seat and print.",
+      "overlay": "Inside Wedillybird · 3",
+      "visual": {"kind": "SCREEN", "asset": "S08", "note": "Preview montage: a guest dragged onto a table, Auto-seat pressed, the print page. Fallback card: 'Drag · Auto-seat · Print'."}
+    },
+    {
+      "n": 4,
+      "vo": "Move one guest, and a whole table shifts.",
+      "visual": {"kind": "DECOR", "asset": "D09-B-d2", "prompt": "Photorealistic editorial still life, vertical, small blank cream paper cards arranged in loose circles on tracing paper with a pencil beside them, oak desk, soft window light, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no legible screens, nobody in frame.", "motion": "pan-right"}
+    },
+    {
+      "n": 5,
+      "vo": "Seat a maybe, and you may be redoing it later.",
+      "visual": {"kind": "NORAH", "asset": "L2-S2", "crop": "medium", "focus": "hands", "note": "Over her shoulder: she holds a notebook, a pencil hovering over a crossed-out circle."}
+    },
+    {
+      "n": 6,
+      "vo": "So wait for the replies, and start with the guests who said yes.",
+      "visual": {"kind": "CARD", "card": {"type": "title", "text": "Wait for the replies", "sub": "Start with the guests who said yes"}}
+    },
+    {
+      "n": 7,
+      "vo": "Draft first. Finalize after your follow-ups.",
+      "visual": {"kind": "DECOR", "asset": "D09-B-d3", "prompt": "Photorealistic editorial still life, vertical, a sheet of tracing paper with pencil-drawn round tables, a small eraser and a brass pencil sharpener on an oak desk, soft window light, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no legible screens, nobody in frame.", "motion": "pull-out"}
+    },
+    {
+      "n": 8,
+      "vo": "Here's the part people skip: this seats confirmed guests only.",
+      "overlay": "The part people skip",
+      "visual": {"kind": "NORAH", "asset": "L2-S5", "crop": "wide", "focus": "center", "note": "She stops at the window and looks out over the rooftops, seen from behind."}
+    },
+    {
+      "n": 9,
+      "vo": "This is the seating plan in Wedillybird, and it's part of Premium.",
+      "overlay": "Premium · demo data",
+      "visual": {"kind": "SCREEN", "asset": "S08", "note": "Seating plan screen: tables and the confirmed guests to place. Fallback card: 'Seating plan · Premium'."}
+    },
+    {
+      "n": 10,
+      "vo": "Your confirmed guests are ready to drag onto tables.",
+      "visual": {"kind": "SCREEN", "asset": "S08", "note": "Pointer picks up a confirmed guest, stepped mouse moves."}
+    },
+    {
+      "n": 11,
+      "vo": "Drag a guest onto a table, and they're seated.",
+      "visual": [
+        {"kind": "CARD", "card": {"type": "title", "text": "Drag", "sub": "Drop a guest on a table"}},
+        {"kind": "SCREEN", "asset": "S08", "note": "The guest is dropped on a round table and appears in its seat list."}
+      ]
+    },
+    {
+      "n": 12,
+      "vo": "Plus-ones get their own seats, so every person is placed.",
+      "visual": {"kind": "SCREEN", "asset": "S08", "note": "A guest with a plus-one: both are placed as separate seats."}
+    },
+    {
+      "n": 13,
+      "vo": "Tables can be round or rectangular, whatever your room needs.",
+      "visual": {"kind": "SCREEN", "asset": "S08", "note": "A rectangular table next to round tables. Fallback card: 'Round or rectangular'."}
+    },
+    {
+      "n": 14,
+      "vo": "Round tables vary in size, so ask your venue first.",
+      "visual": {"kind": "NORAH", "asset": "L2-S3", "crop": "detail", "focus": "hands", "note": "Close on her hands drawing a pencil circle on tracing paper."}
+    },
+    {
+      "n": 15,
+      "vo": "If a table gets too full, you'll see a warning.",
+      "visual": {"kind": "SCREEN", "asset": "S08", "note": "A table over capacity shows its warning state."}
+    },
+    {
+      "n": 16,
+      "vo": "Follow, and tomorrow evening you'll get entry seven of Norah's Notebook.",
+      "visual": {"kind": "NORAH", "asset": "L2-S7", "crop": "detail", "focus": "center", "note": "Close detail of sage knit and steam rising from a coffee cup, soft side light."}
+    },
+    {
+      "n": 17,
+      "vo": "Or press Auto-seat, and it places guests grouped by category.",
+      "visual": {"kind": "SCREEN", "asset": "S08", "note": "Auto-seat pressed: guests fill the tables, grouped by category."}
+    },
+    {
+      "n": 18,
+      "vo": "Treat that as a first draft, then adjust by dragging.",
+      "visual": [
+        {"kind": "CARD", "card": {"type": "title", "text": "A first draft", "sub": "Then adjust by dragging"}},
+        {"kind": "SCREEN", "asset": "S08", "note": "One guest is moved from one table to another."}
+      ]
+    },
+    {
+      "n": 19,
+      "vo": "Switch to the floor plan to see the whole room.",
+      "visual": {"kind": "SCREEN", "asset": "S08", "note": "Switch from list view to the floor-plan view."}
+    },
+    {
+      "n": 20,
+      "vo": "Then print it last, for your venue and your caterer.",
+      "visual": {"kind": "SCREEN", "asset": "S08", "note": "The print page of the seating plan."}
+    },
+    {
+      "n": 21,
+      "vo": "Now, what Wedillybird can't do: enforce rules like never seat these two together.",
+      "overlay": "What it can't do",
+      "visual": {"kind": "NORAH", "asset": "L2-S4", "crop": "medium", "focus": "center", "note": "Profile in silhouette against the window light, face turned away."}
+    },
+    {
+      "n": 22,
+      "vo": "So write your rules down first. Here are three I'd start with.",
+      "visual": {"kind": "CARD", "card": {"type": "title", "text": "Write your rules down first", "sub": "Never seat X near Y stays with you"}}
+    },
+    {
+      "n": 23,
+      "vo": "No singles table. Seat solo guests where they know someone.",
+      "visual": {"kind": "CARD", "card": {"type": "title", "text": "No singles table", "sub": "Seat solo guests where they know someone"}}
+    },
+    {
+      "n": 24,
+      "vo": "Older guests near the exits and restrooms, away from the speakers.",
+      "visual": {"kind": "DECOR", "asset": "D09-B-d4", "prompt": "Photorealistic editorial still life, vertical, a lone wooden chair beside an open doorway with pale winter light, quiet hallway of a country venue, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no legible screens, nobody in frame.", "motion": "pan-left"}
+    },
+    {
+      "n": 25,
+      "vo": "Divorced parents get separate tables, each with their own supporters.",
+      "visual": {"kind": "CARD", "card": {"type": "title", "text": "Divorced parents: separate tables", "sub": "Each with their own supporters"}}
+    },
+    {
+      "n": 26,
+      "vo": "Drag, auto-seat, print: those are the three moves.",
+      "visual": {"kind": "SCREEN", "asset": "S08", "note": "Full plan in view, tables filled, held for the recap."}
+    },
+    {
+      "n": 27,
+      "vo": "See a sample invitation: link in bio.",
+      "visual": {"kind": "CARD", "card": {"type": "title", "text": "See a sample invitation", "sub": "Link in bio"}}
+    },
+    {
+      "n": 28,
+      "vo": "I'm Norah, Wedillybird's AI host.",
+      "visual": {"kind": "NORAH", "asset": "L2-S8", "crop": "wide", "focus": "center", "note": "She walks toward the apartment door; it opens onto bright light."}
+    },
+    {
+      "n": 29,
+      "vo": "Let the replies come in first, and your weekend stays yours.",
+      "visual": {"kind": "NORAH", "asset": "L2-S6", "crop": "tight", "focus": "hands", "note": "Back at the desk, from behind, she closes the notebook; loop back to the opening shot."}
+    }
+  ],
+  "cta": "See a sample invitation: link in bio.",
+  "next_teaser": "Tomorrow evening: Norah's Notebook, entry seven.",
+  "caption": "Wedding seating chart: when to start it, and how not to lose a weekend to it.\nWait for the replies, seat confirmed guests, then drag, auto-seat and print. A first look at the Premium seating plan, and what it can't do.\nHosted by Norah, an AI character created by the Wedillybird team.",
+  "hashtags": ["#weddingtok", "#weddingguestlist", "#weddingplanningtips", "#winterwedding", "#weddingtodolist"],
+  "keywords": ["seating chart", "seating plan", "Auto-seat"],
+  "pinned_comment": "Seating, in order: 1) Wait for the replies. 2) Start with confirmed guests. 3) Ask your venue for the real table sizes. 4) Drag, or use Auto-seat as a first draft. 5) Finalize after your follow-ups. 6) Print last, for the venue and the caterer. Rules to write down first: no singles table; older guests near the exits and restrooms, away from the speakers; divorced parents at separate tables, each with their own supporters. The seating plan is part of Premium. Norah is AI-generated. Screens shown are real Wedillybird screens (demo data).",
+  "comment_bait": "Which seat is the hardest one to place on your list?",
+  "r2_items": ["T39", "T40", "T41"],
+  "sources": [
+    {"fact": "A round table is not always the same size; confirm the real table sizes with the venue or rental company", "publisher": "Joy", "title": "Wedding Seating Chart Tips: How to Seat 50 to 300 Guests Without the Stress (2026)", "url": "https://withjoy.com/blog/wedding-seating-chart-tips-how-to-seat-50-to-300-guests-without-the-stress-2026/", "date": "2026-07-07", "r2_id": "T39"},
+    {"fact": "No singles table; seat solo guests where they know at least one person; older guests near entrance, restrooms and exits, away from the band or DJ; divorced parents at separate tables with their own supporters", "publisher": "Joy", "title": "Wedding Seating Chart Tips: How to Seat 50 to 300 Guests Without the Stress (2026)", "url": "https://withjoy.com/blog/wedding-seating-chart-tips-how-to-seat-50-to-300-guests-without-the-stress-2026/", "date": "2026-07-07", "r2_id": "T40"},
+    {"fact": "Same seating rules (singles, older guests, divorced parents)", "publisher": "Zola", "title": "Seating chart tool page", "url": "https://zola.com/wedding-planning/seating-chart", "date": "undated", "r2_id": "T40"},
+    {"fact": "Start with confirmed guests so late changes don't mean starting over; draft after RSVP follow-ups, finalize, send to caterer and venue, print last", "publisher": "Joy", "title": "Wedding Seating Chart Tips: How to Seat 50 to 300 Guests Without the Stress (2026)", "url": "https://withjoy.com/blog/wedding-seating-chart-tips-how-to-seat-50-to-300-guests-without-the-stress-2026/", "date": "2026-07-07", "r2_id": "T41"},
+    {"fact": "Finalize one to two weeks before the wedding, after RSVPs and meal selections are confirmed; start with confirmed guests", "publisher": "Zola", "title": "Seating chart tool page", "url": "https://zola.com/wedding-planning/seating-chart", "date": "undated", "r2_id": "T41"}
+  ],
+  "claims_review": {
+    "numbers_used": [],
+    "needs_proof": [
+      "S08 capture should show: a guest dragged onto a table, plus-ones seated as separate seats, round and rectangular tables, a capacity warning, Auto-seat (grouping by category), the floor-plan view and the print page. Every SCREEN line still works if the capture is replaced by a card.",
+      "Seating is Premium only (r3 B2: Essential sees an upgrade prompt); only confirmed guests can be seated (r3 A and B2).",
+      "'Never seat X near Y' constraints are not available (BACKLOG.md:438-442, r3 section 0 row 20): stated as the limit. Nothing says or implies constraint support.",
+      "Beat 10 deliberately avoids saying where the guest pool sits in the UI; check against the capture."
+    ],
+    "notes": "No figures are stated. The seating guidance (T39-T41) is paraphrased as Norah's own suggestions ('I'd start with') with no numbers; the underlying sources are vendor guides (Joy, Zola), so no publisher is named in the voice-over or on screen. Add a visible credit if you prefer one. The hook is an opinion and says nothing about duration, as the calendar asks. Wedillybird is named three times (beats 9, 21, 28)."
+  },
+  "ai_disclosure": true
+}

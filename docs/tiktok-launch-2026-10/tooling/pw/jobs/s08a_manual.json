@@ -1,0 +1,216 @@
+{
+ "storageState": "pw/state_owner.json",
+ "cookies": [
+  {
+   "name": "wbb_locale_suggestion_dismissed",
+   "value": "1",
+   "url": "http://localhost:3000"
+  },
+  {
+   "name": "wbb_ccy",
+   "value": "USD",
+   "url": "http://localhost:3000"
+  }
+ ],
+ "localStorage": {
+  "wedillybird-cookie-consent": "declined"
+ },
+ "sanitize": {
+  "names": {
+   "Khadija Coulibaly": "Maya R.",
+   "Manon Lefebvre": "Owen L.",
+   "Issa Sow": "Isaac S.",
+   "Clara Marchand": "Clara M.",
+   "Adama Tour\u00e9": "Adam T.",
+   "Nicolas Petit": "Nick P.",
+   "Yasmine Benali": "Yara B.",
+   "Pierre Garnier": "Peter G.",
+   "Awa Thiam": "Ava T.",
+   "Hugo Dubois": "Hugo D.",
+   "Marie Rousseau": "Marie R.",
+   "Kwame Kouassi": "Kofi K.",
+   "Sophie Laurent": "Sophie L.",
+   "Thomas Bernard": "Thomas B.",
+   "Fatou Ndiaye": "Fatima N.",
+   "Camille Moreau": "Camille M.",
+   "Mamadou Seck": "Max S.",
+   "A\u00efcha Diallo": "Aisha D.",
+   "Aicha Diallo": "Aisha D.",
+   "Akua Kouassi": "Ama K.",
+   "Bineta Thiam": "Bea T.",
+   "Ibrahima Diallo": "Ivan D.",
+   "Lucas Moreau": "Luke M.",
+   "L\u00e9a Bernard": "Lea B.",
+   "Moussa Thiam": "Moses T.",
+   "\u00c9lise Garnier": "Elise G.",
+   "Elise Garnier": "Elise G."
+  },
+  "regex": [
+   [
+    "\\+\\d[\\d\\s]{7,}",
+    "\u2022\u2022\u2022 \u2022\u2022\u2022 \u2022\u2022\u2022\u2022"
+   ],
+   [
+    "(\\d+) invitations of \\d+ allowed",
+    "$1 invitations"
+   ],
+   [
+    " \u00b7 limit \\d+ invitations",
+    ""
+   ],
+   [
+    "(\\d+) / 5000",
+    "$1"
+   ]
+  ],
+  "hideText": [
+   "WHATSAPP BROADCAST",
+   "AFTER THE WEDDING",
+   "Keep your photos in high definition"
+  ],
+  "hideFloating": true,
+  "hideRegex": [
+   "^\\s*\\d+\\s*/\\s*5000\\s*$"
+  ]
+ },
+ "tail": 0.8,
+ "url": "http://localhost:3000/en/events/00000000000000000000010001events/seating",
+ "steps": [
+  {
+   "wait": 1400
+  },
+  {
+   "mark": "overview"
+  },
+  {
+   "wait": 1200
+  },
+  {
+   "scrollSel": [
+    "[data-testid=unassigned-column]",
+    130,
+    1100
+   ]
+  },
+  {
+   "wait": 900
+  },
+  {
+   "mark": "drag"
+  },
+  {
+   "drag": [
+    "[data-testid=guest-chip] >> nth=0",
+    "[data-testid=table-card] >> nth=0",
+    1100
+   ]
+  },
+  {
+   "wait": 1400
+  },
+  {
+   "shot": "out/seat/c1_dropped.png"
+  },
+  {
+   "scrollSel": [
+    "[data-testid=unassigned-column]",
+    130,
+    600
+   ]
+  },
+  {
+   "wait": 400
+  },
+  {
+   "mark": "plusone"
+  },
+  {
+   "drag": [
+    "[data-testid=guest-chip] >> nth=0",
+    "[data-testid=table-card] >> nth=0",
+    1000
+   ]
+  },
+  {
+   "wait": 1500
+  },
+  {
+   "shot": "out/seat/c2_plusone.png"
+  },
+  {
+   "scrollSel": [
+    "[data-testid=table-card] >> nth=0",
+    110,
+    900
+   ]
+  },
+  {
+   "wait": 700
+  },
+  {
+   "mark": "capacity"
+  },
+  {
+   "fill": [
+    "[data-testid=table-capacity-input] >> nth=0",
+    "6"
+   ]
+  },
+  {
+   "press": "Tab"
+  },
+  {
+   "wait": 2000
+  },
+  {
+   "shot": "out/seat/c3_capacity.png"
+  },
+  {
+   "fill": [
+    "[data-testid=table-capacity-input] >> nth=0",
+    "8"
+   ]
+  },
+  {
+   "press": "Tab"
+  },
+  {
+   "wait": 900
+  },
+  {
+   "scrollSel": [
+    "[data-testid=table-card] >> nth=0 >> [data-testid=guest-chip] >> nth=-1",
+    190,
+    1000
+   ]
+  },
+  {
+   "wait": 700
+  },
+  {
+   "shot": "out/seat/c4_before_move.png"
+  },
+  {
+   "mark": "move"
+  },
+  {
+   "drag": [
+    "[data-testid=table-card] >> nth=0 >> [data-testid=guest-chip] >> nth=-1",
+    "[data-testid=table-card] >> nth=1",
+    1100
+   ]
+  },
+  {
+   "wait": 1700
+  },
+  {
+   "shot": "out/seat/c5_moved.png"
+  },
+  {
+   "mark": "end"
+  },
+  {
+   "wait": 600
+  }
+ ]
+}

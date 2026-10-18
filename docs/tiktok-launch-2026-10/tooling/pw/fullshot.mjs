@@ -1,0 +1,12 @@
+import { chromium } from 'playwright-core';
+const [state, url, out] = process.argv.slice(2);
+const browser = await chromium.launch({ executablePath: '/opt/pw-browsers/chromium-1194/chrome-linux/chrome', args: ['--no-sandbox', '--hide-scrollbars'] });
+const ctx = await browser.newContext({ storageState: state, viewport: { width: 360, height: 640 }, deviceScaleFactor: 1, isMobile: true, hasTouch: true, locale: 'en-US', timezoneId: 'America/New_York' });
+await ctx.addCookies([{ name: 'wbb_locale_suggestion_dismissed', value: '1', url: 'http://localhost:3000' }, { name: 'wbb_ccy', value: 'USD', url: 'http://localhost:3000' }]);
+await ctx.addInitScript(() => { try { localStorage.setItem('wedillybird-cookie-consent', 'declined'); } catch (e) {} });
+const page = await ctx.newPage();
+await page.goto(url, { waitUntil: 'networkidle', timeout: 45000 });
+await page.waitForTimeout(1500);
+await page.screenshot({ path: out, fullPage: true });
+console.log(out, await page.evaluate(() => document.documentElement.scrollHeight));
+await browser.close();

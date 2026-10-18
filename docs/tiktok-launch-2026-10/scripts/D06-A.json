@@ -1,0 +1,292 @@
+{
+  "id": "D06-A",
+  "day": 6,
+  "slot": "A",
+  "series": "QUIET_LIST",
+  "episode": 4,
+  "fiction": false,
+  "pillar": "Budget",
+  "look": "L2",
+  "hook_id": "H07",
+  "working_title": "Where your wedding budget leaks after the venue is booked",
+  "search_intent": "hidden wedding costs after booking the venue",
+  "hook": {
+    "spoken": "Where your wedding budget leaks after the venue is booked.",
+    "on_screen": "Where your budget leaks after the venue",
+    "visual": "Norah seated at an oak desk by a window, seen from behind, sage cardigan, hook overlay at the top"
+  },
+  "voiceover": "Where your wedding budget leaks after the venue is booked. The Quiet List: four leaks, and the question for each. First, forget the average wedding cost. The Knot says thirty-four thousand dollars, Zola thirty-six. The third leak changes how you trim your guest list. Leak one: the service charge, often eighteen to twenty-two percent, says Zola. Add tax on top: ten thousand dollars can become twelve thousand eight hundred. Here's the catch: a service charge usually goes to the business, not the staff. So ask for the all-in price, and where it goes. Leak two: the fees nobody quoted. Zola found seventy-five percent of couples hit an unexpected fee. Hidden costs averaged three thousand three hundred fourteen dollars, about nine percent. Here's the part people skip: give that its own line in your plan. Ask every vendor for the overtime rate, in writing. What's your overtime rate per hour, and who approves it on the day? Also ask about travel, vendor meals and tastings. Follow, and tomorrow: late RSVPs and surprise extra guests. Leak three: the per-guest math behind your list. The Knot's average is two hundred ninety-two dollars per guest. Now the part that changes your list: total spend divided by guests. Zola puts guest-dependent costs at one hundred fifty to three hundred dollars. So cutting ten guests saves roughly fifteen hundred to three thousand. Leak four: no buffer in the plan. Here Comes The Guide says keep at least five percent aside. One planner told U.S. News ten to fifteen percent more. Sources differ. On thirty thousand dollars, five percent is fifteen hundred. Save this before you sign the next contract. I'm Norah, Wedillybird's AI host. The venue is booked. Now you know where the budget leaks.",
+  "word_count": 290,
+  "beats": [
+    {
+      "n": 1,
+      "vo": "Where your wedding budget leaks after the venue is booked.",
+      "overlay": "Where your budget leaks after the venue",
+      "visual": {"kind": "NORAH", "asset": "L2-S6", "crop": "wide", "focus": "center", "note": "Norah seated at an oak desk by a tall window, seen from behind, sage cardigan over an ivory turtleneck, notebook and mug in front of her"}
+    },
+    {
+      "n": 2,
+      "vo": "The Quiet List: four leaks, and the question for each.",
+      "visual": {"kind": "CARD", "card": {"type": "title", "text": "The Quiet List", "sub": "Four leaks after the venue deposit"}}
+    },
+    {
+      "n": 3,
+      "vo": "First, forget the average wedding cost.",
+      "visual": {"kind": "DECOR", "asset": "D06-A-d1", "prompt": "Photorealistic editorial still life, vertical, a small wooden abacus with champagne-colored beads on an oak desk beside a sage notebook, soft side light from a Paris apartment window, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no hands, nothing human in frame.", "motion": "push-in"}
+    },
+    {
+      "n": 4,
+      "vo": "The Knot says thirty-four thousand dollars, Zola thirty-six.",
+      "overlay": "The Knot (2025 weddings) | Zola (2026 couples)",
+      "visual": {"kind": "NORAH", "asset": "L2-S2", "crop": "medium", "focus": "hands", "note": "Over the shoulder: hands holding a notebook open above the oak desk, a pen resting on the page"}
+    },
+    {
+      "n": 5,
+      "vo": "The third leak changes how you trim your guest list.",
+      "visual": {"kind": "DECOR", "asset": "D06-A-d2", "prompt": "Photorealistic editorial still life, vertical, a pair of small gold scissors resting on a length of blush silk ribbon on an oak desk, soft side light, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no hands, nothing human in frame.", "motion": "pan-right"}
+    },
+    {
+      "n": 6,
+      "vo": "Leak one: the service charge, often eighteen to twenty-two percent, says Zola.",
+      "visual": {"kind": "CARD", "card": {"type": "number", "n": 1, "text": "The service charge", "sub": "Zola, 2026 | often 18 to 22 percent"}}
+    },
+    {
+      "n": 7,
+      "vo": "Add tax on top: ten thousand dollars can become twelve thousand eight hundred.",
+      "visual": {"kind": "CARD", "card": {"type": "checklist", "text": "Example, not a quote", "items": ["Quote: $10,000", "Service charge, 20%: +$2,000", "Tax, 8% on the base: +$800", "All-in: $12,800 (tax varies)"]}}
+    },
+    {
+      "n": 8,
+      "vo": "Here's the catch: a service charge usually goes to the business, not the staff.",
+      "overlay": "Zola, 2026: usually the business, not staff",
+      "visual": {"kind": "DECOR", "asset": "D06-A-d3", "prompt": "Photorealistic editorial still life, vertical, a porcelain teacup with a hairline crack and a single drop of tea on its saucer, oak desk, soft window light, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no hands, nothing human in frame.", "motion": "push-in"}
+    },
+    {
+      "n": 9,
+      "vo": "So ask for the all-in price, and where it goes.",
+      "visual": {"kind": "NORAH", "asset": "L2-S3", "crop": "detail", "focus": "hands", "note": "Close-up of hands writing a question in a sage notebook, steam rising from a mug at the edge"}
+    },
+    {
+      "n": 10,
+      "vo": "Leak two: the fees nobody quoted.",
+      "visual": {"kind": "CARD", "card": {"type": "number", "n": 2, "text": "Fees nobody quoted", "sub": "Zola 2026 survey, 720 couples"}}
+    },
+    {
+      "n": 11,
+      "vo": "Zola found seventy-five percent of couples hit an unexpected fee.",
+      "overlay": "Zola survey, 2026: 720 couples",
+      "visual": {"kind": "NORAH", "asset": "L2-S5", "crop": "medium", "focus": "center", "note": "Norah pauses by the window and looks out at the street, seen from behind, slow push-in"}
+    },
+    {
+      "n": 12,
+      "vo": "Hidden costs averaged three thousand three hundred fourteen dollars, about nine percent.",
+      "overlay": "Zola, 2026: about 9 percent of spend",
+      "visual": {"kind": "DECOR", "asset": "D06-A-d5", "prompt": "Photorealistic editorial still life, vertical, a closed sage-green ledger with a brass clasp on an oak desk beside a white ceramic mug, soft side light, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no hands, nothing human in frame.", "motion": "pull-out"}
+    },
+    {
+      "n": 13,
+      "vo": "Here's the part people skip: give that its own line in your plan.",
+      "visual": {"kind": "NORAH", "asset": "L2-S6", "crop": "medium", "focus": "left", "note": "Seated at the desk from behind, a pen adding a line to a page in the notebook, soft side light"}
+    },
+    {
+      "n": 14,
+      "vo": "Ask every vendor for the overtime rate, in writing.",
+      "overlay": "Here Comes The Guide, 2026",
+      "visual": {"kind": "DECOR", "asset": "D06-A-d6", "prompt": "Photorealistic editorial still life, vertical, a small hourglass with champagne-colored sand beside a sage notebook on an oak desk, soft side light, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no hands, nothing human in frame.", "motion": "push-in"}
+    },
+    {
+      "n": 15,
+      "vo": "What's your overtime rate per hour, and who approves it on the day?",
+      "visual": {"kind": "CARD", "card": {"type": "quote", "text": "What's your overtime rate per hour, and who approves it on the day?", "sub": "Also ask: travel, vendor meals, tastings"}}
+    },
+    {
+      "n": 16,
+      "vo": "Also ask about travel, vendor meals and tastings.",
+      "visual": {"kind": "DECOR", "asset": "D06-A-d4", "prompt": "Photorealistic editorial still life, vertical, a sheet of ivory paper, a fountain pen and a brass wax-seal stamp on an oak desk, soft side light, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no hands, nothing human in frame.", "motion": "pan-left"}
+    },
+    {
+      "n": 17,
+      "vo": "Follow, and tomorrow: late RSVPs and surprise extra guests.",
+      "overlay": "Tomorrow: late RSVPs and extra guests",
+      "visual": {"kind": "NORAH", "asset": "L2-S8", "crop": "wide", "focus": "center", "note": "Norah walks toward an open door onto a bright hallway, followed from behind"}
+    },
+    {
+      "n": 18,
+      "vo": "Leak three: the per-guest math behind your list.",
+      "visual": {"kind": "CARD", "card": {"type": "number", "n": 3, "text": "The per-guest math", "sub": "The Knot, 2026 | Zola, 2026"}}
+    },
+    {
+      "n": 19,
+      "vo": "The Knot's average is two hundred ninety-two dollars per guest.",
+      "overlay": "The Knot, 2026: $292 per guest",
+      "visual": {"kind": "DECOR", "asset": "D06-A-d7", "prompt": "Photorealistic editorial still life, vertical, two stacks of white dinner plates, one tall and one short, on a long oak table, pale window light, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no hands, nothing human in frame.", "motion": "pan-right"}
+    },
+    {
+      "n": 20,
+      "vo": "Now the part that changes your list: total spend divided by guests.",
+      "visual": {"kind": "NORAH", "asset": "L2-S2", "crop": "tight", "focus": "hands", "note": "Over the shoulder: a hand tracing a line down a page of the notebook, mug blurred beside it"}
+    },
+    {
+      "n": 21,
+      "vo": "Zola puts guest-dependent costs at one hundred fifty to three hundred dollars.",
+      "overlay": "Zola, 2026: $150 to $300 per guest",
+      "visual": {"kind": "DECOR", "asset": "D06-A-d8", "prompt": "Photorealistic editorial still life, vertical, five folded linen napkins stacked in a neat column on an oak table, pale window light, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no hands, nothing human in frame.", "motion": "pull-out"}
+    },
+    {
+      "n": 22,
+      "vo": "So cutting ten guests saves roughly fifteen hundred to three thousand.",
+      "visual": {"kind": "CARD", "card": {"type": "title", "text": "Cut ten guests", "sub": "Roughly $1,500 to $3,000 | computed from Zola's range"}}
+    },
+    {
+      "n": 23,
+      "vo": "Leak four: no buffer in the plan.",
+      "visual": {"kind": "CARD", "card": {"type": "number", "n": 4, "text": "No buffer", "sub": "Here Comes The Guide | U.S. News, 2026"}}
+    },
+    {
+      "n": 24,
+      "vo": "Here Comes The Guide says keep at least five percent aside.",
+      "overlay": "Here Comes The Guide, 2026",
+      "visual": {"kind": "DECOR", "asset": "D06-A-d9", "prompt": "Photorealistic editorial still life, vertical, a glass jar with a lid holding folded cream paper slips on an oak desk, soft side light, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no hands, nothing human in frame.", "motion": "push-in"}
+    },
+    {
+      "n": 25,
+      "vo": "One planner told U.S. News ten to fifteen percent more. Sources differ.",
+      "overlay": "U.S. News, Aug 2026 | sources differ",
+      "visual": {"kind": "NORAH", "asset": "L2-S3", "crop": "medium", "focus": "right", "note": "Hands closing a sage notebook on the desk, soft side light"}
+    },
+    {
+      "n": 26,
+      "vo": "On thirty thousand dollars, five percent is fifteen hundred.",
+      "overlay": "Illustration, not a quote",
+      "visual": {"kind": "DECOR", "asset": "D06-A-d1", "prompt": "Photorealistic editorial still life, vertical, a small wooden abacus with champagne-colored beads on an oak desk beside a sage notebook, soft side light from a Paris apartment window, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no hands, nothing human in frame.", "motion": "pull-out"}
+    },
+    {
+      "n": 27,
+      "vo": "Save this before you sign the next contract.",
+      "visual": {"kind": "DECOR", "asset": "D06-A-d4", "prompt": "Photorealistic editorial still life, vertical, a sheet of ivory paper, a fountain pen and a brass wax-seal stamp on an oak desk, soft side light, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no hands, nothing human in frame.", "motion": "push-in"}
+    },
+    {
+      "n": 28,
+      "vo": "I'm Norah, Wedillybird's AI host.",
+      "visual": {"kind": "NORAH", "asset": "L2-S1", "crop": "wide", "focus": "center", "note": "Norah walks away through the bright apartment toward the window light, seen from behind"}
+    },
+    {
+      "n": 29,
+      "vo": "The venue is booked. Now you know where the budget leaks.",
+      "visual": {"kind": "NORAH", "asset": "L2-S4", "crop": "medium", "focus": "center", "note": "Backlit profile silhouette by the window, face turned away, soft steam from a mug in the light"}
+    }
+  ],
+  "cta": "Soft follow at about one minute with tomorrow's teaser (late RSVPs and surprise extra guests). Final ask: save this before you sign the next contract.",
+  "next_teaser": "Tomorrow: late RSVPs and surprise extra guests",
+  "caption": "Hidden wedding costs\nFour leaks after the venue deposit: service charge and tax, unquoted fees, the per-guest math and a missing buffer, with the question to ask for each.\nHosted by Norah, an AI character created by the Wedillybird team.",
+  "hashtags": ["#bridetobe", "#budgetwedding", "#weddingplanningtips", "#winterwedding", "#weddingbudgettips"],
+  "keywords": ["wedding budget", "service charge", "hidden costs", "per guest"],
+  "pinned_comment": "The Quiet List: four leaks after the venue is booked.\n1) Service charge and tax: ask for the all-in price in writing, and whether the service charge goes to the staff\n2) Fees nobody quoted: give hidden costs their own line (about nine percent in Zola's survey); ask for the overtime rate, travel, vendor meals and tastings\n3) Per-guest math: $292 is an average (The Knot); guest-dependent costs are about $150 to $300 each (Zola), so ten fewer guests saves roughly $1,500 to $3,000\n4) No buffer: at least five percent (Here Comes The Guide); one planner says ten to fifteen percent more (U.S. News); sources differ\nThe $10,000 and $30,000 figures are illustrations, not quotes.\nNorah is AI-generated.",
+  "comment_bait": "Which of the four leaks has already shown up in your quotes?",
+  "r2_items": ["T11", "T14", "T15", "T16", "T17", "T19"],
+  "sources": [
+    {
+      "fact": "Average US wedding cost: $34,000 for weddings held in 2025 (10,474 couples), 117 guests, $292 per guest",
+      "publisher": "The Knot Worldwide",
+      "title": "The Knot Worldwide Unveils 2026 Real Weddings Study",
+      "url": "https://www.theknotww.com/press-releases/the-knot-worldwide-unveils-2026-real-weddings-study",
+      "date": "2026-02-18",
+      "r2_id": "T11"
+    },
+    {
+      "fact": "Average US wedding budget for couples marrying in 2026: $36,000, 145 guests (11,500+ couples)",
+      "publisher": "Zola",
+      "title": "2026 Wedding Trends: Zola's First Look Report",
+      "url": "https://www.zola.com/expert-advice/the-first-look-report",
+      "date": "updated 2026-10-16",
+      "r2_id": "T11"
+    },
+    {
+      "fact": "Service charges and gratuities are often 18 to 22 percent of vendor costs; tax comes on top; 57 percent of couples face a mandatory venue service fee (survey of 720 couples)",
+      "publisher": "Zola",
+      "title": "Average Cost of Weddings in 2026",
+      "url": "https://www.zola.com/expert-advice/whats-the-average-cost-of-a-wedding",
+      "date": "updated 2026-03-06",
+      "r2_id": "T14"
+    },
+    {
+      "fact": "A service charge or administrative fee usually goes to the business, not the staff; if unclear, ask whether it goes to staff",
+      "publisher": "Zola",
+      "title": "How Much To Tip Wedding Vendors",
+      "url": "https://zola.com/expert-advice/a-guide-to-tipping-wedding-vendors",
+      "date": "updated 2026-06-01",
+      "r2_id": "T14"
+    },
+    {
+      "fact": "75 percent of couples hit at least one unexpected fee; hidden costs average $3,314, about 9 percent of total spend (Zola 2026 Wedding Spend Survey, n=720)",
+      "publisher": "Zola",
+      "title": "Average Cost of Weddings in 2026",
+      "url": "https://www.zola.com/expert-advice/whats-the-average-cost-of-a-wedding",
+      "date": "updated 2026-03-06",
+      "r2_id": "T15"
+    },
+    {
+      "fact": "Overtime is often billed at a higher rate; price travel, vendor meals, tastings and setup in writing before signing",
+      "publisher": "Here Comes The Guide",
+      "title": "Hidden Wedding Costs",
+      "url": "https://www.herecomestheguide.com/wedding-ideas/hidden-wedding-costs",
+      "date": "updated 2026-08-08",
+      "r2_id": "T16"
+    },
+    {
+      "fact": "Build an emergency fund of at least 5 percent of the overall wedding budget",
+      "publisher": "Here Comes The Guide",
+      "title": "Hidden Wedding Costs",
+      "url": "https://www.herecomestheguide.com/wedding-ideas/hidden-wedding-costs",
+      "date": "updated 2026-08-08",
+      "r2_id": "T17"
+    },
+    {
+      "fact": "Planner Lisa Lafferty advises spending 10 to 15 percent more than the budget to cover overages (as quoted)",
+      "publisher": "U.S. News & World Report via WTOP",
+      "title": "This Is How Much the Average Wedding Costs",
+      "url": "https://wtop.com/news/2026/08/this-is-how-much-the-average-wedding-costs/",
+      "date": "2026-08-16",
+      "r2_id": "T17"
+    },
+    {
+      "fact": "$292 per guest on average (total spend divided by guests)",
+      "publisher": "The Knot Worldwide",
+      "title": "The Knot Worldwide Unveils 2026 Real Weddings Study",
+      "url": "https://www.theknotww.com/press-releases/the-knot-worldwide-unveils-2026-real-weddings-study",
+      "date": "2026-02-18",
+      "r2_id": "T19"
+    },
+    {
+      "fact": "Zola estimates guest-dependent costs (food, beverages, rentals and similar) at $150 to $300 per guest",
+      "publisher": "Zola",
+      "title": "Average Cost of Weddings in 2026",
+      "url": "https://www.zola.com/expert-advice/whats-the-average-cost-of-a-wedding",
+      "date": "updated 2026-03-06",
+      "r2_id": "T19"
+    }
+  ],
+  "claims_review": {
+    "numbers_used": [
+      {"figure": "average wedding cost $34,000 (weddings held in 2025)", "source": "The Knot Worldwide, 2026 Real Weddings Study, 2026-02-18 (10,474 US couples)", "r2_id": "T11"},
+      {"figure": "average wedding budget $36,000 (couples marrying in 2026)", "source": "Zola, 2026 First Look Report, updated 2026-10-16 (11,500+ couples)", "r2_id": "T11"},
+      {"figure": "service charges often 18 to 22 percent of vendor costs", "source": "Zola, Average Cost of Weddings in 2026, 2026-03-06", "r2_id": "T14"},
+      {"figure": "COMPUTED illustration: $10,000 + 20 percent service ($2,000) + 8 percent tax on the base ($800) = $12,800; tax rules vary by place", "source": "Arithmetic on Zola's 18 to 22 percent range and a sample tax rate; labelled 'Example, not a quote'", "r2_id": "T14"},
+      {"figure": "75 percent of couples hit at least one unexpected fee", "source": "Zola 2026 Wedding Spend Survey, n=720, 2026-03-06", "r2_id": "T15"},
+      {"figure": "hidden costs average $3,314, about 9 percent of spend", "source": "Zola 2026 Wedding Spend Survey, n=720, 2026-03-06", "r2_id": "T15"},
+      {"figure": "$292 per guest (average)", "source": "The Knot Worldwide, 2026 Real Weddings Study, 2026-02-18", "r2_id": "T19"},
+      {"figure": "guest-dependent costs $150 to $300 per guest", "source": "Zola, Average Cost of Weddings in 2026, 2026-03-06", "r2_id": "T19"},
+      {"figure": "COMPUTED: cutting ten guests saves roughly $1,500 to $3,000 (10 x $150 to $300)", "source": "Arithmetic on Zola's range; labelled 'computed' on screen", "r2_id": "T19"},
+      {"figure": "buffer of at least five percent of the budget", "source": "Here Comes The Guide, Hidden Wedding Costs, 2026-08-08", "r2_id": "T17"},
+      {"figure": "ten to fifteen percent more than the budget (one planner)", "source": "U.S. News & World Report via WTOP, 2026-08-16, planner Lisa Lafferty as quoted", "r2_id": "T17"},
+      {"figure": "COMPUTED: five percent of a $30,000 plan is $1,500", "source": "Arithmetic; $30,000 is a hypothetical plan, not a survey figure", "r2_id": "T17"}
+    ],
+    "needs_proof": [
+      "T17 is planner opinion, not survey data, and sources-disagree (five percent versus ten to fifteen percent): the video says so.",
+      "T14 percent ranges differ slightly by publisher (Zola 18 to 22, Here Comes The Guide 15 to 25): only Zola's range is spoken.",
+      "The $10,000 and $30,000 plans are labelled illustrations; the eight percent tax rate is a sample within Here Comes The Guide's five to eight percent per line item."
+    ],
+    "notes": "T16 carries no figures by design. The fact bank's $2,700 miscellaneous-line example (nine percent of a $30,000 plan) is deliberately not used. No product is shown or pitched; the only brand mention is the AI-host disclosure."
+  },
+  "ai_disclosure": true
+}

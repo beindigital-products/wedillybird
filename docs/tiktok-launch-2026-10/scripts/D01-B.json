@@ -1,0 +1,213 @@
+{
+  "id": "D01-B",
+  "day": 1,
+  "slot": "B",
+  "series": "NOTEBOOK",
+  "episode": 1,
+  "fiction": true,
+  "pillar": "Guest list basics",
+  "look": "L2",
+  "hook_id": "H28",
+  "working_title": "Norah's Notebook 01: The Spreadsheet",
+  "search_intent": "wedding guest list template",
+  "hook": {
+    "spoken": "Entry one. Four tabs, three versions, one guest list.",
+    "on_screen": "Entry 01. Four tabs, three versions, one guest list.",
+    "visual": "entry card"
+  },
+  "voiceover": "Entry one. Four tabs, three versions, one guest list. Norah's Notebook, entry one. The story is fiction. The fix is real. Dear notebook: ten weeks until Mara and Eli's January wedding. A countryside orangery, in the last light of winter. Tonight Mara showed me her wedding guest list. Or her guest lists. Four tabs: hers, Eli's, his mother's, and one called final. Three versions of the file, living in three inboxes. One said one hundred and twelve guests. Another said one hundred and nineteen. Same wedding. Seven guests apart. A cousin twice, an uncle nowhere. Here's the part people skip. The problem isn't the formulas. It's that nobody owns the list. So pick one file, and archive the rest. Then keep it between the two of you. It avoids the what-about questions. Now the columns. Five, and nothing else. One: name, spelled exactly as it will be on the envelope. Two: contact. A phone number or email that really works. Three: group. Family, friends, work. Keep each group together. If you're planning a winter wedding, follow along. One fix in every entry. This is the step people skip. Not every name needs a row. Ask two questions. Would leaving them off hurt the friendship? Do you care? If yes: the B list. Column four. Rank it, so you know who's next. If no, leave them off. Column five is the reply: waiting, yes, maybe, no. Tonight Mara merged four tabs into one. The obvious duplicates are gone. One list. Five columns. Two owners. One count, for tonight. I'm Norah, an AI character, and this is Wedillybird. The pen crosses out the spreadsheet, and writes the next problem. Overnight the count changed.",
+  "word_count": 281,
+  "beats": [
+    {
+      "n": 1,
+      "vo": "Entry one. Four tabs, three versions, one guest list.",
+      "overlay": "Four tabs, three versions, one guest list.",
+      "visual": {"kind": "CARD", "card": {"type": "entry", "n": 1, "text": "The Spreadsheet", "sub": "Ten weeks to go"}}
+    },
+    {
+      "n": 2,
+      "vo": "Norah's Notebook, entry one. The story is fiction. The fix is real.",
+      "visual": {"kind": "NORAH", "asset": "L2-S6", "crop": "wide", "focus": "center", "note": "Norah seated at the oak desk, seen from behind, sage notebook open, desk lamp on"}
+    },
+    {
+      "n": 3,
+      "vo": "Dear notebook: ten weeks until Mara and Eli's January wedding.",
+      "visual": {"kind": "DECOR", "asset": "D01-B-d1", "prompt": "Photorealistic editorial still life, vertical, a brass desk lamp glowing beside an open sage-green linen notebook and a steaming cup of tea on an oak desk, bright Parisian apartment, soft side light from a window, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no human figures.", "motion": "push-in"}
+    },
+    {
+      "n": 4,
+      "vo": "A countryside orangery, in the last light of winter.",
+      "visual": {"kind": "DECOR", "asset": "D01-B-d2", "prompt": "Photorealistic editorial still life, vertical, the inside of a countryside glass orangery with long bare wooden tables and tall arched windows, bare branches outside, pale low winter sun with warm dust floating in the light, 35 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no human figures.", "motion": "pan-right"}
+    },
+    {
+      "n": 5,
+      "vo": "Tonight Mara showed me her wedding guest list. Or her guest lists.",
+      "visual": {"kind": "NORAH", "asset": "L2-S2", "crop": "medium", "focus": "hands", "note": "over her shoulder: hands resting on the sage notebook, a laptop glowing out of focus, screen not legible"}
+    },
+    {
+      "n": 6,
+      "vo": "Four tabs: hers, Eli's, his mother's, and one called final.",
+      "visual": {"kind": "CARD", "card": {"type": "checklist", "text": "Four tabs", "items": ["Mara's list", "Eli's list", "His mother's list", "Final (really)"]}}
+    },
+    {
+      "n": 7,
+      "vo": "Three versions of the file, living in three inboxes.",
+      "visual": {"kind": "DECOR", "asset": "D01-B-d3", "prompt": "Photorealistic editorial still life, vertical, three cream paper folders fanned across an oak desk, each held with a different coloured paper clip, soft window light, Parisian apartment, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no human figures.", "motion": "pull-out"}
+    },
+    {
+      "n": 8,
+      "vo": "One said one hundred and twelve guests.",
+      "visual": {"kind": "NORAH", "asset": "L2-S3", "crop": "tight", "focus": "hands", "note": "macro: pen tapping a printed page of names, shallow depth of field"}
+    },
+    {
+      "n": 9,
+      "vo": "Another said one hundred and nineteen.",
+      "visual": {"kind": "DECOR", "asset": "D01-B-d4", "prompt": "Photorealistic editorial still life, vertical, a stack of printed pages with faint pencil marks and a single pencil lying across them, seen from above on an oak desk, soft window light, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no human figures.", "motion": "push-in"}
+    },
+    {
+      "n": 10,
+      "vo": "Same wedding. Seven guests apart. A cousin twice, an uncle nowhere.",
+      "visual": {"kind": "NORAH", "asset": "L2-S4", "crop": "wide", "focus": "right", "note": "profile in silhouette against the window, tea steaming, face turned away"}
+    },
+    {
+      "n": 11,
+      "vo": "Here's the part people skip. The problem isn't the formulas.",
+      "visual": {"kind": "CARD", "card": {"type": "title", "text": "Not the formulas.", "sub": "Here's the part people skip."}}
+    },
+    {
+      "n": 12,
+      "vo": "It's that nobody owns the list.",
+      "visual": {"kind": "DECOR", "asset": "D01-B-d5", "prompt": "Photorealistic editorial still life, vertical, a single closed sage-green notebook centred on a clean oak desk beside a small glass of water, tidy and quiet, soft morning window light, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no human figures.", "motion": "pull-out"}
+    },
+    {
+      "n": 13,
+      "vo": "So pick one file, and archive the rest.",
+      "visual": {"kind": "NORAH", "asset": "L2-S5", "crop": "medium", "focus": "center", "note": "she stops and looks out of the window, seen from behind, mug in one hand"}
+    },
+    {
+      "n": 14,
+      "vo": "Then keep it between the two of you.",
+      "overlay": "Source: Zola, 2025",
+      "visual": {"kind": "DECOR", "asset": "D01-B-d7", "prompt": "Photorealistic editorial still life, vertical, two matching ceramic teacups side by side on a small wooden tray, steam rising, warm lamp light, oak desk, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no human figures.", "motion": "push-in"}
+    },
+    {
+      "n": 15,
+      "vo": "It avoids the what-about questions.",
+      "visual": {"kind": "DECOR", "asset": "D01-B-d5", "prompt": "Photorealistic editorial still life, vertical, a single closed sage-green notebook centred on a clean oak desk beside a small glass of water, tidy and quiet, soft morning window light, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no human figures.", "motion": "pan-left"}
+    },
+    {
+      "n": 16,
+      "vo": "Now the columns. Five, and nothing else.",
+      "visual": {"kind": "CARD", "card": {"type": "number", "n": 5, "text": "columns. Nothing else.", "sub": "Name · Contact · Group · List · Reply"}}
+    },
+    {
+      "n": 17,
+      "vo": "One: name, spelled exactly as it will be on the envelope.",
+      "visual": {"kind": "DECOR", "asset": "D01-B-d8", "prompt": "Photorealistic editorial still life, vertical, blank cream envelopes fanned on a linen cloth beside a black fountain pen, soft window light, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no human figures.", "motion": "push-in"}
+    },
+    {
+      "n": 18,
+      "vo": "Two: contact. A phone number or email that really works.",
+      "visual": {"kind": "DECOR", "asset": "D01-B-d6", "prompt": "Photorealistic editorial still life, vertical, a smartphone lying screen-down beside a cream envelope on an oak desk, a ceramic cup softly out of focus behind, soft window light, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no human figures.", "motion": "pan-right"}
+    },
+    {
+      "n": 19,
+      "vo": "Three: group. Family, friends, work. Keep each group together.",
+      "overlay": "Source: Philadelphia Magazine, 2015",
+      "visual": {"kind": "NORAH", "asset": "L2-S7", "crop": "tight", "focus": "left", "note": "sage knit cardigan sleeve moving as she turns a page of the notebook"}
+    },
+    {
+      "n": 20,
+      "vo": "If you're planning a winter wedding, follow along. One fix in every entry.",
+      "visual": {"kind": "DECOR", "asset": "D01-B-d1", "prompt": "Photorealistic editorial still life, vertical, a brass desk lamp glowing beside an open sage-green linen notebook and a steaming cup of tea on an oak desk, bright Parisian apartment, soft side light from a window, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no human figures.", "motion": "pull-out"}
+    },
+    {
+      "n": 21,
+      "vo": "This is the step people skip. Not every name needs a row.",
+      "visual": {"kind": "NORAH", "asset": "L2-S1", "crop": "wide", "focus": "center", "note": "she walks away down the apartment hallway toward the window light, notebook under her arm"}
+    },
+    {
+      "n": 22,
+      "vo": "Ask two questions. Would leaving them off hurt the friendship? Do you care?",
+      "visual": {"kind": "CARD", "card": {"type": "title", "text": "Two questions", "sub": "Would leaving them off hurt the friendship? Do you care? Source: Zola, 2025"}}
+    },
+    {
+      "n": 23,
+      "vo": "If yes: the B list. Column four. Rank it, so you know who's next.",
+      "overlay": "Source: Philadelphia Magazine, 2015",
+      "visual": {"kind": "NORAH", "asset": "L2-S6", "crop": "tight", "focus": "left", "note": "seated at the desk from behind, pen moving down a short ranked list in the notebook, lamp glow on the page"}
+    },
+    {
+      "n": 24,
+      "vo": "If no, leave them off. Column five is the reply: waiting, yes, maybe, no.",
+      "visual": {"kind": "DECOR", "asset": "D01-B-d3", "prompt": "Photorealistic editorial still life, vertical, three cream paper folders fanned across an oak desk, each held with a different coloured paper clip, soft window light, Parisian apartment, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no human figures.", "motion": "push-in"}
+    },
+    {
+      "n": 25,
+      "vo": "Tonight Mara merged four tabs into one. The obvious duplicates are gone.",
+      "visual": {"kind": "DECOR", "asset": "D01-B-d5", "prompt": "Photorealistic editorial still life, vertical, a single closed sage-green notebook centred on a clean oak desk beside a small glass of water, tidy and quiet, soft morning window light, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no human figures.", "motion": "push-in"}
+    },
+    {
+      "n": 26,
+      "vo": "One list. Five columns. Two owners. One count, for tonight.",
+      "visual": {"kind": "CARD", "card": {"type": "checklist", "text": "Tonight", "items": ["One list", "Five columns", "Two owners", "One count, for now"]}}
+    },
+    {
+      "n": 27,
+      "vo": "I'm Norah, an AI character, and this is Wedillybird.",
+      "visual": {"kind": "NORAH", "asset": "L2-S8", "crop": "wide", "focus": "center", "note": "she walks toward the apartment door; it opens onto soft evening light"}
+    },
+    {
+      "n": 28,
+      "vo": "The pen crosses out the spreadsheet, and writes the next problem.",
+      "visual": {"kind": "NORAH", "asset": "L2-S3", "crop": "detail", "focus": "hands", "note": "the pen draws a line through the title The Spreadsheet on the notebook page, then starts a new line in blush ink"}
+    },
+    {
+      "n": 29,
+      "vo": "Overnight the count changed.",
+      "visual": {"kind": "CARD", "card": {"type": "entry", "n": 2, "text": "Overnight the count changed.", "sub": "Entry two, tomorrow"}}
+    }
+  ],
+  "cta": "Follow Norah's Notebook: entry two is tomorrow.",
+  "next_teaser": "Entry 02 tomorrow",
+  "caption": "Wedding guest list template: the five columns a spreadsheet actually needs.\nEntry 01 of Norah's Notebook: one list, two owners, and a two-question test for who gets a row.\nFiction: Norah and the couple are invented. The tips are real.\nHosted by Norah, an AI character created by the Wedillybird team.",
+  "hashtags": ["#weddingtok", "#weddingguestlist", "#weddingchecklist", "#winterweddinginspo", "#weddingtodolist"],
+  "keywords": ["wedding guest list", "B list", "winter wedding"],
+  "pinned_comment": "The five columns: 1) Name, spelled as it will be on the envelope. 2) Contact: a phone number or email that works. 3) Group: family, friends, work, kept together. 4) List: A or B, with the B list ranked. 5) Reply: waiting, yes, maybe, no. Two questions before a name gets a row: would leaving them off hurt the friendship, and do you care? If yes, B list. If no, leave them off (Zola, small guest list guide, 2025). Fiction: Mara, Eli and Norah are invented; the tips are real. Norah is AI-generated.",
+  "comment_bait": "How many tabs does your guest list live in right now?",
+  "r2_items": ["T22", "T27"],
+  "sources": [
+    {
+      "fact": "Keep each group (family, friends, work) on the same invitation wave and rank the B-list so you know who is next",
+      "publisher": "Philadelphia Magazine (Alexandra Leshner)",
+      "title": "Here's Everything You Need to Know About (Tactfully) Inviting Your B-List Guests",
+      "url": "https://www.phillymag.com/news/2015/05/05/inviting-b-list-wedding-guests/",
+      "date": "2015-05-05",
+      "r2_id": "T22"
+    },
+    {
+      "fact": "Two-question test for who makes a small guest list: would not inviting them hurt the friendship, and do you care? If yes, B-list; if no, leave them off",
+      "publisher": "Zola (McCall Minnor)",
+      "title": "How to Stick to a Small Wedding Guest List",
+      "url": "https://www.zola.com/expert-advice/small-wedding-guest-list",
+      "date": "2025-10-13 (updated)",
+      "r2_id": "T27"
+    },
+    {
+      "fact": "Keep the final list between you and your partner to avoid 'what about' questions",
+      "publisher": "Zola (McCall Minnor)",
+      "title": "How to Stick to a Small Wedding Guest List",
+      "url": "https://www.zola.com/expert-advice/small-wedding-guest-list",
+      "date": "2025-10-13 (updated)",
+      "r2_id": "T27"
+    }
+  ],
+  "claims_review": {
+    "numbers_used": [
+      {"figure": "two questions (small guest list test)", "source": "Zola, 'How to Stick to a Small Wedding Guest List', updated 2025-10-13", "r2_id": "T27"}
+    ],
+    "needs_proof": [],
+    "notes": "Story numbers (four tabs, three versions, ten weeks, one hundred and twelve vs one hundred and nineteen, seven guests) are invented and never presented as results. The five-column list is Norah's practical suggestion, not a statistic; the group and B-list points come from T22 (Philadelphia Magazine piece is from 2015, so the year is shown on screen). No product feature is mentioned; the brand name appears once, in the AI-disclosure sentence."
+  },
+  "ai_disclosure": true
+}

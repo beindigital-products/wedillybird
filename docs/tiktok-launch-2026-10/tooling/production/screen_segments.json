@@ -1,0 +1,83 @@
+{
+  "_doc": "Per-beat screen footage. Key '<beat n>.<visual index>' -> 'take:mark' with an optional +/- seconds offset. Takes and marks live in assets/product/takes (<take>.mp4 + <take>.marks.json). Beats not listed use the default sequences in make_manifest.py.",
+  "D03-B": {
+    "7.0": "g1:seal",
+    "8.0": "g1:opening",
+    "9.1": "g1:seal+0.5",
+    "10.0": "g1:names+1.2",
+    "11.0": "g1:details-1.2",
+    "13.0": "g1:rsvp",
+    "14.0": "g1:yes",
+    "17.0": "g1:note",
+    "18.0": "g1:send",
+    "22.1": "g1:details",
+    "25.0": "g1:seal+0.2",
+    "25.1": "g1:send+3.2",
+    "26.0": "g1:seal+0.8"
+  },
+  "D06-B": {
+    "2.1": "hub:counters",
+    "7.0": "hub:hub",
+    "8.0": "hub:counters",
+    "10.0": "hub:counters+0.6",
+    "11.0": "hub:reply1+1.0",
+    "16.0": "hub:reply2+3.0",
+    "17.0": "guests:statuses",
+    "19.0": "guests:name",
+    "20.1": "guests:plusones",
+    "21.0": "guests:csv",
+    "22.0": "guests:statuses+6.0",
+    "26.0": "guests:list",
+    "28.0": "hub:reply2+2.0"
+  },
+  "D09-B": {
+    "1.0": "seatA:overview",
+    "3.0": "seatA:drag",
+    "9.0": "seatA:overview+1.5",
+    "10.0": "seatA:drag",
+    "11.0": "seatA:drag+3.2",
+    "12.0": "seatA:plusone",
+    "13.0": "seatB:shape",
+    "16.0": "seatA:capacity+0.8",
+    "17.0": "seatB:auto",
+    "18.0": "seatA:move",
+    "19.0": "seatB:floorplan",
+    "20.0": "seatB:print",
+    "26.0": "seatB:auto+3.0"
+  },
+  "D12-B": {
+    "2.0": "cockpit:top",
+    "9.0": "cockpit:top+1.0",
+    "10.1": "cockpit:weddings",
+    "11.0": "cockpit:activity",
+    "12.0": "cockpit:weddings+1.5",
+    "14.0": "crm:pipeline",
+    "15.0": "crm:columns",
+    "16.1": "crm:columns+2.5",
+    "17.0": "crm:notes",
+    "18.0": "crm:convert",
+    "20.1": "crm:pipeline+1.0",
+    "21.0": "crm:pipeline+2.0",
+    "26.0": "cockpit:top"
+  },
+  "D15-B": {
+    "6.1": "g1:seal+0.6",
+    "7.0": "g1:opening+0.6",
+    "8.0": "g1:seal+0.2",
+    "9.1": "g1:names+0.5",
+    "10.0": "g1:countdown-0.6",
+    "11.0": "g1:details-1.0",
+    "13.1": "g1:rsvp+0.3",
+    "14.0": "g1:maybe",
+    "15.0": "g1:yes+0.4",
+    "17.0": "g1:note+0.8",
+    "18.0": "g1:dietary",
+    "20.1": "g1:dietary+0.6",
+    "26.0": "g1:plusone",
+    "28.0": "g1:seal+0.3"
+  },
+  "D11-B": {
+    "*S09.0": "checkB:queued",
+    "*S09.1": "checkB:synced"
+  }
+}

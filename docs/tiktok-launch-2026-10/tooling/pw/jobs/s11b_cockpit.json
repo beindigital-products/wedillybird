@@ -1,0 +1,130 @@
+{
+ "storageState": "pw/state_pro.json",
+ "cookies": [
+  {
+   "name": "wbb_locale_suggestion_dismissed",
+   "value": "1",
+   "url": "http://localhost:3000"
+  },
+  {
+   "name": "wbb_ccy",
+   "value": "USD",
+   "url": "http://localhost:3000"
+  }
+ ],
+ "localStorage": {
+  "wedillybird-cookie-consent": "declined"
+ },
+ "tail": 0.6,
+ "url": "http://localhost:3000/en/pro/dashboard",
+ "sanitize": {
+  "names": {
+   "Camille Faye": "Jordan Lee",
+   "Envoyer les faire-part": "Send the invitations",
+   "R\u00e9server le photographe / vid\u00e9aste": "Book the photographer / videographer",
+   "Choisir les tenues des mari\u00e9s": "Choose the wedding outfits",
+   "R\u00e9server le DJ / groupe": "Book the DJ / band",
+   "Commander les fleurs et la d\u00e9coration": "Order the flowers and decor",
+   "Nouveau client": "New client",
+   "T\u00e2che termin\u00e9e": "Task completed",
+   "D\u00e9finir le budget global": "Set the overall budget",
+   "Choisir et r\u00e9server le lieu": "Choose and book the venue",
+   "\u00c9tablir la liste des invit\u00e9s": "Draw up the guest list",
+   "Villa Ephrussi": "Villa Marguerite"
+  },
+  "regex": [
+   [
+    "\\+\\d[\\d\\s]{7,}",
+    "\u2022\u2022\u2022 \u2022\u2022\u2022 \u2022\u2022\u2022\u2022"
+   ],
+   [
+    "[\\w.+-]+@[\\w.-]+\\.[a-z]{2,}",
+    "client@example.com"
+   ]
+  ],
+  "hideText": [
+   "Messages this month"
+  ],
+  "hideFloating": true
+ },
+ "steps": [
+  {
+   "wait": 1600
+  },
+  {
+   "eval": "[...document.querySelectorAll('h2,h3')].filter(h=>h.textContent.trim()==='Plan usage').forEach(h=>h.style.setProperty('display','none','important'))"
+  },
+  {
+   "mark": "top"
+  },
+  {
+   "wait": 1800
+  },
+  {
+   "smoothScroll": [
+    330,
+    1400
+   ]
+  },
+  {
+   "mark": "weddings"
+  },
+  {
+   "wait": 2200
+  },
+  {
+   "eval": "[...document.querySelectorAll('h2,h3')].filter(h=>h.textContent.trim()==='Plan usage').forEach(h=>h.style.setProperty('display','none','important'))"
+  },
+  {
+   "smoothScroll": [
+    700,
+    1500
+   ]
+  },
+  {
+   "mark": "deadlines"
+  },
+  {
+   "wait": 2200
+  },
+  {
+   "smoothScroll": [
+    1050,
+    1600
+   ]
+  },
+  {
+   "mark": "pipeline_card"
+  },
+  {
+   "wait": 2000
+  },
+  {
+   "smoothScroll": [
+    1400,
+    1600
+   ]
+  },
+  {
+   "mark": "activity"
+  },
+  {
+   "wait": 2200
+  },
+  {
+   "shot": "out/pro/p1_activity.png"
+  },
+  {
+   "smoothScroll": [
+    0,
+    1400
+   ]
+  },
+  {
+   "mark": "end"
+  },
+  {
+   "wait": 600
+  }
+ ]
+}

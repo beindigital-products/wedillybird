@@ -1,0 +1,237 @@
+{
+  "id": "D08-A",
+  "day": 8,
+  "slot": "A",
+  "series": "QUIET_LIST",
+  "episode": 5,
+  "fiction": false,
+  "pillar": "Venue and day-of",
+  "look": "L6",
+  "hook_id": "H58",
+  "working_title": "Seven questions to ask a venue about guest arrival (and fees)",
+  "search_intent": "questions to ask a wedding venue on a tour",
+  "hook": {
+    "spoken": "Seven questions to ask a venue about guest arrival.",
+    "on_screen": "Seven questions to ask a venue",
+    "visual": "Norah walking away down a Paris street at blue hour in a long black coat and ivory scarf, hook overlay at the top"
+  },
+  "voiceover": "Seven questions to ask a venue about guest arrival. The Quiet List: seven questions for your venue tour. A venue can be beautiful and still make arrival hard. Here are seven questions. Number five changes your whole timeline. One. Where do guests park, and where's the drop-off? Ask if parking or valet costs extra. WeddingWire says parking, stairs and coat check can be deal-breakers. Two. Are there stairs, and what's the route without them? Distant venues can leave out older guests. Three. Where do guests wait if they arrive early, and is it heated? Four. Is there a coat check, and who staffs it? Here's the part people skip: ask what's included, not just what's there. Heaters, for one, can be missing from the site fee. Five. How long to move guests from the ceremony to the cocktail space? Joy allows ten to fifteen minutes for that move. Listen for an actual number of minutes. Then add a fifteen to thirty minute buffer at each transition. Follow, and tomorrow: four ways to collect RSVPs, compared honestly. Six. Will another event share the entrance, the parking or the restrooms? Last, and it's the one about money. Seven. What does the site fee leave out? Tables, chairs, linens, setup, cleanup, heaters, restrooms. Please send a written list of everything in the site fee and everything we'd need to rent. Then ask for the all-in price, service charge and tax included. A good answer is specific, and in writing. A weak one sounds like: it never rains. Bonus: meet the on-site coordinator before you book. Save this for your next venue tour. I'm Norah, Wedillybird's AI host. That's guest arrival, covered before you book.",
+  "word_count": 281,
+  "beats": [
+    {
+      "n": 1,
+      "vo": "Seven questions to ask a venue about guest arrival.",
+      "overlay": "Seven questions to ask a venue",
+      "visual": {"kind": "NORAH", "asset": "L6-S1", "crop": "wide", "focus": "center", "note": "Norah walks away down a Paris street at blue hour in a long black wool coat and ivory scarf, lit shopfronts, wet cobblestones reflecting the lights"}
+    },
+    {
+      "n": 2,
+      "vo": "The Quiet List: seven questions for your venue tour.",
+      "overlay": "The Quiet List: seven venue questions",
+      "visual": {"kind": "DECOR", "asset": "D08-A-d1", "prompt": "Photorealistic editorial still life, vertical, wet cobblestones reflecting a warm street lantern at blue hour, a few fallen leaves on the stones, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no hands, nothing human in frame.", "motion": "push-in"}
+    },
+    {
+      "n": 3,
+      "vo": "A venue can be beautiful and still make arrival hard.",
+      "visual": {"kind": "NORAH", "asset": "L6-S5", "crop": "medium", "focus": "center", "note": "Norah stops in front of a lit stone entrance and looks up at it, seen from behind, slow push-in"}
+    },
+    {
+      "n": 4,
+      "vo": "Here are seven questions. Number five changes your whole timeline.",
+      "visual": {"kind": "DECOR", "asset": "D08-A-d2", "prompt": "Photorealistic editorial still life, vertical, the ornate wooden double doors of a stone venue glowing warmly at blue hour, wet cobblestones in front, a lantern on each side, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no hands, nothing human in frame.", "motion": "pull-out"}
+    },
+    {
+      "n": 5,
+      "vo": "One. Where do guests park, and where's the drop-off?",
+      "visual": {"kind": "CARD", "card": {"type": "number", "n": 1, "text": "Parking and drop-off", "sub": "WeddingWire, 2021"}}
+    },
+    {
+      "n": 6,
+      "vo": "Ask if parking or valet costs extra.",
+      "visual": {"kind": "DECOR", "asset": "D08-A-d3", "prompt": "Photorealistic editorial still life, vertical, a quiet gravel courtyard at dusk with lanterns and a low stone wall, no vehicles, blue hour light, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no hands, nothing human in frame.", "motion": "pan-left"}
+    },
+    {
+      "n": 7,
+      "vo": "WeddingWire says parking, stairs and coat check can be deal-breakers.",
+      "overlay": "WeddingWire, 2021",
+      "visual": {"kind": "NORAH", "asset": "L6-S2", "crop": "medium", "focus": "hands", "note": "Over the shoulder: gloved hands holding a notebook open under a street lamp, wet stone behind"}
+    },
+    {
+      "n": 8,
+      "vo": "Two. Are there stairs, and what's the route without them?",
+      "visual": {"kind": "CARD", "card": {"type": "number", "n": 2, "text": "Stairs and the step-free route", "sub": "WeddingWire, 2021"}}
+    },
+    {
+      "n": 9,
+      "vo": "Distant venues can leave out older guests.",
+      "overlay": "WeddingWire, 2021: older guests",
+      "visual": {"kind": "DECOR", "asset": "D08-A-d4", "prompt": "Photorealistic editorial still life, vertical, a curved stone staircase with a brass handrail and a lit lantern at the top, blue hour, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no hands, nothing human in frame.", "motion": "push-in"}
+    },
+    {
+      "n": 10,
+      "vo": "Three. Where do guests wait if they arrive early, and is it heated?",
+      "visual": {"kind": "CARD", "card": {"type": "number", "n": 3, "text": "Waiting space and heat", "sub": "WeddingWire, 2021 | Here Comes The Guide, 2026"}}
+    },
+    {
+      "n": 11,
+      "vo": "Four. Is there a coat check, and who staffs it?",
+      "visual": {"kind": "CARD", "card": {"type": "number", "n": 4, "text": "Coat check", "sub": "WeddingWire, 2021"}}
+    },
+    {
+      "n": 12,
+      "vo": "Here's the part people skip: ask what's included, not just what's there.",
+      "visual": {"kind": "NORAH", "asset": "L6-S3", "crop": "detail", "focus": "hands", "note": "Close-up of gloved hands turning a page of a notebook, reflections on wet stone behind"}
+    },
+    {
+      "n": 13,
+      "vo": "Heaters, for one, can be missing from the site fee.",
+      "overlay": "Here Comes The Guide, 2026",
+      "visual": {"kind": "DECOR", "asset": "D08-A-d5", "prompt": "Photorealistic editorial still life, vertical, a tall outdoor patio heater glowing amber in a stone courtyard at dusk, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no hands, nothing human in frame.", "motion": "push-in"}
+    },
+    {
+      "n": 14,
+      "vo": "Five. How long to move guests from the ceremony to the cocktail space?",
+      "visual": {"kind": "CARD", "card": {"type": "number", "n": 5, "text": "Moving from ceremony to cocktails", "sub": "Joy, 2026"}}
+    },
+    {
+      "n": 15,
+      "vo": "Joy allows ten to fifteen minutes for that move.",
+      "overlay": "Joy, 2026: ten to fifteen minutes",
+      "visual": {"kind": "DECOR", "asset": "D08-A-d6", "prompt": "Photorealistic editorial still life, vertical, a long empty hallway with a deep red-brown runner rug leading from a pale ceremony hall to a candle-lit room, blue hour glow through arched windows, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no hands, nothing human in frame.", "motion": "pan-right"}
+    },
+    {
+      "n": 16,
+      "vo": "Listen for an actual number of minutes.",
+      "visual": {"kind": "NORAH", "asset": "L6-S4", "crop": "medium", "focus": "center", "note": "Backlit profile silhouette against glowing shopfronts, face turned away, breath visible in the cold air"}
+    },
+    {
+      "n": 17,
+      "vo": "Then add a fifteen to thirty minute buffer at each transition.",
+      "overlay": "Joy, 2026: fifteen to thirty minutes",
+      "visual": {"kind": "DECOR", "asset": "D08-A-d6", "prompt": "Photorealistic editorial still life, vertical, a long empty hallway with a deep red-brown runner rug leading from a pale ceremony hall to a candle-lit room, blue hour glow through arched windows, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no hands, nothing human in frame.", "motion": "push-in"}
+    },
+    {
+      "n": 18,
+      "vo": "Follow, and tomorrow: four ways to collect RSVPs, compared honestly.",
+      "overlay": "Tomorrow: four ways to collect RSVPs",
+      "visual": {"kind": "NORAH", "asset": "L6-S8", "crop": "wide", "focus": "center", "note": "Norah walks toward a lit doorway that opens onto warm light, followed from behind"}
+    },
+    {
+      "n": 19,
+      "vo": "Six. Will another event share the entrance, the parking or the restrooms?",
+      "visual": {"kind": "CARD", "card": {"type": "number", "n": 6, "text": "Shared entrance", "sub": "WeddingWire, 2021"}}
+    },
+    {
+      "n": 20,
+      "vo": "Last, and it's the one about money.",
+      "visual": {"kind": "DECOR", "asset": "D08-A-d7", "prompt": "Photorealistic editorial still life, vertical, a leather wallet and a brass key lying on a stone ledge, blue hour light, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no hands, nothing human in frame.", "motion": "pull-out"}
+    },
+    {
+      "n": 21,
+      "vo": "Seven. What does the site fee leave out?",
+      "visual": {"kind": "CARD", "card": {"type": "number", "n": 7, "text": "What the site fee leaves out", "sub": "Here Comes The Guide, 2026"}}
+    },
+    {
+      "n": 22,
+      "vo": "Tables, chairs, linens, setup, cleanup, heaters, restrooms.",
+      "overlay": "Here Comes The Guide, 2026",
+      "visual": {"kind": "DECOR", "asset": "D08-A-d8", "prompt": "Photorealistic editorial still life, vertical, a stack of folding chairs, folded linen tablecloths and a round table in an empty hall, cool blue hour light through tall windows, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no hands, nothing human in frame.", "motion": "pan-left"}
+    },
+    {
+      "n": 23,
+      "vo": "Please send a written list of everything in the site fee and everything we'd need to rent.",
+      "visual": {"kind": "CARD", "card": {"type": "quote", "text": "Please send a written list of everything in the site fee and everything we'd need to rent.", "sub": "Ask it in writing"}}
+    },
+    {
+      "n": 24,
+      "vo": "Then ask for the all-in price, service charge and tax included.",
+      "overlay": "WeddingWire, 2021: all-in price",
+      "visual": {"kind": "DECOR", "asset": "D08-A-d9", "prompt": "Photorealistic editorial still life, vertical, a clipboard holding a blank sheet of paper and a slim brass pen on a dark wooden table, warm lamp light, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no hands, nothing human in frame.", "motion": "push-in"}
+    },
+    {
+      "n": 25,
+      "vo": "A good answer is specific, and in writing.",
+      "visual": {"kind": "NORAH", "asset": "L6-S3", "crop": "tight", "focus": "hands", "note": "Gloved hands writing in a small notebook beside a lantern, shallow depth of field"}
+    },
+    {
+      "n": 26,
+      "vo": "A weak one sounds like: it never rains.",
+      "overlay": "WeddingWire, 2021: see the indoor space",
+      "visual": {"kind": "DECOR", "asset": "D08-A-d1", "prompt": "Photorealistic editorial still life, vertical, wet cobblestones reflecting a warm street lantern at blue hour, a few fallen leaves on the stones, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no hands, nothing human in frame.", "motion": "pan-right"}
+    },
+    {
+      "n": 27,
+      "vo": "Bonus: meet the on-site coordinator before you book.",
+      "visual": {"kind": "NORAH", "asset": "L6-S7", "crop": "detail", "focus": "center", "note": "Ivory scarf ends and black wool coat fabric moving in the cold wind, tight fabric detail"}
+    },
+    {
+      "n": 28,
+      "vo": "Save this for your next venue tour.",
+      "visual": {"kind": "DECOR", "asset": "D08-A-d2", "prompt": "Photorealistic editorial still life, vertical, the ornate wooden double doors of a stone venue glowing warmly at blue hour, wet cobblestones in front, a lantern on each side, 50 mm, shallow depth of field, subtle film grain, muted palette of ivory, blush, champagne and sage with autumn accents. No text, no logos, no screens with legible content, no hands, nothing human in frame.", "motion": "push-in"}
+    },
+    {
+      "n": 29,
+      "vo": "I'm Norah, Wedillybird's AI host.",
+      "visual": {"kind": "NORAH", "asset": "L6-S1", "crop": "tight", "focus": "center", "note": "Norah walks away along the lit street, rear tracking, face never shown"}
+    },
+    {
+      "n": 30,
+      "vo": "That's guest arrival, covered before you book.",
+      "visual": {"kind": "NORAH", "asset": "L6-S8", "crop": "tight", "focus": "center", "note": "Norah steps into a warmly lit doorway, light spilling out onto the wet cobblestones, face never shown"}
+    }
+  ],
+  "cta": "Soft follow at about one minute with tomorrow's teaser (four ways to collect RSVPs, compared honestly). Final ask: save this for your next venue tour.",
+  "next_teaser": "Tomorrow: four ways to collect RSVPs, compared honestly",
+  "caption": "Questions to ask a wedding venue\nSeven questions about guest arrival and fees for your next venue tour: parking, stairs, heat, coats, the walk between spaces, shared entrances and what the site fee leaves out.\nHosted by Norah, an AI character created by the Wedillybird team.",
+  "hashtags": ["#weddingtok", "#weddingchecklist", "#weddingplanning101", "#winterweddinginspo", "#weddingtodolist"],
+  "keywords": ["questions to ask a venue", "guest arrival", "site fee", "coat check"],
+  "pinned_comment": "The Quiet List: seven venue questions about guest arrival.\n1) Where do guests park, and where is the drop-off? (Ask if parking or valet costs extra.)\n2) Are there stairs, and what is the route without them?\n3) Where do guests wait if they arrive early, and is it heated?\n4) Is there a coat check, and who staffs it?\n5) How long does it take to move guests from the ceremony to the cocktail space? (Joy allows ten to fifteen minutes, plus a fifteen to thirty minute buffer at each transition.)\n6) Will another event share the entrance, the parking or the restrooms?\n7) What does the site fee leave out? Ask for a written list, and for the all-in price with service charge and tax.\nNorah is AI-generated.",
+  "comment_bait": "Which of the seven would you never have thought to ask?",
+  "r2_items": ["T42", "T43", "T44", "T49"],
+  "sources": [
+    {
+      "fact": "Checklist for venue tours: all-in price including service charges, convenience for guests (distant venues may exclude elderly or less mobile guests), where each part of the day happens and how a room is re-set, on-site coordinator (meet them before booking), backup plan for rain (view the indoor space rather than accepting it never rains)",
+      "publisher": "WeddingWire (Kim Forrest)",
+      "title": "The 24 Questions to Ask a Wedding Venue BEFORE Booking",
+      "url": "https://www.weddingwire.com/wedding-ideas/recently-engaged/12-questions-to-ask-a-wedding-venue",
+      "date": "2021-05-04",
+      "r2_id": "T42"
+    },
+    {
+      "fact": "Restrooms, parking, climate control, stairs and coat check can be deal-breakers; will your event be the only one at the venue at that time",
+      "publisher": "WeddingWire (Kim Forrest)",
+      "title": "The 24 Questions to Ask a Wedding Venue BEFORE Booking",
+      "url": "https://www.weddingwire.com/wedding-ideas/recently-engaged/12-questions-to-ask-a-wedding-venue",
+      "date": "2021-05-04",
+      "r2_id": "T43"
+    },
+    {
+      "fact": "A site fee may exclude tables, chairs, linens, setup, cleanup, heaters and restrooms; ask for a written list of what is included and what you would need to rent",
+      "publisher": "Here Comes The Guide",
+      "title": "Hidden Wedding Costs",
+      "url": "https://www.herecomestheguide.com/wedding-ideas/hidden-wedding-costs",
+      "date": "updated 2026-08-08",
+      "r2_id": "T44"
+    },
+    {
+      "fact": "Guests need 10 to 15 minutes to move from the ceremony to the cocktail space; build 15 to 30 minute buffers at key transitions",
+      "publisher": "Joy (Joy Editors)",
+      "title": "Wedding Day Timeline: Hour-by-Hour Schedule for Every Ceremony Time",
+      "url": "https://withjoy.com/blog/wedding-day-timeline/",
+      "date": "published and updated 2026-07-16",
+      "r2_id": "T49"
+    }
+  ],
+  "claims_review": {
+    "numbers_used": [
+      {"figure": "guests need ten to fifteen minutes to move from ceremony to cocktail space", "source": "Joy, Wedding Day Timeline, 2026-07-16", "r2_id": "T49"},
+      {"figure": "fifteen to thirty minute buffers at key transitions", "source": "Joy, Wedding Day Timeline, 2026-07-16", "r2_id": "T49"}
+    ],
+    "needs_proof": [
+      "The WeddingWire checklist dates from 2021 (shown on screen); current venue policies and pricing may differ.",
+      "'Seven questions' is a selection and rewording from WeddingWire's list of 24 plus Here Comes The Guide's site-fee list, not a quote; the parking-or-valet cost question and the listen-for-minutes line are the writer's suggested wording."
+    ],
+    "notes": "No product is shown or pitched; the only brand mention is the AI-host disclosure. The intro card is replaced by an overlay so that the seven numbered cards and the written-list quote fit the eight-card limit."
+  },
+  "ai_disclosure": true
+}

@@ -1,0 +1,207 @@
+{
+ "storageState": "pw/state_owner.json",
+ "cookies": [
+  {
+   "name": "wbb_locale_suggestion_dismissed",
+   "value": "1",
+   "url": "http://localhost:3000"
+  },
+  {
+   "name": "wbb_ccy",
+   "value": "USD",
+   "url": "http://localhost:3000"
+  }
+ ],
+ "localStorage": {
+  "wedillybird-cookie-consent": "declined"
+ },
+ "sanitize": {
+  "names": {
+   "Khadija Coulibaly": "Maya R.",
+   "Manon Lefebvre": "Owen L.",
+   "Issa Sow": "Isaac S.",
+   "Clara Marchand": "Clara M.",
+   "Adama Tour\u00e9": "Adam T.",
+   "Nicolas Petit": "Nick P.",
+   "Yasmine Benali": "Yara B.",
+   "Pierre Garnier": "Peter G.",
+   "Awa Thiam": "Ava T.",
+   "Hugo Dubois": "Hugo D.",
+   "Marie Rousseau": "Marie R.",
+   "Kwame Kouassi": "Kofi K.",
+   "Sophie Laurent": "Sophie L.",
+   "Thomas Bernard": "Thomas B.",
+   "Fatou Ndiaye": "Fatima N.",
+   "Camille Moreau": "Camille M.",
+   "Mamadou Seck": "Max S.",
+   "A\u00efcha Diallo": "Aisha D.",
+   "Aicha Diallo": "Aisha D.",
+   "Akua Kouassi": "Ama K.",
+   "Bineta Thiam": "Bea T.",
+   "Ibrahima Diallo": "Ivan D.",
+   "Lucas Moreau": "Luke M.",
+   "L\u00e9a Bernard": "Lea B.",
+   "Moussa Thiam": "Moses T.",
+   "\u00c9lise Garnier": "Elise G.",
+   "Elise Garnier": "Elise G."
+  },
+  "regex": [
+   [
+    "\\+\\d[\\d\\s]{7,}",
+    "\u2022\u2022\u2022 \u2022\u2022\u2022 \u2022\u2022\u2022\u2022"
+   ],
+   [
+    "(\\d+) invitations of \\d+ allowed",
+    "$1 invitations"
+   ],
+   [
+    " \u00b7 limit \\d+ invitations",
+    ""
+   ],
+   [
+    "(\\d+) / 5000",
+    "$1"
+   ]
+  ],
+  "hideText": [
+   "WHATSAPP BROADCAST",
+   "AFTER THE WEDDING",
+   "Keep your photos in high definition"
+  ],
+  "hideFloating": true,
+  "hideRegex": [
+   "^\\s*\\d+\\s*/\\s*5000\\s*$"
+  ]
+ },
+ "tail": 0.6,
+ "url": "http://localhost:3000/en/events/00000000000000000000010001events/seating",
+ "steps": [
+  {
+   "wait": 1500
+  },
+  {
+   "mark": "empty"
+  },
+  {
+   "shot": "out/seat/d0_empty.png"
+  },
+  {
+   "click": "[data-testid=add-table]"
+  },
+  {
+   "wait": 900
+  },
+  {
+   "click": "[data-testid=add-table]"
+  },
+  {
+   "wait": 900
+  },
+  {
+   "shot": "out/seat/d1_two_tables.png"
+  },
+  {
+   "scrollSel": [
+    "[data-testid=add-table]",
+    110,
+    700
+   ]
+  },
+  {
+   "wait": 500
+  },
+  {
+   "mark": "auto"
+  },
+  {
+   "click": "[data-testid=auto-place]"
+  },
+  {
+   "wait": 2200
+  },
+  {
+   "shot": "out/seat/d2_auto.png"
+  },
+  {
+   "smoothScroll": [
+    700,
+    1800
+   ]
+  },
+  {
+   "wait": 900
+  },
+  {
+   "shot": "out/seat/d3_scrolled.png"
+  },
+  {
+   "smoothScroll": [
+    0,
+    900
+   ]
+  },
+  {
+   "wait": 500
+  },
+  {
+   "mark": "floorplan"
+  },
+  {
+   "click": "[data-testid=view-plan]"
+  },
+  {
+   "wait": 1800
+  },
+  {
+   "shot": "out/seat/d4_floor.png"
+  },
+  {
+   "smoothScroll": [
+    500,
+    1200
+   ]
+  },
+  {
+   "wait": 900
+  },
+  {
+   "shot": "out/seat/d5_floor_scrolled.png"
+  },
+  {
+   "mark": "shape"
+  },
+  {
+   "click": "[data-testid=table-shape-toggle] >> nth=0"
+  },
+  {
+   "wait": 1500
+  },
+  {
+   "shot": "out/seat/d6_shape.png"
+  },
+  {
+   "mark": "print"
+  },
+  {
+   "goto": "http://localhost:3000/en/events/00000000000000000000010001events/seating/print"
+  },
+  {
+   "wait": 1200
+  },
+  {
+   "shot": "out/seat/d7_print.png"
+  },
+  {
+   "smoothScroll": [
+    500,
+    1500
+   ]
+  },
+  {
+   "wait": 900
+  },
+  {
+   "mark": "end"
+  }
+ ]
+}
