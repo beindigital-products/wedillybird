@@ -15,7 +15,7 @@ Suivi interactif : le tableau de suivi publié pour ce plan reprend le calendrie
 | Calendrier, légendes, hashtags, commentaires épinglés | fait | `calendar.md`, `plan.json`, champs `caption`, `hashtags`, `pinned_comment` de chaque script |
 | Vérification des affirmations | fait, à relire | chaque script liste ses chiffres, ses sources et ses points `needs_proof` ; voir « Points à vérifier » |
 | Écrans réels de l'application | fait | 10 prises horodatées (parcours invité, tableau de bord, liste d'invités, plan de table, check-in avec file hors ligne, galerie, cockpit planner, CRM), données de démonstration, noms et numéros masqués |
-| Décors (natures mortes, sans personne) | partiel | 71 images sur 215 générées ; les 144 restantes coûtent environ 5 $ |
+| Décors (natures mortes, sans personne) | partiel | 71 images sur 215 générées (retéléchargeables sans frais avec `decor-manifest.json`) ; les 144 restantes coûtent environ 5 $ |
 | Plans de Norah | non démarré | demande le workspace et l'élément personnage dans le studio |
 | Voix off | non démarrée | demande le crédit du studio et le choix de la voix |
 | Montage final | outillé, testé | `tooling/production/build_video.py` ; aperçus muets possibles sans crédit |
@@ -61,6 +61,7 @@ Le calendrier détaillé est dans `calendar.md`. Créneau A = 12 h 30 à New Yor
 
 Une fois le crédit rechargé et Norah importée :
 
+0. `tooling/production/restore_decor.py` retélécharge les 71 décors déjà générés (le studio les garde).
 1. `tooling/production/make_decor_jobs.py` liste les décors manquants et prépare des lots ; chaque lot se génère avec `bytedance/seedream-5.0-pro` en 9:16 (limite de 5 requêtes par minute pour l'équipe), puis `tooling/production/fetch_decor.py` rogne le bandeau du générateur.
 2. Plans de Norah : un look par tenue (`tooling/production/norah-looks.md`, dix tenues d'automne et d'hiver, huit plans par tenue, réutilisés avec des recadrages). Image clé avec l'élément, validation visuelle de l'identité, puis animation. Contrôler à chaque étape que le visage n'apparaît jamais de face.
 3. Voix off : un appel de synthèse par script (texte `voiceover`, marque écrite « Wed-ill-ee bird » pour la synthèse), puis `tooling/production/transcribe.py` pour les horodatages mot à mot.
@@ -84,6 +85,7 @@ docs/tiktok-launch-2026-10/
   README.md            ce document
   calendar.md          les 30 publications, jour par jour
   plan.json            toutes les données du plan (calendrier, textes à copier, état de production)
+  decor-manifest.json  décors déjà générés : URL du studio et prompt de chacun
   scripts/             30 scripts (voix off, plans, légende, hashtags, sources)
   research/            quatre rapports de recherche
   tooling/             validation, montage, captures d'écran, décors (voir tooling/README.md)
