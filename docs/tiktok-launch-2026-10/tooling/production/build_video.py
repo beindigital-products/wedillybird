@@ -167,6 +167,31 @@ def wrap(draw, text, fnt, max_w):
     return lines
 
 
+def wrap_balanced(draw, text, fnt, max_w):
+    """Greedy wrap, then spread the words over the same number of lines so no line is a lone orphan word."""
+    lines = wrap(draw, text, fnt, max_w)
+    n, ws = len(lines), text.split()
+    if n < 2 or n > 3 or len(ws) < n + 1:
+        return lines
+    w = lambda a, b: draw.textlength(" ".join(ws[a:b]), font=fnt)  # noqa: E731
+    best, cut = None, None
+    if n == 2:
+        for i in range(1, len(ws)):
+            m = max(w(0, i), w(i, len(ws)))
+            if best is None or m < best:
+                best, cut = m, (i,)
+    else:
+        for i in range(1, len(ws) - 1):
+            for j in range(i + 1, len(ws)):
+                m = max(w(0, i), w(i, j), w(j, len(ws)))
+                if best is None or m < best:
+                    best, cut = m, (i, j)
+    if best is None or best > max_w:
+        return lines
+    idx = (0, *cut, len(ws))
+    return [" ".join(ws[idx[k]:idx[k + 1]]) for k in range(len(idx) - 1)]
+
+
 def ornament(draw, y, color=CHAMPAGNE_500, half=190):
     draw.line([(W // 2 - half, y), (W // 2 - 34, y)], fill=color, width=2)
     draw.line([(W // 2 + 34, y), (W // 2 + half, y)], fill=color, width=2)
@@ -197,7 +222,7 @@ def make_card(spec: dict, out: Path) -> None:
         d.text(((W - w) / 2, 150), n, font=f, fill=CHAMPAGNE_500)
         ornament(d, 800)
         f2 = txt(80)
-        y = centered(d, wrap(d, spec["text"], f2, W - 220), f2, 860, INK)
+        y = centered(d, wrap_balanced(d, spec["text"], f2, W - 220), f2, 860, INK)
         if spec.get("sub"):
             centered(d, wrap(d, spec["sub"], sans(40), W - 260), sans(40), y + 30, INK_500, 1.35)
     elif kind == "checklist":
@@ -235,14 +260,14 @@ def make_card(spec: dict, out: Path) -> None:
         d.text((110, 380), "“", font=disp(420), fill=CHAMPAGNE_300)
         for size in (92, 80, 70, 62):
             f = disp(size)
-            lines = wrap(d, spec["text"], f, W - 240)
+            lines = wrap_balanced(d, spec["text"], f, W - 240)
             if len(lines) <= 4:
                 break
         y = centered(d, lines, f, 640, INK, 1.15)
         ornament(d, y + 50)
     else:
         f = disp(118)
-        lines = wrap(d, spec["text"], f, W - 200)
+        lines = wrap_balanced(d, spec["text"], f, W - 200)
         block_h = int(len(lines) * f.size * 1.12)
         y0 = (H - block_h) // 2 - 250
         ornament(d, y0 - 70)
