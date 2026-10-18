@@ -230,12 +230,16 @@ def make_card(spec: dict, out: Path) -> None:
                 y += 56
         ornament(d, y + 90, half=140)
     elif kind == "quote":
-        d.text((110, 300), "“", font=disp(420), fill=CHAMPAGNE_300)
-        f = disp(92)
-        y = centered(d, wrap(d, spec["text"], f, W - 240), f, 640, INK, 1.15)
+        if spec.get("sub"):  # eyebrow above the quote: the bottom band stays free for the captions
+            centered(d, wrap(d, spec["sub"], sans(38), W - 260), sans(38), 290, INK_500, 1.35)
+        d.text((110, 380), "“", font=disp(420), fill=CHAMPAGNE_300)
+        for size in (92, 80, 70, 62):
+            f = disp(size)
+            lines = wrap(d, spec["text"], f, W - 240)
+            if len(lines) <= 4:
+                break
+        y = centered(d, lines, f, 640, INK, 1.15)
         ornament(d, y + 50)
-        if spec.get("sub"):
-            centered(d, wrap(d, spec["sub"], sans(40), W - 260), sans(40), y + 110, INK_500, 1.35)
     else:
         f = disp(118)
         lines = wrap(d, spec["text"], f, W - 200)
@@ -460,6 +464,62 @@ def chunk_tokens(toks):
     return chunks
 
 
+PUBLISHERS = re.compile(r"\b(Zola|Joy|The Knot|Emily Post|Pew|Philadelphia|WeddingWire|Here Comes The Guide|Business Insider|New York Times|NYT|"
+                        r"U\.S\. News|Anna Post|Chertoff|Genevieve|Davidson|Naval Observatory|Ofcom|Reuters)\b")
+
+
+def is_citation(t: str) -> bool:
+    return bool(re.match(r"^Sources?\b", t)) or (bool(PUBLISHERS.search(t)) and len(t) <= 80 and "?" not in t)
+
+
+def fit_overlay(text: str, max_w: int = 900, sizes=(108, 92, 80, 70, 62, 54, 46, 40), max_lines=None):
+    """Largest Bodoni size at which the text fits in at most two lines (three below 70 px)."""
+    path = str(FONTS / "BodoniModa-Italic-Text.ttf")
+    lines, size = [text], sizes[-1]
+    for size in sizes:
+        f = ImageFont.truetype(path, size)
+        lines, cur = [], ""
+        for w in text.split():
+            trial = (cur + " " + w).strip()
+            if f.getlength(trial) <= max_w:
+                cur = trial
+            else:
+                if cur:
+                    lines.append(cur)
+                cur = w
+        if cur:
+            lines.append(cur)
+        if len(lines) <= (max_lines or (2 if size >= 70 else 3)) and all(f.getlength(l) <= max_w for l in lines):
+            if len(lines) == 2:  # balance the two lines: no orphan word on the second line
+                ws = text.split()
+                best = min(range(1, len(ws)), key=lambda k: max(f.getlength(" ".join(ws[:k])), f.getlength(" ".join(ws[k:]))))
+                cand = [" ".join(ws[:best]), " ".join(ws[best:])]
+                if all(f.getlength(l) <= max_w for l in cand):
+                    lines = cand
+            break
+    return lines, size
+
+
+def fit_cite(text: str, max_w: int = 860, sizes=(40, 36, 32)):
+    path = str(FONTS / "Geist-SemiBold.ttf")
+    for size in sizes:
+        f = ImageFont.truetype(path, size)
+        lines, cur = [], ""
+        for w in text.split():
+            trial = (cur + " " + w).strip()
+            if f.getlength(trial) <= max_w:
+                cur = trial
+            else:
+                if cur:
+                    lines.append(cur)
+                cur = w
+        if cur:
+            lines.append(cur)
+        if len(lines) <= 2:
+            break
+    return lines, size
+
+
 def build_ass(toks, overlays, out: Path, spans) -> None:
     hi, base_c = bgr(CHAMPAGNE_300), bgr(IVORY)
     hi_dark, base_dark = bgr(BLUSH_700), bgr(INK)
@@ -483,6 +543,8 @@ Style: Cap,Geist SemiBold,72,{base_c},{base_c},&H00000000&,&H00000000&,0,0,0,0,1
 Style: CapShadow,Geist SemiBold,72,&H00000000&,&H00000000&,&H00000000&,&H00000000&,0,0,0,0,100,100,0.5,0,1,0,0,5,60,60,0,1
 Style: Over,Bodoni Moda Text,108,{base_c},{base_c},&H00000000&,&H00000000&,0,1,0,0,100,100,0,0,1,0,0,5,70,70,0,1
 Style: OverShadow,Bodoni Moda Text,108,&H00000000&,&H00000000&,&H00000000&,&H00000000&,0,1,0,0,100,100,0,0,1,0,0,5,70,70,0,1
+Style: OverScr,Bodoni Moda Text,46,{base_dark},{base_dark},&H00000000&,&H00000000&,0,1,0,0,100,100,0,0,1,0,0,5,70,70,0,1
+Style: Cite,Geist SemiBold,38,{base_c},{base_c},&H8C0E0F14&,&H00000000&,0,0,0,0,100,100,0.3,0,3,16,0,5,70,70,0,1
 
 [Events]
 Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
@@ -513,8 +575,21 @@ Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
         txt = o["text"].replace("\n", "\\N")
         y, s, e = o.get("y", 470), o["t0"], o["t1"]
         fade = "\\fad(180,220)"
-        ev.append(f"Dialogue: 1,{ts(s)},{ts(e)},Over,,0,0,0,,{{\\an5\\pos(540,{y}){fade}}}{txt}")
-        ev.append(f"Dialogue: 0,{ts(s)},{ts(e)},OverShadow,,0,0,0,,{{\\an5\\pos(540,{y + 6})\\blur12\\alpha&H48&{fade}}}{txt}")
+        if kind_at(s + 0.01) == "screen":  # phone frame occupies y=300..1367: label goes in the band above it, dark on ivory
+            lines_s, size = fit_overlay(o["text"].replace("\n", " "), sizes=(46, 40, 36), max_lines=2)
+            scr_txt = "\\N".join(lines_s)
+            ev.append(f"Dialogue: 1,{ts(s)},{ts(e)},OverScr,,0,0,0,,{{\\an5\\pos(540,262)\\fs{size}{fade}}}{scr_txt}")
+            continue
+        raw = o["text"].replace("\n", " ")
+        if is_citation(raw):  # small boxed credit under the AI pill, readable on any footage
+            lines_c, size = fit_cite(raw)
+            cite_txt = "\\N".join(lines_c)
+            ev.append(f"Dialogue: 2,{ts(s)},{ts(e)},Cite,,0,0,0,,{{\\an5\\pos(540,268)\\fs{size}{fade}}}{cite_txt}")
+            continue
+        lines, size = fit_overlay(raw)
+        txt2 = "\\N".join(lines)
+        ev.append(f"Dialogue: 1,{ts(s)},{ts(e)},Over,,0,0,0,,{{\\an5\\pos(540,{y})\\fs{size}{fade}}}{txt2}")
+        ev.append(f"Dialogue: 0,{ts(s)},{ts(e)},OverShadow,,0,0,0,,{{\\an5\\pos(540,{y + 6})\\fs{size}\\blur12\\alpha&H48&{fade}}}{txt2}")
     out.write_text(head + "\n".join(ev) + "\n", encoding="utf-8")
 
 
