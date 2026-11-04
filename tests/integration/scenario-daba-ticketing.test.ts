@@ -260,7 +260,8 @@ describe('4. Envoi WhatsApp', () => {
       eventId,
       requesterId: owner,
     });
-    expect(res.sent).toBe(2);
+    // Seul l'invité sans réponse reçoit l'invitation ; celui qui a confirmé, non.
+    expect(res.sent).toBe(1);
     expect(res.failed).toBe(0);
 
     const bodies = fetchMock.mock.calls.map((c) => JSON.parse(String(c[1]?.body)));
@@ -275,11 +276,12 @@ describe('4. Envoi WhatsApp', () => {
     expect(first.template.components[1].parameters[0].text).toHaveLength(12);
   });
 
-  it('ÉCART : le broadcast envoie aussi aux invités DÉJÀ confirmés (pas de filtre sur le statut)', async () => {
+  it('le broadcast n’envoie plus « Confirmer ma présence » aux invités déjà confirmés', async () => {
     const { qrCodeToken } = await addGuest(1);
     await t.mutation(api.rsvps.submit, { token: qrCodeToken, rsvpStatus: 'attending' });
     const res = await t.action(api.invitationActions.broadcast, { eventId, requesterId: owner });
-    expect(res.sent).toBe(1); // reçoit « Confirmer ma présence » alors qu'il a confirmé
+    expect(res.sent).toBe(0);
+    expect(fetchMock).not.toHaveBeenCalled();
   });
 
   it('est idempotent : un 2e broadcast n’envoie rien aux invités déjà servis', async () => {

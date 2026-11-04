@@ -27,6 +27,8 @@ export interface GuestItem {
   plusOnesNames?: string[];
   rsvpStatus: RsvpStatus;
   invitationSentAt?: number;
+  /** QR d'entrée déjà envoyé par WhatsApp. */
+  ticketSentAt?: number;
   dietaryRestrictions?: string;
   notes?: string;
   customAnswers?: Array<{ questionId: string; values: string[] }>;
@@ -164,6 +166,11 @@ function GuestRow({
           <Badge variant={rsvpVariant(guest.rsvpStatus)}>{t(rsvpLabel(guest.rsvpStatus))}</Badge>
           {guest.plusOnesAllowed > 0 ? (
             <Badge variant="neutral">+{guest.plusOnesAllowed}</Badge>
+          ) : null}
+          {guest.ticketSentAt ? (
+            <Badge variant="neutral" data-testid="guest-ticket-sent">
+              {t('tickets.sentBadge')}
+            </Badge>
           ) : null}
         </div>
         <div className="flex flex-wrap gap-3 text-xs text-[color:var(--color-muted)]">

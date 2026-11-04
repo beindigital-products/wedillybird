@@ -33,6 +33,7 @@ Reproduire `.env.local` sur Vercel → Project Settings → Environment Variable
    - **Stripe Prices USD à créer** — lancer `pnpx tsx scripts/sync-stripe-prices.ts` côté Stripe live (idempotent, le script crée 1 Price par devise par plan). Récupérer les `STRIPE_PRICE_*_USD` imprimés sur stdout et les coller dans les env vars Vercel Production + Preview.
    - **Migration de devise pour subscriptions existantes** : statu quo = pas de migration auto. Un Pro EUR qui voyage aux US continue de payer en EUR. La page pricing affiche la grille USD aux nouveaux prospects uniquement. Toute migration de devise = action support manuelle (cancel + recreate).
 10. **Stratégie pricing LATAM** (v2) — la région `americas` v1 couvre US + CA seulement. MX / BR / AR / CL paient aujourd'hui le tarif `europe` en EUR. À ouvrir dans une v2 dédiée avec devises locales (BRL, MXN) et grille adaptée pouvoir d'achat — ne pas étendre `americas` à USD pour la zone LATAM (mauvais signal).
+11. **WhatsApp template `wedding_entry_pass`** (QR d'entrée, envoi « ticketing » sans invitation) — à créer + valider dans Meta Business Manager, catégorie Utilitaire, en-tête Image, 3 variables, aucun bouton. Spécification exacte : `docs/whatsapp-entry-pass-template.md`. Tant qu'il n'est pas approuvé, « Envoyer les QR codes » échoue en le disant ; les QR restent téléchargeables fiche par fiche.
 
 ### Pré-déploiement checklist
 - [ ] CI verte sur `main` (format, lint, typecheck, unit, build, e2e)

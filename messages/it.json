@@ -1185,6 +1185,32 @@
       "description": "Codice QR d'ingresso di questo invitato: da mostrare all'accoglienza, stampare o inviare.",
       "alt": "Codice QR d'ingresso di {name}",
       "download": "Scarica il QR"
+    },
+    "tickets": {
+      "title": "Codici QR d'ingresso",
+      "intro": "Invia a ogni invitato confermato il suo codice QR personale su WhatsApp: un messaggio che contiene solo il QR, senza invito né richiesta di risposta.",
+      "progress": "{total, plural, =0 {Ancora nessun invitato confermato} one {{sent} su # invitato confermato ha ricevuto il suo codice QR} other {{sent} su # invitati confermati hanno ricevuto il loro codice QR}}",
+      "hintNotPublished": "Pubblica prima l'evento: i messaggi possono partire solo a evento pubblicato.",
+      "hintNoAttending": "Nessun invitato confermato. Importa la tua lista spuntando «Questi invitati hanno già confermato la presenza».",
+      "hintNoPhone": "{count, plural, one {# invitato confermato non ha un numero e non riceverà messaggi. Scarica il suo QR dalla lista.} other {# invitati confermati non hanno un numero e non riceveranno messaggi. Scarica i loro QR dalla lista.}}",
+      "allSent": "Tutti i codici QR sono stati inviati.",
+      "send": "{count, plural, =0 {Invia i codici QR} one {Invia # codice QR} other {Invia # codici QR}}",
+      "sending": "Invio…",
+      "confirmTitle": "{count, plural, one {Inviare # codice QR su WhatsApp?} other {Inviare # codici QR su WhatsApp?}}",
+      "confirmBody": "Ogni invitato confermato riceve un messaggio WhatsApp con il suo codice QR personale. Non viene inviato alcun invito né richiesta di conferma. Chi l'ha già ricevuto non viene ricontattato.",
+      "confirmCta": "{count, plural, one {Invia # codice QR} other {Invia # codici QR}}",
+      "resultSent": "{count, plural, one {# codice QR inviato} other {# codici QR inviati}}",
+      "resultSimulated": "{count, plural, one {Modalità test: # messaggio simulato, non è partito nulla.} other {Modalità test: # messaggi simulati, non è partito nulla.}}",
+      "resultFailed": "{count, plural, one {# invio non è riuscito. Rilancia l'invio per riprovare.} other {# invii non sono riusciti. Rilancia l'invio per riprovare.}}",
+      "sentBadge": "QR inviato",
+      "errors": {
+        "notPublished": "Pubblica l'evento prima di inviare i codici QR.",
+        "forbidden": "Non hai i permessi per inviare i codici QR di questo evento.",
+        "generic": "Impossibile inviare i codici QR. Riprova.",
+        "templateMissing": "Il modello WhatsApp «QR d'ingresso» non esiste ancora o non è stato approvato da Meta.",
+        "notConfigured": "WhatsApp non è configurato su questo server.",
+        "reason": "Motivo indicato da WhatsApp: {message}"
+      }
     }
   },
   "Invitation": {

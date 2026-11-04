@@ -247,6 +247,7 @@ export const listByEvent = query({
       plusOnesNames: g.plusOnesNames,
       rsvpStatus: g.rsvpStatus,
       invitationSentAt: g.invitationSentAt,
+      ticketSentAt: g.ticketSentAt,
       dietaryRestrictions: g.dietaryRestrictions,
       notes: g.notes,
       customAnswers: g.customAnswers,
@@ -325,6 +326,10 @@ export const countByEvent = query({
       else if (g.rsvpStatus === 'maybe') maybe++;
       else pending++;
       if (g.invitationSentAt) invited++;
+      // Un invité qui a déjà répondu (liste importée « confirmée ») ne recevra
+      // pas d'invitation : on le compte comme traité, sinon le « reste à inviter »
+      // de la page événement ne descendrait jamais à zéro.
+      else if (g.phone && g.rsvpStatus !== 'pending') invited++;
       if (g.phone) withPhone++;
     }
     return { total: rows.length, attending, declined, pending, maybe, invited, withPhone };
@@ -412,7 +417,8 @@ export const undoCheckIn = mutation({
 
 /**
  * Liste les guests d'un event qui n'ont pas encore reçu leur invitation
- * (pas de invitationSentAt) et qui ont un phone (pour WhatsApp). Utilisé
+ * (pas de invitationSentAt), n'ont pas encore répondu et ont un phone (pour
+ * WhatsApp). Utilisé
  * par l'action `invitationActions.broadcast` pour itérer.
  */
 export const listToInvite = internalQuery({
@@ -422,14 +428,19 @@ export const listToInvite = internalQuery({
       .query('guests')
       .withIndex('by_event', (q) => q.eq('eventId', eventId))
       .collect();
-    return guests
-      .filter((g) => !g.invitationSentAt && g.phone)
-      .map((g) => ({
-        _id: g._id,
-        fullName: g.fullName,
-        phone: g.phone!,
-        qrCodeToken: g.qrCodeToken,
-      }));
+    return (
+      guests
+        // Seuls les invités sans réponse : demander « Confirmer ma présence » à
+        // quelqu'un qui a déjà répondu (ou dont la liste a été importée comme
+        // confirmée) n'a pas de sens.
+        .filter((g) => !g.invitationSentAt && g.phone && g.rsvpStatus === 'pending')
+        .map((g) => ({
+          _id: g._id,
+          fullName: g.fullName,
+          phone: g.phone!,
+          qrCodeToken: g.qrCodeToken,
+        }))
+    );
   },
 });
 
@@ -452,6 +463,41 @@ export const markInvitationSent = internalMutation({
       invitationChannel: channel,
       updatedAt: now,
     });
+    return { ok: true as const, alreadySent: false };
+  },
+});
+
+/**
+ * Invités à qui envoyer leur QR d'entrée : confirmés (`attending`), avec un
+ * numéro, et qui ne l'ont pas déjà reçu. Utilisé par `invitationActions.sendTickets`.
+ */
+export const listForTickets = internalQuery({
+  args: { eventId: v.id('events') },
+  handler: async (ctx, { eventId }) => {
+    const guests = await ctx.db
+      .query('guests')
+      .withIndex('by_event', (q) => q.eq('eventId', eventId))
+      .collect();
+    return guests
+      .filter((g) => g.rsvpStatus === 'attending' && g.phone && !g.ticketSentAt)
+      .map((g) => ({
+        _id: g._id,
+        fullName: g.fullName,
+        phone: g.phone!,
+        qrCodeToken: g.qrCodeToken,
+      }));
+  },
+});
+
+/** Marque le QR d'entrée comme envoyé. Idempotent : le premier horodatage reste. */
+export const markTicketSent = internalMutation({
+  args: { guestId: v.id('guests') },
+  handler: async (ctx, { guestId }) => {
+    const guest = await ctx.db.get(guestId);
+    if (!guest) return { ok: false as const, reason: 'NOT_FOUND' as const };
+    if (guest.ticketSentAt) return { ok: true as const, alreadySent: true };
+    const now = Date.now();
+    await ctx.db.patch(guestId, { ticketSentAt: now, updatedAt: now });
     return { ok: true as const, alreadySent: false };
   },
 });
@@ -485,6 +531,7 @@ export type GuestListItem = {
   plusOnesAllowed: number;
   rsvpStatus: 'pending' | 'attending' | 'declined' | 'maybe';
   invitationSentAt?: number;
+  ticketSentAt?: number;
   notes?: string;
   qrCodeToken: string;
   createdAt: number;

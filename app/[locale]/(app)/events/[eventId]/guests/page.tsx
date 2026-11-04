@@ -7,6 +7,7 @@ import { convexApi, getConvexServerClient } from '@/lib/auth/convex-server';
 import { AppShell } from '@/components/app/app-shell';
 import { GuestsManager } from '@/components/guests/guests-manager';
 import { GuestsImport } from '@/components/guests/guests-import';
+import { GuestsTickets } from '@/components/guests/guests-tickets';
 
 export default async function GuestsPage({
   params,
@@ -84,6 +85,19 @@ export default async function GuestsPage({
             email: g.email,
           }))}
           remaining={Math.max(0, event.maxGuests - guests.length)}
+        />
+
+        <GuestsTickets
+          eventId={eventId}
+          eventStatus={event.status}
+          counts={{
+            attending: guests.filter((g) => g.rsvpStatus === 'attending').length,
+            eligible: guests.filter(
+              (g) => g.rsvpStatus === 'attending' && g.phone && !g.ticketSentAt,
+            ).length,
+            sent: guests.filter((g) => g.ticketSentAt).length,
+            attendingNoPhone: guests.filter((g) => g.rsvpStatus === 'attending' && !g.phone).length,
+          }}
         />
 
         {/* `GuestsManager` garde sa liste en état local, amorcé une seule fois :

@@ -232,6 +232,7 @@ const rawConvexApi = {
   newsletterListCampaigns: api.newsletter.listCampaigns,
   newsletterSendCampaign: api.emailActions.sendNewsletterCampaign,
   broadcastInvitations: api.invitationActions.broadcast,
+  sendTickets: api.invitationActions.sendTickets,
   requestLinkPhone: api.auth.requestLinkPhone,
   verifyLinkPhone: api.auth.verifyLinkPhone,
   requestLinkEmail: api.auth.requestLinkEmail,

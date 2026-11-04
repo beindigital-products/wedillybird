@@ -6,7 +6,9 @@ import {
   DEFAULT_PERSONAL_MESSAGE_FALLBACK,
   type InvitationStyleId,
   getMetaTemplateName,
+  getTicketTemplateName,
 } from '../lib/whatsapp/templates';
+import { qrImageUrl } from '../lib/guests/qr';
 import { sendWhatsAppCloudTemplate, isWhatsAppCloudConfigured } from './lib/whatsappCloud';
 import { resolveChannel } from './lib/channelRouting';
 import { isTwilioConfigured, sendTwilioSms } from './lib/twilioSms';
@@ -191,6 +193,111 @@ export const broadcast = action({
       total: guests.length,
       style: styleId,
       mock: isMock,
+    };
+  },
+});
+
+interface SendTicketsResult {
+  /** QR réellement envoyés (et marqués comme tels). */
+  sent: number;
+  /** Envois refusés (gabarit non validé, numéro injoignable…) — à relancer. */
+  failed: number;
+  /** Envois simulés (mode test) : rien n'est parti ni n'a été marqué. */
+  simulated: number;
+  /** Invités éligibles au moment du lancement. */
+  total: number;
+  /** Première erreur rencontrée, pour dire pourquoi (ex. gabarit absent). */
+  firstError?: { message: string; code?: number };
+}
+
+/**
+ * Envoie à chaque invité CONFIRMÉ son QR d'entrée par WhatsApp — et rien d'autre :
+ * pas d'invitation, pas de bouton « Confirmer ma présence » (cf. `TICKET_TEMPLATE`).
+ *
+ * Éligibles : `attending`, avec un numéro, QR pas encore envoyé. Un invité qui
+ * a déjà reçu son QR est ignoré, donc relancer l'envoi ne réécrit à personne et
+ * ne reprend que les échecs. Seuls les envois réellement partis sont marqués
+ * `ticketSentAt` : en mode simulation (`E2E_MODE`) rien n'est marqué, pour qu'un
+ * essai à blanc n'empêche jamais le vrai envoi.
+ *
+ * Accessible à tout gestionnaire de l'événement (couple rattaché compris) ;
+ * l'événement doit être publié, comme pour les invitations.
+ */
+export const sendTickets = action({
+  args: {
+    eventId: v.id('events'),
+    requesterId: v.id('users'),
+  },
+  handler: async (ctx, { eventId, requesterId }): Promise<SendTicketsResult> => {
+    const event = await ctx.runQuery(internal.events._getForTickets, { eventId, requesterId });
+    if (!event) throw new Error('EVENT_NOT_FOUND_OR_FORBIDDEN');
+    if (event.status !== 'active') throw new Error('EVENT_NOT_PUBLISHED');
+
+    const guests = await ctx.runQuery(internal.guests.listForTickets, { eventId });
+    if (guests.length === 0) return { sent: 0, failed: 0, simulated: 0, total: 0 };
+
+    const coupleNames = `${event.coupleNames.partnerA} & ${event.coupleNames.partnerB}`;
+    const eventDateFormatted = new Intl.DateTimeFormat('fr', {
+      day: 'numeric',
+      month: 'long',
+      year: 'numeric',
+      timeZone: event.timezone,
+    }).format(new Date(event.eventDate));
+    const appBaseUrl = process.env.NEXT_PUBLIC_APP_URL ?? 'https://wedillybird.com';
+    const templateName = getTicketTemplateName(process.env);
+
+    let sent = 0;
+    let failed = 0;
+    let simulated = 0;
+    let firstError: SendTicketsResult['firstError'];
+
+    for (const guest of guests) {
+      const firstName = guest.fullName.split(' ')[0] ?? guest.fullName;
+      const result = await sendWhatsAppCloudTemplate({
+        to: guest.phone,
+        templateName,
+        components: [
+          {
+            type: 'header',
+            parameters: [
+              { type: 'image', image: { link: qrImageUrl(appBaseUrl, guest.qrCodeToken) } },
+            ],
+          },
+          {
+            type: 'body',
+            parameters: [
+              { type: 'text', text: firstName },
+              { type: 'text', text: coupleNames },
+              { type: 'text', text: eventDateFormatted },
+            ],
+          },
+        ],
+      });
+
+      if (!result.ok) {
+        console.error(`[tickets] failed for ${guest.phone}: ${result.error}`);
+        failed++;
+        firstError ??= {
+          message: result.error ?? 'UNKNOWN',
+          ...(result.errorCode !== undefined ? { code: result.errorCode } : {}),
+        };
+        continue;
+      }
+      if (result.mock) {
+        console.info(`[whatsapp:mock] ENTRY PASS (${templateName}) -> ${guest.phone}`);
+        simulated++;
+        continue;
+      }
+      await ctx.runMutation(internal.guests.markTicketSent, { guestId: guest._id });
+      sent++;
+    }
+
+    return {
+      sent,
+      failed,
+      simulated,
+      total: guests.length,
+      ...(firstError ? { firstError } : {}),
     };
   },
 });

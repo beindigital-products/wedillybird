@@ -187,3 +187,41 @@ export async function importGuestsAction(
     return { ok: false, error: message };
   }
 }
+
+export type SendTicketsResult =
+  | {
+      ok: true;
+      sent: number;
+      failed: number;
+      simulated: number;
+      total: number;
+      firstError?: { message: string; code?: number };
+    }
+  | { ok: false; error: 'UNAUTHENTICATED' | 'EVENT_NOT_PUBLISHED' | 'FORBIDDEN' | 'UNKNOWN' };
+
+/**
+ * Envoie à chaque invité confirmé son QR d'entrée par WhatsApp (sans invitation
+ * ni demande de réponse). Les droits et la publication de l'événement sont
+ * vérifiés côté Convex ; cette action traduit seulement les erreurs.
+ */
+export async function sendTicketsAction(eventId: string): Promise<SendTicketsResult> {
+  const session = await getSession();
+  if (!session) return { ok: false, error: 'UNAUTHENTICATED' };
+
+  const convex = getConvexServerClient();
+  try {
+    const result = await convex.action(convexApi.sendTickets, {
+      eventId,
+      requesterId: session.userId,
+    });
+    revalidatePath(`/events/${eventId}/guests`);
+    return { ok: true, ...result };
+  } catch (err) {
+    const message = err instanceof Error ? err.message : 'UNKNOWN';
+    if (message.includes('EVENT_NOT_PUBLISHED')) return { ok: false, error: 'EVENT_NOT_PUBLISHED' };
+    if (message.includes('EVENT_NOT_FOUND_OR_FORBIDDEN') || message.includes('FORBIDDEN')) {
+      return { ok: false, error: 'FORBIDDEN' };
+    }
+    return { ok: false, error: 'UNKNOWN' };
+  }
+}

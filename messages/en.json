@@ -1181,6 +1181,32 @@
       "description": "This guest's entry QR code: show it at the door, print it or send it.",
       "alt": "Entry QR code for {name}",
       "download": "Download the QR"
+    },
+    "tickets": {
+      "title": "Entry QR codes",
+      "intro": "Send each confirmed guest their personal QR code on WhatsApp: a message that carries only the QR, with no invitation and no request to reply.",
+      "progress": "{total, plural, =0 {No confirmed guests yet} one {{sent} of # confirmed guest has received their QR code} other {{sent} of # confirmed guests have received their QR code}}",
+      "hintNotPublished": "Publish the event first: messages can only be sent once the event is published.",
+      "hintNoAttending": "No confirmed guests. Import your list and tick “These guests have already confirmed their attendance”.",
+      "hintNoPhone": "{count, plural, one {# confirmed guest has no phone number and won't receive a message. Download their QR from the list.} other {# confirmed guests have no phone number and won't receive a message. Download their QR codes from the list.}}",
+      "allSent": "All QR codes have been sent.",
+      "send": "{count, plural, =0 {Send QR codes} one {Send # QR code} other {Send # QR codes}}",
+      "sending": "Sending…",
+      "confirmTitle": "{count, plural, one {Send # QR code on WhatsApp?} other {Send # QR codes on WhatsApp?}}",
+      "confirmBody": "Each confirmed guest receives a WhatsApp message with their personal QR code. No invitation or confirmation request is sent. A guest who already received theirs is not messaged again.",
+      "confirmCta": "{count, plural, one {Send # QR code} other {Send # QR codes}}",
+      "resultSent": "{count, plural, one {# QR code sent} other {# QR codes sent}}",
+      "resultSimulated": "{count, plural, one {Test mode: # message simulated, nothing was sent.} other {Test mode: # messages simulated, nothing was sent.}}",
+      "resultFailed": "{count, plural, one {# message failed. Run the send again to retry it.} other {# messages failed. Run the send again to retry them.}}",
+      "sentBadge": "QR sent",
+      "errors": {
+        "notPublished": "Publish the event before sending the QR codes.",
+        "forbidden": "You don't have permission to send this event's QR codes.",
+        "generic": "Couldn't send the QR codes. Try again.",
+        "templateMissing": "The “entry QR” WhatsApp template doesn't exist yet or hasn't been approved by Meta.",
+        "notConfigured": "WhatsApp isn't configured on this server.",
+        "reason": "Reason given by WhatsApp: {message}"
+      }
     }
   },
   "Invitation": {

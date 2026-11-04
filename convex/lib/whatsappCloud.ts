@@ -13,10 +13,10 @@
  * profite pour tous les call-sites en bénéficient).
  */
 
-export interface WhatsAppCloudParameter {
-  type: 'text';
-  text: string;
-}
+export type WhatsAppCloudParameter =
+  | { type: 'text'; text: string }
+  /** En-tête image : Meta télécharge l'image depuis `link` (URL publique HTTPS). */
+  | { type: 'image'; image: { link: string } };
 
 export interface WhatsAppCloudComponent {
   type: 'body' | 'header' | 'button';

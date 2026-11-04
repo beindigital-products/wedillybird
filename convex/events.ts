@@ -1043,6 +1043,31 @@ export const _getForBroadcast = internalQuery({
   },
 });
 
+/**
+ * Accès d'une action d'envoi des QR d'entrée à l'événement. Contrairement à
+ * `_getForBroadcast` (propriétaire seul), tout gestionnaire de l'événement peut
+ * lancer l'envoi — dont le couple rattaché par l'agence, qui gère SA liste.
+ * `null` si l'événement n'existe pas ou si le demandeur n'a pas les droits.
+ */
+export const _getForTickets = internalQuery({
+  args: { eventId: v.id('events'), requesterId: v.id('users') },
+  handler: async (ctx, { eventId, requesterId }) => {
+    let ev: Doc<'events'>;
+    try {
+      ev = await assertEventAccess(ctx, eventId, requesterId, { write: true });
+    } catch {
+      return null;
+    }
+    return {
+      _id: ev._id,
+      coupleNames: ev.coupleNames,
+      eventDate: ev.eventDate,
+      timezone: ev.timezone,
+      status: ev.status,
+    };
+  },
+});
+
 export type EventListItem = {
   _id: Id<'events'>;
   slug: string;
