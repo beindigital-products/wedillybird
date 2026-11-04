@@ -1119,7 +1119,66 @@
       "submit": "Impossibile aggiungere l'invito. Riprova.",
       "limitReached": "Quota di inviti raggiunta per questa formula. Passa a una formula superiore per aggiungerne altri."
     },
-    "answersDietary": "Dieta"
+    "answersDietary": "Dieta",
+    "import": {
+      "open": "Importa una lista",
+      "title": "Importa invitati",
+      "intro": "Importa un file CSV (in Excel: File › Salva con nome › CSV). Colonne riconosciute: nome, cognome, telefono, email, categoria, accompagnatori.",
+      "close": "Chiudi",
+      "steps": {
+        "upload": "File",
+        "map": "Colonne",
+        "result": "Risultato"
+      },
+      "dropzone": "Scegli un file CSV",
+      "orPaste": "oppure incolla la tua tabella qui sotto",
+      "pastePlaceholder": "Nome;Telefono;Email\nAminata Diallo;+221771234567;aminata@esempio.com",
+      "pasteAria": "Incolla il contenuto del file CSV",
+      "template": "Scarica il modello",
+      "parse": "Analizza",
+      "columnFallback": "Colonna {n}",
+      "mapColumn": "Campo della colonna {column}",
+      "fields": {
+        "fullName": "Nome completo",
+        "firstName": "Nome",
+        "lastName": "Cognome",
+        "phone": "Telefono",
+        "email": "Email",
+        "category": "Categoria",
+        "plusOnes": "Accompagnatori",
+        "ignore": "Ignora"
+      },
+      "defaultCountry": "Paese dei numeri senza prefisso «+»",
+      "markConfirmed": "Questi invitati hanno già confermato la presenza",
+      "markConfirmedHint": "Vengono importati come «Confermato»: non devono rispondere all'invito per essere contati come presenti.",
+      "summaryReady": "{count, plural, =0 {Nessun invito da importare} one {# invito da importare} other {# inviti da importare}}",
+      "summaryDuplicate": "{count, plural, one {# già presente (ignorato)} other {# già presenti (ignorati)}}",
+      "summaryInvalid": "{count, plural, one {# da correggere (ignorato)} other {# da correggere (ignorati)}}",
+      "summaryLimit": "{count, plural, one {# oltre la quota (ignorato)} other {# oltre la quota (ignorati)}}",
+      "badgeDuplicate": "Duplicato",
+      "badgeLimit": "Quota raggiunta",
+      "problems": {
+        "nameMissing": "Nome mancante",
+        "nameTooLong": "Nome troppo lungo",
+        "phoneInvalid": "Telefono non valido",
+        "emailInvalid": "Email non valida",
+        "plusOnesRange": "Accompagnatori: da 0 a 10",
+        "categoryTooLong": "Categoria troppo lunga"
+      },
+      "errors": {
+        "empty": "Nessuna riga utilizzabile in questo file.",
+        "noNameColumn": "Associa una colonna al nome (o cognome) degli invitati.",
+        "tooMany": "Massimo {max} inviti per importazione: dividi il file.",
+        "tooLarge": "Importazione troppo grande. Dividi il file.",
+        "submit": "Impossibile importare la lista. Riprova."
+      },
+      "back": "Indietro",
+      "importCta": "{count, plural, one {Importa # invito} other {Importa # inviti}}",
+      "importing": "Importazione…",
+      "resultImported": "{count, plural, =0 {Nessun invito importato} one {# invito importato} other {# inviti importati}}",
+      "resultSkipped": "{count, plural, one {# riga ignorata (duplicato, errore o quota)} other {# righe ignorate (duplicati, errori o quota)}}",
+      "importAnother": "Importa un altro file"
+    }
   },
   "Invitation": {
     "youreInvited": "Sei invitato/a",

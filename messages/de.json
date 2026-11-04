@@ -1119,7 +1119,66 @@
       "submit": "Einladung konnte nicht hinzugefügt werden. Bitte erneut versuchen.",
       "limitReached": "Einladungs-Kontingent für dieses Paket erreicht. Wechsle zu einem höheren Paket, um weitere hinzuzufügen."
     },
-    "answersDietary": "Ernährung"
+    "answersDietary": "Ernährung",
+    "import": {
+      "open": "Liste importieren",
+      "title": "Gäste importieren",
+      "intro": "Importiere eine CSV-Datei (in Excel: Datei › Speichern unter › CSV). Erkannte Spalten: Name, Vorname, Telefon, E-Mail, Kategorie, Begleitung.",
+      "close": "Schließen",
+      "steps": {
+        "upload": "Datei",
+        "map": "Spalten",
+        "result": "Ergebnis"
+      },
+      "dropzone": "CSV-Datei auswählen",
+      "orPaste": "oder füge deine Tabelle unten ein",
+      "pastePlaceholder": "Name;Telefon;E-Mail\nAminata Diallo;+221771234567;aminata@beispiel.com",
+      "pasteAria": "Inhalt der CSV-Datei einfügen",
+      "template": "Vorlage herunterladen",
+      "parse": "Analysieren",
+      "columnFallback": "Spalte {n}",
+      "mapColumn": "Feld für Spalte {column}",
+      "fields": {
+        "fullName": "Vollständiger Name",
+        "firstName": "Vorname",
+        "lastName": "Nachname",
+        "phone": "Telefon",
+        "email": "E-Mail",
+        "category": "Kategorie",
+        "plusOnes": "Begleitung",
+        "ignore": "Ignorieren"
+      },
+      "defaultCountry": "Land für Nummern ohne „+“-Vorwahl",
+      "markConfirmed": "Diese Gäste haben ihre Teilnahme bereits bestätigt",
+      "markConfirmedHint": "Sie werden als „Zugesagt“ importiert: Sie müssen die Einladung nicht beantworten, um als anwesend zu zählen.",
+      "summaryReady": "{count, plural, =0 {Keine Einladungen zu importieren} one {# Einladung zu importieren} other {# Einladungen zu importieren}}",
+      "summaryDuplicate": "{count, plural, one {# bereits vorhanden (übersprungen)} other {# bereits vorhanden (übersprungen)}}",
+      "summaryInvalid": "{count, plural, one {# zu korrigieren (übersprungen)} other {# zu korrigieren (übersprungen)}}",
+      "summaryLimit": "{count, plural, one {# über dem Kontingent (übersprungen)} other {# über dem Kontingent (übersprungen)}}",
+      "badgeDuplicate": "Duplikat",
+      "badgeLimit": "Kontingent erreicht",
+      "problems": {
+        "nameMissing": "Name fehlt",
+        "nameTooLong": "Name zu lang",
+        "phoneInvalid": "Ungültige Telefonnummer",
+        "emailInvalid": "Ungültige E-Mail",
+        "plusOnesRange": "Begleitung: 0 bis 10",
+        "categoryTooLong": "Kategorie zu lang"
+      },
+      "errors": {
+        "empty": "Keine verwertbaren Zeilen in dieser Datei.",
+        "noNameColumn": "Ordne eine Spalte dem Namen (oder Vornamen) der Gäste zu.",
+        "tooMany": "Maximal {max} Einladungen pro Import: Teile deine Datei auf.",
+        "tooLarge": "Import zu groß. Teile deine Datei auf.",
+        "submit": "Die Liste konnte nicht importiert werden. Bitte erneut versuchen."
+      },
+      "back": "Zurück",
+      "importCta": "{count, plural, one {# Einladung importieren} other {# Einladungen importieren}}",
+      "importing": "Import läuft…",
+      "resultImported": "{count, plural, =0 {Keine Einladung importiert} one {# Einladung importiert} other {# Einladungen importiert}}",
+      "resultSkipped": "{count, plural, one {# Zeile übersprungen (Duplikat, Fehler oder Kontingent)} other {# Zeilen übersprungen (Duplikate, Fehler oder Kontingent)}}",
+      "importAnother": "Weitere Datei importieren"
+    }
   },
   "Invitation": {
     "youreInvited": "Du bist eingeladen",

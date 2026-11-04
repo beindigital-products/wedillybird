@@ -46,9 +46,8 @@ describe('1. Constituer la liste de 250 invités', () => {
     expect(counts.total).toBe(250);
   });
 
-  it('ÉCART : aucun moyen de créer un invité directement « confirmé » (attending)', async () => {
-    // La cliente a déjà ses confirmations ailleurs : il lui faudrait importer
-    // des invités en statut `attending`. `guests.add` n'accepte pas ce champ.
+  it('l’ajout unitaire reste « pending » ; seul l’import en lot crée des invités confirmés', async () => {
+    // `guests.add` n'accepte toujours pas de statut RSVP…
     await expect(
       t.mutation(api.guests.add, {
         eventId,
@@ -63,6 +62,17 @@ describe('1. Constituer la liste de 250 invités', () => {
     const { id } = await addGuest(1);
     const list = await t.query(api.guests.listByEvent, { eventId, requesterId: owner });
     expect(list.find((g) => g._id === id)?.rsvpStatus).toBe('pending');
+
+    // …mais `guests.importMany` (import CSV) sait poser « confirmé » d'emblée.
+    const res = await t.mutation(api.guests.importMany, {
+      eventId,
+      requesterId: owner,
+      markConfirmed: true,
+      rows: [{ fullName: 'Confirmé par import', plusOnesAllowed: 0 }],
+    });
+    expect(res.imported).toBe(1);
+    const after = await t.query(api.guests.listByEvent, { eventId, requesterId: owner });
+    expect(after.find((g) => g.fullName === 'Confirmé par import')?.rsvpStatus).toBe('attending');
   });
 
   it('ÉCART : le plafond B2C du plan (100 / 250) n’est pas appliqué — seul le garde-fou 5000 existe', async () => {

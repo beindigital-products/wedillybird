@@ -96,6 +96,7 @@ const rawConvexApi = {
   coupleOverview: api.events.coupleOverview,
   listMineAsCouple: api.events.listMineAsCouple,
   addGuest: api.guests.add,
+  importGuests: api.guests.importMany,
   updateGuest: api.guests.update,
   removeGuest: api.guests.remove,
   listGuestsByEvent: api.guests.listByEvent,

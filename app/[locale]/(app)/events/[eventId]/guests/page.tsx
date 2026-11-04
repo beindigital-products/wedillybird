@@ -6,6 +6,7 @@ import { getSession } from '@/lib/auth/session';
 import { convexApi, getConvexServerClient } from '@/lib/auth/convex-server';
 import { AppShell } from '@/components/app/app-shell';
 import { GuestsManager } from '@/components/guests/guests-manager';
+import { GuestsImport } from '@/components/guests/guests-import';
 
 export default async function GuestsPage({
   params,
@@ -75,7 +76,21 @@ export default async function GuestsPage({
           </div>
         </header>
 
+        <GuestsImport
+          eventId={eventId}
+          existingGuests={guests.map((g) => ({
+            fullName: g.fullName,
+            phone: g.phone,
+            email: g.email,
+          }))}
+          remaining={Math.max(0, event.maxGuests - guests.length)}
+        />
+
+        {/* `GuestsManager` garde sa liste en état local, amorcé une seule fois :
+            la clé le remonte quand la liste change côté serveur (import, ajout,
+            suppression) pour qu'il affiche les vraies fiches. */}
         <GuestsManager
+          key={`${guests.length}-${guests[0]?._id ?? 'none'}`}
           eventId={eventId}
           initialGuests={guests}
           questions={(event.rsvpConfig?.customQuestions ?? []).map((q) => ({

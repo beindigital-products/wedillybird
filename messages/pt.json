@@ -1119,7 +1119,66 @@
       "submit": "Não foi possível adicionar o convite. Tenta de novo.",
       "limitReached": "Quota de convites atingida para este plano. Passa para um plano superior para adicionares mais."
     },
-    "answersDietary": "Dieta"
+    "answersDietary": "Dieta",
+    "import": {
+      "open": "Importar uma lista",
+      "title": "Importar convidados",
+      "intro": "Importa um ficheiro CSV (no Excel: Ficheiro › Guardar como › CSV). Colunas reconhecidas: nome, apelido, telefone, email, categoria, acompanhantes.",
+      "close": "Fechar",
+      "steps": {
+        "upload": "Ficheiro",
+        "map": "Colunas",
+        "result": "Resultado"
+      },
+      "dropzone": "Escolher um ficheiro CSV",
+      "orPaste": "ou cola a tua tabela abaixo",
+      "pastePlaceholder": "Nome;Telefone;Email\nAminata Diallo;+221771234567;aminata@exemplo.com",
+      "pasteAria": "Colar o conteúdo do ficheiro CSV",
+      "template": "Descarregar o modelo",
+      "parse": "Analisar",
+      "columnFallback": "Coluna {n}",
+      "mapColumn": "Campo da coluna {column}",
+      "fields": {
+        "fullName": "Nome completo",
+        "firstName": "Nome próprio",
+        "lastName": "Apelido",
+        "phone": "Telefone",
+        "email": "Email",
+        "category": "Categoria",
+        "plusOnes": "Acompanhantes",
+        "ignore": "Ignorar"
+      },
+      "defaultCountry": "País dos números sem prefixo «+»",
+      "markConfirmed": "Estes convidados já confirmaram a presença",
+      "markConfirmedHint": "São importados como «Confirmado»: não precisam de responder ao convite para contarem como presentes.",
+      "summaryReady": "{count, plural, =0 {Nenhum convite para importar} one {# convite para importar} other {# convites para importar}}",
+      "summaryDuplicate": "{count, plural, one {# já existente (ignorado)} other {# já existentes (ignorados)}}",
+      "summaryInvalid": "{count, plural, one {# para corrigir (ignorado)} other {# para corrigir (ignorados)}}",
+      "summaryLimit": "{count, plural, one {# acima da quota (ignorado)} other {# acima da quota (ignorados)}}",
+      "badgeDuplicate": "Duplicado",
+      "badgeLimit": "Quota atingida",
+      "problems": {
+        "nameMissing": "Nome em falta",
+        "nameTooLong": "Nome demasiado longo",
+        "phoneInvalid": "Telefone inválido",
+        "emailInvalid": "Email inválido",
+        "plusOnesRange": "Acompanhantes: 0 a 10",
+        "categoryTooLong": "Categoria demasiado longa"
+      },
+      "errors": {
+        "empty": "Nenhuma linha utilizável neste ficheiro.",
+        "noNameColumn": "Associa uma coluna ao nome (ou apelido) dos convidados.",
+        "tooMany": "Máximo de {max} convites por importação: divide o ficheiro.",
+        "tooLarge": "Importação demasiado grande. Divide o ficheiro.",
+        "submit": "Não foi possível importar a lista. Tenta de novo."
+      },
+      "back": "Voltar",
+      "importCta": "{count, plural, one {Importar # convite} other {Importar # convites}}",
+      "importing": "A importar…",
+      "resultImported": "{count, plural, =0 {Nenhum convite importado} one {# convite importado} other {# convites importados}}",
+      "resultSkipped": "{count, plural, one {# linha ignorada (duplicado, erro ou quota)} other {# linhas ignoradas (duplicados, erros ou quota)}}",
+      "importAnother": "Importar outro ficheiro"
+    }
   },
   "Invitation": {
     "youreInvited": "Estás convidado(a)",

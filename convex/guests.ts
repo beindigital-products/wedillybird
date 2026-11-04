@@ -11,6 +11,7 @@ import type { Doc, Id } from './_generated/dataModel';
 import { generateQrToken } from './lib/qrToken';
 import { assertEventAccess } from './lib/eventAuth';
 import { musicForClient, photoForClient } from './lib/invitationDesign';
+import { MAX_IMPORT_ROWS, guestDedupeKey, guestRowProblem } from '../lib/guests/rules';
 
 const QR_MAX_ATTEMPTS = 6;
 
@@ -88,6 +89,88 @@ export const add = mutation({
     });
 
     return { id, qrCodeToken };
+  },
+});
+
+/**
+ * Import en lot d'une liste d'invités (CSV déjà analysé côté app).
+ *
+ * Le serveur reste l'autorité : chaque ligne est revalidée avec les mêmes règles
+ * que l'aperçu (`lib/guests/rules`), les doublons — même nom + même coordonnée,
+ * déjà présents ou répétés dans le lot — sont ignorés, et le plafond de fiches
+ * de l'événement est respecté (les lignes en trop sont ignorées, pas le lot).
+ * Une ligne refusée n'empêche jamais les autres : on renvoie la liste des
+ * lignes ignorées avec leur raison.
+ *
+ * `markConfirmed` crée les invités directement `attending` (RSVP déjà recueilli
+ * ailleurs) : ils n'ont pas à repasser par la page de réponse, mais n'ont pas
+ * non plus répondu via Wedillybird (pas de notification aux organisateurs).
+ */
+export const importMany = mutation({
+  args: {
+    eventId: v.id('events'),
+    requesterId: v.id('users'),
+    markConfirmed: v.boolean(),
+    rows: v.array(
+      v.object({
+        fullName: v.string(),
+        phone: v.optional(v.string()),
+        email: v.optional(v.string()),
+        category: v.optional(v.string()),
+        plusOnesAllowed: v.number(),
+      }),
+    ),
+  },
+  handler: async (ctx, args) => {
+    if (args.rows.length > MAX_IMPORT_ROWS) throw new Error('IMPORT_TOO_LARGE');
+    const event = await assertEventOwnership(ctx, args.eventId, args.requesterId);
+
+    const existing = await ctx.db
+      .query('guests')
+      .withIndex('by_event', (q) => q.eq('eventId', args.eventId))
+      .collect();
+    const seen = new Set(existing.map(guestDedupeKey));
+    let remaining = event.maxGuests - existing.length;
+
+    const skipped: Array<{ index: number; reason: string }> = [];
+    let imported = 0;
+    const now = Date.now();
+
+    for (const [index, row] of args.rows.entries()) {
+      const problem = guestRowProblem(row);
+      if (problem) {
+        skipped.push({ index, reason: problem });
+        continue;
+      }
+      const key = guestDedupeKey(row);
+      if (seen.has(key)) {
+        skipped.push({ index, reason: 'duplicate' });
+        continue;
+      }
+      if (remaining <= 0) {
+        skipped.push({ index, reason: 'limit' });
+        continue;
+      }
+      seen.add(key);
+      remaining--;
+
+      await ctx.db.insert('guests', {
+        eventId: args.eventId,
+        fullName: row.fullName.trim(),
+        ...(row.phone ? { phone: row.phone.trim() } : {}),
+        ...(row.email ? { email: row.email.trim().toLowerCase() } : {}),
+        ...(row.category?.trim() ? { category: row.category.trim() } : {}),
+        plusOnesAllowed: row.plusOnesAllowed,
+        rsvpStatus: args.markConfirmed ? ('attending' as const) : ('pending' as const),
+        ...(args.markConfirmed ? { rsvpRespondedAt: now } : {}),
+        qrCodeToken: await uniqueQrToken(ctx),
+        createdAt: now,
+        updatedAt: now,
+      });
+      imported++;
+    }
+
+    return { imported, skipped };
   },
 });
 

@@ -1115,7 +1115,66 @@
       "submit": "تعذّر إضافة الدعوة. حاول مجددًا.",
       "limitReached": "تم بلوغ حصة الدعوات لهذه الباقة. ارتقِ إلى باقة أعلى لإضافة المزيد."
     },
-    "answersDietary": "النظام الغذائي"
+    "answersDietary": "النظام الغذائي",
+    "import": {
+      "open": "استيراد قائمة",
+      "title": "استيراد المدعوين",
+      "intro": "استورد ملف CSV (في Excel: ملف › حفظ باسم › CSV). الأعمدة المعروفة: الاسم، الاسم الأول، الهاتف، البريد الإلكتروني، الفئة، المرافقون.",
+      "close": "إغلاق",
+      "steps": {
+        "upload": "الملف",
+        "map": "الأعمدة",
+        "result": "النتيجة"
+      },
+      "dropzone": "اختر ملف CSV",
+      "orPaste": "أو الصق جدولك أدناه",
+      "pastePlaceholder": "الاسم;الهاتف;البريد\nAminata Diallo;+221771234567;aminata@example.com",
+      "pasteAria": "الصق محتوى ملف CSV",
+      "template": "تنزيل النموذج",
+      "parse": "تحليل",
+      "columnFallback": "العمود {n}",
+      "mapColumn": "حقل العمود {column}",
+      "fields": {
+        "fullName": "الاسم الكامل",
+        "firstName": "الاسم الأول",
+        "lastName": "اسم العائلة",
+        "phone": "الهاتف",
+        "email": "البريد الإلكتروني",
+        "category": "الفئة",
+        "plusOnes": "المرافقون",
+        "ignore": "تجاهل"
+      },
+      "defaultCountry": "بلد الأرقام التي لا تبدأ بـ «+»",
+      "markConfirmed": "هؤلاء المدعوون أكّدوا حضورهم بالفعل",
+      "markConfirmedHint": "يتم استيرادهم بحالة «مؤكَّد»: لا حاجة لأن يردّوا على الدعوة لاحتسابهم حاضرين.",
+      "summaryReady": "{count, plural, =0 {لا توجد دعوات للاستيراد} one {دعوة واحدة للاستيراد} other {# دعوات للاستيراد}}",
+      "summaryDuplicate": "{count, plural, one {# موجودة مسبقًا (تم تجاوزها)} other {# موجودة مسبقًا (تم تجاوزها)}}",
+      "summaryInvalid": "{count, plural, one {# تحتاج تصحيحًا (تم تجاوزها)} other {# تحتاج تصحيحًا (تم تجاوزها)}}",
+      "summaryLimit": "{count, plural, one {# فوق الحصة (تم تجاوزها)} other {# فوق الحصة (تم تجاوزها)}}",
+      "badgeDuplicate": "مكرَّر",
+      "badgeLimit": "بلغت الحصة",
+      "problems": {
+        "nameMissing": "الاسم مفقود",
+        "nameTooLong": "الاسم طويل جدًا",
+        "phoneInvalid": "هاتف غير صالح",
+        "emailInvalid": "بريد إلكتروني غير صالح",
+        "plusOnesRange": "المرافقون: من 0 إلى 10",
+        "categoryTooLong": "الفئة طويلة جدًا"
+      },
+      "errors": {
+        "empty": "لا توجد صفوف صالحة في هذا الملف.",
+        "noNameColumn": "اربط عمودًا باسم المدعوين (أو اسمهم الأول).",
+        "tooMany": "الحد الأقصى {max} دعوة لكل استيراد: قسّم ملفك.",
+        "tooLarge": "الاستيراد كبير جدًا. قسّم ملفك.",
+        "submit": "تعذّر استيراد القائمة. حاول مجددًا."
+      },
+      "back": "رجوع",
+      "importCta": "{count, plural, one {استيراد دعوة واحدة} other {استيراد # دعوات}}",
+      "importing": "جارٍ الاستيراد…",
+      "resultImported": "{count, plural, =0 {لم تُستورد أي دعوة} one {تم استيراد دعوة واحدة} other {تم استيراد # دعوات}}",
+      "resultSkipped": "{count, plural, one {تم تجاوز صف واحد (مكرَّر أو خطأ أو حصة)} other {تم تجاوز # صفوف (مكرَّرة أو أخطاء أو حصة)}}",
+      "importAnother": "استيراد ملف آخر"
+    }
   },
   "Invitation": {
     "youreInvited": "أنتم مدعوون",

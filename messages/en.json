@@ -1115,7 +1115,66 @@
       "submit": "Couldn't add the invitation. Try again.",
       "limitReached": "Invitation quota reached for this plan. Upgrade to add more."
     },
-    "answersDietary": "Dietary"
+    "answersDietary": "Dietary",
+    "import": {
+      "open": "Import a list",
+      "title": "Import guests",
+      "intro": "Import a CSV file (in Excel: File › Save As › CSV). Recognised columns: name, first name, phone, email, category, plus-ones.",
+      "close": "Close",
+      "steps": {
+        "upload": "File",
+        "map": "Columns",
+        "result": "Result"
+      },
+      "dropzone": "Choose a CSV file",
+      "orPaste": "or paste your table below",
+      "pastePlaceholder": "Name;Phone;Email\nAminata Diallo;+221771234567;aminata@example.com",
+      "pasteAria": "Paste the CSV file content",
+      "template": "Download the template",
+      "parse": "Analyse",
+      "columnFallback": "Column {n}",
+      "mapColumn": "Field for column {column}",
+      "fields": {
+        "fullName": "Full name",
+        "firstName": "First name",
+        "lastName": "Last name",
+        "phone": "Phone",
+        "email": "Email",
+        "category": "Category",
+        "plusOnes": "Plus-ones",
+        "ignore": "Ignore"
+      },
+      "defaultCountry": "Country for numbers without a “+” prefix",
+      "markConfirmed": "These guests have already confirmed their attendance",
+      "markConfirmedHint": "They are imported as “Confirmed”: they don't need to answer the invitation to be counted as attending.",
+      "summaryReady": "{count, plural, =0 {No invitations to import} one {# invitation to import} other {# invitations to import}}",
+      "summaryDuplicate": "{count, plural, one {# already listed (skipped)} other {# already listed (skipped)}}",
+      "summaryInvalid": "{count, plural, one {# to fix (skipped)} other {# to fix (skipped)}}",
+      "summaryLimit": "{count, plural, one {# over the quota (skipped)} other {# over the quota (skipped)}}",
+      "badgeDuplicate": "Duplicate",
+      "badgeLimit": "Quota reached",
+      "problems": {
+        "nameMissing": "Name missing",
+        "nameTooLong": "Name too long",
+        "phoneInvalid": "Invalid phone",
+        "emailInvalid": "Invalid email",
+        "plusOnesRange": "Plus-ones: 0 to 10",
+        "categoryTooLong": "Category too long"
+      },
+      "errors": {
+        "empty": "No usable rows in this file.",
+        "noNameColumn": "Map a column to the guests' name (or first name).",
+        "tooMany": "Maximum {max} invitations per import: split your file.",
+        "tooLarge": "Import too large. Split your file.",
+        "submit": "Couldn't import the list. Try again."
+      },
+      "back": "Back",
+      "importCta": "{count, plural, one {Import # invitation} other {Import # invitations}}",
+      "importing": "Importing…",
+      "resultImported": "{count, plural, =0 {No invitations imported} one {# invitation imported} other {# invitations imported}}",
+      "resultSkipped": "{count, plural, one {# row skipped (duplicate, error or quota)} other {# rows skipped (duplicates, errors or quota)}}",
+      "importAnother": "Import another file"
+    }
   },
   "Invitation": {
     "youreInvited": "You're invited",
