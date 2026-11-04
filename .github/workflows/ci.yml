@@ -109,7 +109,11 @@ jobs:
   e2e:
     name: E2E (Playwright)
     needs: build
-    runs-on: ubuntu-latest
+    # Image épinglée : `ubuntu-latest` pointe désormais sur Ubuntu 26.04, que
+    # Playwright 1.59 ne supporte pas (« does not support chromium on
+    # ubuntu26.04-x64 »). À repasser sur `ubuntu-latest` après une montée de
+    # Playwright qui supporte cette image.
+    runs-on: ubuntu-24.04
     timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
