@@ -6,6 +6,16 @@ import { generateQrToken } from '../../../convex/lib/qrToken';
 import { isQrToken, qrImagePath, qrImageUrl } from '@/lib/guests/qr';
 import { QR_PNG_SIZE, renderQrPng } from '@/lib/guests/qr-render';
 
+/**
+ * Rendre puis relire un PNG de 640 px est du calcul pur : ~0,2 s par image, ~1 s
+ * sous couverture sur une machine de CI. La limite par défaut de 5 s ne laisse
+ * aucune marge — on la relève explicitement pour les tests qui touchent à l'image.
+ */
+const IMAGE_TEST_TIMEOUT = 30_000;
+
+/** Bornes de l'alphabet des jetons (premier/dernier caractère de chaque famille). */
+const EDGE_TOKENS = ['AAAAAAAAAAAA', 'ZZZZZZZZZZZZ', '222222222222', '999999999999'];
+
 const queryMock = vi.hoisted(() => vi.fn());
 
 vi.mock('@/lib/auth/convex-server', () => ({
@@ -63,38 +73,51 @@ describe('renderQrPng', () => {
     expect(width).toBeGreaterThanOrEqual(QR_PNG_SIZE - 40);
   });
 
-  it('se relit : le scanner retrouve exactement le jeton', async () => {
-    for (let i = 0; i < 25; i++) {
-      const token = generateQrToken();
-      expect(decode(await renderQrPng(token))).toBe(token);
-    }
-  });
-
-  it('reste lisible quand l’image est réduite (aperçu WhatsApp, écran éloigné)', async () => {
-    const token = generateQrToken();
-    const big = PNG.sync.read(await renderQrPng(token));
-    // Sous-échantillonnage ×3 au plus proche voisin.
-    const f = 3;
-    const w = Math.floor(big.width / f);
-    const small = new PNG({ width: w, height: w });
-    for (let y = 0; y < w; y++) {
-      for (let x = 0; x < w; x++) {
-        const s = (y * f * big.width + x * f) * 4;
-        const d = (y * w + x) * 4;
-        small.data[d] = big.data[s]!;
-        small.data[d + 1] = big.data[s + 1]!;
-        small.data[d + 2] = big.data[s + 2]!;
-        small.data[d + 3] = 255;
+  it(
+    'se relit : le scanner retrouve exactement le jeton',
+    async () => {
+      // Les bornes de l'alphabet + quelques jetons tirés comme en production.
+      const tokens = [...EDGE_TOKENS, ...Array.from({ length: 4 }, () => generateQrToken())];
+      for (const token of tokens) {
+        expect(decode(await renderQrPng(token))).toBe(token);
       }
-    }
-    expect(decode(PNG.sync.write(small))).toBe(token);
-  });
+    },
+    IMAGE_TEST_TIMEOUT,
+  );
 
-  it('donne deux images distinctes pour deux jetons distincts', async () => {
-    const a = await renderQrPng('ABCDEFGHJKMN');
-    const b = await renderQrPng('NMKJHGFEDCBA');
-    expect(a.equals(b)).toBe(false);
-  });
+  it(
+    'reste lisible quand l’image est réduite (aperçu WhatsApp, écran éloigné)',
+    async () => {
+      const token = generateQrToken();
+      const big = PNG.sync.read(await renderQrPng(token));
+      // Sous-échantillonnage ×3 au plus proche voisin.
+      const f = 3;
+      const w = Math.floor(big.width / f);
+      const small = new PNG({ width: w, height: w });
+      for (let y = 0; y < w; y++) {
+        for (let x = 0; x < w; x++) {
+          const s = (y * f * big.width + x * f) * 4;
+          const d = (y * w + x) * 4;
+          small.data[d] = big.data[s]!;
+          small.data[d + 1] = big.data[s + 1]!;
+          small.data[d + 2] = big.data[s + 2]!;
+          small.data[d + 3] = 255;
+        }
+      }
+      expect(decode(PNG.sync.write(small))).toBe(token);
+    },
+    IMAGE_TEST_TIMEOUT,
+  );
+
+  it(
+    'donne deux images distinctes pour deux jetons distincts',
+    async () => {
+      const a = await renderQrPng('ABCDEFGHJKMN');
+      const b = await renderQrPng('NMKJHGFEDCBA');
+      expect(a.equals(b)).toBe(false);
+    },
+    IMAGE_TEST_TIMEOUT,
+  );
 });
 
 describe('GET /api/qr/[token]', () => {
@@ -105,15 +128,19 @@ describe('GET /api/qr/[token]', () => {
     });
   }
 
-  it('sert le PNG d’un invité existant, avec un cache long', async () => {
-    queryMock.mockResolvedValueOnce({ guest: { _id: 'g1' }, event: { _id: 'e1' } });
-    const token = generateQrToken();
-    const res = await call(token);
-    expect(res.status).toBe(200);
-    expect(res.headers.get('Content-Type')).toBe('image/png');
-    expect(res.headers.get('Cache-Control')).toContain('immutable');
-    expect(decode(Buffer.from(await res.arrayBuffer()))).toBe(token);
-  });
+  it(
+    'sert le PNG d’un invité existant, avec un cache long',
+    async () => {
+      queryMock.mockResolvedValueOnce({ guest: { _id: 'g1' }, event: { _id: 'e1' } });
+      const token = generateQrToken();
+      const res = await call(token);
+      expect(res.status).toBe(200);
+      expect(res.headers.get('Content-Type')).toBe('image/png');
+      expect(res.headers.get('Cache-Control')).toContain('immutable');
+      expect(decode(Buffer.from(await res.arrayBuffer()))).toBe(token);
+    },
+    IMAGE_TEST_TIMEOUT,
+  );
 
   it('répond 404 pour un jeton mal formé, sans interroger la base', async () => {
     queryMock.mockClear();
