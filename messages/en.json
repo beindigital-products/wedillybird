@@ -1174,6 +1174,13 @@
       "resultImported": "{count, plural, =0 {No invitations imported} one {# invitation imported} other {# invitations imported}}",
       "resultSkipped": "{count, plural, one {# row skipped (duplicate, error or quota)} other {# rows skipped (duplicates, errors or quota)}}",
       "importAnother": "Import another file"
+    },
+    "qr": {
+      "open": "QR",
+      "openAria": "Show {name}'s QR code",
+      "description": "This guest's entry QR code: show it at the door, print it or send it.",
+      "alt": "Entry QR code for {name}",
+      "download": "Download the QR"
     }
   },
   "Invitation": {
@@ -1231,7 +1238,9 @@
     "booleanNo": "No",
     "requiredMark": "Required",
     "openInvitation": "Open the invitation",
-    "tapSeal": "Tap the seal"
+    "tapSeal": "Tap the seal",
+    "qrAlt": "Your entry QR code",
+    "qrCaption": "Your entry QR code: keep it on your phone, it will be scanned at the door."
   },
   "OrgPublic": {
     "poweredBy": "Powered by",

@@ -1178,6 +1178,13 @@
       "resultImported": "{count, plural, =0 {Nenhum convite importado} one {# convite importado} other {# convites importados}}",
       "resultSkipped": "{count, plural, one {# linha ignorada (duplicado, erro ou quota)} other {# linhas ignoradas (duplicados, erros ou quota)}}",
       "importAnother": "Importar outro ficheiro"
+    },
+    "qr": {
+      "open": "QR",
+      "openAria": "Mostrar o código QR de {name}",
+      "description": "Código QR de entrada deste convidado: para mostrar na receção, imprimir ou enviar.",
+      "alt": "Código QR de entrada de {name}",
+      "download": "Descarregar o QR"
     }
   },
   "Invitation": {
@@ -1235,7 +1242,9 @@
     "booleanNo": "Não",
     "requiredMark": "Obrigatório",
     "openInvitation": "Abrir o convite",
-    "tapSeal": "Toque no selo"
+    "tapSeal": "Toque no selo",
+    "qrAlt": "O teu código QR de entrada",
+    "qrCaption": "O teu código QR de entrada: guarda-o no telemóvel, será lido na receção."
   },
   "OrgPublic": {
     "poweredBy": "Com tecnologia",

@@ -6,6 +6,7 @@ import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
 import { PhoneInput } from '@/components/auth/phone-input';
+import { GuestQrButton } from '@/components/guests/guest-qr-button';
 import { Badge } from '@/components/ui/badge';
 import { cn } from '@/lib/cn';
 import {
@@ -177,6 +178,10 @@ function GuestRow({
         />
       </div>
       <div className="flex items-center gap-2">
+        {/* Un invité tout juste ajouté n'a pas encore son vrai jeton (`tmp-…`). */}
+        {guest.qrCodeToken.startsWith('tmp-') ? null : (
+          <GuestQrButton token={guest.qrCodeToken} name={guest.fullName} />
+        )}
         {confirmRemove ? (
           <>
             <Button

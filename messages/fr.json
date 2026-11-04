@@ -1178,6 +1178,13 @@
       "resultImported": "{count, plural, =0 {Aucune invitation importée} one {# invitation importée} other {# invitations importées}}",
       "resultSkipped": "{count, plural, one {# ligne ignorée (doublon, erreur ou quota)} other {# lignes ignorées (doublons, erreurs ou quota)}}",
       "importAnother": "Importer un autre fichier"
+    },
+    "qr": {
+      "open": "QR",
+      "openAria": "Afficher le QR code de {name}",
+      "description": "QR code d'entrée de cet invité : à présenter à l'accueil, à imprimer ou à envoyer.",
+      "alt": "QR code d'entrée de {name}",
+      "download": "Télécharger le QR"
     }
   },
   "Invitation": {
@@ -1235,7 +1242,9 @@
     "booleanNo": "Non",
     "requiredMark": "Obligatoire",
     "openInvitation": "Ouvrir l'invitation",
-    "tapSeal": "Appuyez sur le sceau"
+    "tapSeal": "Appuyez sur le sceau",
+    "qrAlt": "Votre QR code d'entrée",
+    "qrCaption": "Votre QR code d'entrée : gardez-le sur votre téléphone, il sera scanné à l'accueil."
   },
   "OrgPublic": {
     "poweredBy": "Propulsé par",
