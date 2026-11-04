@@ -6,6 +6,7 @@ import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
 import { PhoneInput } from '@/components/auth/phone-input';
+import { GuestQrButton } from '@/components/guests/guest-qr-button';
 import { Badge } from '@/components/ui/badge';
 import { cn } from '@/lib/cn';
 import {
@@ -26,6 +27,8 @@ export interface GuestItem {
   plusOnesNames?: string[];
   rsvpStatus: RsvpStatus;
   invitationSentAt?: number;
+  /** QR d'entrée déjà envoyé par WhatsApp. */
+  ticketSentAt?: number;
   dietaryRestrictions?: string;
   notes?: string;
   customAnswers?: Array<{ questionId: string; values: string[] }>;
@@ -164,6 +167,11 @@ function GuestRow({
           {guest.plusOnesAllowed > 0 ? (
             <Badge variant="neutral">+{guest.plusOnesAllowed}</Badge>
           ) : null}
+          {guest.ticketSentAt ? (
+            <Badge variant="neutral" data-testid="guest-ticket-sent">
+              {t('tickets.sentBadge')}
+            </Badge>
+          ) : null}
         </div>
         <div className="flex flex-wrap gap-3 text-xs text-[color:var(--color-muted)]">
           {guest.phone ? <span>{guest.phone}</span> : null}
@@ -177,6 +185,10 @@ function GuestRow({
         />
       </div>
       <div className="flex items-center gap-2">
+        {/* Un invité tout juste ajouté n'a pas encore son vrai jeton (`tmp-…`). */}
+        {guest.qrCodeToken.startsWith('tmp-') ? null : (
+          <GuestQrButton token={guest.qrCodeToken} name={guest.fullName} />
+        )}
         {confirmRemove ? (
           <>
             <Button

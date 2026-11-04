@@ -1119,7 +1119,99 @@
       "submit": "Impossible d'ajouter l'invitation. Réessayez.",
       "limitReached": "Quota d'invitations atteint pour cette formule. Passez à une formule supérieure pour en ajouter plus."
     },
-    "answersDietary": "Régime"
+    "answersDietary": "Régime",
+    "import": {
+      "open": "Importer une liste",
+      "title": "Importer des invités",
+      "intro": "Importez un fichier CSV (dans Excel : Fichier › Enregistrer sous › CSV). Colonnes reconnues : nom, prénom, téléphone, email, catégorie, accompagnants.",
+      "close": "Fermer",
+      "steps": {
+        "upload": "Fichier",
+        "map": "Colonnes",
+        "result": "Résultat"
+      },
+      "dropzone": "Choisir un fichier CSV",
+      "orPaste": "ou collez votre tableau ci-dessous",
+      "pastePlaceholder": "Nom;Téléphone;Email\nAminata Diallo;+221771234567;aminata@exemple.com",
+      "pasteAria": "Coller le contenu du fichier CSV",
+      "template": "Télécharger le modèle",
+      "parse": "Analyser",
+      "columnFallback": "Colonne {n}",
+      "mapColumn": "Champ de la colonne {column}",
+      "fields": {
+        "fullName": "Nom complet",
+        "firstName": "Prénom",
+        "lastName": "Nom",
+        "phone": "Téléphone",
+        "email": "Email",
+        "category": "Catégorie",
+        "plusOnes": "Accompagnants",
+        "ignore": "Ignorer"
+      },
+      "defaultCountry": "Pays des numéros sans indicatif « + »",
+      "markConfirmed": "Ces invités ont déjà confirmé leur présence",
+      "markConfirmedHint": "Ils sont importés avec le statut « Confirmé » : ils n'ont pas à répondre à l'invitation pour être comptés présents.",
+      "summaryReady": "{count, plural, =0 {Aucune invitation à importer} one {# invitation à importer} other {# invitations à importer}}",
+      "summaryDuplicate": "{count, plural, one {# déjà présente (ignorée)} other {# déjà présentes (ignorées)}}",
+      "summaryInvalid": "{count, plural, one {# à corriger (ignorée)} other {# à corriger (ignorées)}}",
+      "summaryLimit": "{count, plural, one {# au-delà du quota (ignorée)} other {# au-delà du quota (ignorées)}}",
+      "badgeDuplicate": "Doublon",
+      "badgeLimit": "Quota atteint",
+      "problems": {
+        "nameMissing": "Nom manquant",
+        "nameTooLong": "Nom trop long",
+        "phoneInvalid": "Téléphone invalide",
+        "emailInvalid": "Email invalide",
+        "plusOnesRange": "Accompagnants : 0 à 10",
+        "categoryTooLong": "Catégorie trop longue"
+      },
+      "errors": {
+        "empty": "Aucune ligne exploitable dans ce fichier.",
+        "noNameColumn": "Associez une colonne au nom (ou au prénom) des invités.",
+        "tooMany": "Maximum {max} invitations par import : découpez votre fichier.",
+        "tooLarge": "Import trop volumineux. Découpez votre fichier.",
+        "submit": "Impossible d'importer la liste. Réessayez."
+      },
+      "back": "Retour",
+      "importCta": "{count, plural, one {Importer # invitation} other {Importer # invitations}}",
+      "importing": "Import…",
+      "resultImported": "{count, plural, =0 {Aucune invitation importée} one {# invitation importée} other {# invitations importées}}",
+      "resultSkipped": "{count, plural, one {# ligne ignorée (doublon, erreur ou quota)} other {# lignes ignorées (doublons, erreurs ou quota)}}",
+      "importAnother": "Importer un autre fichier"
+    },
+    "qr": {
+      "open": "QR",
+      "openAria": "Afficher le QR code de {name}",
+      "description": "QR code d'entrée de cet invité : à présenter à l'accueil, à imprimer ou à envoyer.",
+      "alt": "QR code d'entrée de {name}",
+      "download": "Télécharger le QR"
+    },
+    "tickets": {
+      "title": "QR codes d'entrée",
+      "intro": "Envoie à chaque invité confirmé son QR code personnel par WhatsApp : un message qui ne contient que le QR, sans invitation ni demande de réponse.",
+      "progress": "{total, plural, =0 {Aucun invité confirmé pour l'instant} one {{sent} sur # invité confirmé a reçu son QR code} other {{sent} sur # invités confirmés ont reçu leur QR code}}",
+      "hintNotPublished": "Publiez d'abord l'événement : les messages ne peuvent partir qu'une fois l'événement publié.",
+      "hintNoAttending": "Aucun invité confirmé. Importez votre liste en cochant « Ces invités ont déjà confirmé leur présence ».",
+      "hintNoPhone": "{count, plural, one {# invité confirmé n'a pas de numéro : il ne recevra pas de message. Téléchargez son QR depuis la liste.} other {# invités confirmés n'ont pas de numéro : ils ne recevront pas de message. Téléchargez leurs QR depuis la liste.}}",
+      "allSent": "Tous les QR codes ont été envoyés.",
+      "send": "{count, plural, =0 {Envoyer les QR codes} one {Envoyer # QR code} other {Envoyer # QR codes}}",
+      "sending": "Envoi…",
+      "confirmTitle": "{count, plural, one {Envoyer # QR code par WhatsApp ?} other {Envoyer # QR codes par WhatsApp ?}}",
+      "confirmBody": "Chaque invité confirmé reçoit un message WhatsApp avec son QR code personnel. Aucune invitation ni demande de confirmation n'est envoyée. Un invité qui l'a déjà reçu n'est pas relancé.",
+      "confirmCta": "{count, plural, one {Envoyer # QR code} other {Envoyer # QR codes}}",
+      "resultSent": "{count, plural, one {# QR code envoyé} other {# QR codes envoyés}}",
+      "resultSimulated": "{count, plural, one {Mode simulation : # message simulé, rien n'est parti.} other {Mode simulation : # messages simulés, rien n'est parti.}}",
+      "resultFailed": "{count, plural, one {# envoi a échoué. Relancez l'envoi pour le reprendre.} other {# envois ont échoué. Relancez l'envoi pour les reprendre.}}",
+      "sentBadge": "QR envoyé",
+      "errors": {
+        "notPublished": "Publiez l'événement avant d'envoyer les QR codes.",
+        "forbidden": "Vous n'avez pas les droits pour envoyer les QR codes de cet événement.",
+        "generic": "Impossible d'envoyer les QR codes. Réessayez.",
+        "templateMissing": "Le gabarit WhatsApp « QR d'entrée » n'existe pas encore ou n'est pas validé par Meta.",
+        "notConfigured": "WhatsApp n'est pas configuré sur ce serveur.",
+        "reason": "Raison indiquée par WhatsApp : {message}"
+      }
+    }
   },
   "Invitation": {
     "youreInvited": "Vous êtes invité·e",
@@ -1176,7 +1268,9 @@
     "booleanNo": "Non",
     "requiredMark": "Obligatoire",
     "openInvitation": "Ouvrir l'invitation",
-    "tapSeal": "Appuyez sur le sceau"
+    "tapSeal": "Appuyez sur le sceau",
+    "qrAlt": "Votre QR code d'entrée",
+    "qrCaption": "Votre QR code d'entrée : gardez-le sur votre téléphone, il sera scanné à l'accueil."
   },
   "OrgPublic": {
     "poweredBy": "Propulsé par",

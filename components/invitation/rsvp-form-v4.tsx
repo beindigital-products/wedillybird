@@ -17,6 +17,7 @@ import {
   type CustomAnswer,
 } from '@/lib/rsvp/questions';
 import { submitRsvpAction, type RsvpActionResult } from '@/app/[locale]/i/[token]/actions';
+import { qrImagePath } from '@/lib/guests/qr';
 
 type RsvpStatus = 'attending' | 'declined' | 'maybe';
 
@@ -236,6 +237,23 @@ export function RsvpFormV4({
               ? t('thanksDeclined')
               : t('thanksMaybe')}
         </p>
+        {/* QR d'entrée : seulement pour un invité qui vient, et jamais sur la démo
+            publique (son jeton n'existe pas). */}
+        {status === 'attending' && mode !== 'demo' ? (
+          <figure className="flex flex-col items-center gap-2" data-testid="rsvp-qr">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src={qrImagePath(token)}
+              alt={t('qrAlt')}
+              width={176}
+              height={176}
+              className="h-44 w-44 rounded-xl border border-[color:var(--color-border)] bg-white"
+            />
+            <figcaption className="max-w-xs text-xs leading-relaxed text-[color:var(--color-ink-500)]">
+              {t('qrCaption')}
+            </figcaption>
+          </figure>
+        ) : null}
         <button
           type="button"
           onClick={() => setSuccess(false)}

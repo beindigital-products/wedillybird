@@ -1119,7 +1119,99 @@
       "submit": "Einladung konnte nicht hinzugefügt werden. Bitte erneut versuchen.",
       "limitReached": "Einladungs-Kontingent für dieses Paket erreicht. Wechsle zu einem höheren Paket, um weitere hinzuzufügen."
     },
-    "answersDietary": "Ernährung"
+    "answersDietary": "Ernährung",
+    "import": {
+      "open": "Liste importieren",
+      "title": "Gäste importieren",
+      "intro": "Importiere eine CSV-Datei (in Excel: Datei › Speichern unter › CSV). Erkannte Spalten: Name, Vorname, Telefon, E-Mail, Kategorie, Begleitung.",
+      "close": "Schließen",
+      "steps": {
+        "upload": "Datei",
+        "map": "Spalten",
+        "result": "Ergebnis"
+      },
+      "dropzone": "CSV-Datei auswählen",
+      "orPaste": "oder füge deine Tabelle unten ein",
+      "pastePlaceholder": "Name;Telefon;E-Mail\nAminata Diallo;+221771234567;aminata@beispiel.com",
+      "pasteAria": "Inhalt der CSV-Datei einfügen",
+      "template": "Vorlage herunterladen",
+      "parse": "Analysieren",
+      "columnFallback": "Spalte {n}",
+      "mapColumn": "Feld für Spalte {column}",
+      "fields": {
+        "fullName": "Vollständiger Name",
+        "firstName": "Vorname",
+        "lastName": "Nachname",
+        "phone": "Telefon",
+        "email": "E-Mail",
+        "category": "Kategorie",
+        "plusOnes": "Begleitung",
+        "ignore": "Ignorieren"
+      },
+      "defaultCountry": "Land für Nummern ohne „+“-Vorwahl",
+      "markConfirmed": "Diese Gäste haben ihre Teilnahme bereits bestätigt",
+      "markConfirmedHint": "Sie werden als „Zugesagt“ importiert: Sie müssen die Einladung nicht beantworten, um als anwesend zu zählen.",
+      "summaryReady": "{count, plural, =0 {Keine Einladungen zu importieren} one {# Einladung zu importieren} other {# Einladungen zu importieren}}",
+      "summaryDuplicate": "{count, plural, one {# bereits vorhanden (übersprungen)} other {# bereits vorhanden (übersprungen)}}",
+      "summaryInvalid": "{count, plural, one {# zu korrigieren (übersprungen)} other {# zu korrigieren (übersprungen)}}",
+      "summaryLimit": "{count, plural, one {# über dem Kontingent (übersprungen)} other {# über dem Kontingent (übersprungen)}}",
+      "badgeDuplicate": "Duplikat",
+      "badgeLimit": "Kontingent erreicht",
+      "problems": {
+        "nameMissing": "Name fehlt",
+        "nameTooLong": "Name zu lang",
+        "phoneInvalid": "Ungültige Telefonnummer",
+        "emailInvalid": "Ungültige E-Mail",
+        "plusOnesRange": "Begleitung: 0 bis 10",
+        "categoryTooLong": "Kategorie zu lang"
+      },
+      "errors": {
+        "empty": "Keine verwertbaren Zeilen in dieser Datei.",
+        "noNameColumn": "Ordne eine Spalte dem Namen (oder Vornamen) der Gäste zu.",
+        "tooMany": "Maximal {max} Einladungen pro Import: Teile deine Datei auf.",
+        "tooLarge": "Import zu groß. Teile deine Datei auf.",
+        "submit": "Die Liste konnte nicht importiert werden. Bitte erneut versuchen."
+      },
+      "back": "Zurück",
+      "importCta": "{count, plural, one {# Einladung importieren} other {# Einladungen importieren}}",
+      "importing": "Import läuft…",
+      "resultImported": "{count, plural, =0 {Keine Einladung importiert} one {# Einladung importiert} other {# Einladungen importiert}}",
+      "resultSkipped": "{count, plural, one {# Zeile übersprungen (Duplikat, Fehler oder Kontingent)} other {# Zeilen übersprungen (Duplikate, Fehler oder Kontingent)}}",
+      "importAnother": "Weitere Datei importieren"
+    },
+    "qr": {
+      "open": "QR",
+      "openAria": "QR-Code von {name} anzeigen",
+      "description": "Eintritts-QR-Code dieses Gastes: am Empfang zeigen, ausdrucken oder versenden.",
+      "alt": "Eintritts-QR-Code von {name}",
+      "download": "QR herunterladen"
+    },
+    "tickets": {
+      "title": "Eintritts-QR-Codes",
+      "intro": "Sende jedem zugesagten Gast seinen persönlichen QR-Code per WhatsApp: eine Nachricht, die nur den QR enthält – ohne Einladung und ohne Aufforderung zu antworten.",
+      "progress": "{total, plural, =0 {Noch keine zugesagten Gäste} one {{sent} von # zugesagtem Gast hat seinen QR-Code erhalten} other {{sent} von # zugesagten Gästen haben ihren QR-Code erhalten}}",
+      "hintNotPublished": "Veröffentliche zuerst die Veranstaltung: Nachrichten können erst nach der Veröffentlichung gesendet werden.",
+      "hintNoAttending": "Keine zugesagten Gäste. Importiere deine Liste mit dem Häkchen „Diese Gäste haben ihre Teilnahme bereits bestätigt“.",
+      "hintNoPhone": "{count, plural, one {# zugesagter Gast hat keine Nummer und erhält keine Nachricht. Lade seinen QR aus der Liste herunter.} other {# zugesagte Gäste haben keine Nummer und erhalten keine Nachricht. Lade ihre QR-Codes aus der Liste herunter.}}",
+      "allSent": "Alle QR-Codes wurden gesendet.",
+      "send": "{count, plural, =0 {QR-Codes senden} one {# QR-Code senden} other {# QR-Codes senden}}",
+      "sending": "Wird gesendet…",
+      "confirmTitle": "{count, plural, one {# QR-Code per WhatsApp senden?} other {# QR-Codes per WhatsApp senden?}}",
+      "confirmBody": "Jeder zugesagte Gast erhält eine WhatsApp-Nachricht mit seinem persönlichen QR-Code. Es wird keine Einladung und keine Bestätigungsanfrage gesendet. Wer seinen Code schon hat, bekommt ihn nicht erneut.",
+      "confirmCta": "{count, plural, one {# QR-Code senden} other {# QR-Codes senden}}",
+      "resultSent": "{count, plural, one {# QR-Code gesendet} other {# QR-Codes gesendet}}",
+      "resultSimulated": "{count, plural, one {Testmodus: # Nachricht simuliert, es wurde nichts gesendet.} other {Testmodus: # Nachrichten simuliert, es wurde nichts gesendet.}}",
+      "resultFailed": "{count, plural, one {# Versand ist fehlgeschlagen. Starte den Versand erneut, um ihn zu wiederholen.} other {# Versendungen sind fehlgeschlagen. Starte den Versand erneut, um sie zu wiederholen.}}",
+      "sentBadge": "QR gesendet",
+      "errors": {
+        "notPublished": "Veröffentliche die Veranstaltung, bevor du die QR-Codes sendest.",
+        "forbidden": "Du hast keine Berechtigung, die QR-Codes dieser Veranstaltung zu senden.",
+        "generic": "Die QR-Codes konnten nicht gesendet werden. Bitte erneut versuchen.",
+        "templateMissing": "Die WhatsApp-Vorlage „Eintritts-QR“ existiert noch nicht oder wurde von Meta noch nicht freigegeben.",
+        "notConfigured": "WhatsApp ist auf diesem Server nicht konfiguriert.",
+        "reason": "Von WhatsApp genannter Grund: {message}"
+      }
+    }
   },
   "Invitation": {
     "youreInvited": "Du bist eingeladen",
@@ -1176,7 +1268,9 @@
     "booleanNo": "Nein",
     "requiredMark": "Erforderlich",
     "openInvitation": "Einladung öffnen",
-    "tapSeal": "Auf das Siegel tippen"
+    "tapSeal": "Auf das Siegel tippen",
+    "qrAlt": "Dein Eintritts-QR-Code",
+    "qrCaption": "Dein Eintritts-QR-Code: Behalte ihn auf dem Handy, er wird am Empfang gescannt."
   },
   "OrgPublic": {
     "poweredBy": "Bereitgestellt von",

@@ -533,6 +533,12 @@ export default defineSchema({
     checkedInAt: v.optional(v.number()),
     checkedInBy: v.optional(v.id('users')),
     invitationSentAt: v.optional(v.number()),
+    /**
+     * QR d'entrée envoyé par WhatsApp (`invitationActions.sendTickets`). Distinct
+     * de `invitationSentAt` : un invité peut avoir reçu son QR sans jamais avoir
+     * reçu d'invitation (liste importée déjà confirmée).
+     */
+    ticketSentAt: v.optional(v.number()),
     invitationChannel: v.optional(
       v.union(v.literal('whatsapp'), v.literal('email'), v.literal('sms')),
     ),

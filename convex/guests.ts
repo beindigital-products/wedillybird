@@ -11,6 +11,7 @@ import type { Doc, Id } from './_generated/dataModel';
 import { generateQrToken } from './lib/qrToken';
 import { assertEventAccess } from './lib/eventAuth';
 import { musicForClient, photoForClient } from './lib/invitationDesign';
+import { MAX_IMPORT_ROWS, guestDedupeKey, guestRowProblem } from '../lib/guests/rules';
 
 const QR_MAX_ATTEMPTS = 6;
 
@@ -91,6 +92,88 @@ export const add = mutation({
   },
 });
 
+/**
+ * Import en lot d'une liste d'invités (CSV déjà analysé côté app).
+ *
+ * Le serveur reste l'autorité : chaque ligne est revalidée avec les mêmes règles
+ * que l'aperçu (`lib/guests/rules`), les doublons — même nom + même coordonnée,
+ * déjà présents ou répétés dans le lot — sont ignorés, et le plafond de fiches
+ * de l'événement est respecté (les lignes en trop sont ignorées, pas le lot).
+ * Une ligne refusée n'empêche jamais les autres : on renvoie la liste des
+ * lignes ignorées avec leur raison.
+ *
+ * `markConfirmed` crée les invités directement `attending` (RSVP déjà recueilli
+ * ailleurs) : ils n'ont pas à repasser par la page de réponse, mais n'ont pas
+ * non plus répondu via Wedillybird (pas de notification aux organisateurs).
+ */
+export const importMany = mutation({
+  args: {
+    eventId: v.id('events'),
+    requesterId: v.id('users'),
+    markConfirmed: v.boolean(),
+    rows: v.array(
+      v.object({
+        fullName: v.string(),
+        phone: v.optional(v.string()),
+        email: v.optional(v.string()),
+        category: v.optional(v.string()),
+        plusOnesAllowed: v.number(),
+      }),
+    ),
+  },
+  handler: async (ctx, args) => {
+    if (args.rows.length > MAX_IMPORT_ROWS) throw new Error('IMPORT_TOO_LARGE');
+    const event = await assertEventOwnership(ctx, args.eventId, args.requesterId);
+
+    const existing = await ctx.db
+      .query('guests')
+      .withIndex('by_event', (q) => q.eq('eventId', args.eventId))
+      .collect();
+    const seen = new Set(existing.map(guestDedupeKey));
+    let remaining = event.maxGuests - existing.length;
+
+    const skipped: Array<{ index: number; reason: string }> = [];
+    let imported = 0;
+    const now = Date.now();
+
+    for (const [index, row] of args.rows.entries()) {
+      const problem = guestRowProblem(row);
+      if (problem) {
+        skipped.push({ index, reason: problem });
+        continue;
+      }
+      const key = guestDedupeKey(row);
+      if (seen.has(key)) {
+        skipped.push({ index, reason: 'duplicate' });
+        continue;
+      }
+      if (remaining <= 0) {
+        skipped.push({ index, reason: 'limit' });
+        continue;
+      }
+      seen.add(key);
+      remaining--;
+
+      await ctx.db.insert('guests', {
+        eventId: args.eventId,
+        fullName: row.fullName.trim(),
+        ...(row.phone ? { phone: row.phone.trim() } : {}),
+        ...(row.email ? { email: row.email.trim().toLowerCase() } : {}),
+        ...(row.category?.trim() ? { category: row.category.trim() } : {}),
+        plusOnesAllowed: row.plusOnesAllowed,
+        rsvpStatus: args.markConfirmed ? ('attending' as const) : ('pending' as const),
+        ...(args.markConfirmed ? { rsvpRespondedAt: now } : {}),
+        qrCodeToken: await uniqueQrToken(ctx),
+        createdAt: now,
+        updatedAt: now,
+      });
+      imported++;
+    }
+
+    return { imported, skipped };
+  },
+});
+
 export const update = mutation({
   args: {
     guestId: v.id('guests'),
@@ -164,6 +247,7 @@ export const listByEvent = query({
       plusOnesNames: g.plusOnesNames,
       rsvpStatus: g.rsvpStatus,
       invitationSentAt: g.invitationSentAt,
+      ticketSentAt: g.ticketSentAt,
       dietaryRestrictions: g.dietaryRestrictions,
       notes: g.notes,
       customAnswers: g.customAnswers,
@@ -242,6 +326,10 @@ export const countByEvent = query({
       else if (g.rsvpStatus === 'maybe') maybe++;
       else pending++;
       if (g.invitationSentAt) invited++;
+      // Un invité qui a déjà répondu (liste importée « confirmée ») ne recevra
+      // pas d'invitation : on le compte comme traité, sinon le « reste à inviter »
+      // de la page événement ne descendrait jamais à zéro.
+      else if (g.phone && g.rsvpStatus !== 'pending') invited++;
       if (g.phone) withPhone++;
     }
     return { total: rows.length, attending, declined, pending, maybe, invited, withPhone };
@@ -329,7 +417,8 @@ export const undoCheckIn = mutation({
 
 /**
  * Liste les guests d'un event qui n'ont pas encore reçu leur invitation
- * (pas de invitationSentAt) et qui ont un phone (pour WhatsApp). Utilisé
+ * (pas de invitationSentAt), n'ont pas encore répondu et ont un phone (pour
+ * WhatsApp). Utilisé
  * par l'action `invitationActions.broadcast` pour itérer.
  */
 export const listToInvite = internalQuery({
@@ -339,14 +428,19 @@ export const listToInvite = internalQuery({
       .query('guests')
       .withIndex('by_event', (q) => q.eq('eventId', eventId))
       .collect();
-    return guests
-      .filter((g) => !g.invitationSentAt && g.phone)
-      .map((g) => ({
-        _id: g._id,
-        fullName: g.fullName,
-        phone: g.phone!,
-        qrCodeToken: g.qrCodeToken,
-      }));
+    return (
+      guests
+        // Seuls les invités sans réponse : demander « Confirmer ma présence » à
+        // quelqu'un qui a déjà répondu (ou dont la liste a été importée comme
+        // confirmée) n'a pas de sens.
+        .filter((g) => !g.invitationSentAt && g.phone && g.rsvpStatus === 'pending')
+        .map((g) => ({
+          _id: g._id,
+          fullName: g.fullName,
+          phone: g.phone!,
+          qrCodeToken: g.qrCodeToken,
+        }))
+    );
   },
 });
 
@@ -369,6 +463,41 @@ export const markInvitationSent = internalMutation({
       invitationChannel: channel,
       updatedAt: now,
     });
+    return { ok: true as const, alreadySent: false };
+  },
+});
+
+/**
+ * Invités à qui envoyer leur QR d'entrée : confirmés (`attending`), avec un
+ * numéro, et qui ne l'ont pas déjà reçu. Utilisé par `invitationActions.sendTickets`.
+ */
+export const listForTickets = internalQuery({
+  args: { eventId: v.id('events') },
+  handler: async (ctx, { eventId }) => {
+    const guests = await ctx.db
+      .query('guests')
+      .withIndex('by_event', (q) => q.eq('eventId', eventId))
+      .collect();
+    return guests
+      .filter((g) => g.rsvpStatus === 'attending' && g.phone && !g.ticketSentAt)
+      .map((g) => ({
+        _id: g._id,
+        fullName: g.fullName,
+        phone: g.phone!,
+        qrCodeToken: g.qrCodeToken,
+      }));
+  },
+});
+
+/** Marque le QR d'entrée comme envoyé. Idempotent : le premier horodatage reste. */
+export const markTicketSent = internalMutation({
+  args: { guestId: v.id('guests') },
+  handler: async (ctx, { guestId }) => {
+    const guest = await ctx.db.get(guestId);
+    if (!guest) return { ok: false as const, reason: 'NOT_FOUND' as const };
+    if (guest.ticketSentAt) return { ok: true as const, alreadySent: true };
+    const now = Date.now();
+    await ctx.db.patch(guestId, { ticketSentAt: now, updatedAt: now });
     return { ok: true as const, alreadySent: false };
   },
 });
@@ -402,6 +531,7 @@ export type GuestListItem = {
   plusOnesAllowed: number;
   rsvpStatus: 'pending' | 'attending' | 'declined' | 'maybe';
   invitationSentAt?: number;
+  ticketSentAt?: number;
   notes?: string;
   qrCodeToken: string;
   createdAt: number;

@@ -174,3 +174,34 @@ export function getReminderTemplateName(
   const value = env[REMINDER_TEMPLATE_ENV_VARS[tier]];
   return value && value.trim().length > 0 ? value : null;
 }
+
+/* -------------------------------------------------------------------------- */
+/*  Gabarit « QR d'entrée » (ticketing)                                        */
+/* -------------------------------------------------------------------------- */
+
+/**
+ * Message qui n'apporte QUE le QR code d'entrée d'un invité déjà confirmé :
+ * aucun bouton « Confirmer », aucune demande de réponse — à l'inverse des
+ * gabarits d'invitation. En-tête IMAGE (le QR, servi par `/api/qr/<jeton>`) et
+ * corps à 3 variables :
+ *   {{1}} = prénom de l'invité
+ *   {{2}} = prénoms du couple ("Mamadou & Marie")
+ *   {{3}} = date formatée ("19 décembre 2026")
+ *
+ * Catégorie Meta `utility` : message transactionnel lié à un événement auquel
+ * l'invité a déjà dit oui. Le texte ci-dessous doit correspondre EXACTEMENT à
+ * celui soumis à Meta Business Manager (cf. `docs/whatsapp-entry-pass-template.md`).
+ */
+export const TICKET_TEMPLATE = {
+  metaTemplateName: 'wedding_entry_pass',
+  metaTemplateEnvVar: 'WHATSAPP_TICKET_TEMPLATE',
+  bodyText:
+    "Bonjour {{1}},\n\nvoici votre QR code d'entrée pour le mariage de {{2}} le {{3}}.\n\nPrésentez-le à l'accueil : il est personnel et ne peut être scanné qu'une seule fois.\n\nÀ très bientôt !",
+} as const;
+
+/** Nom du gabarit « QR d'entrée », avec override possible par variable d'env. */
+export function getTicketTemplateName(
+  env: Record<string, string | undefined> = process.env,
+): string {
+  return env[TICKET_TEMPLATE.metaTemplateEnvVar] ?? TICKET_TEMPLATE.metaTemplateName;
+}
