@@ -8,6 +8,7 @@ import { Label } from '@/components/ui/label';
 import { PhoneInput } from '@/components/auth/phone-input';
 import { Badge } from '@/components/ui/badge';
 import { cn } from '@/lib/cn';
+import { GuestsCsvImport } from '@/components/guests/guests-csv-import';
 import {
   addGuestAction,
   removeGuestAction,
@@ -37,26 +38,55 @@ export interface GuestItem {
 interface Props {
   eventId: string;
   initialGuests: GuestItem[];
+  /** Quota d'invitations de la formule (`events.maxGuests`) : borne l'import CSV. */
+  maxGuests: number;
   /** Questions custom de l'event (id → libellé) pour afficher les réponses. */
   questions?: Array<{ id: string; label: string }>;
 }
 
-export function GuestsManager({ eventId, initialGuests, questions = [] }: Props) {
+export function GuestsManager({ eventId, initialGuests, maxGuests, questions = [] }: Props) {
   const t = useTranslations('Guests');
   const [guests, setGuests] = useState<GuestItem[]>(initialGuests);
+  // Le serveur reste la source de vérité : après un import (ou tout revalidate),
+  // la page renvoie une nouvelle liste et on la reprend (cf. « getDerivedStateFromProps »).
+  const [seenInitial, setSeenInitial] = useState(initialGuests);
+  if (initialGuests !== seenInitial) {
+    setSeenInitial(initialGuests);
+    setGuests(initialGuests);
+  }
   const [formOpen, setFormOpen] = useState(false);
+  const [importOpen, setImportOpen] = useState(false);
   const questionLabels = new Map(questions.map((q) => [q.id, q.label]));
 
   return (
     <div className="flex flex-col gap-6">
       <div className="flex items-center justify-between">
         <h2 className="font-display text-xl font-semibold">{t('listTitle')}</h2>
-        {formOpen ? null : (
-          <Button onClick={() => setFormOpen(true)} size="sm">
-            {t('addGuest')}
-          </Button>
+        {formOpen || importOpen ? null : (
+          <div className="flex items-center gap-2">
+            <Button
+              onClick={() => setImportOpen(true)}
+              size="sm"
+              variant="ghost"
+              data-testid="open-guests-import"
+            >
+              {t('import.button')}
+            </Button>
+            <Button onClick={() => setFormOpen(true)} size="sm">
+              {t('addGuest')}
+            </Button>
+          </div>
         )}
       </div>
+
+      {importOpen ? (
+        <GuestsCsvImport
+          eventId={eventId}
+          existing={guests}
+          remaining={Math.max(0, maxGuests - guests.length)}
+          onClose={() => setImportOpen(false)}
+        />
+      ) : null}
 
       {formOpen ? (
         <AddGuestForm

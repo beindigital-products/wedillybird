@@ -1119,7 +1119,57 @@
       "submit": "Impossible d'ajouter l'invitation. Réessayez.",
       "limitReached": "Quota d'invitations atteint pour cette formule. Passez à une formule supérieure pour en ajouter plus."
     },
-    "answersDietary": "Régime"
+    "answersDietary": "Régime",
+    "import": {
+      "button": "Importer un CSV",
+      "title": "Importer des invités",
+      "subtitle": "Depuis un fichier CSV ou un copier-coller depuis Excel ou Google Sheets",
+      "cancel": "Annuler",
+      "close": "Fermer",
+      "steps": {
+        "upload": "Fichier",
+        "map": "Colonnes",
+        "result": "Résultat"
+      },
+      "dropzone": "Déposez un fichier CSV ou cliquez pour parcourir",
+      "orPaste": "ou collez vos lignes, en-tête compris",
+      "pastePlaceholder": "Nom;Téléphone;Email;Catégorie;Accompagnants\nAminata Diallo;0612345678;;Famille;2",
+      "pasteAria": "Coller les invités à importer",
+      "tip": "Astuce : dans Excel, mettez la colonne téléphone au format Texte pour garder le « + » et le « 0 » de tête.",
+      "template": "Télécharger un modèle",
+      "parse": "Continuer",
+      "tooFew": "Fichier vide ou illisible. Il faut une ligne d'en-tête, puis au moins un invité.",
+      "tooMany": "Maximum {max} invités par import. Scindez votre fichier.",
+      "columnFallback": "Colonne {n}",
+      "mapColumn": "Champ pour la colonne {column}",
+      "fields": {
+        "fullName": "Nom complet",
+        "firstName": "Prénom",
+        "lastName": "Nom de famille",
+        "phone": "Téléphone (WhatsApp)",
+        "email": "Email",
+        "category": "Catégorie",
+        "plusOnes": "Accompagnants",
+        "notes": "Notes",
+        "ignore": "Ignorer"
+      },
+      "defaultCountry": "Pays des numéros sans « + »",
+      "needName": "Associez une colonne au nom : nom complet, ou prénom et nom de famille.",
+      "toImport": "<b>{count}</b> à importer",
+      "duplicates": "<b>{count}</b> déjà dans la liste ou répétés",
+      "errorsCount": "<b>{count}</b> à corriger",
+      "quota": "Votre formule permet encore {remaining, plural, =0 {aucune invitation} one {# invitation} other {# invitations}}, le fichier en apporte {count}. Retirez des lignes ou passez à une formule supérieure.",
+      "duplicateBadge": "Doublon",
+      "lineError": "Ligne {line} : {error}",
+      "previewTruncated": "{shown} lignes affichées sur {total}.",
+      "back": "Retour",
+      "importing": "Import en cours…",
+      "importCta": "Importer {count, plural, one {# invité} other {# invités}}",
+      "submitError": "Import impossible. Aucun invité n'a été ajouté, réessayez.",
+      "resultTitle": "{count, plural, one {# invité importé} other {# invités importés}}",
+      "resultSkipped": "{count, plural, one {# ligne ignorée} other {# lignes ignorées}} (doublons ou erreurs).",
+      "again": "Importer un autre fichier"
+    }
   },
   "Invitation": {
     "youreInvited": "Vous êtes invité·e",

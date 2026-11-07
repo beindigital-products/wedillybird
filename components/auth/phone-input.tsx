@@ -7,7 +7,7 @@ import { Select, SelectContent, SelectItem, SelectTrigger } from '@/components/u
 import { splitE164 } from '@/lib/phone';
 import type { Locale } from '@/i18n/routing';
 
-interface Country {
+export interface Country {
   code: string;
   dial: string;
   name: string;
@@ -24,7 +24,7 @@ const FR: Country = {
   placeholder: '6 12 34 56 78',
 };
 
-const COUNTRIES: ReadonlyArray<Country> = [
+export const COUNTRIES: ReadonlyArray<Country> = [
   FR,
   { code: 'BE', dial: '32', name: 'Belgique', flag: '🇧🇪', placeholder: '470 12 34 56' },
   { code: 'CH', dial: '41', name: 'Suisse', flag: '🇨🇭', placeholder: '78 123 45 67' },

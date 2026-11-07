@@ -1119,7 +1119,57 @@
       "submit": "Impossibile aggiungere l'invito. Riprova.",
       "limitReached": "Quota di inviti raggiunta per questa formula. Passa a una formula superiore per aggiungerne altri."
     },
-    "answersDietary": "Dieta"
+    "answersDietary": "Dieta",
+    "import": {
+      "button": "Importa CSV",
+      "title": "Importa gli invitati",
+      "subtitle": "Da un file CSV o incollando da Excel o Google Sheets",
+      "cancel": "Annulla",
+      "close": "Chiudi",
+      "steps": {
+        "upload": "File",
+        "map": "Colonne",
+        "result": "Risultato"
+      },
+      "dropzone": "Trascina un file CSV o clicca per sfogliare",
+      "orPaste": "oppure incolla le righe, intestazione compresa",
+      "pastePlaceholder": "Nome;Telefono;Email;Categoria;Accompagnatori\nAminata Diallo;0612345678;;Famiglia;2",
+      "pasteAria": "Incolla gli invitati da importare",
+      "tip": "Suggerimento: in Excel, imposta la colonna del telefono come Testo per mantenere il «+» e lo «0» iniziale.",
+      "template": "Scarica un modello",
+      "parse": "Continua",
+      "tooFew": "File vuoto o illeggibile. Servono una riga di intestazione e almeno un invitato.",
+      "tooMany": "Massimo {max} invitati per importazione. Dividi il file.",
+      "columnFallback": "Colonna {n}",
+      "mapColumn": "Campo per la colonna {column}",
+      "fields": {
+        "fullName": "Nome completo",
+        "firstName": "Nome",
+        "lastName": "Cognome",
+        "phone": "Telefono (WhatsApp)",
+        "email": "Email",
+        "category": "Categoria",
+        "plusOnes": "Accompagnatori",
+        "notes": "Note",
+        "ignore": "Ignora"
+      },
+      "defaultCountry": "Paese dei numeri senza «+»",
+      "needName": "Associa una colonna al nome: nome completo, oppure nome e cognome.",
+      "toImport": "<b>{count}</b> da importare",
+      "duplicates": "<b>{count}</b> già in elenco o ripetuti",
+      "errorsCount": "<b>{count}</b> da correggere",
+      "quota": "Il tuo piano consente ancora {remaining, plural, =0 {nessun invito} one {# invito} other {# inviti}}, mentre il file ne aggiunge {count}. Rimuovi righe o passa a un piano superiore.",
+      "duplicateBadge": "Duplicato",
+      "lineError": "Riga {line}: {error}",
+      "previewTruncated": "{shown} righe mostrate su {total}.",
+      "back": "Indietro",
+      "importing": "Importazione in corso…",
+      "importCta": "Importa {count, plural, one {# invitato} other {# invitati}}",
+      "submitError": "Importazione non riuscita. Nessun invitato è stato aggiunto, riprova.",
+      "resultTitle": "{count, plural, one {# invitato importato} other {# invitati importati}}",
+      "resultSkipped": "{count, plural, one {# riga ignorata} other {# righe ignorate}} (duplicati o errori).",
+      "again": "Importa un altro file"
+    }
   },
   "Invitation": {
     "youreInvited": "Sei invitato/a",
