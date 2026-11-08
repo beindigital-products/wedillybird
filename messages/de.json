@@ -1172,6 +1172,11 @@
     }
   },
   "Invitation": {
+    "qrEyebrow": "Ihr Einlass",
+    "qrTitle": "Zeigen Sie diesen Code am Eingang",
+    "qrHint": "Ein Code für Ihre gesamte Einladung, Begleitpersonen inbegriffen. Machen Sie einen Screenshot, dann haben Sie ihn auch offline.",
+    "qrAria": "Einlass-QR-Code von {name}",
+    "qrManual": "Ersatzcode: {code}",
     "youreInvited": "Du bist eingeladen",
     "weddingLabel": "Hochzeit",
     "musicHint": "Mit Musik",

@@ -4,6 +4,7 @@ import { Link } from '@/i18n/navigation';
 import type { RsvpConfig } from '@/lib/rsvp/questions';
 import { WeddingCountdown } from './wedding-countdown';
 import { RsvpFormV4 } from './rsvp-form-v4';
+import { GuestQr } from './guest-qr';
 import { Reveal } from './reveal';
 import { LandingFooterRich } from '@/components/landing/footer-rich';
 
@@ -199,6 +200,38 @@ export async function InvitationContent({
             />
           </section>
         </Reveal>
+
+        {/* QR d'entrée — une fois la présence confirmée. Encode le token de
+            l'invité : c'est ce que lit le scanner de check-in. Absent en démo
+            (token fictif). */}
+        {!demo && guest.rsvpStatus === 'attending' ? (
+          <Reveal>
+            <section
+              className="paper-grain flex flex-col items-center gap-5 rounded-3xl border border-[color:var(--color-border)] bg-white p-8 text-center shadow-[var(--shadow-soft)]"
+              data-testid="guest-qr-section"
+            >
+              <span className={EYEBROW}>{t('qrEyebrow')}</span>
+              <p
+                className="font-display text-balance italic"
+                style={{
+                  fontSize: 'clamp(1.35rem, 2.6vw, 1.85rem)',
+                  lineHeight: 1.15,
+                  letterSpacing: '-0.02em',
+                  color: 'var(--color-ink-900)',
+                }}
+              >
+                {t('qrTitle')}
+              </p>
+              <GuestQr
+                value={token}
+                label={t('qrAria', { name: guest.fullName })}
+                className="h-auto w-full max-w-[240px] rounded-xl border border-[color:var(--color-border)]"
+              />
+              <p className="max-w-sm text-sm text-[color:var(--color-ink-500)]">{t('qrHint')}</p>
+              <p className={EYEBROW}>{t('qrManual', { code: token })}</p>
+            </section>
+          </Reveal>
+        ) : null}
 
         {/* Lien galerie — absent en démo (pas de galerie fictive) */}
         {demo ? null : (

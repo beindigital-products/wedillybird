@@ -1172,6 +1172,11 @@
     }
   },
   "Invitation": {
+    "qrEyebrow": "Tu acceso",
+    "qrTitle": "Presenta este código en la entrada",
+    "qrHint": "Un solo código para toda tu invitación, acompañantes incluidos. Haz una captura de pantalla para tenerlo sin conexión.",
+    "qrAria": "Código QR de entrada de {name}",
+    "qrManual": "Código de respaldo: {code}",
     "youreInvited": "Estás invitado/a",
     "weddingLabel": "Boda",
     "musicHint": "Con música",
