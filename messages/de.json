@@ -1119,7 +1119,57 @@
       "submit": "Einladung konnte nicht hinzugefügt werden. Bitte erneut versuchen.",
       "limitReached": "Einladungs-Kontingent für dieses Paket erreicht. Wechsle zu einem höheren Paket, um weitere hinzuzufügen."
     },
-    "answersDietary": "Ernährung"
+    "answersDietary": "Ernährung",
+    "import": {
+      "button": "CSV importieren",
+      "title": "Gäste importieren",
+      "subtitle": "Aus einer CSV-Datei oder per Einfügen aus Excel oder Google Sheets",
+      "cancel": "Abbrechen",
+      "close": "Schließen",
+      "steps": {
+        "upload": "Datei",
+        "map": "Spalten",
+        "result": "Ergebnis"
+      },
+      "dropzone": "CSV-Datei hierher ziehen oder klicken, um sie auszuwählen",
+      "orPaste": "oder Zeilen einfügen, inklusive Kopfzeile",
+      "pastePlaceholder": "Name;Telefon;E-Mail;Kategorie;Begleitpersonen\nAminata Diallo;0612345678;;Familie;2",
+      "pasteAria": "Zu importierende Gäste einfügen",
+      "tip": "Tipp: Formatieren Sie die Telefonspalte in Excel als Text, damit das „+“ und die führende „0“ erhalten bleiben.",
+      "template": "Vorlage herunterladen",
+      "parse": "Weiter",
+      "tooFew": "Datei leer oder nicht lesbar. Sie braucht eine Kopfzeile und mindestens einen Gast.",
+      "tooMany": "Höchstens {max} Gäste pro Import. Teilen Sie die Datei auf.",
+      "columnFallback": "Spalte {n}",
+      "mapColumn": "Feld für Spalte {column}",
+      "fields": {
+        "fullName": "Vollständiger Name",
+        "firstName": "Vorname",
+        "lastName": "Nachname",
+        "phone": "Telefon (WhatsApp)",
+        "email": "E-Mail",
+        "category": "Kategorie",
+        "plusOnes": "Begleitpersonen",
+        "notes": "Notizen",
+        "ignore": "Ignorieren"
+      },
+      "defaultCountry": "Land für Nummern ohne „+“",
+      "needName": "Ordnen Sie dem Namen eine Spalte zu: vollständiger Name oder Vor- und Nachname.",
+      "toImport": "<b>{count}</b> zu importieren",
+      "duplicates": "<b>{count}</b> bereits in der Liste oder doppelt",
+      "errorsCount": "<b>{count}</b> zu korrigieren",
+      "quota": "Ihr Tarif erlaubt noch {remaining, plural, =0 {keine Einladung} one {# Einladung} other {# Einladungen}}, die Datei enthält {count}. Entfernen Sie Zeilen oder wechseln Sie zu einem größeren Tarif.",
+      "duplicateBadge": "Duplikat",
+      "lineError": "Zeile {line}: {error}",
+      "previewTruncated": "{shown} von {total} Zeilen angezeigt.",
+      "back": "Zurück",
+      "importing": "Import läuft …",
+      "importCta": "{count, plural, one {# Gast} other {# Gäste}} importieren",
+      "submitError": "Import fehlgeschlagen. Es wurde kein Gast hinzugefügt, bitte erneut versuchen.",
+      "resultTitle": "{count, plural, one {# Gast importiert} other {# Gäste importiert}}",
+      "resultSkipped": "{count, plural, one {# Zeile übersprungen} other {# Zeilen übersprungen}} (Duplikate oder Fehler).",
+      "again": "Weitere Datei importieren"
+    }
   },
   "Invitation": {
     "youreInvited": "Du bist eingeladen",

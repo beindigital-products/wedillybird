@@ -150,6 +150,7 @@ export default async function CoupleEventPage({
           <GuestsManager
             eventId={eventId}
             initialGuests={guests}
+            maxGuests={event?.maxGuests ?? 0}
             questions={(event?.rsvpConfig?.customQuestions ?? []).map((q) => ({
               id: q.id,
               label: q.label,

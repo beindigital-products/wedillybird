@@ -4,18 +4,25 @@
  * externe ; testable. Réutilisé par le module Intégrations pour alimenter le CRM.
  */
 
-/** Détecte le délimiteur le plus probable d'une ligne d'en-tête (`,` ou `;`). */
-export function detectDelimiter(firstLine: string): ',' | ';' {
+export type CsvDelimiter = ',' | ';' | '\t';
+
+/**
+ * Détecte le délimiteur le plus probable d'une ligne d'en-tête (`,`, `;` ou
+ * tabulation — un copier-coller depuis Excel ou Google Sheets sépare par tab).
+ */
+export function detectDelimiter(firstLine: string): CsvDelimiter {
   const commas = (firstLine.match(/,/g) || []).length;
   const semis = (firstLine.match(/;/g) || []).length;
+  const tabs = (firstLine.match(/\t/g) || []).length;
+  if (tabs > commas && tabs > semis) return '\t';
   return semis > commas ? ';' : ',';
 }
 
 /**
  * Parse un CSV (gère les champs entre guillemets, les `""` échappés, les
- * délimiteurs `,`/`;` et les retours `\r\n`). Renvoie les lignes non vides.
+ * délimiteurs `,`/`;`/tab et les retours `\r\n`). Renvoie les lignes non vides.
  */
-export function parseCsv(text: string, delimiter?: ',' | ';'): string[][] {
+export function parseCsv(text: string, delimiter?: CsvDelimiter): string[][] {
   const delim = delimiter ?? detectDelimiter(text.split(/\r?\n/)[0] ?? '');
   const rows: string[][] = [];
   let row: string[] = [];

@@ -41,7 +41,7 @@ beforeEach(() => {
 
 describe('GuestsManager', () => {
   it('renders the empty-state when there are no guests', () => {
-    render(<GuestsManager eventId={EVENT_ID} initialGuests={[]} />);
+    render(<GuestsManager eventId={EVENT_ID} initialGuests={[]} maxGuests={100} />);
     expect(screen.getByText('Guests.empty')).toBeInTheDocument();
     expect(screen.queryByTestId('guest-row')).not.toBeInTheDocument();
   });
@@ -51,7 +51,7 @@ describe('GuestsManager', () => {
       buildGuest({ _id: 'g_1', fullName: 'Aminata', rsvpStatus: 'attending', plusOnesAllowed: 2 }),
       buildGuest({ _id: 'g_2', fullName: 'Kwame', rsvpStatus: 'declined' }),
     ];
-    render(<GuestsManager eventId={EVENT_ID} initialGuests={guests} />);
+    render(<GuestsManager eventId={EVENT_ID} initialGuests={guests} maxGuests={100} />);
 
     expect(screen.getAllByTestId('guest-row')).toHaveLength(2);
     expect(screen.getByText('Aminata')).toBeInTheDocument();
@@ -63,7 +63,7 @@ describe('GuestsManager', () => {
   it('opens the add-guest form and submits it with form data', async () => {
     addGuestActionMock.mockResolvedValue({ ok: true });
     const user = userEvent.setup();
-    render(<GuestsManager eventId={EVENT_ID} initialGuests={[]} />);
+    render(<GuestsManager eventId={EVENT_ID} initialGuests={[]} maxGuests={100} />);
 
     await user.click(screen.getByRole('button', { name: 'Guests.addGuest' }));
     expect(screen.getByTestId('add-guest-form')).toBeInTheDocument();
@@ -88,7 +88,7 @@ describe('GuestsManager', () => {
       fieldErrors: { phone: ['Numéro invalide (format E.164)'] },
     });
     const user = userEvent.setup();
-    render(<GuestsManager eventId={EVENT_ID} initialGuests={[]} />);
+    render(<GuestsManager eventId={EVENT_ID} initialGuests={[]} maxGuests={100} />);
 
     await user.click(screen.getByRole('button', { name: 'Guests.addGuest' }));
     await user.type(screen.getByLabelText('Guests.fullNameLabel'), 'Awa');
@@ -105,7 +105,7 @@ describe('GuestsManager', () => {
       error: 'INVITATION_LIMIT_REACHED',
     });
     const user = userEvent.setup();
-    render(<GuestsManager eventId={EVENT_ID} initialGuests={[]} />);
+    render(<GuestsManager eventId={EVENT_ID} initialGuests={[]} maxGuests={100} />);
 
     await user.click(screen.getByRole('button', { name: 'Guests.addGuest' }));
     await user.type(screen.getByLabelText('Guests.fullNameLabel'), 'Awa');
@@ -122,6 +122,7 @@ describe('GuestsManager', () => {
       <GuestsManager
         eventId={EVENT_ID}
         initialGuests={[buildGuest({ _id: 'g_1', fullName: 'Mamadou' })]}
+        maxGuests={100}
       />,
     );
 

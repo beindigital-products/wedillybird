@@ -91,6 +91,82 @@ export const add = mutation({
   },
 });
 
+/** Plafond d'invités par appel d'import en lot (garde la mutation sous les limites Convex). */
+const ADD_MANY_MAX = 500;
+
+/**
+ * Import en lot (CSV) : tout ou rien. Si le lot dépasse le quota d'invitations
+ * restant, rien n'est inséré et on renvoie `INVITATION_LIMIT_REACHED` — mieux
+ * vaut refuser que couper silencieusement la fin de la liste du couple.
+ */
+export const addMany = mutation({
+  args: {
+    eventId: v.id('events'),
+    requesterId: v.id('users'),
+    guests: v.array(
+      v.object({
+        fullName: v.string(),
+        phone: v.optional(v.string()),
+        email: v.optional(v.string()),
+        category: v.optional(v.string()),
+        plusOnesAllowed: v.number(),
+        notes: v.optional(v.string()),
+      }),
+    ),
+  },
+  handler: async (ctx, args) => {
+    const event = await assertEventOwnership(ctx, args.eventId, args.requesterId);
+
+    if (args.guests.length === 0) return { created: 0 };
+    if (args.guests.length > ADD_MANY_MAX) throw new Error('TOO_MANY_GUESTS');
+
+    for (const g of args.guests) {
+      const fullName = g.fullName.trim();
+      if (fullName.length < 1 || fullName.length > 120) throw new Error('INVALID_FULL_NAME');
+      if (!Number.isInteger(g.plusOnesAllowed) || g.plusOnesAllowed < 0 || g.plusOnesAllowed > 10) {
+        throw new Error('INVALID_PLUS_ONES');
+      }
+    }
+
+    const existing = await ctx.db
+      .query('guests')
+      .withIndex('by_event', (q) => q.eq('eventId', args.eventId))
+      .collect();
+    if (existing.length + args.guests.length > event.maxGuests) {
+      throw new Error('INVITATION_LIMIT_REACHED');
+    }
+
+    const now = Date.now();
+    const issued = new Set<string>();
+    for (const g of args.guests) {
+      // Les insertions du lot sont visibles de l'index dans la même mutation ;
+      // le Set protège en plus contre un tirage identique dans le lot.
+      let qrCodeToken = await uniqueQrToken(ctx);
+      for (let i = 0; issued.has(qrCodeToken) && i < QR_MAX_ATTEMPTS; i++) {
+        qrCodeToken = await uniqueQrToken(ctx);
+      }
+      if (issued.has(qrCodeToken)) throw new Error('QR_TOKEN_GENERATION_FAILED');
+      issued.add(qrCodeToken);
+
+      await ctx.db.insert('guests', {
+        eventId: args.eventId,
+        fullName: g.fullName.trim(),
+        ...(g.phone ? { phone: g.phone.trim() } : {}),
+        ...(g.email ? { email: g.email.trim().toLowerCase() } : {}),
+        ...(g.category ? { category: g.category.trim() } : {}),
+        plusOnesAllowed: g.plusOnesAllowed,
+        rsvpStatus: 'pending' as const,
+        ...(g.notes ? { notes: g.notes.trim() } : {}),
+        qrCodeToken,
+        createdAt: now,
+        updatedAt: now,
+      });
+    }
+
+    return { created: args.guests.length };
+  },
+});
+
 export const update = mutation({
   args: {
     guestId: v.id('guests'),

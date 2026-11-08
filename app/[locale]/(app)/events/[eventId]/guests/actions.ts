@@ -1,7 +1,9 @@
 'use server';
 
 import { revalidatePath } from 'next/cache';
+import { z } from 'zod';
 import { addGuestSchema, updateGuestSchema } from '@/lib/validators/guests';
+import { GUEST_IMPORT_MAX } from '@/lib/guests/csv';
 import { convexApi, getConvexServerClient } from '@/lib/auth/convex-server';
 import { getSession } from '@/lib/auth/session';
 
@@ -62,6 +64,50 @@ export async function addGuestAction(
 
   revalidatePath(`/events/${eventId}/guests`);
   return { ok: true };
+}
+
+export type ImportGuestsResult = { ok: true; created: number } | { ok: false; error: string };
+
+const importGuestsSchema = z.array(addGuestSchema).min(1).max(GUEST_IMPORT_MAX);
+
+/**
+ * Import en lot d'invités (CSV). Les lignes sont re-validées ici avec le même
+ * schéma que le formulaire d'ajout : le navigateur n'est pas une frontière de
+ * confiance. Tout ou rien — un quota dépassé n'insère aucune ligne.
+ */
+export async function importGuestsAction(
+  eventId: string,
+  guests: unknown,
+): Promise<ImportGuestsResult> {
+  const session = await getSession();
+  if (!session) return { ok: false, error: 'UNAUTHENTICATED' };
+
+  const parsed = importGuestsSchema.safeParse(guests);
+  if (!parsed.success) return { ok: false, error: 'INVALID_INPUT' };
+
+  const convex = getConvexServerClient();
+  try {
+    const res = await convex.mutation(convexApi.addGuests, {
+      eventId,
+      requesterId: session.userId,
+      guests: parsed.data.map((g) => ({
+        fullName: g.fullName,
+        plusOnesAllowed: g.plusOnesAllowed,
+        ...(g.phone ? { phone: g.phone } : {}),
+        ...(g.email ? { email: g.email } : {}),
+        ...(g.category ? { category: g.category } : {}),
+        ...(g.notes ? { notes: g.notes } : {}),
+      })),
+    });
+    revalidatePath(`/events/${eventId}/guests`);
+    return { ok: true, created: res.created };
+  } catch (err) {
+    const message = err instanceof Error ? err.message : 'UNKNOWN';
+    if (message.includes('INVITATION_LIMIT_REACHED')) {
+      return { ok: false, error: 'INVITATION_LIMIT_REACHED' };
+    }
+    return { ok: false, error: message };
+  }
 }
 
 export async function updateGuestAction(

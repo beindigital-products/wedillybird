@@ -1115,7 +1115,57 @@
       "submit": "Couldn't add the invitation. Try again.",
       "limitReached": "Invitation quota reached for this plan. Upgrade to add more."
     },
-    "answersDietary": "Dietary"
+    "answersDietary": "Dietary",
+    "import": {
+      "button": "Import CSV",
+      "title": "Import guests",
+      "subtitle": "From a CSV file or pasted from Excel or Google Sheets",
+      "cancel": "Cancel",
+      "close": "Close",
+      "steps": {
+        "upload": "File",
+        "map": "Columns",
+        "result": "Result"
+      },
+      "dropzone": "Drop a CSV file or click to browse",
+      "orPaste": "or paste your rows, header included",
+      "pastePlaceholder": "Name;Phone;Email;Category;Companions\nAminata Diallo;0612345678;;Family;2",
+      "pasteAria": "Paste the guests to import",
+      "tip": "Tip: in Excel, format the phone column as Text to keep the leading \"+\" and \"0\".",
+      "template": "Download a template",
+      "parse": "Continue",
+      "tooFew": "Empty or unreadable file. It needs a header row, then at least one guest.",
+      "tooMany": "Maximum {max} guests per import. Split your file.",
+      "columnFallback": "Column {n}",
+      "mapColumn": "Field for column {column}",
+      "fields": {
+        "fullName": "Full name",
+        "firstName": "First name",
+        "lastName": "Last name",
+        "phone": "Phone (WhatsApp)",
+        "email": "Email",
+        "category": "Category",
+        "plusOnes": "Companions",
+        "notes": "Notes",
+        "ignore": "Ignore"
+      },
+      "defaultCountry": "Country for numbers without \"+\"",
+      "needName": "Map a column to the name: full name, or first and last name.",
+      "toImport": "<b>{count}</b> to import",
+      "duplicates": "<b>{count}</b> already listed or repeated",
+      "errorsCount": "<b>{count}</b> to fix",
+      "quota": "Your plan still allows {remaining, plural, =0 {no invitations} one {# invitation} other {# invitations}}, and the file adds {count}. Remove rows or upgrade your plan.",
+      "duplicateBadge": "Duplicate",
+      "lineError": "Row {line}: {error}",
+      "previewTruncated": "{shown} of {total} rows shown.",
+      "back": "Back",
+      "importing": "Importing…",
+      "importCta": "Import {count, plural, one {# guest} other {# guests}}",
+      "submitError": "Import failed. No guest was added, please try again.",
+      "resultTitle": "{count, plural, one {# guest imported} other {# guests imported}}",
+      "resultSkipped": "{count, plural, one {# row skipped} other {# rows skipped}} (duplicates or errors).",
+      "again": "Import another file"
+    }
   },
   "Invitation": {
     "youreInvited": "You're invited",

@@ -1119,7 +1119,57 @@
       "submit": "No se ha podido añadir la invitación. Inténtalo de nuevo.",
       "limitReached": "Cuota de invitaciones alcanzada para este plan. Pásate a un plan superior para añadir más."
     },
-    "answersDietary": "Régimen"
+    "answersDietary": "Régimen",
+    "import": {
+      "button": "Importar CSV",
+      "title": "Importar invitados",
+      "subtitle": "Desde un archivo CSV o pegado desde Excel o Google Sheets",
+      "cancel": "Cancelar",
+      "close": "Cerrar",
+      "steps": {
+        "upload": "Archivo",
+        "map": "Columnas",
+        "result": "Resultado"
+      },
+      "dropzone": "Suelta un archivo CSV o haz clic para buscarlo",
+      "orPaste": "o pega tus filas, con la fila de encabezado",
+      "pastePlaceholder": "Nombre;Teléfono;Email;Categoría;Acompañantes\nAminata Diallo;0612345678;;Familia;2",
+      "pasteAria": "Pegar los invitados a importar",
+      "tip": "Consejo: en Excel, da formato Texto a la columna de teléfono para conservar el «+» y el «0» inicial.",
+      "template": "Descargar una plantilla",
+      "parse": "Continuar",
+      "tooFew": "Archivo vacío o ilegible. Necesita una fila de encabezado y al menos un invitado.",
+      "tooMany": "Máximo {max} invitados por importación. Divide tu archivo.",
+      "columnFallback": "Columna {n}",
+      "mapColumn": "Campo para la columna {column}",
+      "fields": {
+        "fullName": "Nombre completo",
+        "firstName": "Nombre",
+        "lastName": "Apellidos",
+        "phone": "Teléfono (WhatsApp)",
+        "email": "Email",
+        "category": "Categoría",
+        "plusOnes": "Acompañantes",
+        "notes": "Notas",
+        "ignore": "Ignorar"
+      },
+      "defaultCountry": "País de los números sin «+»",
+      "needName": "Asocia una columna al nombre: nombre completo, o nombre y apellidos.",
+      "toImport": "<b>{count}</b> por importar",
+      "duplicates": "<b>{count}</b> ya en la lista o repetidos",
+      "errorsCount": "<b>{count}</b> por corregir",
+      "quota": "Tu plan aún permite {remaining, plural, =0 {ninguna invitación} one {# invitación} other {# invitaciones}} y el archivo aporta {count}. Quita filas o pasa a un plan superior.",
+      "duplicateBadge": "Duplicado",
+      "lineError": "Fila {line}: {error}",
+      "previewTruncated": "{shown} filas mostradas de {total}.",
+      "back": "Volver",
+      "importing": "Importando…",
+      "importCta": "Importar {count, plural, one {# invitado} other {# invitados}}",
+      "submitError": "No se pudo importar. No se añadió ningún invitado, inténtalo de nuevo.",
+      "resultTitle": "{count, plural, one {# invitado importado} other {# invitados importados}}",
+      "resultSkipped": "{count, plural, one {# fila omitida} other {# filas omitidas}} (duplicados o errores).",
+      "again": "Importar otro archivo"
+    }
   },
   "Invitation": {
     "youreInvited": "Estás invitado/a",

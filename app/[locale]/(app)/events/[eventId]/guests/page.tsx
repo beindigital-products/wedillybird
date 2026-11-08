@@ -78,6 +78,7 @@ export default async function GuestsPage({
         <GuestsManager
           eventId={eventId}
           initialGuests={guests}
+          maxGuests={event.maxGuests}
           questions={(event.rsvpConfig?.customQuestions ?? []).map((q) => ({
             id: q.id,
             label: q.label,
