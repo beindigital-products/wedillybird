@@ -1172,6 +1172,11 @@
     }
   },
   "Invitation": {
+    "qrEyebrow": "Il tuo accesso",
+    "qrTitle": "Mostra questo codice all'ingresso",
+    "qrHint": "Un solo codice per tutto il tuo invito, accompagnatori inclusi. Fai uno screenshot per averlo anche offline.",
+    "qrAria": "Codice QR d'ingresso di {name}",
+    "qrManual": "Codice di riserva: {code}",
     "youreInvited": "Sei invitato/a",
     "weddingLabel": "Matrimonio",
     "musicHint": "Con musica",

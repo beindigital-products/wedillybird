@@ -1172,6 +1172,11 @@
     }
   },
   "Invitation": {
+    "qrEyebrow": "O seu acesso",
+    "qrTitle": "Apresente este código à entrada",
+    "qrHint": "Um único código para todo o seu convite, acompanhantes incluídos. Faça uma captura de ecrã para o ter sem ligação.",
+    "qrAria": "Código QR de entrada de {name}",
+    "qrManual": "Código de reserva: {code}",
     "youreInvited": "Estás convidado(a)",
     "weddingLabel": "Casamento",
     "musicHint": "Com música",

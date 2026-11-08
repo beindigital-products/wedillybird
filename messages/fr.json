@@ -1172,6 +1172,11 @@
     }
   },
   "Invitation": {
+    "qrEyebrow": "Votre accès",
+    "qrTitle": "Présentez ce code à l'entrée",
+    "qrHint": "Un seul code pour toute votre invitation, accompagnants compris. Faites-en une capture d'écran pour l'avoir sans connexion.",
+    "qrAria": "QR code d'entrée de {name}",
+    "qrManual": "Code de secours : {code}",
     "youreInvited": "Vous êtes invité·e",
     "weddingLabel": "Mariage",
     "musicHint": "Avec musique",

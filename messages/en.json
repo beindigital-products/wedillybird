@@ -1168,6 +1168,11 @@
     }
   },
   "Invitation": {
+    "qrEyebrow": "Your pass",
+    "qrTitle": "Show this code at the entrance",
+    "qrHint": "One code for your whole invitation, companions included. Take a screenshot so you have it offline.",
+    "qrAria": "Entry QR code for {name}",
+    "qrManual": "Backup code: {code}",
     "youreInvited": "You're invited",
     "weddingLabel": "Wedding",
     "musicHint": "With music",
