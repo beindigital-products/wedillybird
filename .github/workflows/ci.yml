@@ -109,7 +109,10 @@ jobs:
   e2e:
     name: E2E (Playwright)
     needs: build
-    runs-on: ubuntu-latest
+    # Épinglé : `ubuntu-latest` est passé en Ubuntu 26.04, que Playwright 1.59
+    # ne supporte pas (« Cannot install dependencies for ubuntu26.04-x64 »).
+    # À rouvrir quand Playwright annonce le support de 26.04.
+    runs-on: ubuntu-24.04
     timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
