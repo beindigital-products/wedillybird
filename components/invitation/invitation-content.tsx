@@ -5,6 +5,7 @@ import type { RsvpConfig } from '@/lib/rsvp/questions';
 import { WeddingCountdown } from './wedding-countdown';
 import { RsvpFormV4 } from './rsvp-form-v4';
 import { GuestQr } from './guest-qr';
+import { InvitationPortrait } from './invitation-portrait';
 import { Reveal } from './reveal';
 import { LandingFooterRich } from '@/components/landing/footer-rich';
 
@@ -34,6 +35,8 @@ interface InvitationContentProps {
     timezone: string;
     venue?: { name: string; address: string };
     rsvpConfig?: RsvpConfig | null;
+    /** Photo du couple (URL CDN déjà résolue par `photoForClient`) — `null`/absente : monogramme. */
+    invitationPhoto?: { url: string; width?: number; height?: number } | null;
   };
 }
 
@@ -72,17 +75,24 @@ export async function InvitationContent({
         {/* Header couple */}
         <Reveal>
           <header className="flex flex-col items-center gap-5 text-center">
-            <span
-              aria-hidden
-              className="font-display flex h-14 w-14 items-center justify-center rounded-full border text-lg italic"
-              style={{
-                borderColor: 'var(--invitation-accent)',
-                color: 'var(--invitation-accent)',
-                letterSpacing: '0.02em',
-              }}
-            >
-              {initials.toUpperCase()}
-            </span>
+            {event.invitationPhoto ? (
+              <InvitationPortrait
+                photo={event.invitationPhoto}
+                alt={`${event.coupleNames.partnerA} & ${event.coupleNames.partnerB}`}
+              />
+            ) : (
+              <span
+                aria-hidden
+                className="font-display flex h-14 w-14 items-center justify-center rounded-full border text-lg italic"
+                style={{
+                  borderColor: 'var(--invitation-accent)',
+                  color: 'var(--invitation-accent)',
+                  letterSpacing: '0.02em',
+                }}
+              >
+                {initials.toUpperCase()}
+              </span>
+            )}
             <span className={EYEBROW}>{t('youreInvited')}</span>
             <h1
               className="font-display text-balance italic"

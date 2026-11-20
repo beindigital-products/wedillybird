@@ -54,6 +54,30 @@ describe('GuestQr', () => {
   });
 });
 
+describe('InvitationContent — photo du couple', () => {
+  async function renderWithPhoto(photo: { url: string } | null | undefined) {
+    const ui = await InvitationContent({
+      token: TOKEN,
+      locale: 'fr',
+      accentColor: 'oklch(72% 0.09 20)',
+      guest: { fullName: 'Aminata Diallo', plusOnesAllowed: 2, rsvpStatus: 'pending' },
+      event: { ...event, invitationPhoto: photo },
+    });
+    render(ui);
+  }
+
+  it('affiche la photo du couple en tête quand l’event en a une', async () => {
+    await renderWithPhoto({ url: 'https://cdn.example/invitation/e1/photo.jpg' });
+    const img = screen.getByRole('img', { name: 'Alice & Bob' });
+    expect(img).toHaveAttribute('src', 'https://cdn.example/invitation/e1/photo.jpg');
+  });
+
+  it.each([null, undefined])('n’affiche aucune photo quand elle vaut %s', async (photo) => {
+    await renderWithPhoto(photo);
+    expect(screen.queryByRole('img', { name: 'Alice & Bob' })).not.toBeInTheDocument();
+  });
+});
+
 describe('InvitationContent — QR d’entrée', () => {
   it('s’affiche, avec le code de secours, quand l’invité a confirmé sa présence', async () => {
     await renderContent('attending');
