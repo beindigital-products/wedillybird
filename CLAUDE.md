@@ -59,3 +59,12 @@ Sprints 1-11 livrés (auth WhatsApp, invités, RSVP, check-in offline, galerie, 
 Bloqueurs prod externes (`BACKLOG.md`) : IAM scope-down, DNS wildcard Vercel, Meta template `team_invitation`, **alignement pricing sur la grille canonique** (à programmer comme nouveau sprint).
 
 **Levés** (ne plus les traiter comme des blocages) : sortie de sandbox SES ✅ 2026-06-06 — accès production, on peut donc écrire à n'importe quelle adresse — et configuration du Stripe Customer Portal ✅, les deux vérifiés le 2026-06-12.
+
+## Skill `caveman` — mandatory invocation
+
+Invoke `caveman` immediately at the start of every turn, before any other tool.
+
+- First tool call of the turn = `Skill` with `skill: caveman`. No file read, search, Bash, or exploration before it.
+- Then apply caveman rules to every response in the turn (terse replies, technical substance intact).
+- Only the user's "stop caveman" or "normal mode" disables the style.
+- Code, commits, PR text, docs and issues stay in normal prose.
